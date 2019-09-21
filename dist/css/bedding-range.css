@@ -1,0 +1,38 @@
+.bedding-range-main-banner-mobi {
+  display: none;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.p-none {
+  padding: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.find-fabric-tickbox-container {
+  padding: 5px;
+}
+
+.take-care-of-bedding-container {
+  color: #f01882;
+  display: flex;
+}
+
+.bedding-brands {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 629px) {
+  .bedding-range-main-banner-web {
+    display: none;
+  }
+
+  .bedding-range-main-banner-mobi {
+    display: block;
+  }
+}
