@@ -1,0 +1,53 @@
+.cookware-main-banner-mobi {
+  display: none;
+}
+
+.cookware-main-banner-text-mobi {
+  display: none;
+}
+
+.malabar-cast-iron-cookware {
+  display: flex;
+}
+
+.malabar-prod-detail {
+  margin: auto 0;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .malabar-cast-iron-cookware {
+    display: block;
+  }
+
+  .malabar-prod-detail {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 629px) {
+  .cookware-main-banner-web {
+    display: none;
+  }
+
+  .cookware-main-banner-mobi {
+    display: block;
+  }
+
+  .cookware-main-banner-text-mobi {
+    font-size: 18px;
+    font-weight: normal !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
