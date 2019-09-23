@@ -1,0 +1,13 @@
+.combo-rooms-main-banner-description-container {
+  background-color: #ebecee;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #fff;
+}
+
+.create-your-complete-bedroom {
+  font-size: 22px;
+  font-weight: bold !important;
+  max-width: 80%;
+}

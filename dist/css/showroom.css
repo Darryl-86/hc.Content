@@ -1,0 +1,90 @@
+.ShowHead {
+  font-size: 44px;
+  font-weight: normal !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.ShowBody {
+  font-size: 20px;
+  font-weight: normal !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  text-align: center;
+}
+
+.ShowBodyPink {
+  font-size: 30px;
+  font-weight: bold !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ed2282;
+  padding: 0 0 40px 0;
+}
+
+.show1of5Img {
+  text-align: center;
+}
+
+.show1of5 {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.show1of4 {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.show1of4Img {
+  text-align: center;
+}
+
+.show1of4Img img {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.wynberg-margin-bottom {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .ShowHead {
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+  .ShowBody {
+    font-size: 18px;
+  }
+  .ShowBodyPink {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .show1of4 {
+    font-size: 18px;
+  }
+  .show1of4Img img {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .wynberg-margin-bottom {
+    margin-bottom: 20px;
+  }
+}

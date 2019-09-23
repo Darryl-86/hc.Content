@@ -1,0 +1,32 @@
+.big-name-brands-for-qualifying-cust a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.big-name-brands-for-qualifying-cust a:hover {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.branded-appliances-main-banner-mobi {
+  display: none;
+}
+
+.big-name-brands-for-qualifying-cust {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #ffffff;
+}
+
+@media (max-width: 629px) {
+  .branded-appliances-main-banner-web {
+    display: none;
+  }
+
+  .branded-appliances-main-banner-mobi {
+    display: block;
+  }
+}
