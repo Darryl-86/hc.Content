@@ -21,10 +21,15 @@
 .take-care-of-bedding-container {
   color: #f01882;
   display: flex;
+  padding-top: 20px;
 }
 
 .bedding-brands {
   padding-bottom: 30px;
+}
+
+.ContentMiniLeftPinkHeader {
+  padding: 0;
 }
 
 @media (max-width: 629px) {
