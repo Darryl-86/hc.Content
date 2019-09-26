@@ -21,6 +21,55 @@
   border-top: 2px solid #ffffff;
 }
 
+.appliances-brands-container-one {
+  margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.appliances-brands-container-two {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.appliances-brands-promo-row {
+  display: block;
+}
+
+.appliances-brands-promo {
+  float: left;
+  margin-left: 6px;
+  max-width: 150px;
+}
+
+.appliances-brands-promo-row-mobi {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.appliances-brands-promo-last-row-mobi {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.cookware-shop-by-heading {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.shop-by-range-promo {
+  border: solid 1px #cccccc;
+  margin: 0 0 30px 0;
+  padding: 0 !important;
+}
+
+.shop-by-range-promo-details {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (max-width: 629px) {
   .branded-appliances-main-banner-web {
     display: none;
