@@ -1,0 +1,200 @@
+#fonechoice-main {
+  color: #231f20 !important;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.row.contentBanner {
+  padding-top: 20px;
+}
+
+.ContentCenterText {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.ContentCenterImage {
+  text-align: center;
+}
+
+.FonechoiceBigRightDetailsBig2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.FonechoiceBig {
+  border: solid 1px #8a8a8a;
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.FonechoiceBig img.MarginTopMinusThree {
+  margin-top: -3px;
+}
+
+.FonechoiceBig {
+  border: solid 1px #8a8a8a;
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.fonechoice-main-banner-container {
+  margin-bottom: 20px;
+}
+
+.fonechoice-main-banner-mobi {
+  display: none;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.fonechoice-main-banner-text {
+  line-height: 18px;
+  max-width: 850px;
+}
+
+.fonechoice-main-banner-text a {
+  color: #231f20;
+}
+
+.fonechoice-main-banner-text a:hover {
+  color: #231f20;
+  text-decoration: underline;
+}
+
+.fonechoice-contact-details-background-web {
+  background-color: #f37431;
+  margin: 0 auto 30px;
+}
+
+.fonechoice-contact-details-background-mobi {
+  visibility: hidden;
+  display: none;
+}
+
+.fonechoice-contact-details-container {
+  color: #ffffff;
+  justify-content: center !important;
+}
+
+.fonechoice-contact-details-one {
+  align-self: center !important;
+  padding: 10px;
+  float: left;
+}
+
+.fonechoice-contact-details-two {
+  align-self: center !important;
+  padding: 10px;
+  float: left;
+}
+
+.fonechoice-contact-details-two a {
+  color: #ffffff;
+}
+
+.fonechoice-contact-details-mobi-container {
+  background-color: #f37431;
+  border-radius: 5px;
+  color: #ffffff;
+  height: 54px;
+  max-width: 375px;
+  margin: 0 auto 10px;
+}
+
+.fonechoice-contact-details-mobi-container a {
+  color: #ffffff;
+}
+
+.fonechoice-contact-details-mobi-one {
+  padding: 5px;
+}
+
+.fonechoice-contact-details-mobi-two {
+  padding: 5px;
+}
+
+.fonechoice-category-container {
+  margin: 0 auto 30px;
+}
+
+.fonechoice-category-container a {
+  color: #231f20;
+}
+
+.fonechoice-category-container a:hover {
+  color: #231f20;
+  text-decoration: underline !important;
+}
+
+.fonechoice-acer-smartbook-banner-container {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .fonechoice-contact-details-background-web {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fonechoice-contact-details-two {
+    width: 210px;
+  }
+}
+
+@media (max-width: 991px) {
+  .fonechoice-contact-details-one {
+    align-self: center !important;
+    padding: 10px;
+    float: none;
+  }
+
+  .fonechoice-contact-details-two {
+    align-self: center !important;
+    padding: 10px;
+    float: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .fonechoice-contact-details-background-web {
+    visibility: hidden;
+    display: none;
+  }
+
+  .fonechoice-contact-details-background-mobi {
+    visibility: visible;
+    display: block;
+  }
+
+  .fonechoice-category-margin {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 629px) {
+  .fonechoice-main-banner-web {
+    display: none;
+  }
+
+  .fonechoice-main-banner-mobi {
+    display: block;
+  }
+}
