@@ -80,7 +80,7 @@
 
 .fonechoice-contact-details-background-web {
   background-color: #f37431;
-  margin: 0 auto 30px;
+  margin: 0 auto 10px;
 }
 
 .fonechoice-contact-details-background-mobi {
@@ -147,8 +147,45 @@
   margin-bottom: 30px;
 }
 
+.FonechoiceBigRightDetailsPink {
+  color: #e82276;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.FonechoiceMedContentPink {
+  color: #e82276;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.FonechoiceBig.Pink .FonechoiceBigRightStats {
+  background: #d5e7f7;
+}
+
+.FonechoiceBig.Pink .FonechoiceBigRightDetailsTitle {
+  color: #0083bd;
+}
+
+.list-no-bullet {
+  list-style-type: none;
+}
+
+.liteon-external-dvd-drive {
+  margin-bottom: 30px;
+}
+
+.PinkFree {
+  color: #e82276;
+  font-weight: bold;
+}
+
 @media (min-width: 1200px) {
   .fonechoice-contact-details-background-web {
+    max-width: 960px;
+  }
+
+  .fonechoice-main-content {
     max-width: 960px;
   }
 }
@@ -185,6 +222,10 @@
   }
 
   .fonechoice-category-margin {
+    margin-bottom: 10px;
+  }
+
+  .liteon-external-dvd-drive {
     margin-bottom: 10px;
   }
 }
