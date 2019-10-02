@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="175" viewBox="0 0 580 175">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0h580v175H0z"/>
+        <text fill="#000" font-family="Axiforma-Regular, Axiforma" font-size="40">
+            <tspan x="40" y="51">Receive </tspan> <tspan x="205.12" y="51" font-family="Axiforma-ExtraBold, Axiforma" font-weight="600">FREE TRAINING</tspan> <tspan x="520.84" y="51" font-family="Axiforma-ExtraBold, Axiforma" font-weight="600"> </tspan> <tspan x="40" y="103">and support</tspan>
+        </text>
+    </g>
+</svg>
