@@ -1,3 +1,7 @@
+body {
+  color: #000000;
+}
+
 .direct-sales-agent-main-banner {
   margin-bottom: 20px;
 }
@@ -10,8 +14,90 @@
   margin: auto;
 }
 
+.commission-container {
+  margin-bottom: 35px;
+}
+
+.agent-of-the-year-banner {
+  margin-bottom: 70px;
+}
+
+.register-showrooms-container {
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 0px 90px;
+  line-height: 35px;
+}
+
+.register-showrooms-container .heading {
+  font-weight: bold;
+  font-size: 40px;
+  color: #f51169;
+  margin-bottom: 10px;
+}
+
+.register-showrooms-container .copy {
+  font-size: 23px;
+}
+
+.hc-divider {
+  margin-bottom: 55px;
+}
+
+.toolkit-heading {
+  font-weight: 800;
+  margin-bottom: 45px;
+  font-size: 50px;
+}
+
+.toolkit-container {
+  margin-bottom: 50px;
+}
+
+.toolkit-last-container {
+}
+
 @media (max-width: 767px) {
   .direct-sales-agent-main-banner {
     margin-bottom: 10px;
+  }
+
+  .commission-container {
+    margin-bottom: 10px;
+  }
+
+  .agent-of-the-year-banner {
+    margin-bottom: 25px;
+  }
+
+  .register-showrooms-container {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0;
+    line-height: 31px;
+  }
+
+  .register-showrooms-container .heading {
+    font-weight: bold;
+    font-size: 27px;
+    color: #f51169;
+  }
+
+  .register-showrooms-container .copy {
+    font-size: 16px;
+  }
+
+  .hc-divider {
+    margin-bottom: 35px;
+  }
+
+  .toolkit-heading {
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+
+  .toolkit-container {
+    margin-bottom: 35px;
   }
 }
