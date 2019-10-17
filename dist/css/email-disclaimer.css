@@ -1,0 +1,13 @@
+.email-disclaimer-mail {
+  color: #6d6e70;
+}
+
+.email-disclaimer-mail h1 {
+  font-weight: bolder !important;
+  color: #6d6e70 !important;
+  font-size: 22px !important;
+}
+
+.mb-2 {
+  margin-bottom: 10px !important;
+}
