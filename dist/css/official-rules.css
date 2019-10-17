@@ -1,0 +1,25 @@
+.official-rules-main .heading {
+  font-weight: bold;
+}
+
+.mb-2 {
+  margin-bottom: 10px !important;
+}
+
+a.faq-link {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+a.faq-link:hover {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+li.list-roman {
+  list-style-type: lower-roman;
+}
+
+li.no-bullet {
+  list-style-type: none;
+}
