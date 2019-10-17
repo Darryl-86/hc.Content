@@ -5,3 +5,13 @@ a.official-rules-link {
 a:hover.official-rules-link {
   color: #333;
 }
+
+.t-and-c-apply {
+  font-size: 18px;
+}
+
+.what-else-on-offer {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
