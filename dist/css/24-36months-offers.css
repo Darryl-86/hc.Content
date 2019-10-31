@@ -1,0 +1,110 @@
+body {
+  background-color: rgba(255, 255, 128, 0.5);
+}
+
+.df {
+  display: flex;
+}
+
+.pl20 {
+  padding-left: 20px !important;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.main-hero-banner-container {
+  padding-top: 20px;
+}
+
+.main-hero-banner-desktop {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.main-hero-banner-mobi {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.bedding-hero-banner-container {
+  padding-top: 40px;
+}
+
+.tamiko-shop-now {
+  display: block;
+  text-align: center;
+  background: #f01882;
+  color: white;
+  padding: 10px 30px;
+  line-height: 20px;
+  margin-top: 20px !important;
+}
+
+.tamiko-prod-desc-container {
+  padding-top: 10px;
+}
+
+.tamiko-prod-desc {
+  padding-left: 20px !important;
+}
+
+.tamiko-prod-desc span {
+  color: #f01882;
+}
+
+.tamiko-desktop {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tamiko-mobile {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.promo-container-one {
+  float: left;
+}
+
+@media all and (max-width: 600px) and (min-width: 461px) {
+  .tamiko-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    margin-top: 20px !important;
+  }
+
+  .tamiko-prod-desc {
+    padding-left: 20px !important;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .main-hero-banner-mobi {
+    display: block;
+  }
+
+  .main-hero-banner-desktop {
+    display: none;
+  }
+
+  .bedding-hero-banner-container {
+    padding-top: 20px;
+  }
+
+  .tamiko-desktop {
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  .tamiko-mobile {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
