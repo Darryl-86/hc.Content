@@ -10,6 +10,14 @@ body {
   padding-left: 20px !important;
 }
 
+.pr20 {
+  padding-right: 20px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
 .mb20 {
   margin-bottom: 20px;
 }
@@ -37,9 +45,21 @@ body {
   text-align: center;
   background: #f01882;
   color: white;
-  padding: 10px 30px;
+  padding: 10px;
   line-height: 20px;
   margin-top: 20px !important;
+  width: 70%;
+}
+
+.hunter-shop-now {
+  display: block;
+  text-align: center;
+  background: #f01882;
+  color: white;
+  padding: 10px;
+  line-height: 20px;
+  margin: 20px 20px 0 0 !important;
+  width: 70%;
 }
 
 .tamiko-prod-desc-container {
@@ -50,13 +70,36 @@ body {
   padding-left: 20px !important;
 }
 
+.hunter-prod-desc {
+  padding-right: 20px !important;
+}
+
 .tamiko-prod-desc span {
+  color: #f01882;
+}
+
+.tamiko-prod-desc-mobi {
+  max-width: 320px;
+}
+
+.tamiko-prod-desc-mobi span {
+  color: #f01882;
+}
+
+.hunter-prod-desc-container {
+  padding-top: 10px;
+}
+
+.hunter-prod-desc {
+}
+
+.hunter-prod-desc span {
   color: #f01882;
 }
 
 .tamiko-desktop {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tamiko-mobile {
@@ -69,7 +112,7 @@ body {
 }
 
 @media all and (max-width: 600px) and (min-width: 461px) {
-  .tamiko-shop-now {
+  /* .tamiko-shop-now {
     display: block;
     text-align: center;
     background: #f01882;
@@ -77,11 +120,26 @@ body {
     padding: 10px;
     line-height: 20px;
     margin-top: 20px !important;
-  }
+  } */
+
+  /* .hunter-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    margin: 20px 20px 0 0 !important;
+  } */
 
   .tamiko-prod-desc {
     padding-left: 20px !important;
     line-height: 16px;
+  }
+
+  .hunter-prod-desc {
+    line-height: 16px;
+    padding-right: 20px !important;
   }
 }
 
@@ -106,5 +164,16 @@ body {
   .tamiko-mobile {
     display: block;
     margin-bottom: 20px;
+  }
+
+  .tamiko-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    margin-top: 10px !important;
+    width: 50%;
   }
 }
