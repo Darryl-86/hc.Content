@@ -1,7 +1,3 @@
-body {
-  background-color: rgba(255, 255, 128, 0.5);
-}
-
 .df {
   display: flex;
 }
@@ -31,20 +27,26 @@ body {
   margin-bottom: 20px;
 }
 
-.main-hero-banner-mobi {
+.appliances-banner-desktop {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.appliances-banner-mobi {
   display: none;
   margin-bottom: 20px;
 }
 
-.bedding-hero-banner-container {
-  padding-top: 40px;
+.main-hero-banner-mobi {
+  display: none;
+  margin-bottom: 20px;
 }
 
 .tamiko-shop-now {
   display: block;
   text-align: center;
   background: #f01882;
-  color: white;
+  color: #fff;
   padding: 10px;
   line-height: 20px;
   margin-top: 20px !important;
@@ -62,6 +64,29 @@ body {
   width: 70%;
 }
 
+.appliances-shop-now {
+  display: block;
+  text-align: center;
+  background: #f01882;
+  color: white;
+  padding: 10px;
+  line-height: 20px;
+  margin: 20px 0px 0 0 !important;
+  width: 70%;
+}
+
+.appliances-shop-now:hover {
+  color: #fff;
+}
+
+.tamiko-shop-now:hover {
+  color: #fff;
+}
+
+.hunter-shop-now:hover {
+  color: #fff;
+}
+
 .tamiko-prod-desc-container {
   padding-top: 10px;
 }
@@ -72,6 +97,13 @@ body {
 
 .hunter-prod-desc {
   padding-right: 20px !important;
+}
+
+.appliances-prod-desc {
+}
+
+.appliances-prod-desc span {
+  color: #f01882;
 }
 
 .tamiko-prod-desc span {
@@ -90,9 +122,6 @@ body {
   padding-top: 10px;
 }
 
-.hunter-prod-desc {
-}
-
 .hunter-prod-desc span {
   color: #f01882;
 }
@@ -102,36 +131,56 @@ body {
   margin-bottom: 40px;
 }
 
+.appliances-desktop {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.kitchen-desktop {
+  display: block;
+  margin-bottom: 40px;
+}
+
 .tamiko-mobile {
   display: none;
   margin-bottom: 20px;
+}
+
+.appliances-mobile {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.kitchen-mobile {
+  display: none;
 }
 
 .promo-container-one {
   float: left;
 }
 
+@media (min-width: 1200px) {
+  .kitchen-desktop {
+    display: block;
+    margin-bottom: 40px;
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .appliances-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: white;
+    padding: 10px;
+    line-height: 20px;
+    margin: 20px 0px 0 0 !important;
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 600px) and (min-width: 461px) {
-  /* .tamiko-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: white;
-    padding: 10px;
-    line-height: 20px;
-    margin-top: 20px !important;
-  } */
-
-  /* .hunter-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: white;
-    padding: 10px;
-    line-height: 20px;
-    margin: 20px 20px 0 0 !important;
-  } */
-
   .tamiko-prod-desc {
     padding-left: 20px !important;
     line-height: 16px;
@@ -152,8 +201,12 @@ body {
     display: none;
   }
 
-  .bedding-hero-banner-container {
-    padding-top: 20px;
+  .appliances-banner-mobi {
+    display: block;
+  }
+
+  .appliances-banner-desktop {
+    display: none;
   }
 
   .tamiko-desktop {
@@ -170,10 +223,33 @@ body {
     display: block;
     text-align: center;
     background: #f01882;
-    color: white;
+    color: #fff;
     padding: 10px;
     line-height: 20px;
     margin-top: 10px !important;
     width: 50%;
+  }
+
+  .appliances-desktop {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .appliances-mobile {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .app-mobi-prod-container {
+    margin-bottom: 20px;
+  }
+
+  .kitchen-desktop {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .kitchen-mobile {
+    display: block;
   }
 }
