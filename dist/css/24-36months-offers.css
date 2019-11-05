@@ -60,7 +60,7 @@
   color: white;
   padding: 10px;
   line-height: 20px;
-  margin: 20px 20px 0 0 !important;
+  margin-top: 20px !important;
   width: 70%;
 }
 
@@ -173,14 +173,37 @@
     text-align: center;
     background: #f01882;
     color: white;
-    padding: 10px;
+    padding: 5px;
     line-height: 20px;
     margin: 20px 0px 0 0 !important;
     width: 100%;
   }
 }
 
-@media all and (max-width: 600px) and (min-width: 461px) {
+@media all and (max-width: 991px) and (min-width: 601px) {
+  .tamiko-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: #fff;
+    padding: 5px;
+    line-height: 20px;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  .hunter-shop-now {
+    display: block;
+    text-align: center;
+    background: #f01882;
+    color: #fff;
+    padding: 5px;
+    line-height: 20px;
+    margin-top: 20px !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .tamiko-prod-desc {
     padding-left: 20px !important;
     line-height: 16px;
@@ -190,9 +213,7 @@
     line-height: 16px;
     padding-right: 20px !important;
   }
-}
 
-@media (max-width: 460px) {
   .main-hero-banner-mobi {
     display: block;
   }
@@ -224,7 +245,7 @@
     text-align: center;
     background: #f01882;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
     line-height: 20px;
     margin-top: 10px !important;
     width: 50%;
