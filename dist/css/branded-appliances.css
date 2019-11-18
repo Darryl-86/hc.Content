@@ -33,13 +33,12 @@
 }
 
 .appliances-brands-promo-row {
-  display: block;
+  display: flex;
+  margin-bottom: 6px;
 }
 
 .appliances-brands-promo {
-  float: left;
-  margin-left: 6px;
-  max-width: 150px;
+  padding: 0 3px;
 }
 
 .appliances-brands-promo-row-mobi {
@@ -72,6 +71,82 @@
 
 .w-100 {
   width: 100%;
+}
+
+.wide-variety-appliances-text {
+  color: #000;
+  text-align: center;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.app-prod-details {
+  padding-top: 5px;
+}
+
+.app-prod-details a {
+  background: #f01882;
+  color: #ffffff;
+  padding: 10px 30px;
+  line-height: 50px;
+  max-width: 126px;
+}
+
+.app-prod-details.Prod-Desc-Container {
+  margin: 0 auto;
+  max-width: 413px;
+}
+
+.app-prod-container {
+  margin-bottom: 50px;
+}
+
+.shop-more-blue-button {
+}
+
+.shop-more-blue-button a {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  background: #0bacd8;
+  margin: 20px auto;
+  max-width: 204px;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .big-name-brands-for-qualifying-cust {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ffffff;
+    max-width: 467px;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+
+  .app-prod-details.Prod-Desc-Container {
+    text-align: center;
+  }
+
+  .wide-variety-appliances-text {
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    max-width: 407px !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .shop-by-range-promo {
+    border: solid 1px #cccccc;
+    padding: 0 !important;
+    max-width: 302px;
+    margin: 0 auto 30px;
+  }
 }
 
 @media (max-width: 629px) {
