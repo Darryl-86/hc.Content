@@ -1,3 +1,5 @@
+/* #webContent_v2-wi4300043 CCAdminTest */
+
 #fonechoice-main {
   color: #231f20 !important;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
@@ -22,6 +24,19 @@
   font-weight: bold;
 }
 
+.fonechoice-essential-bundles {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.fonechoice-product-section-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .FonechoiceBig {
   border: solid 1px #8a8a8a;
   display: block;
@@ -31,13 +46,6 @@
 
 .FonechoiceBig img.MarginTopMinusThree {
   margin-top: -3px;
-}
-
-.FonechoiceBig {
-  border: solid 1px #8a8a8a;
-  display: block;
-  padding: 20px;
-  margin-bottom: 20px;
 }
 
 .fonechoice-main-banner-container {
@@ -60,13 +68,17 @@
   margin-bottom: 10px;
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
 .fonechoice-main-banner-text {
   line-height: 18px;
-  max-width: 850px;
+  max-width: 80%;
 }
 
 .fonechoice-main-banner-text a {
@@ -80,7 +92,17 @@
 
 .fonechoice-contact-details-background-web {
   background-color: #f37431;
-  margin: 0 auto 10px;
+  margin: 0 auto 30px;
+  max-width: 84%;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.fonechoice-contact-details-two-background-web {
+  background-color: #f37431;
+  margin: 0 auto 30px;
+  color: #ffffff;
+  padding: 10px;
 }
 
 .fonechoice-contact-details-background-mobi {
@@ -89,20 +111,14 @@
 }
 
 .fonechoice-contact-details-container {
-  color: #ffffff;
-  justify-content: center !important;
+  display: flex;
 }
 
 .fonechoice-contact-details-one {
-  align-self: center !important;
-  padding: 10px;
-  float: left;
 }
 
 .fonechoice-contact-details-two {
-  align-self: center !important;
-  padding: 10px;
-  float: left;
+  padding-left: 15px;
 }
 
 .fonechoice-contact-details-two a {
@@ -179,33 +195,148 @@
   color: #e82276;
 }
 
-@media (min-width: 1200px) {
-  .fonechoice-contact-details-background-web {
-    max-width: 960px;
-  }
+.fonechoice-container-one {
+  border: solid 1px #8a8a8a;
+  display: block;
+  padding: 0px;
+  margin-bottom: 20px;
+}
 
+img.fonechoice-logo-banner {
+  margin: -3px 0 20px 0px;
+}
+
+img.img-responsive.center-block.fonechoice-container-one-banner {
+  margin-bottom: 20px;
+}
+
+.fonechoice-container-one-main-content {
+}
+
+.fonechoice-container-one-left-content {
+  display: block;
+}
+
+.fonechoice-container-one-prod {
+  padding-bottom: 10px;
+}
+
+.fonechoice-insurance-price-one-container {
+  display: flex;
+}
+
+.fonechoice-insurance-price-one-container img {
+  margin-right: 10px;
+}
+
+.fonechoice-insurance-price-two-container {
+  display: flex;
+}
+
+.fonechoice-insurance-price-two-container img {
+  margin-right: 10px;
+}
+
+.fonechoice-insurance-price {
+  margin: auto 0;
+}
+
+.dell-celeron-cash-price {
+  margin-bottom: 10px;
+}
+
+.dell-celeron-cash-price span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.intel-celeron-logo {
+}
+
+.fonechoice-container-one-stats-grey {
+  background: #f0f1f3;
+  padding: 10px;
+}
+
+.fonechoice-container-one-stats-grey ul {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+
+.fonechoice-container-one-stats-blue {
+  background: #d4e8f8;
+  padding: 10px;
+}
+
+.fonechoice-container-one-stats-blue ul {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+
+.FonechoiceMed.hisense-prod-details {
+  margin: 0 auto;
+  max-width: 209px;
+}
+
+.FonechoiceMed.hisense-prod-details {
+  margin: 0 auto;
+  max-width: 209px;
+}
+
+.FonechoiceMedContent.FonechoiceMedContentText.prestigio-cellphones-prod-details {
+  margin: 0 auto;
+  max-width: 370px;
+}
+
+.FonechoiceMedContent.FonechoiceMedContentText.huawei-cellphones-prod-details {
+  margin: 0 auto;
+  max-width: 307px;
+}
+
+.FonechoiceMedContent.FonechoiceMedContentText.samsung-cellphones-prod-details {
+  margin: 0 auto;
+  max-width: 307px;
+}
+
+span.FonechoiceMedContentPinkTextBold {
+  font-weight: bold;
+  color: #e82276;
+}
+
+.fonechoice-fine-print-text {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dell-celeron-one-prod-desc {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.prestigio-prod-details {
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+.office-essential-bundle-prod-desc {
+  max-width: 293px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
   .fonechoice-main-content {
     max-width: 960px;
   }
 }
 
-@media (max-width: 1199px) {
-  .fonechoice-contact-details-two {
-    width: 210px;
-  }
-}
-
 @media (max-width: 991px) {
-  .fonechoice-contact-details-one {
-    align-self: center !important;
-    padding: 10px;
-    float: none;
-  }
-
-  .fonechoice-contact-details-two {
-    align-self: center !important;
-    padding: 10px;
-    float: none;
+  .fonechoice-contact-details-background-web {
+    max-width: 100%;
   }
 }
 
@@ -226,6 +357,23 @@
 
   .liteon-external-dvd-drive {
     margin-bottom: 10px;
+  }
+  .fonechoice-container-one-left-content {
+  }
+  img.fonechoice-logo-banner {
+    margin: -3px 0 15px 0px;
+  }
+
+  .fonechoice-insurance-price-one-container {
+  }
+
+  .intel-celeron-logo img {
+    margin: 0 0 10px 0;
+  }
+
+  .prestigio-laptop-two-prod-details-mobi {
+    width: 30%;
+    margin: 0 auto;
   }
 }
 
