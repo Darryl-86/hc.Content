@@ -1,3 +1,5 @@
+/* #webContent_v2-wi4200015 (CCAdminTest ID) */
+
 .bedding-range-main-banner-mobi {
   display: none;
 }
@@ -30,6 +32,26 @@
 
 .ContentMiniLeftPinkHeader {
   padding: 0;
+}
+
+@media (max-width: 991px) {
+  .ProductLeftImageTextSmall {
+    text-align: center !important;
+  }
+
+  .ProductLeftImageText.circleP {
+    text-align: center !important;
+  }
+
+  .sub-heading {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .BrandImage img {
+    margin: 0 auto !important;
+  }
 }
 
 @media (max-width: 629px) {

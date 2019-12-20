@@ -1,17 +1,76 @@
-a.official-rules-link {
-  color: #333;
+.marketing-header-container  {
+	padding-top: 20px;
 }
 
-a:hover.official-rules-link {
-  color: #333;
+.marketing-header-web  {
+	display: block;
+	margin-bottom: 40px;
 }
 
-.t-and-c-apply {
-  font-size: 18px;
+.marketing-header-mobi  {
+	display: none;
+	margin-bottom: 30px;
 }
 
-.what-else-on-offer {
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 25px;
+.how-delivery-works {
+	color: #000;
+	font-size: 20px;
+	max-width: 80%;
+	line-height: 35px;
 }
+
+.mo-list-web {
+	display: block;
+}
+
+.mo-list-mobi {
+	display: none;
+}
+
+.mo-terms-and-con {
+	color: #ed2282;
+	text-align: center;
+}
+
+.no-bullet {
+	list-style: none;
+}
+
+.mo-terms-and-con a {
+	text-decoration: underline;
+	color: #ed2282;
+}
+
+ul.mob-padding-left {
+    padding-left: 15px;
+}
+
+@media (max-width: 600px) {
+.marketing-header-web  {
+	display: none;
+}
+
+.marketing-header-mobi  {
+	display: block;
+}
+
+.marketing-header-mobi ul  {
+	padding-left: 15px;
+}
+
+.how-delivery-works {
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 280px;
+}
+
+.mo-list-web {
+	display: none;
+}
+
+.mo-list-mobi {
+	display: block;
+}
+
+}
+

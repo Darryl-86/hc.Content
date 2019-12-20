@@ -115,6 +115,11 @@
   display: block;
 }
 
+span.new-branded-app {
+  color: #f01882;
+  font-weight: bold;
+}
+
 @media (max-width: 767px) {
   .big-name-brands-for-qualifying-cust {
     background-color: #000000;
