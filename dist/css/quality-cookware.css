@@ -171,7 +171,23 @@
   font-weight: bold;
 }
 
+.dinnerware-web-prod {
+  display: block;
+}
+
+.dinnerware-mobi-prod {
+  display: none;
+}
+
 @media (max-width: 767px) {
+  .dinnerware-mobi-prod {
+  display: block;
+}
+
+.dinnerware-web-prod {
+  display: none;
+}
+
   .malabar-cast-iron-cookware {
     display: block;
   }
