@@ -6,6 +6,10 @@
   margin-bottom: 10px !important;
 }
 
+.mt-4 {
+  margin-top: 40px !important;
+}
+
 a.faq-link {
   color: #00f !important;
   text-decoration: underline !important;
