@@ -2,29 +2,41 @@
 	padding-top: 20px;
 }
 
+.marketing-header-features-container  {
+}
+
 .marketing-header-web  {
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 
 .marketing-header-mobi  {
 	display: none;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .suzuki-swift-comp-container {
 	color: #000;
 	font-size: 20px;
-	max-width: 60%;
+	max-width: 80%;
 	line-height: 35px;
 	text-align: center;
 }
 
-.suzuki-swift-main-content {
+.suzuki-swift-main-content-one {
 	margin-bottom: 20px;
 }
 
-.suzuki-swift-main-content span {
+.suzuki-swift-main-content-one span {
+	color: #ed2282;
+	font-weight: bold;
+}
+
+.suzuki-swift-main-content-two {
+	margin-bottom: 40px;
+}
+
+.suzuki-swift-main-content-two span {
 	color: #ed2282;
 	font-weight: bold;
 }
@@ -89,6 +101,10 @@ a.shop-now-button:visited {
 	margin-bottom: 20px;
 	border-radius: 4px;
 	font-size: 14px;
+}
+
+.suzuki-swift-main-content-two {
+	margin-bottom: 30px;
 }
 }
 
