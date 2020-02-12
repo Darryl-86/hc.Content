@@ -31,3 +31,7 @@ li.list-alpha {
 li.no-bullet {
   list-style-type: none;
 }
+
+ul.no-bullet-list {
+    list-style-type: none;
+}
