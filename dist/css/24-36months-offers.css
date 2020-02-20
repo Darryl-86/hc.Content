@@ -18,6 +18,10 @@
   margin-bottom: 20px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .main-hero-banner-container {
   padding-top: 20px;
 }
@@ -163,6 +167,37 @@
     color: #f01882;
     font-weight: bold;
   }
+
+  /*cookware promo css begin*/
+
+  .cookware-prod-info {
+  padding-bottom: 5px;
+}
+
+.cookware-prod-info span {
+  color: #f01882;
+  font-weight: bold;
+}
+
+.stainless-steel-prod-details {
+  padding-top: 5px;
+}
+
+.stainless-steel-prod-details a {
+  background: #f01882;
+  color: #ffffff;
+  line-height: 38px;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+}
+
+.stainless-steel-prod-details.Prod-Desc-Container {
+  margin: 0 auto;
+  max-width: 413px;
+}
+
+/*cookware promo css end*/
 
 @media (min-width: 1200px) {
   .kitchen-desktop {
@@ -314,6 +349,21 @@ a.combo-rooms-buy-now {
     text-align: center;
     max-width: 220px;
   }
+
+  /*cookware promo css begin*/
+
+  .stainless-steel-prod-details.Prod-Desc-Container {
+    text-align: center;
+  }
+  
+  .stainless-steel-prod-details a {
+
+    max-width: 126px;
+    margin: 0 auto;
+
+  }
+
+  /*cookware promo css end*/
 }
 
 @media (max-width: 600px) {
