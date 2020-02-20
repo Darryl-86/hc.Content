@@ -94,7 +94,7 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  width: 100%;
+  max-width: 70%;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  width: 100%;
+  max-width: 70%;
   text-align: center;
 }
 
@@ -130,7 +130,7 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  width: 100%;
+  max-width: 70%;
   text-align: center;
 }
 
@@ -148,7 +148,7 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  width: 100%;
+  max-width: 70%;
   text-align: center;
 }
 
