@@ -100,7 +100,7 @@
 
 .stainless-steel-prod-details.Prod-Desc-Container {
   margin: 0 auto;
-  max-width: 307px;
+  max-width: 413px;
 }
 
 .aluminium-prod-details {
@@ -112,7 +112,7 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  max-width: 126px;
+  width: 100%;
   text-align: center;
 }
 
@@ -130,13 +130,13 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  max-width: 126px;
+  width: 100%;
   text-align: center;
 }
 
 .dinnerware-prod-details.Prod-Desc-Container {
   margin: 0 auto;
-  max-width: 525px;
+  max-width: 413px;
 }
 
 .cookware-prod-details {
@@ -148,13 +148,13 @@
   color: #ffffff;
   line-height: 38px;
   display: block;
-  max-width: 126px;
+  width: 100%;
   text-align: center;
 }
 
 .cookware-prod-details.Prod-Desc-Container {
   margin: 0 auto;
-  max-width: 627px;
+  max-width: 413px;
 }
 
 .malabar-prod-info {
@@ -185,7 +185,6 @@
 }
 
 .dinnerware-web-prod {
-  display: none;
 }
 
   .malabar-cast-iron-cookware {

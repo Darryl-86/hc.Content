@@ -45,6 +45,11 @@ a.combo-rooms-buy-now-two {
   max-width: 220px;
 }
 
+span.new-combo-prod {
+    color: #ed2282;
+    font-weight: bold;
+}
+
 @media (max-width: 767px) {
   .col-sm-6.combo-prod-detail {
     text-align: center;
