@@ -1,110 +1,18 @@
-.marketing-header-container  {
-	padding-top: 20px;
+a.official-rules-link {
+  color: #000;
 }
 
-.marketing-header-features-container  {
+a:hover.official-rules-link {
+  color: #000;
 }
 
-.marketing-header-web  {
-	display: block;
-	margin-bottom: 25px;
+.t-and-c-apply {
+  font-size: 18px;
+  color: #000;
 }
 
-.marketing-header-mobi  {
-	display: none;
-	margin-bottom: 25px;
+.what-else-on-offer {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #000;
 }
-
-.suzuki-swift-comp-container {
-	color: #000;
-	font-size: 20px;
-	max-width: 80%;
-	line-height: 35px;
-	text-align: center;
-}
-
-.suzuki-swift-main-content-one {
-	margin-bottom: 20px;
-}
-
-.suzuki-swift-main-content-one span {
-	color: #ed2282;
-	font-weight: bold;
-}
-
-.suzuki-swift-main-content-two {
-	margin-bottom: 40px;
-}
-
-.suzuki-swift-main-content-two span {
-	color: #ed2282;
-	font-weight: bold;
-}
-
-a.shop-now-button {
-	background: #e82b84;
-	color: #fff!important;
-	line-height: 36px;
-	display: block;
-	text-align: center;
-	text-decoration: none!important;
-	max-width: 126px;
-	margin-bottom: 40px;
-	border-radius: 4px;
-	font-size: 15px;
-}
-
-a.shop-now-button:hover {
-	text-decoration: underline!important;
-	color: #fff!important;
-}
-
-a.shop-now-button:active {
-	color: #fff!important;
-}
-
-a.shop-now-button:visited {
-	color: #fff!important;
-}
-
-.mo-terms-and-con {
-	color: #ed2282;
-}
-
-.mo-terms-and-con a {
-	text-decoration: underline;
-	color: #ed2282;
-}
-
-@media (max-width: 600px) {
-	.marketing-header-web  {
-		display: none;
-	}
-
-	.marketing-header-mobi  {
-		display: block;
-	}
-
-	.suzuki-swift-comp-container {
-		font-size: 16px;
-		line-height: 25px;
-		max-width: 80%;
-	}
-
-	a.shop-now-button {
-	background: #e82b84;
-	color: #fff!important;
-	line-height: 36px;
-	display: block;
-	text-align: center;
-	text-decoration: none!important;
-	margin-bottom: 20px;
-	border-radius: 4px;
-	font-size: 14px;
-}
-
-.suzuki-swift-main-content-two {
-	margin-bottom: 30px;
-}
-}
-
