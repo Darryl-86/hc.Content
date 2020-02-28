@@ -91,7 +91,7 @@
 }
 
 .fonechoice-contact-details-background-web {
-  background-color: #f37431;
+  background-color: #e82276;
   margin: 0 auto 30px;
   max-width: 84%;
   color: #ffffff;
@@ -126,7 +126,7 @@
 }
 
 .fonechoice-contact-details-mobi-container {
-  background-color: #f37431;
+  background-color: #e82276;
   border-radius: 5px;
   color: #ffffff;
   height: 54px;
@@ -211,6 +211,7 @@ img.img-responsive.center-block.fonechoice-container-one-banner {
 }
 
 .fonechoice-container-one-main-content {
+  padding-top: 15px;
 }
 
 .fonechoice-container-one-left-content {
@@ -326,6 +327,29 @@ span.FonechoiceMedContentPinkTextBold {
 .office-essential-bundle-prod-desc {
   max-width: 293px;
   margin: 0 auto;
+}
+
+.pink-free-backpack {
+  color: #e82276;
+  font-weight: bold;
+}
+
+.FonechoiceMedContentPink {
+    color: #e82276;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fc-phones-samsung-additional-title {
+  color: #e82276;
+}
+
+.fc-phones-samsung-choose-me-block {
+  background-color: #e82276;
+  padding: 2px;
+text-align: center;
+font-weight: bold;
+color: #ffffff;
 }
 
 @media (min-width: 1200px) {
