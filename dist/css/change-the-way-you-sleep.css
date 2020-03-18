@@ -8,6 +8,15 @@
   padding: 20px;
 }
 
+.sub-heading-text-left {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.sub-heading-text-left-no-mb {
+  font-size: 15px;
+}
+
 .TextHead-heading {
   margin-top: 30px;
   font-size: 25px;
@@ -74,6 +83,134 @@
   padding-top: 20px;
 }
 
+.change-the-way-heading {
+  font-size: 25px;
+  margin-bottom:  20px;
+  color: #f01882;
+  font-weight: bold;
+}
+
+.change-the-way-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.change-the-way-sub-heading-two {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.main-content {
+   /* width: 95%;
+   margin: 0 auto;*/
+ }
+
+ a.perfect-match {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+.back-sleeper-web {
+  display: block;
+}
+
+.back-sleeper-mobi {
+  display: none;
+}
+
+span.back-sleeper-price {
+  margin-bottom: 20px;
+  color: #f01882;
+  font-weight: bold;
+}
+
+.back-sleeper-prod-detail {
+
+}
+
+.back-sleeper-prod-detail-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.back-sleeper-prod-detail a {
+  background: #f01882;
+  color: #ffffff;
+  padding: 10px 30px;
+  line-height: 50px;
+  max-width: 126px;
+}
+
+.col-md-12.prod-border {
+  padding: 20px;
+  border: 1px solid #c5c5c5;
+}
+
+.back-sleeper-mobi-details {
+    text-align: center;
+    max-width: 373px;
+    margin: 0 auto;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+hr.col-md-12.dash-divider-two {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+
+
+.col-md-12.pro-tip {
+  border:1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pro-tip-web-view {
+  display: block;
+}
+
+.pro-tip-mobi-view {
+  display: none;
+}
+
+.pro-tip-mobi-container {
+  border: 1px solid #f01882;
+  border: 1px solid #f01882;
+    margin-bottom: 20px;
+} 
+
+.cool-idea {
+  margin: 0 auto;
+  display: block;
+padding-bottom: 20px;
+}
+
+
+
+
+
+
+
 @media (max-width: 991px) {
   .SleepOneImge {
     margin-bottom: 20px;
@@ -126,6 +263,21 @@
     max-width: none;
     margin-bottom: 20px;
   }
+
+  .back-sleeper-prod-detail {
+    max-width: 329px;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+
+  .col-md-12.prod-border {
+    padding: 0px;
+    border: none;
+  }
+
+  img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+}
 }
 
 @media (max-width: 450px) {
@@ -136,4 +288,40 @@
   .sleep-experts-main-banner-mobi {
     display: block;
   }
+
+  .back-sleeper-web {
+    display: none;
+  }
+
+  .back-sleeper-mobi {
+    display: block;
+  }
+
+  .back-sleeper-mobi-details {
+    margin-bottom: 20px;
+  }
+
+  .pro-tip-web-view {
+  display: none;
 }
+
+.pro-tip-mobi-view {
+  display: block;
+}
+
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -10%;
+}
+
+hr.col-md-12.dash-divider-two {
+  border-top: 2px dotted #eee;
+  margin: 40px 0 75px 0;
+}
+
+.dudu-ndlamin-mobi {
+  text-align: center;
+}
+}
+
+
