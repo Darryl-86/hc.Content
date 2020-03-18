@@ -1,0 +1,139 @@
+.sleep-experts-main-banner-mobi {
+  display: none;
+}
+
+.sub-heading {
+  text-align: center !important;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.TextHead-heading {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f01882;
+  margin-left: -15px;
+}
+
+.child-one-heading {
+  font-size: 15px;
+  padding: 20px;
+  margin: -34px 0px 0px 0px;
+  line-height: 25px;
+}
+
+.recommend {
+  font-size: 15px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.premium-quality-product.Prod-Desc-Container {
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.premium-quality-product a {
+  background: #f01882;
+  color: #fff;
+  line-height: 38px;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.TextMain-heading {
+  font-size: 19px;
+  color: #f01882;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.last-heading {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.last-heading a {
+  color: #f01882;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Text-subheading {
+  padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .SleepOneImge {
+    margin-bottom: 20px;
+  }
+  .TextHead-heading {
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .child-one-heading {
+    text-align: center;
+  }
+
+  .recommend {
+    padding: 20px;
+  }
+
+  .SleepTwoImge {
+    margin-top: 20px;
+  }
+
+  .col-md-6.SleepThreeImge {
+    margin-bottom: 20px;
+  }
+
+  .last-heading {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .name-heading {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .TextMain-heading {
+    text-align: center;
+  }
+
+  .Text-subheading {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .premium-quality-product.Prod-Desc-Container {
+    text-align: center;
+  }
+
+  .premium-quality-product a {
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sleep-experts-main-banner-web {
+    display: none;
+  }
+
+  .sleep-experts-main-banner-mobi {
+    display: block;
+  }
+}
