@@ -363,16 +363,15 @@ a.combo-rooms-buy-now {
 
   }
 
-  /*cookware promo css end*/
-}
-
-@media (max-width: 767px) {
   .col-sm-7.combo-prod-detail {
     text-align: center;
     margin-bottom: 5px;
 }
 
+  /*cookware promo css end*/
 }
+
+
 
 @media (max-width: 600px) {
   .main-hero-banner-mobi {
