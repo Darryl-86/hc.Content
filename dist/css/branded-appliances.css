@@ -61,6 +61,7 @@
   border: solid 1px #cccccc;
   margin: 0 0 30px 0;
   padding: 0 !important;
+  max-width: 226px;
 }
 
 .shop-by-range-promo-details {
@@ -149,7 +150,6 @@ span.new-branded-app {
   .shop-by-range-promo {
     border: solid 1px #cccccc;
     padding: 0 !important;
-    max-width: 302px;
     margin: 0 auto 30px;
   }
 }
