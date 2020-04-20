@@ -4,6 +4,8 @@
   display: none;
 }
 
+
+
 .pb-30 {
   padding-bottom: 30px;
 }
@@ -34,6 +36,64 @@
   padding: 0;
 }
 
+.hc-brands-image img {
+    max-width: 300px;
+}
+
+.hc-brands-container-web {
+    padding: 30px 0 0 0;
+    display: block;
+}
+
+.hc-brands-container-mobi {
+    max-width: 413px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0 0 0;
+    display: none;
+}
+
+a.brands-shop-now-button {
+    background: #f01882;
+    color: white;
+    padding: 10px 70px;
+    line-height: 50px;
+    margin-top: 20px !important;
+}
+
+.dream-bedroom-shop-now-container {
+  padding: 6% 0;
+}
+
+.row.dreambed-contentBanner {
+    padding-top: 20px;
+}
+
+hr.dash-web {
+    border-top: 2px dotted #eee;
+    margin: 40px 0px 30px 0px;
+    display: block;
+}
+
+hr.dash-mobi {
+      border-top: 2px dotted #eee;
+      margin: 20px 0px 40px 0px;
+      display: none;
+  }
+
+  hr.dash-mobi-two {
+      border-top: 2px dotted #eee;
+      margin: 0px 0px 40px 0px;
+      display: none;
+  }
+
+  hr.dash-mobi-three {
+    border-top: 2px dotted #eee;
+    margin: 40px 0px 30px 0px;
+    display: none;
+}
+
+
 @media (max-width: 991px) {
   .ProductLeftImageTextSmall {
     text-align: center !important;
@@ -48,9 +108,41 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .hc-brands-container-web {
+      display: none;
+  }
+
+  .hc-brands-container-mobi {
+      display: block;
+  }
+
+  hr.dash-web {
+    display: none;
+  }
+
+hr.dash-mobi {
+      display: block;
+  }
+
+  hr.dash-mobi-two {
+      display: block;
+  }
+
+  hr.dash-mobi-three {
+      display: block;
+  }
+
+  .row.dreambed-contentBanner {
+      padding-top: 0px;
+  }
   .BrandImage img {
     margin: 0 auto !important;
+  }
+
+  .ProductLeftImageTextSmall {
+      padding: 20px 0 20px 0!important;
+      text-align: center;
   }
 }
 

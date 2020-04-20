@@ -76,8 +76,8 @@
   margin-bottom: 30px;
 }
 
-.cookware-cat-banner {
-  margin-bottom: 20px;
+.col-md-12.cookware-cat-banner {
+  margin-bottom: 30px;
 }
 
 .cookware-cat-banner-details {
@@ -192,6 +192,18 @@ a.LongBorderBtn {
 }
 
 @media (max-width: 767px) {
+  .cookware-main-banner-heading-description {
+  max-width: 467px;
+}
+
+  .col-md-12.cookware-cat-banner {
+  margin-bottom: 23px;
+}
+
+  .cookware-cat-banner-details {
+  max-width: 467px;
+}
+
   .dinnerware-mobi-prod {
   display: block;
 }
@@ -210,7 +222,9 @@ a.LongBorderBtn {
   }
 
   .malabar-prod-detail {
-    margin: 0;
+    margin: 10px auto 0;
+    max-width: 413px;
+    text-align: center;
   }
 
   .cookware-main-banner-heading {
