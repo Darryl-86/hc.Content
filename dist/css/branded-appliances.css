@@ -121,6 +121,10 @@ span.new-branded-app {
   font-weight: bold;
 }
 
+.lockdown-essentials-banner {
+  padding-top: 2px;
+}
+
 @media (max-width: 767px) {
   .big-name-brands-for-qualifying-cust {
     background-color: #000000;
