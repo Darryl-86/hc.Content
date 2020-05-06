@@ -1,0 +1,68 @@
+/*Widget: Cookware Cat Heading CSS Begin*/
+
+.cookbook-heading h1 {
+	display: block;
+	color: #000;
+	text-align: center;
+}
+
+.cookbook-heading h3 {
+	display: none;
+	color: #000;
+	text-align: center;
+}
+
+@media (max-width: 450px) {
+	.cookbook-heading h1 {
+		display: none;
+	}
+
+	.cookbook-heading h3 {
+		display: block;
+	}
+}
+
+/*Widget: Cookware Cat Heading CSS End*/
+
+a.view-now-margin {
+    margin: 0 18px 0px 0px;
+}
+
+
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+
+	a.view-now-margin {
+    margin: 0 20px 0px 0px;
+}
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+
+	a.view-now-margin {
+    margin: 0 22px 0px 0px;
+}
+
+.request-catalogue {
+    margin-bottom: 30px;
+}
+}
+
+@media all and (max-width: 767px) and (min-width: 451px) {
+
+	a.view-now-margin {
+    margin: 0 24px 0px 0px;
+}
+.request-catalogue {
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width: 450px) {
+	a.view-now-margin {
+    margin: 0 26px 0px 0px;
+}
+.request-catalogue {
+    margin-bottom: 30px;
+}
+}
