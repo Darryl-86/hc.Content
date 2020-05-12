@@ -1,0 +1,230 @@
+/* widget: Request a Catalogue - Digital Catalogues CSS Begin */
+
+#webContent_v2-wi2800125 {
+    padding: 2em .5em 0;
+    text-align: center;
+    background-color: #f3f3f3;
+    color: #000;
+
+    a.view-now-margin {
+    margin: 0 18px 0px 0px;
+}
+    
+    .request-catalogue {
+        &__title {
+        	font-size: 32px;
+        	line-height: 110%;
+        	color: @HcPinkColor;
+            margin-bottom: 0 !important;
+        }
+
+        &__copy {
+            line-height: 25px;
+        	font-size: 18px;
+        }
+
+        &-overlay-block {
+            &__img-1,
+            &__img-2 {
+                opacity: 1;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+
+            &__overlay-text {
+                position: absolute;
+                top: 40%;
+                left: 48%;
+                padding: 0;
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                transition: .5s ease;
+                opacity: 0;
+    
+                a {
+                    padding: .5em;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    border-radius: .5em;
+                    background-color: @HcPinkColor;
+                }
+
+                @media screen and (min-width: @screen-sm) {
+                    padding: 2em;
+                }
+            }
+
+            &:hover {
+                .request-catalogue-overlay-block__img-1,
+                .request-catalogue-overlay-block__img-2 {
+                    opacity: .3;
+                }
+            
+                .request-catalogue-overlay-block__overlay-text {
+                    opacity: 1;
+                }
+            }
+        }
+        
+        &__link {
+            padding-bottom: 2em;
+            
+            a {
+                font-size: 16px;
+                text-transform: uppercase;
+                text-decoration: underline;
+                font-weight: bold;
+                color: @HcPinkColor;
+            }
+        }
+    }
+
+    @media all and (max-width: 1199px) and (min-width: 992px) {
+
+        a.view-now-margin {
+        margin: 0 20px 0px 0px;
+    }
+    }
+
+    @media all and (max-width: 991px) and (min-width: 768px) {
+
+        a.view-now-margin {
+        margin: 0 22px 0px 0px;
+    }
+
+    
+    }
+
+    @media all and (max-width: 767px) and (min-width: 451px) {
+
+        a.view-now-margin {
+        margin: 0 24px 0px 0px;
+    }
+    
+    }
+
+    @media (max-width: 450px) {
+        a.view-now-margin {
+        margin: 0 26px 0px 0px;
+    }
+    
+    }
+}
+
+/* widget: Request a Catalogue - Digital Catalogues CSS End */
+
+/*widget Request a Catalogue - Additional Digital Catalogue CSS Begin */
+
+#webContent_v2-wi5000019 {
+    padding: 2em .5em 0;
+    text-align: center;
+    background-color: #f3f3f3;
+    color: #000;
+
+    a.view-now-margin {
+    margin: 0 18px 0px 0px;
+}
+    
+    .request-catalogue {
+        &__title {
+            font-size: 32px;
+            line-height: 110%;
+            color: @HcPinkColor;
+            margin-bottom: 0 !important;
+        }
+
+        &__copy {
+            line-height: 25px;
+            font-size: 18px;
+        }
+
+        &-overlay-block {
+            &__img-1,
+            &__img-2 {
+                opacity: 1;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+
+            &__overlay-text {
+                position: absolute;
+                top: 40%;
+                left: 48%;
+                padding: 0;
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                transition: .5s ease;
+                opacity: 0;
+    
+                a {
+                    padding: .5em;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    border-radius: .5em;
+                    background-color: @HcPinkColor;
+                }
+
+                @media screen and (min-width: @screen-sm) {
+                    padding: 2em;
+                }
+            }
+
+            &:hover {
+                .request-catalogue-overlay-block__img-1,
+                .request-catalogue-overlay-block__img-2 {
+                    opacity: .3;
+                }
+            
+                .request-catalogue-overlay-block__overlay-text {
+                    opacity: 1;
+                }
+            }
+        }
+        
+        &__link {
+            padding-bottom: 2em;
+            
+            a {
+                font-size: 16px;
+                text-transform: uppercase;
+                text-decoration: underline;
+                font-weight: bold;
+                color: @HcPinkColor;
+            }
+        }
+    }
+
+    @media all and (max-width: 1199px) and (min-width: 992px) {
+
+        a.view-now-margin {
+        margin: 0 20px 0px 0px;
+    }
+    }
+
+    @media all and (max-width: 991px) and (min-width: 768px) {
+
+        a.view-now-margin {
+        margin: 0 22px 0px 0px;
+    }
+
+    
+    }
+
+    @media all and (max-width: 767px) and (min-width: 451px) {
+
+        a.view-now-margin {
+        margin: 0 24px 0px 0px;
+    }
+    
+    }
+
+    @media (max-width: 450px) {
+        a.view-now-margin {
+        margin: 0 26px 0px 0px;
+    }
+    
+    }
+}
+
+/*widget Request a Catalogue - Additional Digital Catalogue CSS End */
+
