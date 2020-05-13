@@ -1,0 +1,255 @@
+.sleep-sanctuary-web {
+  display: block;
+}
+
+.sleep-sanctuary-mobi {
+  display: none;
+}
+
+.sub-heading-text-no-mb {
+  font-size: 15px;
+  text-align: center;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px solid #eee;
+  margin: 40px 0;
+}
+
+.sleep-sanctuary-con-one {
+
+}
+
+.col-md-12.pro-tip {
+  border: 1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.col-md-6.pro-tip {
+  border: 1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.col-md-6.pro-tip-no-mb {
+  border: 1px solid #f01882;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.sleep-sanctuary-step {
+  margin-bottom: 40px;
+}
+
+.sanctuary-step-desc {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.sanctuary-step-desc-no-mb {
+  font-size: 15px;
+}
+
+.col-md-6 .sanctuary-step-promo-block {
+  margin-bottom: 40px;
+}
+
+.col-md-12 .sanctuary-step-promo-block {
+  margin-bottom: 40px;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.sleep-sanctuary-view-more-prod a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.sleep-sanctuary-view-more-prod-two a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto 40px;
+}
+
+.explore-sleep-sanctuary {
+  font-size: 15px;
+  text-align: center;
+}
+
+.dudu-ndlamini-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dudu-ndlamini-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.dudu-ndlamini-desc {
+  font-size: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.col-md-6.sanctuary-step-promo-block {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .sanctuary-step-desc {
+    text-align: center;
+  }
+
+  .col-md-3.light-bulb {
+    margin-bottom: 10px;
+  }
+
+  .col-md-9.pro-tip-text {
+    text-align: center;
+  }
+
+  .col-md-3.dudu-ndlamini-promoblock {
+    margin-bottom: 20px;
+  }
+
+  .dudu-ndlamini-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-sub-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f01882;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-desc {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .sleep-sanctuary-web {
+    display: none;
+  }
+
+  .sleep-sanctuary-mobi {
+    display: block;
+  }
+
+  .sleep-sanctuary-view-more-prod a {
+    max-width: 100%;
+  }
+
+  .sleep-sanctuary-view-more-prod-two a {
+    max-width: 100%;
+    margin: 0 auto 65px;
+  }
+
+  .sleep-sanctuary-view-more-prod-three a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+   max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto 30px;
+}
+
+  hr.col-md-12.dash-divider {
+    border-top: 2px solid #eee;
+    margin: 30px 0;
+  }
+  .sleep-sanctuary-step {
+  margin-bottom: 30px;
+}
+.sanctuary-step-desc {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.col-md-12.pro-tip {
+  margin-bottom: 30px;
+}
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -16%;
+  }
+  .col-md-12.sanctuary-step-promo-block {
+  margin-bottom: 30px;
+}
+.col-md-12.sanctuary-step-promo-block {
+  margin-bottom: 30px;
+}
+
+.col-md-12.sanctuary-step-promo-block-two {
+  margin-bottom: 60px;
+}
+.col-md-12.dudu-ndlamini-promoblock {
+    margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 430px) and (min-width: 402px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -18%;
+  }
+}
+
+@media all and (max-width: 401px) and (min-width: 381px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -20%;
+  }
+}
+
+@media all and (max-width: 380px) and (min-width: 361px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -22%;
+  }
+}
+
+@media all and (max-width: 360px) and (min-width: 345px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -21%;
+  }
+}
+
+@media all and (max-width: 344px) and (min-width: 320px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -25%;
+  }
+}
