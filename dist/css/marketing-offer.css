@@ -79,6 +79,10 @@ a.marketing-offer-shop-now {
 	display: none;
 }
 
+.mb-30 {
+	margin-bottom: 30px;
+}
+
 @media (max-width: 450px) {
 	.marketing-offer-banner-web {
 		display: none;
