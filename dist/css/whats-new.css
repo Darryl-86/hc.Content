@@ -1,6 +1,6 @@
 
 .whats-new-header-container {
-  max-width: 80%;
+  max-width: 75%;
   margin-bottom: 30px;
 }
 
@@ -22,6 +22,7 @@
 
 .whats-new-heading {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .whats-new-heading span {
@@ -210,15 +211,9 @@ a.LongBorderBtn {
   display: none;
 }
 
-/*@media (max-width: 450px) {
-  .whats-new-display-web {
-    display: none;
-  }
-
-  .whats-new-display-mobi {
-    display: block;
-  }
-  }*/
+.winters-best {
+  margin-bottom: 10px;
+}
 
   @media (max-width: 500px) {
   .whats-new-display-web {
@@ -229,8 +224,13 @@ a.LongBorderBtn {
     display: block;
   }
 
+  .winters-best {
+  margin-bottom: 5px;
+}
+
   .whats-new-heading {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .whats-new-heading span {
@@ -322,7 +322,7 @@ a.LongBorderBtn {
   }
 }
 
-  @media all and (max-width: 500px) and (min-width: 420px) {
+@media all and (max-width: 500px) and (min-width: 420px) {
 
 .whats-new-header-container {
   max-width: 60%;
