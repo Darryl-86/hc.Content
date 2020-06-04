@@ -10,7 +10,6 @@ a:hover.official-rules-link {
 .what-else-on-offer {
 	font-size: 20px;
 	color: #000000;
-	/*margin-bottom: 30px;*/
 }
 
 .marketing-offer-banner-web {
@@ -134,6 +133,7 @@ a.marketing-offer-shop-now {
 
 	.what-else-on-offer {
 		font-size: 16px;
+		margin-bottom: 10px;
 	}
 	.april-campaign-winners-mobi{
 		display: block;
