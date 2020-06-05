@@ -211,6 +211,16 @@ a.LongBorderBtn {
   display: none;
 }
 
+.whats-new-header-display-web {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.whats-new-header-display-mobi {
+  display: none;
+  margin-bottom: 10px;
+}
+
 .winters-best {
   margin-bottom: 10px;
 }
@@ -223,6 +233,14 @@ a.LongBorderBtn {
   .whats-new-display-mobi {
     display: block;
   }
+
+  .whats-new-header-display-web {
+  display: none;
+}
+
+.whats-new-header-display-mobi {
+  display: block;
+}
 
   .winters-best {
   margin-bottom: 5px;
