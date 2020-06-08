@@ -1,0 +1,722 @@
+.sub-heading {
+  text-align: center !important;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.bedroom-basics-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.bedroom-basics-copy-two {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.sub-heading-text-left-two {
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.decorating-a-shared-space-header-sub-heading-text {
+  font-size: 15px;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto 35px;
+}
+
+.sub-heading-text-left-no-mb {
+  font-size: 15px;
+}
+
+.TextHead-heading {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f01882;
+  margin-left: -15px;
+}
+
+.child-one-heading {
+  font-size: 15px;
+  padding: 20px;
+  margin: -34px 0px 0px 0px;
+  line-height: 25px;
+}
+
+.recommend {
+  font-size: 15px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.premium-quality-product.Prod-Desc-Container {
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+.premium-quality-product a {
+  background: #f01882;
+  color: #fff;
+  line-height: 38px;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.name-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.TextMain-heading {
+  font-size: 19px;
+  color: #f01882;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.last-heading {
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.last-heading a {
+  color: #f01882;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Text-subheading {
+  padding-top: 20px;
+}
+
+.bedroom-basics-heading {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #f01882;
+  font-weight: bold;
+}
+
+.sleep-sanctuary-sub-heading {
+  font-size: 25px;
+  color: #f01882;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.change-the-way-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.change-the-way-sub-heading-two {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.main-content {
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.back-sleeper-web {
+  display: block;
+}
+
+.back-sleeper-mobi {
+  display: none;
+}
+
+span.back-sleeper-price {
+  margin-bottom: 20px;
+  color: #f01882;
+  font-weight: bold;
+}
+
+.back-sleeper-prod-detail {
+}
+
+.back-sleeper-prod-detail-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.back-sleeper-prod-detail a {
+  background: #f01882;
+  color: #ffffff;
+  padding: 10px 30px;
+  line-height: 50px;
+  max-width: 126px;
+}
+
+.col-md-12.prod-border {
+  padding: 20px;
+  border: 1px solid #c5c5c5;
+}
+
+.back-sleeper-mobi-details {
+  text-align: center;
+  max-width: 373px;
+  margin: 0 auto;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+hr.col-md-12.dash-divider-two {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.col-md-12.pro-tip {
+  border: 1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pro-tip-web-view {
+  display: block;
+}
+
+.pro-tip-mobi-view {
+  display: none;
+}
+
+.pro-tip-mobi-container {
+  border: 1px solid #f01882;
+  border: 1px solid #f01882;
+  margin-bottom: 20px;
+}
+
+.cool-idea {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.explore-heavy-blankets a {
+  background: #f01882;
+  color: #fff;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.hc-homeware-by-room-button a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 40%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.safe-and-sound-list {
+  overflow: hidden;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.heavy-blankets-container {
+  margin-bottom: 40px;
+}
+
+.heavy-blankets-heading {
+  font-size: 20px;
+  margin: 0 auto 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heavy-blankets-prod-img {
+  margin-bottom: 15px;
+}
+
+a.heavy-blank-info-link {
+  color: #333 !important;
+}
+
+a.heavy-blank-info-link:hover {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.allergies-text-mobi {
+  display: none;
+}
+
+.allergies-promo-mobi {
+  display: none;
+}
+
+.allergies-text-web {
+  display: block;
+}
+
+.allergies-promo-web {
+  display: block;
+}
+
+.dudu-dlamini-tips-text {
+  font-size: 15px;
+  text-align: left;
+}
+
+.dudu-ndlamini-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dudu-ndlamini-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.if-you-have-roommates-promo-web {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.if-you-have-roommates-text-web {
+  display: block;
+  padding: 9% 0;
+}
+
+.if-you-have-roommates-text-tablet {
+  display: none;
+}
+
+.if-you-have-roommates-promo-mobi {
+  display: none;
+}
+
+.if-you-have-roommates-text-mobi {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.if-you-have-roommates-button-web a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 45%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.if-you-have-roommates-button-mobi a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: none;
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.if-youre-renting-promo-web {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.if-youre-renting-text-web {
+  display: block;
+  padding: 11% 0;
+}
+
+.if-youre-renting-text-tablet {
+  display: none;
+}
+
+.if-youre-renting-promo-mobi {
+  display: none;
+}
+
+.if-youre-renting-text-mobi {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.if-youre-renting-button-web a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.if-youre-renting-button-mobi a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: none;
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.decorating-a-shared-space-main-banner-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-mobi {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .allergies-text-web {
+    padding: 15% 0;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .allergies-text-web {
+    padding: 10% 0;
+  }
+
+  .if-you-have-roommates-text-web {
+    display: block;
+    padding: 3% 0; 
+  }
+
+  .if-youre-renting-text-web {
+    display: block;
+    padding: 6% 0;
+  }
+
+  .if-you-have-roommates-button-web a {
+    max-width: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .TextHead-heading {
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .child-one-heading {
+    text-align: center;
+  }
+
+  .recommend {
+    padding: 20px;
+  }
+
+  .SleepTwoImge {
+    margin-top: 20px;
+  }
+
+  .col-md-6.SleepThreeImge {
+    margin-bottom: 20px;
+  }
+
+  .last-heading {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .name-heading {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .TextMain-heading {
+    text-align: center;
+  }
+
+  .Text-subheading {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .premium-quality-product.Prod-Desc-Container {
+    text-align: center;
+  }
+
+  .premium-quality-product a {
+    max-width: none;
+    margin-bottom: 20px;
+  }
+
+  .back-sleeper-prod-detail {
+    max-width: 329px;
+    margin: 0 auto;
+    padding: 10px 0px;
+  }
+
+  .col-md-12.prod-border {
+    padding: 0px;
+    border: none;
+  }
+
+  img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+  }
+
+  .if-you-have-roommates-text-tablet {
+    display: block;
+  }
+
+  .if-you-have-roommates-text-web {
+    display: none;
+  }
+
+  .if-youre-renting-text-web {
+    display: none;
+  }
+
+  .if-youre-renting-text-tablet {
+    display: block;
+  }
+
+  .if-you-have-roommates-button-web a {
+    max-width: 70%;
+  }
+
+  .if-youre-renting-button-web a {
+    max-width: 76%;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 521px) {
+  .hc-homeware-by-room-button a {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .bedroom-basics-heading {
+    text-align: center;
+  }
+
+  .sleep-sanctuary-sub-heading {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .bedroom-basics-copy {
+    text-align: center;
+  }
+
+  .bedroom-basics-copy-two {
+    text-align: center;
+  }
+
+  .dudu-ndlamini-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-sub-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f01882;
+    text-align: center;
+  }
+  .dudu-dlamini-tips-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .hc-homeware-by-room-button a {
+    max-width: 100%;
+  }
+
+  .if-you-have-roommates-button-web a {
+    max-width: 100%;
+  }
+
+  .if-youre-renting-button-web a {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .decorating-a-shared-space-main-banner-web {
+    display: none;
+  }
+
+  .decorating-a-shared-space-main-banner-mobi {
+    display: block;
+  }
+
+  .back-sleeper-web {
+    display: none;
+  }
+
+  .back-sleeper-mobi {
+    display: block;
+  }
+
+  .back-sleeper-mobi-details {
+    margin-bottom: 20px;
+  }
+
+  .pro-tip-web-view {
+    display: none;
+  }
+
+  .pro-tip-mobi-view {
+    display: block;
+  }
+
+  img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -10%;
+  }
+
+  hr.col-md-12.dash-divider-two {
+    border-top: 2px dotted #eee;
+    margin: 40px 0 75px 0;
+  }
+
+  .dudu-ndlamin-mobi {
+    text-align: center;
+  }
+
+  .explore-heavy-blankets a {
+    max-width: 100%;
+  }
+
+  .sub-heading-text-left-two {
+    text-align: center;
+  }
+
+  .allergies-text-mobi {
+    display: block;
+  }
+
+  .allergies-promo-mobi {
+    display: block;
+  }
+
+  .allergies-text-web {
+    display: none;
+  }
+
+  .allergies-promo-web {
+    display: none;
+  }
+
+  .if-you-have-roommates-promo-web {
+    display: none;
+  }
+
+  .if-you-have-roommates-text-web {
+    display: none;
+  }
+
+  .if-you-have-roommates-text-tablet {
+    display: none;
+  }
+
+  .if-youre-renting-promo-web {
+    display: none;
+  }
+
+  .if-youre-renting-text-web {
+    display: none;
+  }
+
+  .if-youre-renting-text-tablet {
+    display: none;
+  }
+
+  .if-you-have-roommates-promo-mobi {
+    display: block;
+  }
+
+  .if-you-have-roommates-text-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .if-youre-renting-promo-mobi {
+    display: block;
+  }
+
+  .if-youre-renting-text-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .if-you-have-roommates-button-web a {
+    display: none;
+  }
+
+  .if-you-have-roommates-button-mobi a {
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .if-youre-renting-button-web a {
+    display: none;
+  }
+
+  .if-youre-renting-button-mobi a {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
