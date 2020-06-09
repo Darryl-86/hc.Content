@@ -9,6 +9,22 @@
   margin-bottom: 20px;
 }
 
+.bedroom-basics {
+  font-size: 15px;
+}
+
+.happy-place-text-web {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.happy-place-text-mobi {
+  font-size: 15px;
+  display: none;
+  margin-bottom: 20px;
+}
+
 .bedroom-basics-copy-two {
   font-size: 15px;
   margin-bottom: 30px;
@@ -320,12 +336,26 @@ a.heavy-blank-info-link:hover {
   margin-bottom: 20px;
 }
 
+.if-you-making-it-family-friendly-promo-web {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .if-you-have-roommates-text-web {
   display: block;
   padding: 9% 0;
 }
 
+.if-you-making-it-family-friendly-text-web {
+  display: block;
+  padding: 6.8% 0;
+}
+
 .if-you-have-roommates-text-tablet {
+  display: none;
+}
+
+.if-you-making-it-family-friendly-text-tablet {
   display: none;
 }
 
@@ -333,7 +363,16 @@ a.heavy-blank-info-link:hover {
   display: none;
 }
 
+.if-you-making-it-family-friendly-promo-mobi {
+  display: none;
+}
+
 .if-you-have-roommates-text-mobi {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.if-you-making-it-family-friendly-text-mobi {
   display: none;
   margin-bottom: 20px;
 }
@@ -350,7 +389,31 @@ a.heavy-blank-info-link:hover {
   margin: 0 auto;
 }
 
+.if-you-making-it-family-friendly-button-web a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 49%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
 .if-you-have-roommates-button-mobi a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: none;
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.if-you-making-it-family-friendly-button-mobi a {
   border: 1px solid #f01882;
   color: #f01882;
   display: none;
@@ -417,6 +480,14 @@ a.heavy-blank-info-link:hover {
   display: none;
 }
 
+.lerato-tshabalala-promo-web {
+  display: block;
+}
+
+.lerato-tshabalala-promo-mobi {
+  display: none;
+}
+
 @media (min-width: 1200px) {
   .allergies-text-web {
     padding: 15% 0;
@@ -430,7 +501,12 @@ a.heavy-blank-info-link:hover {
 
   .if-you-have-roommates-text-web {
     display: block;
-    padding: 3% 0; 
+    padding: 3% 0;
+  }
+
+  .if-you-making-it-family-friendly-text-web {
+    display: block;
+    padding: 2.9% 0;
   }
 
   .if-youre-renting-text-web {
@@ -440,6 +516,10 @@ a.heavy-blank-info-link:hover {
 
   .if-you-have-roommates-button-web a {
     max-width: 55%;
+  }
+
+  .if-you-making-it-family-friendly-button-web a {
+    max-width: 59%;
   }
 }
 
@@ -513,7 +593,15 @@ a.heavy-blank-info-link:hover {
     display: block;
   }
 
+  .if-you-making-it-family-friendly-text-tablet {
+    display: block;
+  }
+
   .if-you-have-roommates-text-web {
+    display: none;
+  }
+
+  .if-you-making-it-family-friendly-text-web {
     display: none;
   }
 
@@ -529,9 +617,21 @@ a.heavy-blank-info-link:hover {
     max-width: 70%;
   }
 
+  .if-you-making-it-family-friendly-button-web a {
+    max-width: 77%;
+  }
+
   .if-youre-renting-button-web a {
     max-width: 76%;
   }
+
+  .bedroom-basics {
+    margin-bottom: 20px;
+  }
+
+  .lerato-tshabalala-promo-web {
+  margin-bottom: 20px;
+}
 }
 
 @media all and (max-width: 991px) and (min-width: 521px) {
@@ -551,7 +651,15 @@ a.heavy-blank-info-link:hover {
     font-size: 20px;
   }
 
+  .bedroom-basics {
+    text-align: center;
+  }
+
   .bedroom-basics-copy {
+    text-align: center;
+  }
+
+  .happy-place-text-web {
     text-align: center;
   }
 
@@ -575,6 +683,10 @@ a.heavy-blank-info-link:hover {
   .dudu-dlamini-tips-text {
     text-align: center;
   }
+
+  .happy-place-text-mobi {
+    text-align: center;
+  }
 }
 
 @media (max-width: 520px) {
@@ -583,6 +695,10 @@ a.heavy-blank-info-link:hover {
   }
 
   .if-you-have-roommates-button-web a {
+    max-width: 100%;
+  }
+
+  .if-you-making-it-family-friendly-button-web a {
     max-width: 100%;
   }
 
@@ -662,11 +778,23 @@ a.heavy-blank-info-link:hover {
     display: none;
   }
 
+  .if-you-making-it-family-friendly-promo-web {
+    display: none;
+  }
+
   .if-you-have-roommates-text-web {
     display: none;
   }
 
+  .if-you-making-it-family-friendly-text-web {
+    display: none;
+  }
+
   .if-you-have-roommates-text-tablet {
+    display: none;
+  }
+
+  .if-you-making-it-family-friendly-text-tablet {
     display: none;
   }
 
@@ -686,7 +814,16 @@ a.heavy-blank-info-link:hover {
     display: block;
   }
 
+  .if-you-making-it-family-friendly-promo-mobi {
+    display: block;
+  }
+
   .if-you-have-roommates-text-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .if-you-making-it-family-friendly-text-mobi {
     display: block;
     margin-bottom: 20px;
   }
@@ -704,7 +841,17 @@ a.heavy-blank-info-link:hover {
     display: none;
   }
 
+  .if-you-making-it-family-friendly-button-web a {
+    display: none;
+  }
+
   .if-you-have-roommates-button-mobi a {
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .if-you-making-it-family-friendly-button-mobi a {
     max-width: 100%;
     margin-bottom: 20px;
     display: block;
@@ -718,5 +865,22 @@ a.heavy-blank-info-link:hover {
     max-width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+
+  .lerato-tshabalala-promo-web {
+    display: none;
+  }
+
+  .lerato-tshabalala-promo-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .happy-place-text-web {
+    display: none;
+  }
+
+  .happy-place-text-mobi {
+    display: block;
   }
 }
