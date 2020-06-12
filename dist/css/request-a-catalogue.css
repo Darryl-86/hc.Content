@@ -12,15 +12,15 @@
     
     .request-catalogue {
         &__title {
-        	font-size: 32px;
-        	line-height: 110%;
-        	color: @HcPinkColor;
+          font-size: 32px;
+          line-height: 110%;
+          color: @HcPinkColor;
             margin-bottom: 0 !important;
         }
 
         &__copy {
             line-height: 25px;
-        	font-size: 18px;
+          font-size: 18px;
         }
 
         &-overlay-block {
@@ -79,6 +79,12 @@
         }
     }
 
+    @media (min-width: 992px) {
+    .hover-text-overfload-fix-web {
+        padding: 0% !important;
+    }
+}
+
     @media all and (max-width: 1199px) and (min-width: 992px) {
 
         a.view-now-margin {
@@ -92,7 +98,11 @@
         margin: 0 22px 0px 0px;
     }
 
-    
+    .hover-text-overfload-fix-tablet {
+        padding-left: 4% !important;
+        max-width: 175px;
+        display: block;
+    }
     }
 
     @media all and (max-width: 767px) and (min-width: 451px) {
@@ -100,22 +110,29 @@
         a.view-now-margin {
         margin: 0 24px 0px 0px;
     }
-    
+    .hover-text-overfload-fix-tablet {
+        padding-left: 1% !important;
+        max-width: 175px;
+        display: block;
+    }
     }
 
     @media (max-width: 450px) {
         a.view-now-margin {
         margin: 0 26px 0px 0px;
     }
-    
+    .hover-text-overfload-fix-mobi {
+        max-width: 175px;
+        display: block;
+    }
     }
 }
 
 /* widget: Request a Catalogue - Digital Catalogues CSS End */
 
-/*widget Request a Catalogue - Additional Digital Catalogue CSS Begin */
+/*widget: Request a Catalogue - Digital Catalogues 2 CSS Begin */
 
-#webContent_v2-wi5000019 {
+#webContent_v2-wi5100012 {
     padding: 2em .5em 0;
     text-align: center;
     background-color: #f3f3f3;
@@ -194,6 +211,12 @@
         }
     }
 
+    @media (min-width: 992px) {
+    .hover-text-overfload-fix-web {
+        padding: 0% !important;
+    }
+}
+
     @media all and (max-width: 1199px) and (min-width: 992px) {
 
         a.view-now-margin {
@@ -207,7 +230,11 @@
         margin: 0 22px 0px 0px;
     }
 
-    
+    .hover-text-overfload-fix-tablet {
+        padding-left: 4% !important;
+        max-width: 175px;
+        display: block;
+    }
     }
 
     @media all and (max-width: 767px) and (min-width: 451px) {
@@ -215,16 +242,23 @@
         a.view-now-margin {
         margin: 0 24px 0px 0px;
     }
-    
+    .hover-text-overfload-fix-tablet {
+        padding-left: 1% !important;
+        max-width: 175px;
+        display: block;
+    }
     }
 
     @media (max-width: 450px) {
         a.view-now-margin {
         margin: 0 26px 0px 0px;
     }
-    
+    .hover-text-overfload-fix-mobi {
+        max-width: 175px;
+        display: block;
+    }
     }
 }
 
-/*widget Request a Catalogue - Additional Digital Catalogue CSS End */
+/*widget: Request a Catalogue - Digital Catalogues 2 CSS End */
 
