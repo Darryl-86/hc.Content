@@ -22,13 +22,23 @@
   font-size: 30px;
   font-weight: normal;
   color: #58697d;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .need-help {
   color: #000000;
   font-size: 20px;
+  text-align: center;
+}
+
+.need-help div {
+  margin-bottom: 10px;
+}
+
+span.contact-us {
+  color: #3366bb;
+  text-decoration: underline;
 }
 
 a.contact-us {
