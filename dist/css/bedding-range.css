@@ -25,7 +25,13 @@
 .take-care-of-bedding-container {
   color: #f01882;
   display: flex;
-  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.unbeatable-variety-container {
+  color: #f01882;
+  display: flex;
+  margin-top: 30px;
 }
 
 .bedding-brands {
@@ -35,6 +41,18 @@
 .ContentMiniLeftPinkHeader {
   padding: 0;
 }
+
+.take-care-of-bedding-copy {
+    padding: 2% 0;
+    max-width: 80%;
+    color: #f01882;
+}
+
+ .take-care-of-bedding-copy div {
+font-weight: bold;
+    font-size: 20px;
+ }
+ 
 
 .hc-brands-image img {
     max-width: 300px;
@@ -93,6 +111,22 @@ hr.dash-mobi {
     display: none;
 }
 
+.take-care-web {
+  display: block;
+}
+
+.take-care-mobi {
+  display: none;
+}
+
+.unbeatable-variety-mobi {
+  display: none;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
 
 @media (max-width: 991px) {
   .ProductLeftImageTextSmall {
@@ -144,9 +178,17 @@ hr.dash-mobi {
       padding: 20px 0 20px 0!important;
       text-align: center;
   }
+
+  .take-care-of-bedding-copy {
+    max-width: 100%;
 }
 
-@media (max-width: 629px) {
+.take-care-of-bedding-container {
+  margin-top: 0px;
+}
+}
+
+@media (max-width: 600px) {
   .bedding-range-main-banner-web {
     display: none;
   }
@@ -154,4 +196,31 @@ hr.dash-mobi {
   .bedding-range-main-banner-mobi {
     display: block;
   }
+
+  .take-care-web {
+  display: none;
+}
+
+.take-care-mobi {
+  display: block;
+  text-align: center;
+}
+
+.take-care-mobi img {
+  margin-bottom: 10px;
+}
+
+.unbeatable-variety-mobi {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.unbeatable-variety-mobi img {
+  margin-bottom: 10px;
+}
+
+.take-care-of-bedding-copy {
+    padding: 0;
+}
 }
