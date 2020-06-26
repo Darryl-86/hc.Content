@@ -1,0 +1,274 @@
+.bedroom-basics-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.quick-cleaning-tips-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.neatness-last-copy-container {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.relaxation-style-copy-container {
+  font-size: 15px;
+  border: 2px solid #f01882;
+  padding: 15px;
+  text-align: left;
+}
+
+.quick-cleaning-tips-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+.quick-cleaning-tips-header-sub-heading-text {
+  font-size: 15px;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.dudu-ndlamini-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dudu-ndlamini-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.quick-cleaning-tips-copy-container-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-mobi {
+  display: none;
+}
+
+.lerato-tshabalala-promo-web {
+  display: block;
+}
+
+.lerato-tshabalala-promo-mobi {
+  display: none;
+}
+
+.quick-cleaning-tips-copy-container-tab {
+  display: none;
+}
+
+.quick-cleaning-tips-promo-web {
+  display: block;
+}
+
+.quick-cleaning-tips-promo-mobi {
+  display: none;
+}
+
+.num-container {
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.num-circle-gen {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  padding: 2px;
+  background: #1b2735;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.num-copy-gen {
+  color: #f01882;
+  font-size: 30px;
+  padding: 0 0 0 3%;
+}
+
+.num-display-tab {
+  display: none;
+}
+
+.num-display-mobi {
+  display: none;
+}
+
+.exlore-bathroom-range-btn a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 45%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.luxurious-softness {
+  padding-top: 7%;
+}
+
+.your-relaxation-style {
+  padding-top: 8%;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 1200px) {
+  .hc-advisor-copy-container {
+    padding-top: 6%;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .luxurious-softness {
+    padding-top: 4.5%;
+  }
+
+  .your-relaxation-style {
+    padding-top: 3%;
+  }
+
+  .hc-advisor-copy-container {
+    padding-top: 3%;
+  }
+}
+
+@media (max-width: 991px) {
+  .lerato-tshabalala-promo-web {
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-copy-container-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-copy-container-tab {
+    display: block;
+    text-align: center;
+  }
+
+  .quick-cleaning-tips-copy-container-tab img {
+    margin-bottom: 20px;
+  }
+
+  .num-container {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .num-circle-gen {
+    margin: 0 auto 10px;
+  }
+
+  .num-copy-gen {
+    text-align: center;
+    padding: 0;
+  }
+
+  .num-display-tab {
+    display: block;
+  }
+
+  .num-display-mobi {
+    display: none;
+  }
+
+  .dudu-ndlamin-mobi {
+    text-align: center;
+  }
+
+  .exlore-bathroom-range-btn a {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .bedroom-basics-copy {
+    text-align: center;
+  }
+
+  .dudu-ndlamini-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-sub-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f01882;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .decorating-a-shared-space-main-banner-web {
+    display: none;
+  }
+
+  .decorating-a-shared-space-main-banner-mobi {
+    display: block;
+  }
+
+  .lerato-tshabalala-promo-web {
+    display: none;
+  }
+
+  .lerato-tshabalala-promo-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-promo-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-promo-mobi {
+    display: block;
+  }
+
+  .num-display-tab {
+    display: none;
+  }
+
+  .num-display-mobi {
+    display: block;
+  }
+
+  .exlore-bathroom-range-btn a {
+    max-width: 100%;
+  }
+
+  .relaxation-style-copy-container {
+    text-align: center;
+  }
+}
