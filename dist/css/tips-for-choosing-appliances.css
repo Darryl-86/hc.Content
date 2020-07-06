@@ -1,0 +1,420 @@
+.bedroom-basics-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.quick-cleaning-tips-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.copy-above-pro-tips {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.neatness-last-copy-container {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.relaxation-style-copy-container {
+  font-size: 15px;
+  border: 2px solid #f01882;
+  padding: 15px;
+  text-align: left;
+}
+
+.quick-cleaning-tips-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+.quick-cleaning-tips-header-sub-heading-text {
+  font-size: 15px;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto 35px;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.dudu-ndlamini-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dudu-ndlamini-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.quick-cleaning-tips-copy-container-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-mobi {
+  display: none;
+}
+
+.lerato-tshabalala-promo-web {
+  display: block;
+}
+
+.lerato-tshabalala-promo-mobi {
+  display: none;
+}
+
+.quick-cleaning-tips-copy-container-tab {
+  display: none;
+}
+
+.quick-cleaning-tips-promo-web {
+  display: block;
+}
+
+.quick-cleaning-tips-promo-mobi {
+  display: none;
+}
+
+.num-container {
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.num-circle-gen {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  padding: 2px;
+  background: #1b2735;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+
+.num-copy-gen {
+  color: #f01882;
+  font-size: 30px;
+  padding: 0 0 0 3%;
+}
+
+.num-display-tab {
+  display: none;
+}
+
+.num-display-mobi {
+  display: none;
+}
+
+.range-of-quality-app a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 45%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.view-great-offers a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  max-width: 70%;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.luxurious-softness {
+  padding-top: 3.5%;
+}
+
+.your-relaxation-style {
+  padding-top: 2%;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+/*light bulb css begin*/
+
+.col-md-12.pro-tip {
+  border: 1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.col-md-12.pro-tip-no-mb {
+  border: 1px solid #f01882;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.col-md-6.pro-tip {
+  border: 1px solid #f01882;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.col-md-6.pro-tip-no-mb {
+  border: 1px solid #f01882;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.pro-tip-web {
+  display: block;
+}
+.pro-tip-mobi {
+  display: none;
+}
+
+.align-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+/*light bulb css end*/
+
+@media (min-width: 1200px) {
+  .hc-advisor-copy-container {
+    padding-top: 6%;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .luxurious-softness {
+    padding-top: 0%;
+  }
+
+  .your-relaxation-style {
+    padding-top: 0%;
+  }
+
+  .hc-advisor-copy-container {
+    padding-top: 3%;
+  }
+
+  .range-of-quality-app a {
+    max-width: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  .lerato-tshabalala-promo-web {
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-copy-container-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-copy-container-tab {
+    display: block;
+    text-align: center;
+  }
+
+  .quick-cleaning-tips-copy-container-tab img {
+    margin-bottom: 20px;
+  }
+
+  .num-container {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .num-circle-gen {
+    margin: 0 auto 10px;
+  }
+
+  .num-copy-gen {
+    text-align: center;
+    padding: 0;
+  }
+
+  .num-display-tab {
+    display: block;
+  }
+
+  .num-display-mobi {
+    display: none;
+  }
+
+  .dudu-ndlamin-mobi {
+    text-align: center;
+  }
+
+  .range-of-quality-app a {
+    max-width: 80%;
+  }
+
+  .view-great-offers a {
+    max-width: 95%;
+  }
+
+  /*light bulb css 991px breakpoint Begin*/
+
+  .col-md-9.pro-tip-text {
+    text-align: center;
+  }
+
+  .col-md-3.light-bulb {
+    margin-bottom: 10px;
+  }
+
+  .col-md-9.pro-tip-text {
+    text-align: center;
+  }
+
+  /*light bulb css 991px breakpoint End*/
+}
+
+@media (max-width: 767px) {
+  .bedroom-basics-copy {
+    text-align: center;
+  }
+
+  .dudu-ndlamini-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-sub-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f01882;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .decorating-a-shared-space-main-banner-web {
+    display: none;
+  }
+
+  .decorating-a-shared-space-main-banner-mobi {
+    display: block;
+  }
+
+  .lerato-tshabalala-promo-web {
+    display: none;
+  }
+
+  .lerato-tshabalala-promo-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-promo-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-promo-mobi {
+    display: block;
+  }
+
+  .num-display-tab {
+    display: none;
+  }
+
+  .num-display-mobi {
+    display: block;
+  }
+
+  .range-of-quality-app a {
+    max-width: 100%;
+  }
+
+  .view-great-offers a {
+    max-width: 100%;
+  }
+
+  .relaxation-style-copy-container {
+    text-align: center;
+  }
+
+  /*light bulb css 450px breakpoint Begin*/
+
+  .col-md-12.pro-tip {
+  margin-bottom: 30px;
+}
+
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -16%;
+  }
+
+  .pro-tip-web {
+  display: none;
+}
+.pro-tip-mobi {
+  display: block;
+}
+
+  /*light bulb css 450px breakpoint End*/
+}
+
+@media all and (max-width: 430px) and (min-width: 402px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -18%;
+  }
+}
+
+@media all and (max-width: 401px) and (min-width: 381px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -20%;
+  }
+}
+
+@media all and (max-width: 380px) and (min-width: 361px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -22%;
+  }
+}
+
+@media all and (max-width: 360px) and (min-width: 345px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -21%;
+  }
+}
+
+@media all and (max-width: 344px) and (min-width: 320px) {
+img.img-responsive.center-block.light-bulb {
+    margin-bottom: 10px;
+    margin-top: -25%;
+  }
+}
