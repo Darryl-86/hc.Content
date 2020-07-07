@@ -1,144 +1,145 @@
 a.official-rules-link {
-	color: #000000;
-	text-decoration: underline;
+  color: #000000;
+  text-decoration: underline;
 }
 
 a:hover.official-rules-link {
-	color: #000000;
+  color: #000000;
 }
 
 .what-else-on-offer {
-	font-size: 20px;
-	color: #000000;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 .marketing-offer-banner-web {
-	display: block;
+  display: block;
 }
 
 .marketing-offer-banner-mobi {
-	display: none;
+  display: none;
 }
 
 .hundred-off-web {
-	display: block;
-	margin-bottom: 23px;
+  display: block;
+  margin-bottom: 23px;
 }
 
 .hundred-off-mobi {
-	display: none;
+  display: none;
 }
 
 .voucher-container {
-	margin-bottom: 50px;
-	text-align: center;
-	color: #000000;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000000;
 }
 
 .voucher-web {
-	display: block;
+  display: block;
 }
 
 .voucher-mobi {
-	display: none;
+  display: none;
 }
 
 .checkout-code {
-	font-size: 25px;
-	line-height: 30px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
 .checkout-code span {
-	color: #f01882;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 35px;
+  color: #f01882;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .offer-ends {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 a.marketing-offer-shop-now {
-	text-align: center;
-	background-color: #f01882;
-	padding: 10px;
-	display: block;
-	max-width: 330px;
-	margin: auto;
-	color: #ffffff;
-	font-size: 25px;
-	margin-bottom: 30px;
+  text-align: center;
+  background-color: #f01882;
+  padding: 10px;
+  display: block;
+  max-width: 330px;
+  margin: auto;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
-.april-campaign-winners-web{
-	display: block;
+.april-campaign-winners-web {
+  display: block;
 }
-.april-campaign-winners-mobi{
-	display: none;
+.april-campaign-winners-mobi {
+  display: none;
 }
 
 .mb-30 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 450px) {
-	.marketing-offer-banner-web {
-		display: none;
-	}
+  .marketing-offer-banner-web {
+    display: none;
+  }
 
-	.marketing-offer-banner-mobi {
-		display: block;
-	}
+  .marketing-offer-banner-mobi {
+    display: block;
+  }
 
-	.hundred-off-web {
-		display: none;
-	}
+  .hundred-off-web {
+    display: none;
+  }
 
-	.hundred-off-mobi {
-		display: block;
-		margin-bottom: 6px;
-	}
+  .hundred-off-mobi {
+    display: block;
+    margin-bottom: 6px;
+  }
 
-	.voucher-container {
-		margin-bottom: 30px;
-		text-align: center;
-		color: #000000;
-	}
+  .voucher-container {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #000000;
+  }
 
-	.voucher-web {
-		display: none;
-	}
+  .voucher-web {
+    display: none;
+  }
 
-	.voucher-mobi {
-		display: block;
-	}
+  .voucher-mobi {
+    display: block;
+  }
 
-	.checkout-code {
-		font-size: 20px;
-	}
+  .checkout-code {
+    font-size: 20px;
+  }
 
-	.checkout-code span {
-		font-size: 30px;
-	}
+  .checkout-code span {
+    font-size: 30px;
+  }
 
-	.offer-ends {
-		font-size: 14px;
-	}
+  .offer-ends {
+    font-size: 14px;
+  }
 
-	a.marketing-offer-shop-now {
-		max-width: 180px;
-		font-size: 20px;
-	}
+  a.marketing-offer-shop-now {
+    max-width: 180px;
+    font-size: 20px;
+  }
 
-	.what-else-on-offer {
-		font-size: 18px;
-		margin-bottom: 10px;
-	}
-	.april-campaign-winners-mobi{
-		display: block;
-	}
-	.april-campaign-winners-web{
-		display: none;
-	}
+  .what-else-on-offer {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .april-campaign-winners-mobi {
+    display: block;
+  }
+  .april-campaign-winners-web {
+    display: none;
+  }
 }
