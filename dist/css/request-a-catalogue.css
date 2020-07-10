@@ -82,6 +82,7 @@
     @media (min-width: 992px) {
     .hover-text-overfload-fix-web {
         padding: 0% !important;
+        max-width: 175px;
     }
 }
 
@@ -214,6 +215,7 @@
     @media (min-width: 992px) {
     .hover-text-overfload-fix-web {
         padding: 0% !important;
+        max-width: 175px;
     }
 }
 
