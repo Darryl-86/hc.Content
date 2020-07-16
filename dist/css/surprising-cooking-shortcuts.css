@@ -136,7 +136,7 @@ hr.col-md-12.dash-divider {
   font-weight: bold;
   padding: 20px;
   border-radius: 5px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .choose-range-microwaves a {
@@ -248,23 +248,23 @@ hr.col-md-12.dash-divider {
   }
 
   .vertical-alignment-prod-one {
-    padding-top:5%;
+    padding-top: 5%;
   }
 
   .vertical-alignment-prod-two {
-    padding-top:6%;
+    padding-top: 6%;
   }
 
   .vertical-alignment-prod-three {
-    padding-top:5%;
+    padding-top: 5%;
   }
 
   .vertical-alignment-prod-four {
-    padding-top:6%;
+    padding-top: 6%;
   }
 
   .vertical-alignment-prod-five {
-    padding-top:6%;
+    padding-top: 6%;
   }
 }
 
@@ -389,7 +389,6 @@ hr.col-md-12.dash-divider {
     margin: 0 auto;
   }
 
-
   .choose-range-fryers {
     margin-bottom: 20px;
   }
@@ -408,16 +407,16 @@ hr.col-md-12.dash-divider {
   }
 
   .safety-tip-copy {
-  text-align: center;
-}
+    text-align: center;
+  }
 
-.wide-range-of-kitchen-app a {
-  max-width: 60%;
-}
+  .wide-range-of-kitchen-app a {
+    max-width: 60%;
+  }
 
-.stuart-soden-hc-buyer-copy {
-  text-align: center;
-}
+  .stuart-soden-hc-buyer-copy {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -509,4 +508,3 @@ hr.col-md-12.dash-divider {
     max-width: 100%;
   }
 }
-
