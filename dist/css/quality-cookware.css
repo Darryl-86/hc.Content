@@ -25,8 +25,14 @@
   display: flex;
 }
 
-.cookware-brands {
+.cookware-brands-web {
   margin-bottom: 15px;
+  display: block;
+}
+
+.cookware-brands-mobi {
+  margin-bottom: 15px;
+  display: none;
 }
 
 .cookware-dash-one {
@@ -43,17 +49,13 @@
   margin: auto 0;
 }
 
-.mb-50 {
-  margin-bottom: 50px;
-}
-
 .mb-30 {
   margin-bottom: 30px;
 }
 
 .shop-by-range-promo {
   border: solid 1px #cccccc;
-  margin: 0 auto 15px;
+  margin: 0 auto 40px;
   padding: 0 !important;
   max-width: 302px;
 }
@@ -191,6 +193,10 @@ a.LongBorderBtn {
     max-width: 410px!important;
 }
 
+div.col-sm-2.dot-four {
+  width: 20%;
+}
+
 @media (max-width: 767px) {
   .cookware-main-banner-heading-description {
   max-width: 467px;
@@ -283,4 +289,20 @@ a.LongBorderBtn {
     .alum-cookware-prod-mobi {
       display: block;
     }
+    
+    div.col-sm-2.dot-four {
+  width: 100%;
+}
+
+.cookware-brand-last-promo {
+margin-bottom: 0;
   }
+
+  .cookware-brands-web {
+  display: none;
+}
+
+.cookware-brands-mobi {
+  display: block;
+}
+}
