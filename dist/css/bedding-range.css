@@ -140,6 +140,10 @@ hr.dash-mobi {
   .sub-heading {
     text-align: center !important;
   }
+
+  .dream-bedroom-shop-now-container {
+  padding: 2% 0;
+}
 }
 
 @media (max-width: 767px) {
