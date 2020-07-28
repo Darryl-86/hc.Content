@@ -267,7 +267,7 @@ a.combo-rooms-buy-now {
   font-weight: bold;
   text-align: center;
   color: #000;
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 40px;
   color: #f01882;
 }
@@ -388,6 +388,6 @@ a.combo-rooms-buy-now {
   }
 
   .category-heading {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
