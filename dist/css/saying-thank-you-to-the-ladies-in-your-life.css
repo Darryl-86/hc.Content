@@ -1,0 +1,229 @@
+.bedroom-basics-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.quick-cleaning-tips-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.quick-cleaning-tips-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+.you-care-copy {
+  font-size: 15px;
+  margin: 40px 0;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+hr.col-md-12.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+hr.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.dudu-ndlamini-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dudu-ndlamini-sub-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f01882;
+}
+
+.quick-cleaning-tips-copy-container-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-web {
+  display: block;
+}
+
+.decorating-a-shared-space-main-banner-mobi {
+  display: none;
+}
+
+.lerato-tshabalala-promo-web {
+  display: block;
+}
+
+.lerato-tshabalala-promo-mobi {
+  display: none;
+}
+
+.quick-cleaning-tips-copy-container-tab {
+  display: none;
+}
+
+.quick-cleaning-tips-promo-web {
+  display: block;
+}
+
+.quick-cleaning-tips-promo-mobi {
+  display: none;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.pink-heading {
+  font-size: 25px;
+  color: #f01882;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+li.thank-you-women-copy-list {
+  margin-bottom: 20px;
+}
+
+li.list-no-mb {
+  margin-bottom: 0;
+}
+
+ul.list-no-mb {
+  margin-bottom: 0;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.quick-cleaning-tips-header-sub-heading-text {
+  font-size: 15px;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .hc-advisor-copy-container {
+    padding-top: 6%;
+  }
+
+  .vertical-alignment-prod-one {
+    padding-top: 14%;
+  }
+
+  .vertical-alignment-prod-two {
+    padding-top: 7%;
+  }
+
+  .vertical-alignment-prod-three {
+    padding-top: 6%;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .hc-advisor-copy-container {
+    padding-top: 3%;
+  }
+}
+
+@media (max-width: 991px) {
+  .lerato-tshabalala-promo-web {
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-copy-container-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-copy-container-tab {
+    display: block;
+    text-align: center;
+  }
+
+  .quick-cleaning-tips-copy-container-tab img {
+    margin-bottom: 20px;
+  }
+
+  .dudu-ndlamin-mobi {
+    text-align: center;
+  }
+
+  .pink-heading {
+    text-align: center;
+  }
+
+  li.thank-you-women-copy-list {
+    text-align: left;
+  }
+
+  .you-care-copy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .bedroom-basics-copy {
+    text-align: center;
+  }
+
+  .dudu-ndlamini-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dudu-ndlamini-sub-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f01882;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .decorating-a-shared-space-main-banner-web {
+    display: none;
+  }
+
+  .decorating-a-shared-space-main-banner-mobi {
+    display: block;
+  }
+
+  .lerato-tshabalala-promo-web {
+    display: none;
+  }
+
+  .lerato-tshabalala-promo-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .quick-cleaning-tips-promo-web {
+    display: none;
+  }
+
+  .quick-cleaning-tips-promo-mobi {
+    display: block;
+  }
+
+  .quick-cleaning-tips-header-sub-heading-text {
+  max-width: 100%;
+}
+
+.pink-heading {
+  font-size: 20px;
+}
+}
