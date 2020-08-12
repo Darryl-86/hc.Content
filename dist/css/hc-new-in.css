@@ -28,6 +28,10 @@
   margin-bottom: 30px;
 }
 
+a.whats-new-btn {
+  border-radius: 5px;
+}
+
 @media (max-width: 500px) {
   .whats-new-display-web {
     display: none;
