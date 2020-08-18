@@ -53,6 +53,10 @@ hr.dash-divider {
   margin-bottom: 20px;
 }
 
+.pt-20 {
+  padding-top: 20px;
+}
+
 .pink-heading {
   font-size: 25px;
   color: #f01882;
@@ -149,6 +153,24 @@ hr.dash-divider {
     margin-bottom: 20px;
   }
 }
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+.col-sm-6.right-look-copy {
+    padding-top: 7%;
+  }
+
+  .col-sm-6.right-for-room-copy {
+     padding-top: 7%;
+  }
+
+  .col-sm-6.choosing-whats-easiest-copy {
+    padding-top: 6%;
+  }
+
+  .col-sm-6.choosing-to-have-it-all-copy {
+    padding-top: 8%;
+  }
+  }
 
 @media (max-width: 767px) {
   .row.zoliswa-gaba-hc-socialite-container {
