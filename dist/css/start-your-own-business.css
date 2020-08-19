@@ -1,0 +1,176 @@
+.curtain-vs-blinds-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.curtain-vs-blinds-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+hr.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.row.zoliswa-gaba-hc-socialite-container {
+  font-size: 20px;
+}
+
+.zoliswa-gaba-heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.zoliswa-gaba-sub-heading {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f01882;
+}
+
+.curtain-vs-blinds-header-banner-web {
+  display: block;
+}
+
+.curtain-vs-blinds-header-banner-mobi {
+  display: none;
+}
+
+.zoliswa-gaba-promo-web {
+  display: block;
+}
+
+.zoliswa-gaba-promo-mobi {
+  display: none;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.pink-heading {
+  font-size: 25px;
+  color: #f01882;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.c-v-b-copy-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.curtain-vs-blinds-header-container {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.explore-small-business-supplies-btn a {
+  border: 1px solid #f01882;
+  color: #f01882;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+  font-size: 15px;
+  max-width: 60%;
+}
+
+.space-h20 {
+  height: 20px;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-9.zoliswa-gaba-copy {
+    padding-top: 6%;
+  }
+
+  .col-lg-6.choose-your-direction-copy-container {
+    padding-top: 7%;
+  }
+
+  .col-lg-6.get-supplies-sorted-copy-container {
+    padding-top: 6%;
+  }
+
+  .col-lg-6.spread-the-news-copy-container {
+    padding-top: 6%;
+  }
+
+  .col-lg-6.secure-your-future-copy-container {
+    padding-top: 11%;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .col-md-9.zoliswa-gaba-copy {
+    padding-top: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  .zoliswa-gaba-promo-web {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .row.zoliswa-gaba-hc-socialite-container {
+    text-align: center;
+  }
+
+  .curtain-vs-blinds-gen-copy {
+    text-align: center;
+  }
+
+  .curtain-vs-blinds-gen-copy-no-mb {
+    text-align: center;
+  }
+
+  .pink-heading {
+    text-align: center;
+  }
+
+  .c-v-b-copy-heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .col-xs-12.explore-small-business-supplies-btn a {
+    max-width: 100%
+  }
+
+  .curtain-vs-blinds-header-container {
+    max-width: 100%;
+  }
+
+  .curtain-vs-blinds-header-banner-web {
+    display: none;
+  }
+
+  .curtain-vs-blinds-header-banner-mobi {
+    display: block;
+  }
+
+  .zoliswa-gaba-promo-web {
+    display: none;
+  }
+
+  .zoliswa-gaba-promo-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .pink-heading {
+    font-size: 20px;
+  }
+}
