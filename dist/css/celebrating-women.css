@@ -85,6 +85,30 @@
   font-size: 20px;
 }
 
+.give-thanks-to-women-blog-post a {
+  background-color: #f01882;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 0 auto 30px;
+  color:#ffffff;
+  font-size: 20px;
+}
+
+.latest-marketing-promo-shop-now-btn a {
+  background-color: #f01882;
+  display: block;
+  max-width: 80%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 0 auto;
+  color:#ffffff;
+  font-size: 20px;
+}
+
 .terms-and-cond {
   font-size: 12px;
   margin-bottom: 30px;
@@ -94,13 +118,19 @@ a.official-rules-link {
   color: #000000;
 }
 
-@media (max-width: 767px) {
- a.add-mb {
-    margin-bottom: 30px;
-}
+.mb-15 {
+  margin-bottom: 15px;
 }
 
-@media all and (max-width: 991px) and (min-width: 501px) {
+
+@media (max-width: 991px) {
+  .latest-marketing-promo-shop-now-btn a {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  }
+
+  @media all and (max-width: 991px) and (min-width: 551px) {
 .women-month-start-shopping a {
     max-width: 60%;
     font-size: 18px;
@@ -110,9 +140,20 @@ a.official-rules-link {
     max-width: 60%;
     font-size: 18px;
   }
+
+  .give-thanks-to-women-blog-post a {
+    max-width: 60%;
+    font-size: 18px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
+ a.add-mb {
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width: 550px) {
   .whats-new-display-web {
     display: none;
   }
@@ -150,6 +191,15 @@ a.official-rules-link {
 
   .women-month-click-here a {
     max-width: 100%;
+    font-size: 16px;
+  }
+
+  .give-thanks-to-women-blog-post a {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .latest-marketing-promo-shop-now-btn a {
     font-size: 16px;
   }
 }
