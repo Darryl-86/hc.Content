@@ -36,6 +36,12 @@ a:hover.official-rules-link {
   color: #000000;
 }
 
+.bundle-offer-container {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #000000;
+}
+
 .voucher-web {
   display: block;
 }
@@ -60,6 +66,10 @@ a:hover.official-rules-link {
   font-size: 20px;
 }
 
+.bundle-heading {
+  font-size: 20px;
+}
+
 a.marketing-offer-shop-now {
   text-align: center;
   background-color: #f01882;
@@ -70,6 +80,7 @@ a.marketing-offer-shop-now {
   color: #ffffff;
   font-size: 25px;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .april-campaign-winners-web {
@@ -77,6 +88,10 @@ a.marketing-offer-shop-now {
 }
 .april-campaign-winners-mobi {
   display: none;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 .mb-30 {
@@ -126,6 +141,10 @@ a.marketing-offer-shop-now {
   .offer-ends {
     font-size: 14px;
   }
+
+  .bundle-heading {
+  font-size: 14px;
+}
 
   a.marketing-offer-shop-now {
     max-width: 180px;
