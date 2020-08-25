@@ -9,6 +9,15 @@
   text-decoration: underline;
 }
 
+.wide-variety-appliances-text a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.wide-variety-appliances-text a:hover {
+  color: #000;
+}
+
 .branded-appliances-main-banner-mobi {
   display: none;
 }
@@ -77,7 +86,7 @@
 .wide-variety-appliances-text {
   color: #000;
   text-align: center;
-  max-width: 762px;
+  max-width: 82%;
   margin: 0 auto;
 }
 
@@ -96,6 +105,7 @@
 .app-prod-details.Prod-Desc-Container {
   margin: 0 auto;
   max-width: 413px;
+  text-align: center;
 }
 
 .app-prod-container {
@@ -145,15 +155,11 @@ span.new-branded-app {
     margin: 0 auto;
   }
 
-  .app-prod-details.Prod-Desc-Container {
-    text-align: center;
-  }
-
   .wide-variety-appliances-text {
     color: #000;
     text-align: center;
     font-size: 13px;
-    max-width: 407px !important;
+    max-width: 467px !important;
     margin: 0 auto;
   }
 
