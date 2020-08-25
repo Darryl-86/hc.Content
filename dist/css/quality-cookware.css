@@ -1,43 +1,45 @@
 /* #webContent_v2-wi4200027 (CCAdminTest ID) */
 
-.cookware-main-banner-heading-container {
-  max-width: 80%;
+.innovative-cookware-header {
+  margin-bottom: 30px;
+}
+
+.cookware-cat-banner-container {
+  margin-bottom: 30px;
+}
+
+.innovative-cookware-heading {
+  margin-bottom: 30px;
+}
+
+.cookware-cat-banner-last-container {
   margin-bottom: 50px;
 }
 
-.cookware-main-banner-heading {
-  color: #f01882;
-  font-size: 28px;
-  margin-bottom: 15px;
+.cookware-cat-banner {
+  margin-bottom: 30px;
 }
 
-.cookware-main-banner-heading-description {
-  text-align: center;
+a.whats-new-btn {
+  border-radius: 5px;
 }
 
-.cookware-shop-by-heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.mb-10 {
+  margin-bottom: 10px;
 }
 
-.malabar-cast-iron-cookware {
-  display: flex;
+.mb-30 {
+  margin-bottom: 30px;
 }
 
-.cookware-brands-web {
-  margin-bottom: 15px;
-  display: block;
+.innovative-cookware-link-container a {
+color: #f51169;
+font-size: 18px;
+text-decoration: underline;
 }
 
-.cookware-brands-mobi {
-  margin-bottom: 15px;
-  display: none;
-}
-
-.cookware-dash-one {
-  border-top: 1px solid #eee;
-  margin: 25px 0 40px 0;
+.innovative-cookware-link-container {
+  text-align: left;
 }
 
 .cookware-dash-two {
@@ -45,264 +47,13 @@
   margin: 40px 0;
 }
 
-.malabar-prod-detail {
-  margin: auto 0;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-.shop-by-range-promo {
-  border: solid 1px #cccccc;
-  margin: 0 auto 40px;
-  padding: 0 !important;
-  max-width: 302px;
-}
-
-.shop-by-range-promo-details {
-  padding: 5px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.no-padding {
-  padding: 0 !important;
-}
-
-.no-margin {
-  margin: 0 !important;
-}
-
-.cookware-cat-banner-container {
-  margin-bottom: 30px;
-}
-
-.col-md-12.cookware-cat-banner {
-  margin-bottom: 30px;
-}
-
-.cookware-cat-banner-details {
-  text-align: center;
-  max-width: 80%;
-}
-
-.stainless-steel-prod-details {
-  padding-top: 5px;
-}
-
-.stainless-steel-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-}
-
-.stainless-steel-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 413px;
-}
-
-.aluminium-prod-details {
-  padding-top: 5px;
-}
-
-.aluminium-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-}
-
-.aluminium-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 525px;
-}
-
-.dinnerware-prod-details {
-  padding-top: 5px;
-}
-
-.dinnerware-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-}
-
-.dinnerware-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 413px;
-}
-
-.cookware-prod-details {
-  padding-top: 5px;
-}
-
-.cookware-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-}
-
-.cookware-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 413px;
-}
-
-.malabar-prod-info {
-  max-width: 300px;
-  margin: 0 auto 30px;
-}
-
-.cookware-prod-info {
-  padding-bottom: 5px;
-}
-
-.cookware-prod-info span {
-  color: #f01882;
-  font-weight: bold;
-}
-
-.dinnerware-web-prod {
-  display: block;
-}
-
-.dinnerware-mobi-prod {
-  display: none;
-}
-
-.alum-cookware-prod-web {
-  display: block;
-}
-
-.alum-cookware-prod-mobi {
-  display: none;
-}
-
-a.LongBorderBtn {
-    max-width: 410px!important;
-}
-
-div.col-sm-2.dot-four {
-  width: 20%;
-}
 
 @media (max-width: 767px) {
-  .cookware-main-banner-heading-description {
-  max-width: 467px;
+.hc-new-fashion {
+  margin-bottom: 30px;
 }
 
-  .col-md-12.cookware-cat-banner {
-  margin-bottom: 23px;
-}
-
-  .cookware-cat-banner-details {
-  max-width: 467px;
-}
-
-  .dinnerware-mobi-prod {
-  display: block;
-}
-
-.dinnerware-web-prod {
-  display: none;
-}
-
-  .malabar-cast-iron-cookware {
-    display: block;
-  }
-
-  .malabar-prod-info {
-    padding-top: 5px;
-    text-align: center;
-  }
-
-  .malabar-prod-detail {
-    margin: 10px auto 0;
-    max-width: 413px;
-    text-align: center;
-  }
-
-  .cookware-main-banner-heading {
-    font-size: 24px;
-  }
-
-  .stainless-steel-prod-details.Prod-Desc-Container {
-    text-align: center;
-  }
-
-  .aluminium-prod-details.Prod-Desc-Container {
-    text-align: center;
-    max-width: 413px;
-  }
-
-  .dinnerware-prod-details.Prod-Desc-Container {
-    text-align: center;
-  }
-
-  .dinnerware-prod-details a {
-
-    max-width: 126px;
-    margin: 0 auto;
-
-  }
-
-  .stainless-steel-prod-details a {
-
-    max-width: 126px;
-    margin: 0 auto;
-
-  }
-
-  .aluminium-prod-details a {
-
-    max-width: 126px;
-    margin: 0 auto;
-
-    }
-
-    .cookware-prod-details.Prod-Desc-Container {
-    text-align: center;
-  }
-
-  .cookware-prod-details a {
-
-    max-width: 126px;
-    margin: 0 auto;
-
-    }
-
-    .alum-cookware-prod-web {
-      display: none;
-    }
-
-    .alum-cookware-prod-mobi {
-      display: block;
-    }
-    
-    div.col-sm-2.dot-four {
-  width: 100%;
-}
-
-.cookware-brand-last-promo {
-margin-bottom: 0;
-  }
-
-  .cookware-brands-web {
-  display: none;
-}
-
-.cookware-brands-mobi {
-  display: block;
+.innovative-cookware-link-container {
+  text-align: center;
 }
 }
