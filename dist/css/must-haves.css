@@ -28,6 +28,20 @@
   margin-bottom: 30px;
 }
 
+a.whats-new-btn {
+  border-radius: 5px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+.hc-new-fashion {
+  margin-bottom: 30px;
+}
+}
+
 @media (max-width: 500px) {
   .whats-new-display-web {
     display: none;
