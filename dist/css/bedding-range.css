@@ -1,230 +1,65 @@
 /* #webContent_v2-wi4200015 (CCAdminTest ID) */
 
-.bedding-range-main-banner-mobi {
-  display: none;
+.innovative-cookware-header {
+  margin-bottom: 30px;
 }
 
-
-
-.pb-30 {
-  padding-bottom: 30px;
+.cookware-cat-banner-container {
+  margin-bottom: 30px;
 }
 
-.p-none {
-  padding: 0;
+.innovative-cookware-heading {
+  margin-bottom: 30px;
 }
 
-.w-100 {
-  width: 100%;
+.cookware-cat-banner-last-container {
+  margin-bottom: 50px;
 }
 
-.find-fabric-tickbox-container {
-  padding: 5px;
+.cookware-cat-banner {
+  margin-bottom: 30px;
 }
 
-.take-care-of-bedding-container {
-  color: #f01882;
-  display: flex;
-  margin-top: 10px;
+a.whats-new-btn {
+  border-radius: 5px;
 }
 
-.unbeatable-variety-container {
-  color: #f01882;
-  display: flex;
-  margin-top: 30px;
+.mb-10 {
+  margin-bottom: 10px;
 }
 
-.bedding-brands {
-  padding-bottom: 30px;
+.mb-30 {
+  margin-bottom: 30px;
 }
 
-.ContentMiniLeftPinkHeader {
-  padding: 0;
+.innovative-cookware-link-container a {
+color: #f51169;
+font-size: 18px;
+text-decoration: underline;
 }
 
-.take-care-of-bedding-copy {
-    padding: 2% 0;
-    max-width: 80%;
-    color: #f01882;
+.innovative-cookware-link-container {
+  text-align: left;
 }
 
- .take-care-of-bedding-copy div {
-font-weight: bold;
-    font-size: 20px;
- }
- 
-
-.hc-brands-image img {
-    max-width: 300px;
+.cookware-dash-two {
+  border-top: 1px solid #eee;
+  margin: 40px 0;
 }
 
-.hc-brands-container-web {
-    padding: 30px 0 0 0;
-    display: block;
+.new-look-bedding-range-logo-mobi-left {
+  padding-right: 0px;
 }
 
-.hc-brands-container-mobi {
-    max-width: 413px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px 0 0 0;
-    display: none;
+.new-look-bedding-range-logo-mobi-right {
+  padding-left: 0px;
 }
-
-a.brands-shop-now-button {
-    background: #f01882;
-    color: white;
-    padding: 10px 70px;
-    line-height: 50px;
-    margin-top: 20px !important;
-}
-
-.dream-bedroom-shop-now-container {
-  padding: 6% 0;
-}
-
-.row.dreambed-contentBanner {
-    padding-top: 20px;
-}
-
-hr.dash-web {
-    border-top: 2px dotted #eee;
-    margin: 40px 0px 30px 0px;
-    display: block;
-}
-
-hr.dash-mobi {
-      border-top: 2px dotted #eee;
-      margin: 20px 0px 40px 0px;
-      display: none;
-  }
-
-  hr.dash-mobi-two {
-      border-top: 2px dotted #eee;
-      margin: 0px 0px 40px 0px;
-      display: none;
-  }
-
-  hr.dash-mobi-three {
-    border-top: 2px dotted #eee;
-    margin: 40px 0px 30px 0px;
-    display: none;
-}
-
-.take-care-web {
-  display: block;
-}
-
-.take-care-mobi {
-  display: none;
-}
-
-.unbeatable-variety-mobi {
-  display: none;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-
-@media (max-width: 991px) {
-  .ProductLeftImageTextSmall {
-    text-align: center !important;
-  }
-
-  .ProductLeftImageText.circleP {
-    text-align: center !important;
-  }
-
-  .sub-heading {
-    text-align: center !important;
-  }
-
-  .dream-bedroom-shop-now-container {
-  padding: 2% 0;
-}
-}
-
 @media (max-width: 767px) {
-  .hc-brands-container-web {
-      display: none;
-  }
-
-  .hc-brands-container-mobi {
-      display: block;
-  }
-
-  hr.dash-web {
-    display: none;
-  }
-
-hr.dash-mobi {
-      display: block;
-  }
-
-  hr.dash-mobi-two {
-      display: block;
-  }
-
-  hr.dash-mobi-three {
-      display: block;
-  }
-
-  .row.dreambed-contentBanner {
-      padding-top: 0px;
-  }
-  .BrandImage img {
-    margin: 0 auto !important;
-  }
-
-  .ProductLeftImageTextSmall {
-      padding: 20px 0 20px 0!important;
-      text-align: center;
-  }
-
-  .take-care-of-bedding-copy {
-    max-width: 100%;
+.hc-new-fashion {
+  margin-bottom: 30px;
 }
 
-.take-care-of-bedding-container {
-  margin-top: 0px;
-}
-}
-
-@media (max-width: 600px) {
-  .bedding-range-main-banner-web {
-    display: none;
-  }
-
-  .bedding-range-main-banner-mobi {
-    display: block;
-  }
-
-  .take-care-web {
-  display: none;
-}
-
-.take-care-mobi {
-  display: block;
+.innovative-cookware-link-container {
   text-align: center;
-}
-
-.take-care-mobi img {
-  margin-bottom: 10px;
-}
-
-.unbeatable-variety-mobi {
-  display: block;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.unbeatable-variety-mobi img {
-  margin-bottom: 10px;
-}
-
-.take-care-of-bedding-copy {
-    padding: 0;
 }
 }
