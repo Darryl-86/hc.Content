@@ -1,0 +1,61 @@
+.whats-new-display-web {
+  display: block;
+}
+
+.whats-new-display-mobi {
+  display: none;
+}
+
+.whats-new-header-display-web {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.whats-new-header-display-mobi {
+  display: none;
+  margin-bottom: 30px;
+}
+
+.hc-baby-cat-banner-container {
+  margin-bottom: 20px;
+}
+
+.hc-baby-cat-banner-last-container {
+  margin-bottom: 50px;
+}
+
+.hc-baby-cat-banner {
+  margin-bottom: 20px;
+}
+
+a.whats-new-btn {
+  border-radius: 5px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+.hc-new-fashion {
+  margin-bottom: 30px;
+}
+}
+
+@media (max-width: 500px) {
+  .whats-new-display-web {
+    display: none;
+  }
+
+  .whats-new-display-mobi {
+    display: block;
+  }
+
+  .whats-new-header-display-web {
+    display: none;
+  }
+
+  .whats-new-header-display-mobi {
+    display: block;
+  }
+}
