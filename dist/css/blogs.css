@@ -1,0 +1,276 @@
+/*Main Banner CSS Begin*/
+
+.curtain-vs-blinds-header-container {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.curtain-vs-blinds-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.curtain-vs-blinds-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+/*old*/
+
+.curtain-vs-blinds-header-banner-web {
+  display: block;
+}
+
+.curtain-vs-blinds-header-banner-mobi {
+  display: none;
+}
+
+.row.bedding-category-container.center-block.bedroom-cat-mobi {
+  background-color: #eaecef;
+  margin: 0 auto 40px;
+  max-width: 600px;
+}
+
+.row.bedding-category-container.center-block.bedroom-cat-web {
+  background-color: #eaecef;
+margin-bottom: 40px;
+}
+
+.col-md-6.p-0 {
+  padding: 0;
+}
+
+.col-md-5.p-0 {
+    padding: 0;
+}
+
+.col-md-7.p-0 {
+    padding: 0;
+}
+
+img.bedroom-banner-web {
+    width: 100%;
+    height: 245px;
+}
+
+
+
+.cover {
+    object-fit: cover;
+}
+
+.bedroom-cat-desc {
+  text-align: left;
+  padding: 20px;
+  color: #000;
+  font-size: 16px;
+}
+
+span.shop-by-bedroom-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.bedroom-cat-mobi {
+  display: none;
+}
+
+.bedroom-cat-web {
+  display: block;
+}
+
+
+
+.cover {
+  object-fit: cover;
+}
+
+/*Main Banner CSS End*/
+
+.col-md-6.shop-by-bedroom-gen-promo-container {
+    margin-bottom: 40px;
+}
+
+.col-md-7.shop-by-bedroom-gen-promo-container {
+    margin-bottom: 40px;
+}
+
+
+
+.col-md-12.shop-by-bedroom-gen-promo-container {
+    margin-bottom: 40px;
+}
+
+
+
+img.duvet-inner-web {
+    width: 100%;
+    height: 224px;
+}
+
+.col-md-12.shop-duvet-inner {
+  margin-bottom: 20px;
+}
+
+.col-md-12.shop-bedcover {
+  margin-bottom: 40px;
+}
+
+.duvets-and-bdecovers-web {
+  display: block;
+}
+
+.duvets-and-bdecovers-mobi {
+  display: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.shop-bedroom-small-promo {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.col-md-6.p-0.cat-text-small-promo {
+    border: solid 1px #ccc;
+}
+
+.small-promo-double-line-cat-desc {
+  padding-top: 90px;
+  }
+
+.small-promo-double-line-cat-desc a, .small-promo-double-line-cat-desc a:hover, .small-promo-double-line-cat-desc a:link, .small-promo-double-line-cat-desc a:active, .small-promo-double-line-cat-desc a:visited, .small-promo-double-line-cat-desc 
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.small-promo-single-line-cat-desc {
+  padding-top: 100px;
+  }
+
+.small-promo-single-line-cat-desc a, .small-promo-single-line-cat-desc a:hover, .small-promo-single-line-cat-desc a:link, .small-promo-single-line-cat-desc a:active, .small-promo-single-line-cat-desc a:visited, .small-promo-single-line-cat-desc 
+{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.small-promo-container-web {
+  display: block;
+}
+
+.small-promo-container-mobi {
+  display: none;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .bedroom-cat-desc {
+    padding: 30px;
+    }
+
+    img.duvet-inner-web {
+    height: 283px;
+}
+
+.small-promo-double-line-cat-desc {
+  padding-top: 115px;
+  }
+
+  .small-promo-single-line-cat-desc {
+  padding-top: 125px;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+
+  .bedroom-cat-desc {
+    padding: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+
+  .bedroom-cat-desc {
+    padding: 20px;
+    min-height: 0;
+    }
+
+    .col-md-12.shop-duvet-inner {
+    margin-bottom: 40px;
+}
+
+.duvets-and-bdecovers-web {
+  display: none;
+}
+
+.duvets-and-bdecovers-mobi {
+  display: block;
+}
+
+.small-promo-container-web {
+  display: none;
+}
+
+.small-promo-container-mobi {
+  display: block;
+}
+}
+
+@media (max-width: 767px) {
+  .curtain-vs-blinds-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.curtain-vs-blinds-gen-copy-no-mb {
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 450px) {
+  .curtain-vs-blinds-header-banner-web {
+  display: none;
+}
+
+.curtain-vs-blinds-header-banner-mobi {
+  display: block;
+}
+  .bedroom-cat-mobi {
+    display: block;
+  }
+
+  .bedroom-cat-web {
+    display: none;
+  }
+
+  .curtain-vs-blinds-header-container {
+    max-width: 100%;
+  }
+}
