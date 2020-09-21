@@ -63,7 +63,7 @@ span.new-combo-prod {
 }
 
 @media (max-width: 767px) {
-  .col-sm-6.combo-prod-detail {
+  .col-sm-8.combo-prod-detail {
     text-align: center;
     margin-bottom: 10px;
   }
