@@ -20,10 +20,6 @@
   margin-bottom: 30px;
 }
 
-a.whats-new-btn {
-  border-radius: 5px;
-}
-
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -45,6 +41,22 @@ text-decoration: underline;
 .cookware-dash-two {
   border-top: 1px solid #eee;
   margin: 40px 0;
+}
+
+.space-h40 {
+  height: 40px;
+}
+
+a.cookware-shop-full-range-btn {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    max-width: 510px;
+    margin: auto;
+    font-weight: bold;
+    background-color: #f01882;
+    border-radius: 5px;
 }
 
 
