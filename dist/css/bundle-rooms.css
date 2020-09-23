@@ -63,12 +63,12 @@ span.new-combo-prod {
 }
 
 @media (max-width: 767px) {
-  .col-sm-8.combo-prod-detail {
+ .combo-prod-detail {
     text-align: center;
     margin-bottom: 10px;
-  }
+}
 
-  a.combo-rooms-buy-now {
+a.combo-rooms-buy-now {
     background: #f01882;
     color: #ffffff;
     line-height: 36px;
