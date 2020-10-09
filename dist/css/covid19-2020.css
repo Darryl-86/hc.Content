@@ -17,6 +17,7 @@
   font-weight: bold;
   margin-bottom: 30px;
   text-align: center;
+  line-height: 30px;
 }
 
 .covid-depo-health-copy a {
@@ -65,7 +66,7 @@ hr.dash-divider {
   text-align: left;
 }
 
-.covid-collection-copy ul{
+.covid-collection-copy ul {
   margin-bottom: 0;
 }
 
@@ -104,20 +105,20 @@ a.covid-btn {
 
 @media (max-width: 767px) {
   .covid-collection-copy {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.collection-of-orders-copy-list {
-  margin-bottom: 30px;
-}
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .collection-of-orders-copy-list {
+    margin-bottom: 30px;
+  }
 
-a.covid-btn {
-  font-size: 15px;
-}
+  a.covid-btn {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 360px) {
   a.covid-btn {
     max-width: 100%;
-}
+  }
 }
