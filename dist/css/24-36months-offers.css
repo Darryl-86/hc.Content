@@ -168,7 +168,6 @@
     font-weight: bold;
   }
 
-  /*cookware promo css begin*/
 
   .cookware-prod-info {
   padding-bottom: 5px;
@@ -221,7 +220,6 @@
   margin-bottom: 5px;
 }
 
-/*cookware promo css end*/
 
 @media (min-width: 1200px) {
   .kitchen-desktop {
@@ -360,7 +358,7 @@ a.combo-rooms-buy-now {
     display: block;
   }
 
-  .col-sm-6.combo-prod-detail {
+  .combo-prod-detail {
     text-align: center;
     margin-bottom: 10px;
   }
@@ -374,7 +372,6 @@ a.combo-rooms-buy-now {
     max-width: 220px;
   }
 
-  /*cookware promo css begin*/
 
   .stainless-steel-prod-details.Prod-Desc-Container {
     text-align: center;
@@ -387,7 +384,12 @@ a.combo-rooms-buy-now {
 
   }
 
-  .col-sm-7.combo-prod-detail {
+  .combo-prod-detail {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.combo-prod-detail {
     text-align: center;
     margin-bottom: 5px;
 }
@@ -396,7 +398,6 @@ a.combo-rooms-buy-now {
   max-width: 220px;
 }
 
-  /*cookware promo css end*/
 }
 
 

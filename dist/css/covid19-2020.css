@@ -1,0 +1,124 @@
+.covid-header {
+  margin-bottom: 30px;
+}
+
+.covid-header-copy-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.covid-depo-health-copy-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.covid-depo-health-copy {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.covid-depo-health-copy a {
+  text-decoration: underline;
+  color: #333;
+}
+
+.covid-copy {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.covid-copy-no-mb {
+  font-size: 20px;
+  text-align: center;
+}
+
+.covid-safe-and-hygienic-copy {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.covid-safe-and-hygienic-copy-no-mb {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+hr.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.covid-collection-copy {
+  font-size: 20px;
+  text-align: left;
+}
+
+.collection-of-orders-copy-list {
+  font-size: 20px;
+  text-align: left;
+}
+
+.covid-collection-copy ul {
+  margin-bottom: 0;
+}
+
+.collection-of-orders-copy {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.covid-collection-copy-con-one {
+  padding-top: 4%;
+}
+
+.covid-collection-copy-con-two {
+  padding-top: 4%;
+}
+
+.covid-collection-copy-con-three {
+  padding-top: 2%;
+}
+
+.space-h30 {
+  height: 30px;
+}
+
+a.covid-btn {
+  background: #f01882;
+  color: #ffffff;
+  line-height: 36px;
+  display: block;
+  text-align: center;
+  max-width: 50%;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .covid-collection-copy {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .collection-of-orders-copy-list {
+    margin-bottom: 30px;
+  }
+
+  a.covid-btn {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  a.covid-btn {
+    max-width: 100%;
+  }
+}
