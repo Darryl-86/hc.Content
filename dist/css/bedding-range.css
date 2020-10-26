@@ -33,13 +33,12 @@ a.whats-new-btn {
 }
 
 .innovative-cookware-link-container a {
-color: #f51169;
-font-size: 18px;
-text-decoration: underline;
-}
-
-.innovative-cookware-link-container {
-  text-align: left;
+    color: #f51169;
+    font-size: 16px;
+    text-decoration: underline;
+    display: block;
+    text-align: left;
+    line-height: 10px;
 }
 
 .cookware-dash-two {
@@ -54,12 +53,28 @@ text-decoration: underline;
 .new-look-bedding-range-logo-mobi-right {
   padding-left: 0px;
 }
+
+.shop-all-bedding-cat-mobi {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.shop-all-bedding-cat-mobi-no-mb {
+  display: flex;
+}
+
 @media (max-width: 767px) {
 .hc-new-fashion {
   margin-bottom: 30px;
 }
-
-.innovative-cookware-link-container {
-  text-align: center;
+.innovative-cookware-link-container a {
+    color: #f51169;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: left;
+    display: block;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 }

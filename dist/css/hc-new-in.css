@@ -42,7 +42,7 @@ a.whats-new-btn {
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .whats-new-display-web {
     display: none;
   }

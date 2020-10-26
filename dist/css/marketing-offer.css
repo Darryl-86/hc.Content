@@ -10,7 +10,7 @@ a:hover.official-rules-link {
 .what-else-on-offer {
   font-size: 20px;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .marketing-offer-banner-web {
@@ -81,6 +81,7 @@ a.marketing-offer-shop-now {
   font-size: 25px;
   margin-bottom: 30px;
   border-radius: 5px;
+  display: none;
 }
 
 .april-campaign-winners-web {
@@ -98,7 +99,7 @@ a.marketing-offer-shop-now {
   margin-bottom: 30px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .marketing-offer-banner-web {
     display: none;
   }
@@ -147,9 +148,18 @@ a.marketing-offer-shop-now {
 }
 
   a.marketing-offer-shop-now {
-    max-width: 180px;
-    font-size: 20px;
-  }
+  text-align: center;
+  background-color: #f01882;
+  padding: 10px;
+  display: block;
+  max-width: 280px;
+  margin: auto;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: block;
+}
 
   .what-else-on-offer {
     font-size: 18px;
