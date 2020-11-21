@@ -1,5 +1,5 @@
 .christmas-ready-header {
-	margin-bottom: 30px;
+	padding: 0 10px !important;
 }
 .christmas-ready {
 	padding: 0 10px !important;
@@ -7,10 +7,16 @@
 }
 
 .gifts-for-everyone-header {
-	padding-top: 40px;
 	margin-bottom: 30px;
 }
 
 .marketing-banner {
-	padding-top: 30px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+	.gifts-for-everyone-header {
+		margin-bottom: 20px;
+	}
 }
