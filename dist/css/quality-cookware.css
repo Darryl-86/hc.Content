@@ -4,28 +4,12 @@
   margin-bottom: 30px;
 }
 
-.cookware-cat-banner-container {
-  margin-bottom: 30px;
-}
-
-.innovative-cookware-heading {
-  margin-bottom: 30px;
-}
-
-.cookware-cat-banner-last-container {
-  margin-bottom: 50px;
-}
-
 .cookware-cat-banner {
   margin-bottom: 30px;
 }
 
 .mb-10 {
   margin-bottom: 10px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
 }
 
 .innovative-cookware-link-container a {
@@ -43,33 +27,12 @@ text-decoration: underline;
   margin: 40px 0;
 }
 
-.space-h40 {
-  height: 40px;
-}
-
-a.cookware-shop-full-range-btn {
-    text-align: center;
-    color: #ffffff;
-    padding: 10px;
-    display: block;
-    max-width: 510px;
-    margin: auto;
-    font-weight: bold;
-    background-color: #f01882;
-    border-radius: 5px;
-}
-
-.cookware-brands-bg {
-    background-color: rgba(234, 236, 238, 0.6);
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.col-xs-12.col-sm-12.col-md-12.col-lg-12.cookware-full-range {
+.cookware-full-range {
     color: #f51169;
     font-size: 20px;
     text-decoration: underline;
     text-align: center;
+    padding-top: 64px;
 }
 
 .cookware-full-range a {
@@ -79,7 +42,17 @@ a.cookware-shop-full-range-btn {
     text-align: center;
 }
 
+.hc-branded-logo {
+  margin-bottom: 90px;
+}
+
 @media (max-width: 767px) {
+  .hc-branded-logo {
+  margin-bottom: 24px;
+}
+.cookware-full-range {
+    padding-top: 12px;
+}
 .hc-new-fashion {
   margin-bottom: 30px;
 }
@@ -88,12 +61,7 @@ a.cookware-shop-full-range-btn {
   text-align: center;
 }
 
-.cookware-brands-bg {
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-}
-.col-xs-12.col-sm-12.col-md-12.col-lg-12.cookware-full-range a {
+.cookware-full-range a {
     font-size: 16px;
 }
 }
