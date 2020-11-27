@@ -1,0 +1,182 @@
+.sep-baby-blog-header-text-no-mb {
+  font-size: 15px;
+}
+
+.sep-baby-blog-header-text {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.curtain-vs-blinds-gen-copy {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.curtain-vs-blinds-gen-copy-no-mb {
+  font-size: 15px;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+hr.dash-divider {
+  border-top: 2px dotted #eee;
+  margin: 40px 0;
+}
+
+.row.zoliswa-gaba-hc-socialite-container {
+  font-size: 20px;
+}
+
+.zoliswa-gaba-heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.zoliswa-gaba-sub-heading {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f01882;
+}
+
+.zoliswa-promo-copy {
+  font-size: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.hospital-bag-promo {
+  margin-bottom: 13px;
+}
+
+.section-heading {
+  font-size: 25px;
+  color: #f01882;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.c-v-b-copy-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.curtain-vs-blinds-header-container {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.space-h40 {
+  height: 40px;
+}
+
+a.faq-link {
+  color: #00f!important;
+  text-decoration: underline!important;
+}
+
+a.faq-link:hover {
+  color: #00f!important;
+  text-decoration: underline!important;
+}
+
+a.faq-link:active {
+  color: #00f!important;
+  text-decoration: underline!important;
+}
+
+a.faq-link:visited {
+  color: #00f!important;
+  text-decoration: underline!important;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-9.zoliswa-gaba-copy {
+    padding-top: 6%;
+  }
+
+  .col-lg-6.packing-for-a-hospital-birth {
+    padding-top: 8%;
+  }
+
+  .col-lg-6.packing-for-outings {
+    padding-top: 8%;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 992px) {
+  .col-md-9.zoliswa-gaba-copy {
+    padding-top: 4%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sep-baby-blog-header-text-no-mb {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .sep-baby-blog-header-text {
+    max-width: 340px;
+    margin: 0 auto 20px;
+  }
+
+  .row.zoliswa-gaba-hc-socialite-container {
+    text-align: center;
+  }
+
+  .curtain-vs-blinds-gen-copy {
+    max-width: 340px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .curtain-vs-blinds-gen-copy-no-mb {
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .c-v-b-copy-heading {
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .zoliswa-promo-copy {
+    text-align: center;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .nov-baby-blog-mobi-con-width {
+    max-width:340px;
+    margin: 0 auto 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .curtain-vs-blinds-header-container {
+    max-width: 100%;
+  }
+
+  .curtain-vs-blinds-gen-copy {
+    max-width: 100%;
+  }
+
+  .curtain-vs-blinds-gen-copy-no-mb {
+    max-width: 100%;
+  }
+
+  .c-v-b-copy-heading {
+    max-width: 100%;
+  }
+}
