@@ -1,14 +1,14 @@
-.cookware-cat-banner-last-container {
+.u-eight-hundred-header {
+  margin-bottom: 20px;
+}
+
+.u-eight-hundred-promo {
   margin-bottom: 50px;
 }
 
-.cookware-cat-banner {
-  margin-bottom: 30px;
-}
-
 @media (max-width: 767px) {
-.hc-new-fashion {
-  margin-bottom: 30px;
+.u-eight-hundred-promo {
+  margin-bottom: 40px;
 }
 }
 
