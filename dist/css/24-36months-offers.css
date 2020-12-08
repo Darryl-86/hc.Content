@@ -1,272 +1,30 @@
-.df {
-  display: flex;
-}
-
-.pl20 {
-  padding-left: 20px !important;
-}
-
-.pr20 {
-  padding-right: 20px !important;
-}
-
-.mb10 {
-  margin-bottom: 10px;
-}
-
-.mb20 {
-  margin-bottom: 20px;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-.main-hero-banner-container {
-  padding-top: 20px;
-}
-
-.main-hero-banner-desktop {
-  display: block;
-  margin-bottom: 40px;
-}
-
-.appliances-banner-desktop {
-  display: block;
-  margin-bottom: 20px;
-}
-
-.appliances-banner-mobi {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.main-hero-banner-mobi {
-  display: none;
+.combo-rooms-header {
   margin-bottom: 30px;
 }
 
-.tamiko-shop-now {
-  display: block;
+.create-your-complete-bedroom {
+  font-size: 35px;
+  font-weight: bold !important;
+  color: #000;
+  margin-bottom: 30px;
   text-align: center;
-  background: #f01882;
-  color: #fff;
-  padding: 10px;
-  line-height: 20px;
-  margin-top: 20px !important;
-  width: 70%;
-}
-
-.hunter-shop-now {
-  display: block;
-  text-align: center;
-  background: #f01882;
-  color: white;
-  padding: 10px;
-  line-height: 20px;
-  margin-top: 20px !important;
-  width: 70%;
-}
-
-.appliances-shop-now {
-  display: block;
-  text-align: center;
-  background: #f01882;
-  color: white;
-  padding: 10px;
-  line-height: 20px;
-  margin: 20px 0px 0 0 !important;
-  width: 70%;
-}
-
-.appliances-shop-now:hover {
-  color: #fff;
-}
-
-.tamiko-shop-now:hover {
-  color: #fff;
-}
-
-.hunter-shop-now:hover {
-  color: #fff;
-}
-
-.tamiko-prod-desc-container {
-  padding-top: 10px;
-}
-
-.tamiko-prod-desc {
-  padding-left: 20px !important;
-}
-
-.hunter-prod-desc {
-  padding-right: 20px !important;
-}
-
-.appliances-prod-desc {
-}
-
-.appliances-prod-desc span {
-  color: #f01882;
-}
-
-.tamiko-prod-desc span {
-  color: #f01882;
-}
-
-.tamiko-prod-desc-mobi {
-  max-width: 320px;
-}
-
-.tamiko-prod-desc-mobi span {
-  color: #f01882;
-}
-
-.hunter-prod-desc-container {
-  padding-top: 10px;
-}
-
-.hunter-prod-desc span {
-  color: #f01882;
-}
-
-.tamiko-desktop {
-  display: block;
-  margin-bottom: 40px;
-}
-
-.appliances-desktop {
-  display: block;
-  margin-bottom: 40px;
-}
-
-.kitchen-desktop {
-  display: block;
-  margin-bottom: 40px;
-}
-
-.tamiko-mobile {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.appliances-mobile {
-  display: none;
-  margin-bottom: 20px;
-}
-
-.kitchen-mobile {
-  display: none;
-}
-
-.promo-container-one {
-  float: left;
-}
-
-.combo-prod-detail span {
-    color: #f01882;
-    font-weight: bold;
-  }
-
-
-  .cookware-prod-info {
-  padding-bottom: 5px;
-}
-
-.cookware-prod-info span {
-  color: #f01882;
-  font-weight: bold;
-}
-
-.stainless-steel-prod-details {
-  padding-top: 5px;
-}
-
-.stainless-steel-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-}
-
-.stainless-steel-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 413px;
-}
-
-.velvet-furniture-prod-details {
-  padding-top: 5px;
-}
-
-.velvet-furniture-prod-details a {
-  background: #f01882;
-  color: #ffffff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.velvet-furniture-prod-details.Prod-Desc-Container {
-  margin: 0 auto;
-  max-width: 413px;
-  text-align: center;
-}
-
-.twentyfour-big-promo-image {
-  margin-bottom: 5px;
-}
-
-
-@media (min-width: 1200px) {
-  .kitchen-desktop {
-    display: block;
-    margin-bottom: 40px;
-    padding-left: 35px;
-  }
-}
-
-@media (max-width: 991px) {
-  .appliances-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: white;
-    padding: 5px;
-    line-height: 20px;
-    margin: 20px 0px 0 0 !important;
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 991px) and (min-width: 601px) {
-  .tamiko-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: #fff;
-    padding: 5px;
-    line-height: 20px;
-    margin-top: 20px !important;
-    width: 100%;
-  }
-  .hunter-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: #fff;
-    padding: 5px;
-    line-height: 20px;
-    margin-top: 20px !important;
-    width: 100%;
-  }
+  line-height: 40px;
 }
 
 .bundle-rooms-promo-container {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.big-promo-combo-rooms {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.standard-promo-combo-rooms {
+  max-width: 310px;
+  display: block;
+  margin: 0 auto;
 }
 
 .bundle-rooms-promo {
@@ -281,137 +39,50 @@ a.combo-rooms-buy-now {
   text-align: center;
 }
 
-.category-heading {
-  font-weight: bold;
-  text-align: center;
-  color: #000;
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-
-
-
-@media (max-width: 767px) {
-  .category-heading {
-    margin-bottom: 30px;
-  }
-
-  .tamiko-prod-desc {
-    padding-left: 20px !important;
-    line-height: 16px;
-  }
-
-  .hunter-prod-desc {
-    line-height: 16px;
-    padding-right: 20px !important;
-  }
-
-  .appliances-banner-mobi {
-    display: block;
-  }
-
-  .appliances-banner-desktop {
-    display: none;
-  }
-
-  .tamiko-desktop {
-    display: none;
-    margin-bottom: 20px;
-  }
-
-  .tamiko-mobile {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .tamiko-shop-now {
-    display: block;
-    text-align: center;
-    background: #f01882;
-    color: #fff;
-    padding: 5px;
-    line-height: 20px;
-    margin-top: 10px !important;
-    width: 50%;
-  }
-
-  .appliances-desktop {
-    display: none;
-    margin-bottom: 40px;
-  }
-
-  .appliances-mobile {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .app-mobi-prod-container {
-    margin-bottom: 20px;
-  }
-
-  .kitchen-desktop {
-    display: none;
-    margin-bottom: 40px;
-  }
-
-  .kitchen-mobile {
-    display: block;
-  }
-
-  .combo-prod-detail {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  a.combo-rooms-buy-now {
-    background: #f01882;
-    color: #ffffff;
-    line-height: 36px;
-    display: block;
-    text-align: center;
-    max-width: 220px;
-  }
-
-
-  .stainless-steel-prod-details.Prod-Desc-Container {
-    text-align: center;
-  }
-  
-  .stainless-steel-prod-details a {
-
-    max-width: 126px;
-    margin: 0 auto;
-
-  }
-
-  .combo-prod-detail {
-    text-align: center;
-    margin-bottom: 5px;
-}
-
 .combo-prod-detail {
-    text-align: center;
-    margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.velvet-furniture-prod-details a {
+.combo-prod-detail-two {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a.combo-rooms-buy-now-two {
+  background: #f01882;
+  color: #ffffff;
+  line-height: 36px;
+  display: block;
+  text-align: center;
   max-width: 220px;
 }
 
+span.new-combo-prod {
+  color: #ed2282;
+  font-weight: bold;
 }
 
+@media (max-width: 767px) {
+ .create-your-complete-bedroom {
+   font-size: 26px;
+   max-width: 360px;
+   line-height: 30px;
+ }
 
+ .combo-prod-detail {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-@media (max-width: 600px) {
-  .main-hero-banner-mobi {
-    display: block;
-  }
-
-  .main-hero-banner-desktop {
-    display: none;
-  }
-
-  .category-heading {
-    font-size: 25px;
-  }
+a.combo-rooms-buy-now {
+  background: #f01882;
+  color: #ffffff;
+  line-height: 36px;
+  display: block;
+  text-align: center;
+  max-width: 220px;
+}
+.bundle-rooms-promo-container-last-row {
+  margin-bottom: 30px;
+}
 }
