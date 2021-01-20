@@ -17,22 +17,18 @@
 .brands-category ul {
 	color: #000000;
 	font-size: 14px;
-	padding-inline-start: 0;
+	padding-inline-start: 15px;
 	margin-bottom: 0;
 }
 
-li.brands-category-heading {
+span.brands-category-heading {
 	font-size: 30px;
 	font-weight: bold;
-	list-style-type: none;
-	margin-bottom: 10px;
 }
 
-li.brands-category-heading-greyed-out {
+span.brands-category-heading-greyed-out {
 	font-size: 30px;
 	font-weight: bold;
-	list-style-type: none;
-	margin-bottom: 10px;
 	color: rgba(0, 0, 0, 0.3);
 }
 
