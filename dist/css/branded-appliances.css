@@ -61,9 +61,10 @@
 }
 
 .cookware-shop-by-heading {
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  color: #000000;
 }
 
 .shop-by-range-promo {
@@ -177,6 +178,10 @@ span.new-branded-app {
     margin: 0 auto 30px;
     max-width: 320px;
   }
+
+  .cookware-shop-by-heading {
+  font-size: 30px;
+}
 }
 
 @media (max-width: 629px) {
