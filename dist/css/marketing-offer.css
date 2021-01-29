@@ -2,12 +2,16 @@
   margin-bottom: 26px;
 }
 
+.full-termsandconditions {
+  margin-bottom: 50px;
+}
+
 .wow-sale-banner {
   margin-bottom: 30px;
 }
 
 .hc-winners {
-  margin-bottom: 44px;
+  margin-bottom: 30px;
 }
 
 .hc-winners-header {
@@ -25,9 +29,6 @@
 @media (max-width: 767px) {
 .wow-sale-banner {
   margin-bottom: 58px;
-}
-.hc-winners {
-  margin-bottom: 30px;
 }
 .hc-winners-header {
   margin-bottom: 45px;
