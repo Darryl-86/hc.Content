@@ -6,10 +6,6 @@
   margin-bottom: 50px;
 }
 
-.wow-sale-banner {
-  margin-bottom: 30px;
-}
-
 .hc-winners {
   margin-bottom: 30px;
 }
@@ -26,17 +22,45 @@
   margin-bottom: 40px;
 }
 
+.hc-winners-nov-promo {
+  margin-bottom: 44px;
+}
+
+.hc-nov-winners {
+  color:#000000;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.hc-nov-winners ul {
+  list-style: none;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.hc-nov-winners li {
+  margin-bottom: 20px;
+}
+
+.row.nov-winners-list-mobi {
+  max-width: 360px;
+}
+
 @media (max-width: 767px) {
-.wow-sale-banner {
-  margin-bottom: 58px;
-}
-.hc-winners-header {
-  margin-bottom: 45px;
-}
-.hc-winners-oct-header {
-  margin-bottom: 37px;
-}
-.hc-winners-info {
-  margin-bottom: 35px;
+  .hc-winners-header {
+    margin-bottom: 45px;
+  }
+  .hc-winners-oct-header {
+    margin-bottom: 37px;
+  }
+  .hc-winners-info {
+    margin-bottom: 35px;
+  }
+  .hc-nov-winners {
+    margin-bottom: 15px;
+  }
+  .hc-nov-winners ul {
+  width: 100%;
 }
 }
