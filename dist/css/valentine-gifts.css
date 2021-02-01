@@ -1,0 +1,16 @@
+.valentines-gift {
+	margin-bottom: 20px;
+}
+
+.valentines-gift-header {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+.valentines-gift-header {
+	margin-bottom: 7px;
+}
+.valentines-gift-for-her {
+	margin-bottom: 7px;
+}
+}

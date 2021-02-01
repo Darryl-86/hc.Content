@@ -1,0 +1,55 @@
+.tv-add-header {
+  margin-bottom: 45px;
+}
+
+.main-tv-add-image {
+  margin-bottom: 25px;
+}
+
+.tv-add-marketing-offer {
+  margin-bottom: 90px;
+}
+
+.promo-tv-add-image {
+  margin-bottom: 25px;
+}
+
+.tv-add-prod-info {
+    max-width: 485px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ayanda-copy-web {
+  margin-bottom: 30px;
+}
+
+.ayanda-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.value-promo {
+  margin-bottom: 90px;
+}
+
+.value-promo-last-item {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+.tv-add-header {
+  margin-bottom: 30px;
+}
+.promo-tv-add-image {
+  margin-bottom: 30px;
+}
+.value-promo {
+  margin-bottom: 50px;
+}
+.value-promo-last-item {
+  margin-bottom: 45px;
+}
+.tv-add-marketing-offer {
+  margin-bottom: 50px;
+}
+}
