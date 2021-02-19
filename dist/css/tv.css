@@ -14,10 +14,15 @@
   margin-bottom: 25px;
 }
 
+.tv-add-prod-promo {
+  display: block;
+  max-width: 397px;
+}
+
 .tv-add-prod-info {
-    max-width: 485px;
-    display: block;
-    margin: 0 auto;
+  max-width: 593px;
+  display: block;
+  margin: 0 auto;
 }
 
 .ayanda-copy-web {
@@ -36,20 +41,48 @@
   margin-bottom: 70px;
 }
 
+.dial-ussd-mobi {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 992px) {
+ .lisbon-con {
+    min-width: 1000px;
+    margin: 0 auto;
+    display: block;
+  }
+  .simply-dial {
+    padding-top: 12%;
+    height: 80px;
+  }
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .simply-dial {
+    position: relative;
+    height: 80px;
+  }
+
+  .simply-dial img {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
 @media (max-width: 767px) {
-.tv-add-header {
-  margin-bottom: 30px;
-}
-.promo-tv-add-image {
-  margin-bottom: 30px;
-}
-.value-promo {
-  margin-bottom: 50px;
-}
-.value-promo-last-item {
-  margin-bottom: 45px;
-}
-.tv-add-marketing-offer {
-  margin-bottom: 50px;
-}
+  .tv-add-header {
+    margin-bottom: 30px;
+  }
+  .promo-tv-add-image {
+    margin-bottom: 30px;
+  }
+  .value-promo {
+    margin-bottom: 50px;
+  }
+  .value-promo-last-item {
+    margin-bottom: 45px;
+  }
+  .tv-add-marketing-offer {
+    margin-bottom: 50px;
+  }
 }
