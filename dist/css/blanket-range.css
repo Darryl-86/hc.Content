@@ -1,0 +1,89 @@
+.blanket-range-header {
+  margin-bottom: 30px;
+}
+
+.blanket-range-brands-mobi-container {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.blanket-range-brands-mobi-promo-container {
+  max-width: 175px;
+}
+
+.blanket-range-brands-mobi-promo {
+  margin-bottom: 10px;
+}
+
+.blanket-range-brands-mobi-promo-last-row {
+  margin-bottom: 40px;
+}
+
+.buy-two-get-one-free {
+  margin-bottom: 60px;
+}
+
+.blankets-must-haves-banner {
+  margin-bottom: 60px;
+}
+
+.get-most-from-hc-blanket {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.most-out-of-hc-blanket-promo {
+  margin-bottom: 70px;
+}
+
+.shop-blankets-under {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+  .blanket-range-header {
+    margin-bottom: 26px;
+  }
+  .buy-two-get-one-free {
+    margin-bottom: 40px;
+  }
+  .blankets-must-haves-banner {
+    margin-bottom: 50px;
+  }
+  .get-most-from-hc-blanket {
+    font-size: 22px;
+    max-width: 320px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .most-out-of-hc-blanket-promo {
+  margin-bottom: 50px;
+}
+.shop-blankets-under {
+  margin-bottom: 30px;
+}
+.shop-blankets-under-1000 {
+  margin-bottom: 50px;
+}
+.buy-two-get-one-free-mobi-container {
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 360px) {
+  .blanket-range-brands-mobi-promo img {
+  width: 95%;
+}
+.blanket-range-brands-mobi-promo-last-row img {
+  width: 95%;
+}
+.buy-two-get-one-free-mobi-container img {
+  width: 95%;
+}
+}

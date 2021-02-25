@@ -1,5 +1,5 @@
-.hc-baby-cat-banner-container {
-  margin-bottom: 20px;
+.hc-baby-cat-header-banner {
+  margin-bottom: 45px;
 }
 
 .hc-baby-cat-banner {
@@ -10,8 +10,31 @@
   margin-bottom: 40px;
 }
 
+.hc-baby-bumbo-baby-banner-container {
+	margin-bottom: 38px;
+}
+
+.bumbo-baby-mobi-banner {
+	margin-bottom: 22px;
+}
+
+.bumbo-baby-mobi-copy {
+	margin-bottom: 22px;
+}
+
+.hc-baby-blog-banner {
+  margin-bottom: 45px;
+}
+
 @media (max-width: 767px) {
+.hc-baby-cat-header-banner {
+  margin-bottom: 30px;
+}
+
 .hc-baby-cat-banner-last-row {
   margin-bottom: 30px;
+}
+.hc-baby-blog-banner {
+  margin-bottom: 20px;
 }
 }

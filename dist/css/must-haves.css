@@ -1,3 +1,60 @@
-.cookware-cat-banner {
+.must-haves-header {
+	margin-bottom: 36px;
+}
+
+.amira-blankets-banner-container {
+	margin-bottom: 48px;
+}
+
+.must-haves-generic-promo {
   margin-bottom: 40px;
+}
+
+.blankets-must-haves-banner-web {
+	margin-bottom: 30px;
+}
+
+.lisbon-bedding-promo-web {
+	margin-bottom: 53px;
+}
+
+.premium-quality-banner-web {
+	margin-bottom: 12px;
+}
+
+.latest-fashion-banner {
+	margin-bottom: 50px;
+}
+
+.latest-fashion-trends-cat-mobi-container {
+	max-width: 336px;
+	display: block;
+	margin: 0 auto;
+}
+
+.latest-fashion-trends-mobi-side-promo {
+	max-width: 117px;
+}
+
+.latest-fashion-trends-mobi-middle-promo {
+	max-width: 102px;
+}
+
+.latest-fashion-trends-categories-mobi {
+	margin-bottom: 37px;
+}
+
+@media (max-width: 767px) {
+.must-haves-header {
+	margin-bottom: 27px;
+}
+.amira-blankets-banner-container {
+	margin-bottom: 38px;
+}
+.amira-blankets-banner-mobi {
+margin-bottom: 45px;
+}
+.latest-fashion-banner {
+	margin-bottom: 23px;
+}
 }
