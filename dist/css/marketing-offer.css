@@ -10,6 +10,10 @@
   margin-bottom: 30px;
 }
 
+.our-hc-winners {
+  margin-bottom: 61px;
+}
+
 .hc-winners-header {
   margin-bottom: 28px;
 }
@@ -47,6 +51,38 @@
   max-width: 360px;
 }
 
+.hc-feb-winners-heading {
+  margin-bottom: 69px;
+}
+
+.hc-feb-winners-sub-heading-one {
+  margin-bottom: 28px;
+}
+
+.hc-feb-winners-sub-heading-two {
+  margin-bottom: 40px;
+}
+
+.hc-feb-winners-sub-heading-three {
+  margin-bottom: 46px;
+}
+
+.hc-feb-winners-sub-heading-four {
+  margin-bottom: 18px;
+}
+
+.hc-feb-winners-cathrine {
+  margin-bottom: 65px;
+}
+
+.hc-feb-winners-jane {
+margin-bottom: 63px;
+}
+
+.hc-feb-winners-pruddy {
+margin-bottom: 85px;
+}
+
 @media (max-width: 767px) {
   .hc-winners-header {
     margin-bottom: 45px;
@@ -62,5 +98,26 @@
   }
   .hc-nov-winners ul {
   width: 100%;
+}
+.hc-feb-winners-heading {
+  margin-bottom: 53px;
+}
+.hc-feb-winners-cathrine {
+  margin-bottom: 35px;
+}
+.hc-feb-winners-sub-heading-three {
+  margin-bottom: 22px;
+}
+.hc-feb-winners-jane {
+margin-bottom: 30px;
+}
+.hc-feb-winners-sub-heading-four {
+  margin-bottom: 33px;
+}
+.hc-feb-winners-pruddy {
+margin-bottom: 35px;
+}
+.our-hc-winners {
+  margin-bottom: 28px;
 }
 }

@@ -54,13 +54,40 @@ a.whats-new-btn {
   padding-left: 0px;
 }
 
-.shop-all-bedding-cat-mobi {
-  margin-bottom: 30px;
-  display: flex;
+.all-bedding-cat-mobi-main-container {
+  margin: 0 auto;
+  display: block;
+  max-width: 336px;
 }
 
-.shop-all-bedding-cat-mobi-no-mb {
-  display: flex;
+.all-bedding-cat-side-promo-mobi-container {
+  max-width: 118.5px;
+}
+
+.all-bedding-cat-middle-promo-mobi-container {
+  max-width: 99px;
+}
+
+.all-bedding-cat-promo-mobi {
+  margin-bottom: 54px;
+}
+
+.hc-bedding-brands-promo {
+  margin-bottom: 15px;
+}
+
+.hc-bedding-brands-mobi-main-container {
+  display: block;
+  margin: 0 auto;
+  max-width:332px;
+}
+
+.hc-bedding-brands-mobi-promo-container {
+  max-width:166px;
+}
+
+.innovative-cookware-link-container {
+    padding-top: 7px;
 }
 
 @media (max-width: 767px) {
@@ -76,5 +103,14 @@ a.whats-new-btn {
     max-width: 360px;
     margin: 0 auto;
     padding-left: 20px;
+}
+.hc-bedding-brands-promo {
+  margin-bottom: 12px;
+}
+}
+
+@media (max-width: 332px) {
+.hc-bedding-brands-mobi-promo-container img {
+  width: 96%;
 }
 }
