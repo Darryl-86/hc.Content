@@ -16,13 +16,14 @@
 
 .tv-add-prod-promo {
   display: block;
-  max-width: 397px;
+  max-width: 500px;
 }
 
 .tv-add-prod-info {
-  max-width: 593px;
+  /*max-width: 593px;*/
   display: block;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 .ayanda-copy-web {
@@ -52,20 +53,15 @@
     display: block;
   }
   .simply-dial {
-    padding-top: 12%;
-    height: 80px;
+    padding-top: 21%;
+    height: 84px;
   }
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
   .simply-dial {
-    position: relative;
-    height: 80px;
-  }
-
-  .simply-dial img {
-    position: absolute;
-    bottom: 0;
+    padding-top: 16%;
+    height: 84px;
   }
 }
 
