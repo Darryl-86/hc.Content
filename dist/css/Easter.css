@@ -1,0 +1,49 @@
+.easter-header-banner {
+	margin-bottom: 60px;
+}
+
+.easter-heading {
+	margin-bottom: 30px;
+}
+
+.easter-heading-padding-top {
+	padding-top: 30px;
+}
+
+.easter-cat-promo {
+	margin-bottom: 50px;
+}
+
+.easter-blogs-promo {
+	margin-bottom: 70px;
+}
+
+.easter-heading-blogs {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+.easter-header-banner {
+	margin-bottom: 55px;
+}
+
+.easter-heading {
+	margin-bottom: 20px;
+}
+
+.easter-heading-padding-top {
+	padding-top: 10px;
+}
+
+.easter-cat-promo {
+	margin-bottom: 20px;
+}
+
+.easter-cat-promo-last-item {
+	margin-bottom: 40px;
+}
+
+.easter-blogs-promo {
+	margin-bottom: 40px;
+}
+}
