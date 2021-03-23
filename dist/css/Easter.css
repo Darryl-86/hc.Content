@@ -3,7 +3,7 @@
 }
 
 .easter-heading {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .easter-heading-padding-top {
@@ -18,17 +18,13 @@
 	margin-bottom: 70px;
 }
 
-.easter-heading-blogs {
-	margin-bottom: 20px;
-}
-
 @media (max-width: 767px) {
 .easter-header-banner {
-	margin-bottom: 55px;
+	margin-bottom: 50px;
 }
 
 .easter-heading {
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 
 .easter-heading-padding-top {
