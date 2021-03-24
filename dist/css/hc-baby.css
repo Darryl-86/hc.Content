@@ -1,13 +1,17 @@
 .hc-baby-cat-header-banner {
-  margin-bottom: 45px;
+  margin-bottom: 35px;
+}
+
+.hc-baby-cat-header {
+  margin-bottom: 42px;
 }
 
 .hc-baby-cat-banner {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .hc-baby-cat-banner-last-row {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .hc-baby-bumbo-baby-banner-container {
@@ -26,15 +30,109 @@
   margin-bottom: 45px;
 }
 
-@media (max-width: 767px) {
-.hc-baby-cat-header-banner {
-  margin-bottom: 30px;
-}
-
-.hc-baby-cat-banner-last-row {
-  margin-bottom: 30px;
-}
-.hc-baby-blog-banner {
+.hc-baby-checklist-promo {
   margin-bottom: 20px;
 }
+
+.hc-baby-checklist-promo-last-row {
+  margin-bottom: 41.2px;
+}
+
+/*hc logo brands content begin*/
+
+.hc-baby-brands-background-container {
+  margin: 0 auto 52px;
+  background-color: #f8f8f8;
+  display: block;
+  padding: 43px 0 30px 0;
+}
+
+.hc-baby-brands-heading {
+  margin-bottom: 33px;
+}
+
+.hc-baby-brands-web-container-one {
+  max-width: 87%;
+  margin:0 auto;
+  display: block;
+}
+
+.hc-baby-brands-web-container-two {
+  max-width: 90%;
+  margin:0 auto;
+  display: block;
+}
+
+.hc-baby-brands-promo {
+  margin-bottom: 43px;
+}
+
+.hc-baby-brands-divider {
+  border-right-color: #d5d5d5;
+  border-right-width: 1px;
+  border-right-style: solid;
+  max-height: 96px;
+}
+
+.hc-baby-bumbo {
+  max-width: 230px;
+}
+
+.hc-baby-snuggletime {
+  max-width: 353px;
+}
+
+.hc-baby-chelino {
+  max-width: 261px;
+}
+
+.hc-baby-playground {
+  max-width: 181px;
+}
+
+.hc-baby-brands-promo-web-last-row {
+  padding-top: 43px;
+}
+/*hc logo brands content end*/
+
+@media (max-width: 767px) {
+  .hc-baby-cat-header-banner {
+    margin-bottom: 45px;
+  }
+
+  .hc-baby-cat-banner {
+    margin-bottom: 28px;
+  }
+
+  .hc-baby-cat-banner-last-item {
+    margin-bottom: 32px;
+  }
+  .hc-baby-blog-banner {
+    margin-bottom: 28px;
+  }
+  .hc-baby-checklist-promo {
+    margin-bottom: 28px;
+  }
+
+  .hc-baby-checklist-last-promo {
+    margin-bottom: 32px;
+  }
+
+  .hc-baby-brands-promo {
+  margin-bottom: 14px;
+}
+
+  /*hc logo brands content begin*/
+
+  .hc-baby-brands-background-container {
+    margin-bottom: 35px;
+    padding-top: 24px;
+    max-width: 360px;
+  }
+
+  .hc-baby-brands-heading {
+    margin-bottom: 20px;
+  }
+
+  /*hc logo brands content end*/
 }
