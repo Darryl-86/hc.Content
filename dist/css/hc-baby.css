@@ -11,7 +11,7 @@
 }
 
 .hc-baby-cat-banner-last-row {
-  margin-bottom: 50px;
+  margin-bottom: 95px;
 }
 
 .hc-baby-bumbo-baby-banner-container {
@@ -76,18 +76,22 @@
 
 .hc-baby-bumbo {
   max-width: 230px;
+  margin-bottom: 80px;
 }
 
 .hc-baby-snuggletime {
   max-width: 353px;
+  margin-bottom: 80px;
 }
 
 .hc-baby-chelino {
   max-width: 261px;
+  margin-bottom: 80px;
 }
 
 .hc-baby-playground {
   max-width: 181px;
+  margin-bottom: 80px;
 }
 
 .hc-baby-brands-promo-web-last-row {
@@ -122,6 +126,10 @@
   margin-bottom: 14px;
 }
 
+.hc-baby-brands-promo-mobi-last-row {
+  margin-bottom: 70px;
+}
+
   /*hc logo brands content begin*/
 
   .hc-baby-brands-background-container {
@@ -133,6 +141,22 @@
   .hc-baby-brands-heading {
     margin-bottom: 20px;
   }
+
+  .hc-baby-bumbo {
+    display: none;
+  }
+
+.hc-baby-snuggletime {
+  display: none;
+}
+
+.hc-baby-chelino {
+  display: none;
+}
+
+.hc-baby-playground {
+  display: none;
+}
 
   /*hc logo brands content end*/
 }

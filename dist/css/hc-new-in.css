@@ -1,11 +1,3 @@
-.whats-new-display-web {
-  display: block;
-}
-
-.whats-new-display-mobi {
-  display: none;
-}
-
 .whats-new-header-display-web {
   display: block;
   margin-bottom: 30px;
@@ -28,6 +20,10 @@
   margin-bottom: 30px;
 }
 
+.hcnew-gen-promo{
+margin-bottom: 41px;
+}
+
 a.whats-new-btn {
   border-radius: 5px;
 }
@@ -36,26 +32,99 @@ a.whats-new-btn {
   margin-bottom: 30px;
 }
 
+
+.hcnew-fashion-banner {
+  margin-bottom: 16px;
+}
+
+.hcnew-more-fashion-header {
+  margin-bottom: 34px;
+}
+
+.fashion-brands-promo {
+    width: 11%;
+    border-right: 1px solid #d3d3d3;
+}
+
+.fashion-brands-last-promo {
+    width: 11%;
+}
+
+.popular-brands-promo {
+    width: 20%;
+    border-right: 1px solid #d3d3d3;
+}
+
+.popular-brands-last-promo {
+    width: 16%;
+}
+
+.fashion-bands-web {
+    margin-bottom: 57px;
+}
+
+.popular-bands-web {
+    margin-bottom: 53px;
+}
+
+.fash-blankets-promo {
+  margin-bottom: 2px;
+}
+
+.health-and-beauty-promo {
+  margin-bottom: 21px;
+}
+
+.hcnew_marketing-skinny {
+  margin-bottom: 67px;
+}
+
+
 @media (max-width: 767px) {
 .hc-new-fashion {
   margin-bottom: 30px;
 }
+
+.hcnew-fashion-banner {
+  margin-bottom: 21px;
 }
 
-@media (max-width: 550px) {
-  .whats-new-display-web {
-    display: none;
-  }
-
-  .whats-new-display-mobi {
-    display: block;
-  }
-
-  .whats-new-header-display-web {
-    display: none;
-  }
-
-  .whats-new-header-display-mobi {
-    display: block;
-  }
+.hcnew-more-fashion-header {
+  margin-bottom: 27px;
 }
+
+.fashion-bands {
+    margin-bottom: 10px;
+}
+
+.fashion-bands-last-row {
+    margin-bottom: 38px;
+}
+
+.popular-bands-last-row {
+    margin-bottom: 26px;
+}
+
+.fashion-brands-mobi-container {
+  display: block;
+  max-width: 360px;
+    margin: 0 auto;
+}
+
+.fash-blankets-promo {
+  margin-bottom: 10px;
+}
+
+.hcnew-gen-promo{
+margin-bottom: 38px;
+}
+
+.fashion-bands-web {
+    display: none;
+}
+
+.popular-bands-web {
+    display: none;
+}
+}
+
