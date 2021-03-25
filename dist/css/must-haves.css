@@ -1,9 +1,13 @@
 .must-haves-header {
-	margin-bottom: 36px;
+	margin-bottom: 30px;
 }
 
-.amira-blankets-banner-container {
-	margin-bottom: 48px;
+.header-banner-container {
+	margin-bottom: 39px;
+}
+
+.header-banner-copy-container {
+	margin-bottom: 39px;
 }
 
 .must-haves-generic-promo {
@@ -46,15 +50,18 @@
 
 @media (max-width: 767px) {
 .must-haves-header {
-	margin-bottom: 27px;
+	margin-bottom: 20px;
 }
-.amira-blankets-banner-container {
-	margin-bottom: 38px;
+.header-banner-container {
+	margin-bottom: 23px;
 }
 .amira-blankets-banner-mobi {
 margin-bottom: 45px;
 }
 .latest-fashion-banner {
 	margin-bottom: 23px;
+}
+.header-banner-copy-container {
+	margin-bottom: 20px;
 }
 }

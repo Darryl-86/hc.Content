@@ -1,4 +1,6 @@
-/* #webContent_v2-wi4200027 (CCAdminTest ID) */
+.cookware-header-banner {
+  margin-bottom: 53px;
+}
 
 .innovative-cookware-header {
   margin-bottom: 30px;
@@ -13,9 +15,10 @@
 }
 
 .innovative-cookware-link-container a {
-color: #f51169;
-font-size: 18px;
-text-decoration: underline;
+  color: #f51169;
+  font-size: 18px;
+  text-decoration: underline;
+  line-height: 30px;
 }
 
 .innovative-cookware-link-container {
@@ -28,40 +31,83 @@ text-decoration: underline;
 }
 
 .cookware-full-range {
-    color: #f51169;
-    font-size: 20px;
-    text-decoration: underline;
-    text-align: center;
-    padding-top: 64px;
+  color: #f51169;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 64px;
 }
 
 .cookware-full-range a {
-    color: #f51169;
-    font-size: 20px;
-    text-decoration: underline;
-    text-align: center;
+  color: #f51169;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .hc-branded-logo {
-  margin-bottom: 90px;
+  margin-bottom: 53px;
+}
+
+.hc-branded-logo-small-desktop {
+  margin-bottom: 30px;
+}
+
+.hc-innovation-promo {
+  margin-bottom: 65px;
+}
+
+.quality-cookware-brands-container {
+  max-width: 90%;
+  margin:0 auto;
+  display: block;
+}
+
+.eetrite-brand-web {
+  max-width: 188px;
+}
+.legend-brand-web {
+  max-width: 180px;
+}
+.magefesa-brand-web {
+  max-width: 218px;
+}
+.russell-hobbs-brand-web {
+  max-width: 265px;
+}
+.wonderbag-brand-web {
+  max-width: 208px;
 }
 
 @media (max-width: 767px) {
   .hc-branded-logo {
-  margin-bottom: 24px;
-}
-.cookware-full-range {
+    margin-bottom: 24px;
+  }
+
+  .hc-branded-logo-last-logo {
+    margin-bottom: 39px;
+  }
+  .cookware-full-range {
     padding-top: 12px;
-}
-.hc-new-fashion {
-  margin-bottom: 30px;
-}
+  }
+  .hc-new-fashion {
+    margin-bottom: 30px;
+  }
 
-.innovative-cookware-link-container {
-  text-align: center;
-}
+  .innovative-cookware-link-container {
+    text-align: center;
+  }
 
-.cookware-full-range a {
+  .cookware-full-range a {
     font-size: 16px;
-}
+  }
+  .hc-innovation-promo {
+    margin-bottom: 25px;
+  }
+  .hc-innovation-last-row-promos {
+    margin-bottom: 42px;
+  }
+  .cookware-header-banner {
+    margin-bottom: 50px;
+  }
 }
