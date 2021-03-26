@@ -1,5 +1,5 @@
 .blanket-range-header {
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 .blanket-range-brands-mobi-container {
@@ -8,20 +8,8 @@
   margin: 0 auto;
 }
 
-.blanket-range-brands-mobi-promo-container {
-  max-width: 175px;
-}
-
-.blanket-range-brands-mobi-promo {
-  margin-bottom: 10px;
-}
-
-.blanket-range-brands-mobi-promo-last-row {
-  margin-bottom: 40px;
-}
-
 .buy-two-get-one-free {
-  margin-bottom: 60px;
+  margin-bottom: 32px;
 }
 
 .blankets-must-haves-banner {
@@ -44,12 +32,31 @@
   margin-bottom: 70px;
 }
 
+.blanket-full-range {
+  margin-bottom: 50px;
+}
+
+.blanket-range-brands-web-promo {
+  margin-bottom: 17px;
+}
+
 @media (max-width: 767px) {
+  .blanket-range-brands-mobi-promo-container {
+  max-width: 175px;
+}
+
+.blanket-range-brands-mobi-promo {
+  margin-bottom: 10px;
+}
+
+.blanket-range-brands-mobi-promo-last-row {
+  margin-bottom: 23px;
+}
   .blanket-range-header {
-    margin-bottom: 26px;
+    margin-bottom: 18px;
   }
   .buy-two-get-one-free {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
   .blankets-must-haves-banner {
     margin-bottom: 50px;
@@ -73,6 +80,9 @@
   max-width: 360px;
   display: block;
   margin: 0 auto;
+}
+.blanket-full-range {
+  margin-bottom: 35px;
 }
 }
 

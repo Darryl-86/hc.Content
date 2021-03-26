@@ -2,11 +2,15 @@
   margin-bottom: 30px;
 }
 
+.combo-rooms-hero-banner {
+  margin-bottom: 48px;
+}
+
 .create-your-complete-bedroom {
   font-size: 35px;
   font-weight: bold !important;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 47px;
   text-align: center;
   line-height: 40px;
 }
@@ -64,9 +68,10 @@ span.new-combo-prod {
 
 @media (max-width: 767px) {
  .create-your-complete-bedroom {
-   font-size: 26px;
+   font-size: 20px;
    max-width: 360px;
    line-height: 30px;
+   margin-bottom: 30px;
  }
 
  .combo-prod-detail {
@@ -84,5 +89,8 @@ a.combo-rooms-buy-now {
 }
 .bundle-rooms-promo-container-last-row {
   margin-bottom: 30px;
+}
+.combo-rooms-hero-banner {
+  margin-bottom: 20px;
 }
 }
