@@ -6,118 +6,50 @@
   margin-bottom: 50px;
 }
 
-.hc-winners {
-  margin-bottom: 30px;
-}
-
 .our-hc-winners {
   margin-bottom: 61px;
 }
 
-.hc-winners-header {
-  margin-bottom: 28px;
+.marketing-march-winners {
+  margin-bottom: 50px;
+}
+
+.marketing-feb-winners {
+  margin-bottom: 21px;
+}
+
+.marketing-december-winners {
+  margin-bottom: 50px;
+}
+
+.marketing-november-winners {
+  margin-bottom: 37px;
 }
 
 .hc-winners-oct-header {
   margin-bottom: 70px;
 }
 
-.hc-winners-info {
-  margin-bottom: 40px;
-}
-
-.hc-winners-nov-promo {
-  margin-bottom: 44px;
-}
-
-.hc-nov-winners {
-  color:#000000;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.hc-nov-winners ul {
-  list-style: none;
-  padding: 0;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.hc-nov-winners li {
-  margin-bottom: 20px;
-}
-
-.row.nov-winners-list-mobi {
-  max-width: 360px;
-}
-
-.hc-feb-winners-heading {
-  margin-bottom: 69px;
-}
-
-.hc-feb-winners-sub-heading-one {
+@media (max-width: 767px) {
+  .our-hc-winners {
   margin-bottom: 28px;
 }
-
-.hc-feb-winners-sub-heading-two {
-  margin-bottom: 40px;
+.marketing-march-winners {
+  margin-bottom: 32px;
 }
 
-.hc-feb-winners-sub-heading-three {
-  margin-bottom: 46px;
-}
-
-.hc-feb-winners-sub-heading-four {
-  margin-bottom: 18px;
-}
-
-.hc-feb-winners-cathrine {
-  margin-bottom: 65px;
-}
-
-.hc-feb-winners-jane {
-margin-bottom: 63px;
-}
-
-.hc-feb-winners-pruddy {
-margin-bottom: 85px;
-}
-
-@media (max-width: 767px) {
-  .hc-winners-header {
-    margin-bottom: 45px;
-  }
-  .hc-winners-oct-header {
-    margin-bottom: 37px;
-  }
-  .hc-winners-info {
-    margin-bottom: 35px;
-  }
-  .hc-nov-winners {
-    margin-bottom: 15px;
-  }
-  .hc-nov-winners ul {
-  width: 100%;
-}
-.hc-feb-winners-heading {
-  margin-bottom: 53px;
-}
-.hc-feb-winners-cathrine {
-  margin-bottom: 35px;
-}
-.hc-feb-winners-sub-heading-three {
-  margin-bottom: 22px;
-}
-.hc-feb-winners-jane {
-margin-bottom: 30px;
-}
-.hc-feb-winners-sub-heading-four {
+.marketing-feb-winners {
   margin-bottom: 33px;
 }
-.hc-feb-winners-pruddy {
-margin-bottom: 35px;
+
+.marketing-december-winners {
+  margin-bottom: 27px;
 }
-.our-hc-winners {
-  margin-bottom: 28px;
+
+.marketing-november-winners {
+  margin-bottom: 42px;
+}
+.hc-winners-oct-header {
+  margin-bottom: 37px;
 }
 }
