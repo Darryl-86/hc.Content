@@ -5,7 +5,7 @@
 }
 
 .cookware-cat-banner-container {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .innovative-cookware-heading {
@@ -17,7 +17,7 @@
 }
 
 .cookware-cat-banner {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 a.whats-new-btn {
@@ -69,7 +69,7 @@ a.whats-new-btn {
 }
 
 .all-bedding-cat-promo-mobi {
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 .hc-bedding-brands-promo {
@@ -79,7 +79,7 @@ a.whats-new-btn {
 .hc-bedding-brands-mobi-main-container {
   display: block;
   margin: 0 auto;
-  max-width:332px;
+  max-width:340px;
 }
 
 .hc-bedding-brands-mobi-promo-container {
@@ -107,10 +107,19 @@ a.whats-new-btn {
 .hc-bedding-brands-promo {
   margin-bottom: 12px;
 }
+.cookware-cat-banner-container {
+  margin-bottom: 60px;
+}
+.cookware-cat-banner {
+  margin-bottom: 60px;
+}
+.bedding-range-geometric {
+  margin-bottom: 60px;
+}
 }
 
-@media (max-width: 332px) {
+/*@media (max-width: 332px) {
 .hc-bedding-brands-mobi-promo-container img {
   width: 96%;
 }
-}
+}*/
