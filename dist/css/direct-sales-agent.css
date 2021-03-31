@@ -1,3 +1,5 @@
+/*css only carousel begin*/
+
 #slider {
   overflow: hidden;
   margin-bottom: 20px;
@@ -50,11 +52,7 @@
   }
 }
 
-@media (max-width: 767px) {
-  #slider {
-    margin-bottom: 10px;
-  }
-}
+/*css only carousel end*/
 
 .direct-sales-agent-master {
   color: #000000;
@@ -64,98 +62,131 @@
   margin-bottom: 20px;
 }
 
+.employee-skinny-banner {
+  margin-bottom: 50px;
+}
+
 .d-flex {
   display: flex;
 }
 
-.m-auto {
-  margin: auto;
+.mv-auto {
+  margin: auto 0;
 }
 
-.commission-container {
+.employee-benefits {
   margin-bottom: 35px;
 }
 
-.agent-of-the-year-banner {
-  margin-bottom: 70px;
+.employee-benefits-last-row {
+  margin-bottom: 65px;
 }
 
-.register-showrooms-container {
-  margin-bottom: 25px;
+.sales-agent-registration {
   text-align: center;
-  padding: 0px 90px;
   line-height: 35px;
+  max-width: 90%;
+  margin: 0 auto 40px;
 }
 
-.register-showrooms-container .heading {
+.sales-agent-registration .heading {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   color: #f51169;
   margin-bottom: 10px;
 }
 
-.register-showrooms-container .copy {
-  font-size: 23px;
+.sales-agent-registration .copy {
+  font-size: 16px;
 }
 
-.hc-divider {
-  margin-bottom: 55px;
+.sales-agent-registration-last-item {
+  text-align: center;
+  line-height: 35px;
+  max-width: 90%;
+  margin: 0 auto 50px;
 }
 
-.toolkit-heading {
-  font-weight: 800;
-  margin-bottom: 45px;
-  font-size: 50px;
+.sales-agent-registration-last-item .heading {
+  font-weight: bold;
+  font-size: 30px;
+  color: #f51169;
+  margin-bottom: 10px;
 }
 
-.toolkit-container {
-  margin-bottom: 50px;
+.sales-agent-registration-last-item .copy {
+  font-size: 16px;
 }
 
-.toolkit-last-container {
+.sales-agent-of-the-year {
+  margin-bottom: 80px;
+}
+
+a.register-email-link {
+  color: #000000;
+}
+
+a.register-email-link:hover {
+  color: #00f !important;
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
+  /*css only carousel begin*/
+
+  #slider {
+    margin-bottom: 10px;
+  }
+
+  /*css only carousel end*/
+
   .direct-sales-agent-main-banner {
     margin-bottom: 10px;
   }
 
-  .commission-container {
-    margin-bottom: 10px;
+  .employee-skinny-banner {
+    margin-bottom: 29px;
   }
 
-  .agent-of-the-year-banner {
-    margin-bottom: 25px;
+  .employee-benefits {
+    margin-bottom: 50px;
   }
 
-  .register-showrooms-container {
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 0;
-    line-height: 31px;
+  .sales-agent-registration {
+    max-width: 320px;
+    margin: 0 auto 30px;
   }
 
-  .register-showrooms-container .heading {
-    font-weight: bold;
-    font-size: 27px;
-    color: #f51169;
+  .sales-agent-registration-last-item {
+    max-width: 320px;
+    margin: 0 auto 60px;
   }
 
-  .register-showrooms-container .copy {
-    font-size: 16px;
+  .sales-agent-registration .copy {
+    font-size: 18px;
+    line-height: 28px;
   }
 
-  .hc-divider {
-    margin-bottom: 35px;
+  .sales-agent-registration-last-item .copy {
+    font-size: 18px;
+    line-height: 28px;
   }
 
-  .toolkit-heading {
-    font-weight: 800;
+  .employee-benefits-last-row {
+    margin-bottom: 50px;
+  }
+
+  .sales-agent-of-the-year {
     margin-bottom: 30px;
-    font-size: 35px;
   }
 
-  .toolkit-container {
-    margin-bottom: 35px;
+  a.register-call-link {
+    color: #00f !important;
+    text-decoration: underline;
   }
+
+  a.register-email-link {
+   color: #00f !important;
+   text-decoration: underline;
+ }
 }
