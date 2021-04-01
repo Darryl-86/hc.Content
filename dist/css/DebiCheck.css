@@ -1,0 +1,50 @@
+.debicheck-hero {
+  margin-bottom: 30px;
+}
+
+.debicheck-copy {
+  color: #333333;
+}
+
+.debicheck-copy p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.debicheck-copy p span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.debicheck-button a {
+  width: 300px;
+  line-height: 50px;
+  border-radius: 4px;
+  background-color: #f51169;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+@media (max-width: 767px) {
+
+  .debicheck-hero {
+    margin-bottom: 25px;
+  }
+
+  .debicheck-copy {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .debicheck-copy p {
+    margin-bottom: 20px;
+  }
+
+  .debicheck-button a {
+    margin: 0 auto;
+  }
+}
