@@ -1,0 +1,71 @@
+.m-day-hero {
+  margin-bottom: 49px;
+}
+
+.m-day-heading {
+  margin-bottom: 30px;
+}
+
+.m-day-gifts {
+  margin-bottom: 80px;
+}
+
+.m-day-gift-categories {
+  margin-bottom: 80px;
+}
+
+.m-day-best-sellers {
+  margin-bottom: 40px;
+}
+
+.m-day-gift-categories-mobi-main {
+  max-width: 340px;
+  display: block;
+  margin: 0 auto;
+}
+
+.m-day-best-sellers-mobi-main {
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
+}
+
+.m-day-review-banner {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .m-day-hero {
+    margin-bottom: 3px;
+  }
+
+  .m-day-heading {
+    margin-bottom: 20px;
+  }
+
+  .m-day-gifts {
+    margin-bottom: 10px;
+  }
+
+  .m-day-gifts-last-item {
+    margin-bottom: 50px;
+  }
+
+  .m-day-gift-categories-mobi-promo {
+    margin-bottom: 30px;
+  }
+
+  .m-day-gift-categories-mobi-promo-last-row {
+    margin-bottom: 50px;
+  }
+
+  .m-day-review-banner {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .m-day-best-sellers-mobi-main img {
+    width:95%;
+  }
+}
