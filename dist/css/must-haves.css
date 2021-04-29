@@ -48,6 +48,21 @@
 	margin-bottom: 37px;
 }
 
+.must-have-promo-offers {
+	margin-bottom: 40px;
+}
+
+.home-textures-bkg {
+	background-image: url("/file/general/20210429_must_haves_hometextures_bkg.png");
+  background-repeat: repeat;
+  padding: 10px 0 30px 0;
+  margin-bottom: 35px;
+}
+
+.hometextures-skinny {
+	margin-bottom: 10px;
+}
+
 @media (max-width: 767px) {
 .must-haves-header {
 	margin-bottom: 20px;
@@ -62,6 +77,30 @@ margin-bottom: 45px;
 	margin-bottom: 23px;
 }
 .header-banner-copy-container {
+	margin-bottom: 24px;
+}
+.must-have-promo-offers-mobi-row-one {
+	margin-bottom: 17px;
+}
+
+.must-have-promo-offers-mobi-last-row {
+	margin-bottom: 36px;
+}
+
+.hometextures-heading-mobi {
+	margin-bottom: 14px;
+}
+.four-hometextures-mobi {
+	margin-bottom: 17px;
+}
+.shop-hometextures-mobi {
 	margin-bottom: 20px;
+}
+.home-textures-bkg {
+	background-image: url("/file/general/20210429_must_haves_hometextures_bkg_mobi.png");
+  background-repeat: repeat;
+  padding: 21.5px 0 20px 0;
+  max-width: 360px;
+  margin:0 auto 40px;
 }
 }
