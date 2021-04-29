@@ -3,12 +3,23 @@
 }
 
 .u-eight-hundred-promo {
+  margin-bottom: 25px;
+}
+
+.u-eight-hundred-promo-last-row {
   margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {
+	.u-eight-hundred-header {
+	  margin-bottom: 40px;
+	}
+
 .u-eight-hundred-promo {
+  margin-bottom: 10px;
+}
+
+.u-eight-hundred-promo--mobi-last-item {
   margin-bottom: 40px;
 }
 }
-

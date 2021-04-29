@@ -79,6 +79,58 @@
   max-width: 208px;
 }
 
+
+.cookware-header-main-web {
+    background-image: url(/file/general/20210429_cookware_header_bkg.png);
+    background-repeat: repeat;
+    padding: 104px 0 0px 0;
+    margin-bottom: 35px;
+}
+
+.everything-you-need {
+  margin-bottom: 40px;
+}
+
+.find-what-you-need {
+  margin-bottom: 42px;
+}
+
+.cookware-cat-promo {
+  margin-bottom: 60px;
+}
+
+.cookware-by-material-promo {
+  margin-bottom: 17px;
+}
+
+.shop-full-range {
+  margin-bottom: 70px;
+}
+
+/*hc logo brands content begin*/
+
+.popular-brands-web-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.popular-brands-web-container-two {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.popular-brands-web {
+  margin-bottom: 50px;
+}
+
+.hc-baby-brands-heading {
+    margin-bottom: 33px;
+}
+
+
+/*hc logo brands content end*/
+
 @media (max-width: 767px) {
   .hc-branded-logo {
     margin-bottom: 24px;
@@ -110,4 +162,79 @@
   .cookware-header-banner {
     margin-bottom: 50px;
   }
+  
+  .cookware-header-main-mobi {
+      background-image: url(/file/general/20210429_cookware_header_bkg_mobi.png);
+      background-repeat: repeat;
+      padding: 92px 10px 0 10px;
+      max-width: 360px;
+      margin: 0 auto 25px;
+  }
+
+  .everything-you-need {
+  margin-bottom: 15px;
+}
+.find-what-you-need {
+  margin-bottom: 17px;
+}
+.cookware-cat-promo {
+  margin-bottom: 25px;
+}
+
+.cookware-cat-promo-mobi-last-row {
+  margin-bottom: 40px;
+}
+
+.cookware-by-material-promo {
+  margin-bottom: 25px;
+}
+
+.cookware-by-material-promo-last-row {
+  margin-bottom: 28px;
+}
+
+.cookware-header-main-web {
+  display: none;
+}
+
+.shop-full-range {
+  margin-bottom: 45px;
+}
+
+.cookware-cat-promo-mobi-container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+/*hc logo brands content begin*/
+
+.popular-brands-mobi-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.popular-brands-mobi-container-two {
+  display: flex;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.popular-brands-mobi-container-three {
+  margin: 0 auto;
+}
+
+.popular-brands-mobi {
+  margin-bottom: 18px;
+}
+
+.popular-brands-mobi-last-row {
+  margin-bottom: 30px;
+}
+
+.popular-brands-web {
+  display: none;
+}
+
+/*hc logo brands content end*/
 }

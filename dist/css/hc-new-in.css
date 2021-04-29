@@ -63,15 +63,17 @@ a.whats-new-btn {
   border-right: 1px solid #707070;
 }
 
-
-
 .fashion-bands-web {
   margin-bottom: 57px;
 }
 
 .popular-brands-web {
-  margin-bottom: 30px;
+  margin-bottom: 23px;
 }
+
+.popular-brands-web-last-row {
+    margin-bottom: 18px;
+  }
 
 .fash-blankets-promo {
   margin-bottom: 2px;
@@ -85,27 +87,17 @@ a.whats-new-btn {
   margin-bottom: 67px;
 }
 
-.whats-new-category-mobi-container {
-  margin: 0 auto;
-  display: block;
-  max-width: 342px;
+.whats-new-category-web-row-one {
+  margin-bottom: 21px;
 }
 
-.whats-new-category-mobi {
-  margin-bottom: 26px;
-}
-
-.whats-new-category-mobi-last-row {
-  margin-bottom: 20px;
-}
-
-.whats-new-category-web {
-  margin-bottom: 49px;
+.whats-new-category-web-last-row {
+  margin-bottom: 40px;
 }
 
 .popular-brands-web-container {
   display: flex;
-  max-width: 90%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -115,14 +107,13 @@ a.whats-new-btn {
   margin: 0 auto;
 }
 
-.popular-brands-web-last-row {
-  display: block;
-  max-width: 60%;
-  margin: 0 auto;
-}
-
 .whats-new-marketing-promo {
   margin-bottom: 60px;
+}
+
+.vl {
+  border-left: 0.3px solid #707070;
+  height: 66px;
 }
 
 @media (max-width: 767px) {
@@ -135,7 +126,7 @@ a.whats-new-btn {
   }
 
   .hcnew-more-fashion-header {
-    margin-bottom: 27px;
+    margin-bottom: 5px;
   }
 
   .popular-brands-mobi {
@@ -171,10 +162,7 @@ a.whats-new-btn {
   .popular-brands-web {
     display: none;
   }
-  .whats-new-category-web {
-    display: none;
-  }
-
+  
   .whats-new-marketing-promo {
     margin-bottom: 10px;
   }
@@ -182,5 +170,45 @@ a.whats-new-btn {
   .whats-new-marketing-last-promo {
     margin-bottom: 26px;
   }
-}
 
+  .whats-new-category-mobi-container {
+    margin: 0 auto;
+    display: block;
+    max-width: 342px;
+  }
+
+  .whats-new-category-mobi {
+    margin-bottom: 5px;
+  }
+
+  .whats-new-category-mobi-last-item {
+    margin-bottom: 14.5px;
+  }
+
+  .vl {
+    border-left: 0.3px solid #707070;
+    height: 40px;
+  }
+
+  .popular-brands-mobi-container {
+    display: flex;
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .popular-brands-mobi-container-two {
+    display: flex;
+    margin: 0 auto;
+    width: 310px;
+  }
+
+  .popular-brands-mobi-container-three {
+    display: flex;
+    margin: 0 auto;
+    width: 230px;
+  }
+
+  .popular-brands-mobi {
+    margin-bottom: 10px;
+  }
+}

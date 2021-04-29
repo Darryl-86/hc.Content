@@ -1,5 +1,5 @@
 .blanket-range-header {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .blanket-range-brands-mobi-container {
@@ -9,7 +9,7 @@
 }
 
 .buy-two-get-one-free {
-  margin-bottom: 32px;
+  margin-bottom: 70px;
 }
 
 .blankets-must-haves-banner {
@@ -24,21 +24,37 @@
   margin-bottom: 30px;
 }
 
-.most-out-of-hc-blanket-promo {
-  margin-bottom: 70px;
-}
-
 .shop-blankets-under {
   margin-bottom: 70px;
 }
 
 .blanket-full-range {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .blanket-range-brands-web-promo {
   margin-bottom: 17px;
 }
+
+.blankets-under {
+  margin-bottom: 63px;
+}
+
+.blanket-weights-heading {
+  margin-bottom: 39px;
+}
+
+.blanket-weights {
+  margin-bottom: 80px;
+}
+
+.blanket-cash-deals-banner {
+  margin-bottom: 70px;
+}
+
+.get-most-from-hc-blanket-heading {
+margin-bottom: 30px;
+  }
 
 @media (max-width: 767px) {
   .blanket-range-brands-mobi-promo-container {
@@ -52,11 +68,8 @@
 .blanket-range-brands-mobi-promo-last-row {
   margin-bottom: 23px;
 }
-  .blanket-range-header {
-    margin-bottom: 18px;
-  }
   .buy-two-get-one-free {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
   }
   .blankets-must-haves-banner {
     margin-bottom: 50px;
@@ -67,6 +80,7 @@
     line-height: 30px;
     margin-bottom: 20px;
   }
+
   .most-out-of-hc-blanket-promo {
   margin-bottom: 50px;
 }
@@ -82,8 +96,30 @@
   margin: 0 auto;
 }
 .blanket-full-range {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
+.blankets-under {
+  margin-bottom: 7px;
+}
+
+.blankets-under-mobi-last-item {
+  margin-bottom: 47px;
+}
+.blanket-weights-heading {
+  margin-bottom: 22px;
+}
+.blanket-weights {
+  margin-bottom: 30px;
+}
+.blanket-weights-last-row {
+  margin-bottom: 60px;
+}
+.blanket-cash-deals-banner {
+  margin-bottom: 40px;
+}
+.get-most-from-hc-blanket-heading {
+margin-bottom: 26px;
+  }
 }
 
 @media (max-width: 360px) {
