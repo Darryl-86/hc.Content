@@ -11,7 +11,20 @@
   margin-bottom: 30px;
 }
 
+.debicheck-heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .debicheck-copy p span {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.debi-list span {
   font-size: 18px;
   font-weight: bold;
   display: block;
@@ -29,6 +42,26 @@
   display: block;
 }
 
+.debi-list {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.debi-list ol {
+  line-height: 30px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.debi-list ul {
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+p.last-copy {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 767px) {
 
   .debicheck-hero {
@@ -44,7 +77,18 @@
     margin-bottom: 20px;
   }
 
+  .debicheck-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
   .debicheck-button a {
     margin: 0 auto;
   }
+  .debi-list {
+  margin-bottom: 20px;
+}
+p.last-copy {
+  margin-bottom: 60px;
+}
 }
