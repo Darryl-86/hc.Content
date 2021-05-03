@@ -10,6 +10,16 @@
   margin-top: 40px !important;
 }
 
+.mb-1 {
+  margin-bottom: 10px !important;
+}
+
+.hc-rules-heading {
+  margin-bottom: 10px !important;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+}
+
 a.faq-link {
   color: #00f !important;
   text-decoration: underline !important;
@@ -33,5 +43,25 @@ li.no-bullet {
 }
 
 ul.no-bullet-list {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+ol.no-bullet-list {
+  list-style-type: none;
+}
+
+.standard-rules-heading {
+  color: rgb(74, 74, 73);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.standard-rules-content {
+  color: rgb(74, 74, 73);
+  line-height: 23px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 25px !important;
 }
