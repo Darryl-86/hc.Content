@@ -1,3 +1,5 @@
+/*official rules css begin*/
+
 .official-rules-main .heading {
   font-weight: bold;
 }
@@ -65,3 +67,164 @@ ol.no-bullet-list {
   margin-top: 10px;
   margin-bottom: 25px !important;
 }
+
+/*official rules css end*/
+
+.accordion {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #eaecee;
+}
+
+.official-rules-accordion-main-tab {
+  background: #f51169;
+  border-bottom: 3px solid #ffffff;
+}
+
+.official-rules-accordion {
+  border-bottom: 3px solid #ffffff;
+}
+
+.accordion__label,
+.accordion_hc_competitions_std_rules__label,
+.accordion__content {
+  padding: 14px 20px;
+}
+
+/*.accordion__label {
+  display: block;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  }*/
+
+/*.accordion__label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 12px;
+  height: 6px;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+  background-size: contain;
+  transition: transform 0.4s;
+}
+*/
+
+.accordion__label {
+  display: block;
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  margin-bottom: 0;
+  color:#000000;
+  font-size: 16px;
+}
+
+.accordion__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+.accordion__label::after {
+  content: "\276F";
+  position: absolute;
+  right: 15px;
+  transition: transform 0.4s;
+  font-size: 20px;
+  top: 14px;
+  color:#000000;
+}
+
+.accordion_hc_competitions_std_rules__label {
+  display: block;
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  margin-bottom: 0;
+  color:#ffffff;
+  font-size: 16px;
+}
+
+.accordion_hc_competitions_std_rules__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+.accordion_hc_competitions_std_rules__label::after {
+  content: "\276F";
+  position: absolute;
+  right: 15px;
+  transition: transform 0.4s;
+  font-size: 20px;
+  top: 14px;
+  color:#ffffff;
+}
+
+/*.accordion__content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+  }*/
+
+  .accordion__content {
+    background: #ffffff;
+    display: none;
+  }
+
+  .accordion__input {
+    display: none;
+  }
+
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+
+  .accordion__input:checked ~ .accordion__label {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .accordion__input:checked ~ .accordion_hc_competitions_std_rules__label {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+/*.accordion__input:checked ~ .accordion__label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+  }*/
+
+  .accordion__input:checked ~ .accordion__label::after {
+    transform: rotate(90deg);
+  }
+
+  .accordion__input:checked ~ .accordion_hc_competitions_std_rules__label::after {
+    transform: rotate(90deg);
+  }
+
+  @media (max-width: 767px) {
+    .accordion__label {
+      font-size: 14px;
+    }
+
+    .accordion_hc_competitions_std_rules__label {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 440px){
+    .accordion__label::after {
+      right: 10px;
+    }
+
+    .accordion_hc_competitions_std_rules__label::after {
+      right: 10px;
+    }
+    .accordion__label {
+      padding: 14px 25px;
+    }
+  }
