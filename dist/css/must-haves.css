@@ -11,19 +11,11 @@
 }
 
 .must-haves-generic-promo {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .blankets-must-haves-banner-web {
 	margin-bottom: 30px;
-}
-
-.lisbon-bedding-promo-web {
-	margin-bottom: 53px;
-}
-
-.premium-quality-banner-web {
-	margin-bottom: 12px;
 }
 
 .latest-fashion-banner {
@@ -54,53 +46,70 @@
 
 .home-textures-bkg {
 	background-image: url("/file/general/20210429_must_haves_hometextures_bkg.png");
-  background-repeat: repeat;
-  padding: 10px 0 30px 0;
-  margin-bottom: 35px;
+	background-repeat: no-repeat;
+	padding: 25px 10px 10px 10px;
+	margin-bottom: 35px;
+	background-size: 100%;
 }
 
 .hometextures-skinny {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+.winter-promo-main {
+	display: flex;
+}
+
+.winter-promo-web-row-one {
+	margin-bottom: 7px;
+	display: flex;
+}
+
+.winter-promo-web {
+	padding-left: 8px;
+}
+
+.winter-promo-web-row-two {
+	display: flex;
 }
 
 @media (max-width: 767px) {
-.must-haves-header {
-	margin-bottom: 20px;
-}
-.header-banner-container {
-	margin-bottom: 23px;
-}
-.amira-blankets-banner-mobi {
-margin-bottom: 45px;
-}
-.latest-fashion-banner {
-	margin-bottom: 23px;
-}
-.header-banner-copy-container {
-	margin-bottom: 24px;
-}
-.must-have-promo-offers-mobi-row-one {
-	margin-bottom: 17px;
-}
+	.must-haves-header {
+		margin-bottom: 20px;
+	}
 
-.must-have-promo-offers-mobi-last-row {
-	margin-bottom: 36px;
-}
+	.header-banner-container {
+		margin-bottom: 23px;
+	}
 
-.hometextures-heading-mobi {
-	margin-bottom: 14px;
-}
-.four-hometextures-mobi {
-	margin-bottom: 17px;
-}
-.shop-hometextures-mobi {
-	margin-bottom: 20px;
-}
-.home-textures-bkg {
-	background-image: url("/file/general/20210429_must_haves_hometextures_bkg_mobi.png");
-  background-repeat: repeat;
-  padding: 21.5px 0 20px 0;
-  max-width: 360px;
-  margin:0 auto 40px;
-}
+	.latest-fashion-banner {
+		margin-bottom: 23px;
+	}
+
+	.header-banner-copy-container {
+		margin-bottom: 24px;
+	}
+
+	.must-have-promo-offers-mobi-row-one {
+		margin-bottom: 17px;
+	}
+
+	.must-have-promo-offers-mobi-last-row {
+		margin-bottom: 36px;
+	}
+
+	.home-textures-bkg {
+		background-image: url("/file/general/20210429_must_haves_hometextures_bkg_mobi.png");
+		padding: 20px 0;
+		max-width: 360px;
+		margin: 0 auto 40px;
+	}
+
+	.hometextures-skinny {
+		margin-bottom: 16px;
+	}
+
+	.winter-promo-mobi {
+		margin-bottom: 15px;
+	}
 }
