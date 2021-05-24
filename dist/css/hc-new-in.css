@@ -32,13 +32,12 @@ a.whats-new-btn {
   margin-bottom: 30px;
 }
 
-
 .hcnew-fashion-banner {
   margin-bottom: 16px;
 }
 
 .hcnew-more-fashion-header {
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .fashion-brands-promo {
@@ -72,8 +71,8 @@ a.whats-new-btn {
 }
 
 .popular-brands-web-last-row {
-    margin-bottom: 18px;
-  }
+  margin-bottom: 18px;
+}
 
 .fash-blankets-promo {
   margin-bottom: 2px;
@@ -88,7 +87,7 @@ a.whats-new-btn {
 }
 
 .whats-new-category-web-row-one {
-  margin-bottom: 21px;
+  margin-bottom: 54px;
 }
 
 .whats-new-category-web-last-row {
@@ -97,23 +96,27 @@ a.whats-new-btn {
 
 .popular-brands-web-container {
   display: flex;
-  max-width: 60%;
+  max-width: 633px;
   margin: 0 auto;
 }
 
 .popular-brands-web-container-two {
   display: flex;
-  max-width: 50%;
+  max-width: 555px;
   margin: 0 auto;
 }
 
 .whats-new-marketing-promo {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .vl {
   border-left: 0.3px solid #707070;
   height: 66px;
+}
+
+.hc-new-full-range {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
@@ -126,7 +129,7 @@ a.whats-new-btn {
   }
 
   .hcnew-more-fashion-header {
-    margin-bottom: 5px;
+    margin-bottom: 16px;
   }
 
   .popular-brands-mobi {
@@ -164,7 +167,7 @@ a.whats-new-btn {
   }
   
   .whats-new-marketing-promo {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
 
   .whats-new-marketing-last-promo {
@@ -178,11 +181,11 @@ a.whats-new-btn {
   }
 
   .whats-new-category-mobi {
-    margin-bottom: 5px;
+    margin-bottom: 23px;
   }
 
-  .whats-new-category-mobi-last-item {
-    margin-bottom: 14.5px;
+  .whats-new-category-mobi-last-row {
+    margin-bottom: 40px;
   }
 
   .vl {
@@ -193,13 +196,13 @@ a.whats-new-btn {
   .popular-brands-mobi-container {
     display: flex;
     margin: 0 auto;
-    width: 280px;
+    max-width: 360px;
   }
 
   .popular-brands-mobi-container-two {
     display: flex;
     margin: 0 auto;
-    width: 310px;
+    max-width: 360px;
   }
 
   .popular-brands-mobi-container-three {
@@ -210,5 +213,9 @@ a.whats-new-btn {
 
   .popular-brands-mobi {
     margin-bottom: 10px;
+  }
+
+  .hc-new-full-range {
+    margin-bottom: 35px;
   }
 }
