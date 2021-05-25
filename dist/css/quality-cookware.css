@@ -3,96 +3,15 @@
 }
 
 .cookware-chefs-choice-banner {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .innovative-cookware-header {
   margin-bottom: 30px;
 }
 
-.cookware-cat-banner {
-  margin-bottom: 30px;
-}
-
-.mb-10 {
-  margin-bottom: 10px;
-}
-
-.innovative-cookware-link-container a {
-  color: #f51169;
-  font-size: 18px;
-  text-decoration: underline;
-  line-height: 30px;
-}
-
-.innovative-cookware-link-container {
-  text-align: left;
-}
-
-.cookware-dash-two {
-  border-top: 1px solid #eee;
-  margin: 40px 0;
-}
-
-.cookware-full-range {
-  color: #f51169;
-  font-size: 20px;
-  text-decoration: underline;
-  text-align: center;
-  padding-top: 64px;
-}
-
-.cookware-full-range a {
-  color: #f51169;
-  font-size: 20px;
-  text-decoration: underline;
-  text-align: center;
-}
-
-.hc-branded-logo {
-  margin-bottom: 53px;
-}
-
-.hc-branded-logo-small-desktop {
-  margin-bottom: 30px;
-}
-
 .hc-innovation-promo {
   margin-bottom: 48px;
-}
-
-.quality-cookware-brands-container {
-  max-width: 90%;
-  margin:0 auto;
-  display: block;
-}
-
-.eetrite-brand-web {
-  max-width: 188px;
-}
-.legend-brand-web {
-  max-width: 180px;
-}
-.magefesa-brand-web {
-  max-width: 218px;
-}
-.russell-hobbs-brand-web {
-  max-width: 265px;
-}
-.wonderbag-brand-web {
-  max-width: 208px;
-}
-
-
-.cookware-header-main-web {
-    background-image: url(/file/general/20210429_cookware_header_bkg.png);
-    background-repeat: repeat;
-    padding: 104px 0 0px 0;
-    margin-bottom: 35px;
-}
-
-.everything-you-need {
-  margin-bottom: 40px;
 }
 
 .find-what-you-need {
@@ -122,15 +41,15 @@ margin-bottom: 50px;
 }
 
 .shop-stainless-web-promo {
-    padding: 0 3px;
+  padding: 0 3px;
 }
 
 .shop-cast-iron-web-promo {
-    padding: 0 3px;
+  padding: 0 3px;
 }
 
 .shop-aluminium-web-promo {
-    padding: 0 3px;
+  padding: 0 3px;
 }
 
 .shop-cast-iron-web-promo-item {
@@ -141,15 +60,11 @@ margin-bottom: 50px;
   margin-bottom: 17px;
 }
 
-.shop-full-range {
-  margin-bottom: 70px;
-}
-
 .main-promo {
   margin-bottom: 49px;
 }
 
-/*hc logo brands content begin*/
+/*brands content begin*/
 
 .popular-brands-web-container {
   display: flex;
@@ -158,18 +73,14 @@ margin-bottom: 50px;
 }
 
 .popular-brands-web-promo {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .popular-brands-web-item {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
-.hc-baby-brands-heading {
-    margin-bottom: 33px;
-}
-
-/*hc logo brands content end*/
+/*brands content end*/
 
 @media (max-width: 767px) {
   .cookware-header {
@@ -177,121 +88,79 @@ margin-bottom: 50px;
   }
 
   .cookware-chefs-choice-banner {
-margin-bottom: 22px;
-}
-
-  .hc-branded-logo {
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
 
-  .hc-branded-logo-last-logo {
-    margin-bottom: 39px;
-  }
-  .cookware-full-range {
-    padding-top: 12px;
-  }
-  .hc-new-fashion {
-    margin-bottom: 30px;
-  }
-
-  .innovative-cookware-link-container {
-    text-align: center;
-  }
-
-  .cookware-full-range a {
-    font-size: 16px;
-  }
   .hc-innovation-promo {
     margin-bottom: 25px;
   }
+
   .hc-innovation-last-row-promos {
     margin-bottom: 42px;
   }
 
-  .cookware-header-main-mobi {
-      background-image: url(/file/general/20210429_cookware_header_bkg_mobi.png);
-      background-repeat: repeat;
-      padding: 92px 10px 0 10px;
-      max-width: 360px;
-      margin: 0 auto 25px;
+  .find-what-you-need {
+    margin-bottom: 17px;
   }
 
-  .everything-you-need {
-  margin-bottom: 15px;
-}
-.find-what-you-need {
-  margin-bottom: 17px;
-}
-.cookware-cat-promo {
-  margin-bottom: 25px;
-}
+  .cookware-cat-promo {
+    margin-bottom: 25px;
+  }
 
-.cookware-cat-promo-mobi-last-row {
-  margin-bottom: 34px;
-}
+  .cookware-cat-promo-mobi-last-row {
+    margin-bottom: 34px;
+  }
 
-.cookware-by-material-promo {
-  margin-bottom: 25px;
-}
+  .cookware-by-material-promo {
+    margin-bottom: 25px;
+  }
 
-.cookware-by-material-promo-last-row {
-  margin-bottom: 30px;
-}
+  .cookware-by-material-promo-last-row {
+    margin-bottom: 30px;
+  }
 
-.cookware-header-main-web {
-  display: none;
-}
+  .cookware-cat-promo-mobi-container {
+    max-width: 360px;
+    margin: 0 auto;
+  }
 
-.shop-full-range {
-  margin-bottom: 45px;
-}
+  .main-promo {
+    margin-bottom: 13px;
+  }
 
-.cookware-cat-promo-mobi-container {
-  max-width: 360px;
-  margin: 0 auto;
-}
+  .main-promo-mobi-last-item {
+    margin-bottom: 26px;
+  }
 
-.main-promo {
-  margin-bottom: 13px;
-}
+  /*brands content begin*/
 
-.main-promo-mobi-last-item {
-  margin-bottom: 26px;
-}
+  .popular-brands-mobi-container-one {
+    display: flex;
+    margin: 0 auto;
+    max-width: 330px;
+  }
 
-/*hc logo brands content begin*/
-
-.popular-brands-mobi-container-one {
-  display: flex;
-  margin: 0 auto;
-  max-width: 330px;
-}
-
-.popular-brands-mobi-promo {
+  .popular-brands-mobi-promo {
     padding: 0 3px;
-}
+  }
 
-.popular-brands-mobi-item {
+  .popular-brands-mobi-item {
     margin-bottom: 15px;
-}
+  }
 
-.popular-brands-mobi-container-two {
+  .popular-brands-mobi-container-two {
     display: flex;
     margin: 0 auto;
     max-width: 253px;
-}
+  }
 
-.popular-brands-mobi-promo-two {
+  .popular-brands-mobi-promo-two {
     padding: 0 5px;
-}
+  }
 
-.popular-brands-mobi-last-row {
-  margin-bottom: 20px;
-}
-
-.popular-brands-web {
-  display: none;
-}
-
-/*hc logo brands content end*/
+  .popular-brands-mobi-last-row {
+    margin-bottom: 20px;
+  }
+  
+  /*brands content end*/
 }
