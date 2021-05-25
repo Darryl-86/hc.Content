@@ -16,28 +16,12 @@
   margin-bottom: 60px;
 }
 
-.get-most-from-hc-blanket {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 30px;
-}
-
-.shop-blankets-under {
-  margin-bottom: 70px;
-}
-
-.blanket-full-range {
-  margin-bottom: 70px;
-}
-
 .blanket-range-brands-web-promo {
   margin-bottom: 17px;
 }
 
 .blankets-under {
-  margin-bottom: 63px;
+  margin-bottom: 60px;
 }
 
 .blanket-weights-heading {
@@ -45,7 +29,7 @@
 }
 
 .blanket-weights {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 .blanket-cash-deals-banner {
@@ -53,83 +37,79 @@
 }
 
 .get-most-from-hc-blanket-heading {
-margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+}
+
+.kids-cosy-mink-promo {
+  margin-bottom: 90px;
+}
 
 @media (max-width: 767px) {
   .blanket-range-brands-mobi-promo-container {
-  max-width: 175px;
-}
+    max-width: 175px;
+  }
 
-.blanket-range-brands-mobi-promo {
-  margin-bottom: 10px;
-}
+  .blanket-range-brands-mobi-promo {
+    margin-bottom: 10px;
+  }
 
-.blanket-range-brands-mobi-promo-last-row {
-  margin-bottom: 23px;
-}
+  .blanket-range-brands-mobi-promo-last-row {
+    margin-bottom: 23px;
+  }
+
   .buy-two-get-one-free {
     margin-bottom: 40px;
   }
+
   .blankets-must-haves-banner {
+    margin-bottom: 41px;
+  }
+  
+  .buy-two-get-one-free-mobi-container {
+    max-width: 360px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .blankets-under {
+    margin-bottom: 7px;
+  }
+
+  .blankets-under-mobi-last-item {
     margin-bottom: 50px;
   }
-  .get-most-from-hc-blanket {
-    font-size: 22px;
-    max-width: 320px;
-    line-height: 30px;
-    margin-bottom: 20px;
+
+  .blanket-weights-heading {
+    margin-bottom: 22px;
   }
 
-  .most-out-of-hc-blanket-promo {
-  margin-bottom: 50px;
-}
-.shop-blankets-under {
-  margin-bottom: 30px;
-}
-.shop-blankets-under-1000 {
-  margin-bottom: 50px;
-}
-.buy-two-get-one-free-mobi-container {
-  max-width: 360px;
-  display: block;
-  margin: 0 auto;
-}
-.blanket-full-range {
-  margin-bottom: 40px;
-}
-.blankets-under {
-  margin-bottom: 7px;
-}
+  .blanket-weights {
+    margin-bottom: 30px;
+  }
 
-.blankets-under-mobi-last-item {
-  margin-bottom: 47px;
-}
-.blanket-weights-heading {
-  margin-bottom: 22px;
-}
-.blanket-weights {
-  margin-bottom: 30px;
-}
-.blanket-weights-last-row {
-  margin-bottom: 60px;
-}
-.blanket-cash-deals-banner {
-  margin-bottom: 40px;
-}
-.get-most-from-hc-blanket-heading {
-margin-bottom: 26px;
+  .blanket-weights-last-row {
+    margin-bottom: 60px;
+  }
+
+  .blanket-cash-deals-banner {
+    margin-bottom: 50px;
+  }
+
+  .get-most-from-hc-blanket-heading {
+    margin-bottom: 17px;
+  }
+
+  .kids-cosy-mink-promo {
+    margin-bottom: 40px;
+  }
+
+  .kids-cosy-mink-promo-mobi-last-row {
+    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 360px) {
-  .blanket-range-brands-mobi-promo img {
-  width: 95%;
-}
-.blanket-range-brands-mobi-promo-last-row img {
-  width: 95%;
-}
-.buy-two-get-one-free-mobi-container img {
-  width: 95%;
-}
+  .buy-two-get-one-free-mobi-container img {
+    width: 95%;
+  }
 }
