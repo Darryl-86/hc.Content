@@ -1,41 +1,17 @@
 .hc-baby-cat-header-banner {
-  margin-bottom: 35px;
+  margin-bottom: 28px;
 }
 
 .hc-baby-cat-header {
   margin-bottom: 30px;
 }
 
-.hc-baby-cat-banner {
-  margin-bottom: 31px;
-}
-
-.hc-baby-cat-banner-last-row {
-  margin-bottom: 50px;
-}
-
-.hc-baby-bumbo-baby-banner-container {
-	margin-bottom: 38px;
-}
-
-.bumbo-baby-mobi-banner {
-	margin-bottom: 22px;
-}
-
-.bumbo-baby-mobi-copy {
-	margin-bottom: 22px;
-}
-
-.hc-baby-blog-banner {
-  margin-bottom: 45px;
+.hc-baby-category-promo {
+  margin-bottom: 55px;
 }
 
 .hc-baby-checklist-promo {
   margin-bottom: 20px;
-}
-
-.hc-baby-checklist-promo-last-row {
-  margin-bottom: 41.2px;
 }
 
 /*hc logo brands content begin*/
@@ -45,57 +21,74 @@
   margin: 0 auto;
 }
 
-.popular-brands-web-container-two {
-  display: flex;
-  max-width: 50%;
-  margin: 0 auto;
-}
-
 .popular-brands-web {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .hc-baby-brands-heading {
-    margin-bottom: 33px;
+  margin-bottom: 28px;
 }
 
+.hc-baby-endless-cosiness-heading {
+  margin-bottom: 25px;
+}
 
 /*hc logo brands content end*/
+
+/*cosiness css begin*/
+
+.winter-promo-main {
+  display: flex;
+  max-width: 1107px;
+  margin: 0 auto;
+}
+
+.winter-promo-web-row-one {
+  display: flex;
+}
+
+.winter-promo-web {
+  padding: 0 5px;
+}
+
+.winter-promo-web-row-two {
+  display: flex;
+}
+
+.cosiness-big-promo-web {
+  margin-bottom: 54px;
+}
+
+.cosiness-promo-web {
+  margin-bottom: 7px;
+}
+
+.cosiness-promo-web-last-row {
+  margin-bottom: 54px;
+}
+
+/*cosiness css end*/
 
 @media (max-width: 767px) {
   .hc-baby-cat-header-banner {
     margin-bottom: 20px;
   }
 
-  .hc-baby-cat-banner {
+  .hc-baby-category-promo {
     margin-bottom: 25px;
   }
 
-  .hc-baby-cat-banner-last-item {
-    margin-bottom: 32px;
+  .hc-baby-category-promo-mobi-last-row {
+    margin-bottom: 37px;
   }
-  .hc-baby-blog-banner {
-    margin-bottom: 28px;
-  }
+  
   .hc-baby-checklist-promo {
-    margin-bottom: 28px;
+    margin-bottom: 5px;
   }
 
-  .hc-baby-checklist-last-promo {
-    margin-bottom: 32px;
+  .hc-baby-brands-heading {
+    margin-bottom: 10px;
   }
-
-  .hc-baby-brands-promo {
-  margin-bottom: 14px;
-}
-
-.hc-baby-brands-promo-mobi-last-row {
-  margin-bottom: 70px;
-}
-
-.hc-baby-brands-heading {
-    margin-bottom: 33px;
-}
 
   /*hc logo brands content begin*/
 
@@ -116,11 +109,7 @@
   }
 
   .popular-brands-mobi {
-    margin-bottom: 30px;
-  }
-
-  .popular-brands-mobi-last-row {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .popular-brands-web {
@@ -128,4 +117,20 @@
   }
 
   /*hc logo brands content end*/
+
+  /*cosiness css begin*/
+
+  .cosiness-big-promo-mobi {
+    margin-bottom: 23px;
+  }
+
+  .cosiness-promo-mobi {
+    margin-bottom: 15px;
+  }
+
+  .cosiness-promo-mobi-last-row {
+    margin-bottom: 40px;
+  }
+
+  /*cosiness css end*/
 }
