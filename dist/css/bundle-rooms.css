@@ -70,6 +70,10 @@ span.new-combo-prod {
   margin-bottom: 50px;
 }
 
+.special-bedding-banner {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 767px) {
  .create-your-complete-bedroom {
    font-size: 20px;
@@ -99,10 +103,16 @@ a.combo-rooms-buy-now {
 .bundle-rooms-promo-container-last-row {
   margin-bottom: 50px;
 }
+
 .combo-rooms-hero-banner {
   margin-bottom: 20px;
 }
+
 .bundle-rooms-heading {
   margin-bottom: 40px;
+}
+
+.special-bedding-banner {
+  margin-bottom: 50px;
 }
 }
