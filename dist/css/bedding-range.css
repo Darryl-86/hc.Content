@@ -1,38 +1,48 @@
-/* #webContent_v2-wi4200015 (CCAdminTest ID) */
-
 .innovative-cookware-header {
   margin-bottom: 30px;
 }
 
-.cookware-cat-banner-container {
-  margin-bottom: 70px;
+/*generic promo content css begin*/
+
+/*generic promo css begin*/
+.generic-promo-container {
+  margin-bottom: 60px;
 }
 
-.innovative-cookware-heading {
-  margin-bottom: 30px;
+.generic-promo {
+  margin-bottom: 15px;
+}
+/*generic promo css end*/
+
+/*generic promo link / button css begin*/
+.generic-promo-link-container {
+  display: flex;
 }
 
-.cookware-cat-banner-last-container {
-  margin-bottom: 50px;
+.generic-promo-link-container-margin {
+  margin-bottom: 15px;
 }
 
-.cookware-cat-banner {
-  margin-bottom: 40px;
+.generic-promo-link-container a {
+  color: #30455e;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #30455e;
+  border-radius: 4px;
 }
 
-a.whats-new-btn {
-  border-radius: 5px;
+.generic-promo-margin {
+  margin-right: 10px;
 }
+/*generic promo link / button css end*/
 
-.mb-10 {
-  margin-bottom: 10px;
-}
+/*generic promo content css end*/
 
-.mb-30 {
-  margin-bottom: 30px;
-}
+/*bedding innovations promo link css begin*/
 
-.innovative-cookware-link-container a {
+.bedding-innovations-promo-link-container a {
   color: #f51169;
   font-size: 16px;
   text-decoration: underline;
@@ -41,31 +51,17 @@ a.whats-new-btn {
   line-height: 10px;
 }
 
+/*bedding innovations promo link css end*/
+
 .cookware-dash-two {
   border-top: 1px solid #eee;
   margin: 40px 0;
-}
-
-.new-look-bedding-range-logo-mobi-left {
-  padding-right: 0px;
-}
-
-.new-look-bedding-range-logo-mobi-right {
-  padding-left: 0px;
 }
 
 .all-bedding-cat-mobi-main-container {
   margin: 0 auto;
   display: block;
   max-width: 336px;
-}
-
-.all-bedding-cat-side-promo-mobi-container {
-  max-width: 118.5px;
-}
-
-.all-bedding-cat-middle-promo-mobi-container {
-  max-width: 99px;
 }
 
 .hc-bedding-brands-promo {
@@ -80,14 +76,6 @@ a.whats-new-btn {
 
 .hc-bedding-brands-mobi-main-container div {
   margin: auto 0;
-}
-
-.hc-bedding-brands-mobi-promo-container {
-  max-width:166px;
-}
-
-.innovative-cookware-link-container {
-  padding-top: 7px;
 }
 
 .bedding-range-hero-banner {
@@ -110,55 +98,89 @@ a.whats-new-btn {
 }
 
 .bedding-range-shop-cat-web-one {
-  margin-bottom: 78px;
+  margin-bottom: 40px;
 }
 
 .bedding-range-shop-cat-web-two {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .premuim-banner {
-  margin-bottom: 90px;
+  margin-bottom: 50px;
+}
+
+.special-bedding-banner {
+  margin-bottom: 70px;
+}
+
+.innovation-promo-margin {
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .generic-promo-link-container a {
+    padding: 10px 0;
+    width: -webkit-fill-available;
+  }
 }
 
 @media (max-width: 767px) {
-  .hc-new-fashion {
-    margin-bottom: 30px;
+  /*generic promo content css begin*/
+
+  .luxury-percale-promo-link-container {
+    display: none;
   }
-  .innovative-cookware-link-container a {
-    color: #f51169;
-    font-size: 18px;
-    text-decoration: underline;
-    text-align: left;
-    display: block;
+
+  /*generic promo css begin*/
+  .generic-promo-container {
+    margin-bottom: 50px;
+  }
+
+  .generic-promo {
+    margin-bottom: 10px;
+  }
+  /*generic promo css end*/
+
+  /*generic promo link / button css begin*/
+  .generic-promo-link-container {
+    display: flex;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  /*generic promo link / button css end*/
+
+  /*generic promo content css end*/
+
+  /*bedding innovations promo link css begin*/
+
+  .bedding-innovations-promo-link-container a {
     max-width: 360px;
     margin: 0 auto;
     padding-left: 20px;
   }
+
+  /*bedding innovations promo link css end*/
+
   .hc-bedding-brands-promo {
     margin-bottom: 12px;
   }
-  .cookware-cat-banner-container {
-    margin-bottom: 60px;
-  }
-  .cookware-cat-banner {
-    margin-bottom: 60px;
-  }
+
   .bedding-range-geometric {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .all-bedding-cat-promo-mobi {
-  margin-bottom: 30px;
-}
+    margin-bottom: 30px;
+  }
 
-.all-bedding-cat-promo-mobi-last-row {
-  margin-bottom: 70px;
-}
+  .all-bedding-cat-promo-mobi-last-row {
+    margin-bottom: 60px;
+  }
 
   .bedding-range-hero-banner {
     margin-bottom: 30px;
   }
+  
   .bedding-range-brands-border-web {
     display: none; 
   }
@@ -171,17 +193,43 @@ a.whats-new-btn {
     max-width: 350px;
   }
 
-  .premuim-banner {
-  margin-bottom: 70px;
+  .innovation-promos {
+    margin-bottom: 60px;
+  }
+
+  .special-bedding-banner {
+    margin-bottom: 64px;
+  }
 }
 
-.innovation-promos {
-  margin-bottom: 60px;
-}
-}
+@media (max-width: 380px) {
 
-/*@media (max-width: 332px) {
-.hc-bedding-brands-mobi-promo-container img {
-  width: 96%;
+  .generic-promo-link-overide {
+    display: none;
+  }
+  
+  /*luxury percale promo link / button css begin*/
+
+  .luxury-percale-promo-link-container {
+    display: flex;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .luxury-percale-promo-link-container a {
+    color: #30455e;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #30455e;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+  }
+
+  .luxury-percale-promo-link-container-margin {
+    margin-bottom: 10px;
+  }
+
+  /*luxury percale promo link / button css end*/
 }
-}*/
