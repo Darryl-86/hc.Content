@@ -6,28 +6,8 @@
   margin-bottom: 50px;
 }
 
-.marketing-march-winners {
-  margin-bottom: 21px;
-}
-
-.car-winner {
-  margin-bottom: 50px;
-}
-
-.marketing-feb-winners {
-  margin-bottom: 21px;
-}
-
-.marketing-december-winners {
-  margin-bottom: 50px;
-}
-
-.marketing-november-winners {
-  margin-bottom: 37px;
-}
-
-.hc-winners-oct-header {
-  margin-bottom: 70px;
+.our-hc-winners {
+  margin-bottom: 40px;
 }
 
 .divider {
@@ -35,36 +15,28 @@
   margin: 40px 0;
 }
 
+.marketing-section-skinny-heading {
+  margin-bottom: 40px;
+}
+
+.marketing-monthly-winners-content {
+  margin-bottom: 35px;
+}
+
 @media (max-width: 767px) {
   .our-hc-winners {
-  margin-bottom: 32px;
-}
-.marketing-march-winners {
-  margin-bottom: 32px;
-}
+    margin-bottom: 35px;
+  }
 
-.car-winner {
-  margin-bottom: 17px;
-}
+  .marketing-section-skinny-heading {
+    margin-bottom: 35px;
+  }
 
-.marketing-feb-winners {
-  margin-bottom: 33px;
-}
+  .marketing-monthly-winners-content {
+    margin-bottom: 40px;
+  }
 
-.marketing-december-winners {
-  margin-bottom: 27px;
-}
-
-.marketing-november-winners {
-  margin-bottom: 42px;
-}
-.hc-winners-oct-header {
-  margin-bottom: 37px;
-}
-.divider {
-  display: none;
-}
-.full-termsandconditions {
-  margin-bottom: 37px;
-}
+  .full-termsandconditions {
+    margin-bottom: 37px;
+  }
 }
