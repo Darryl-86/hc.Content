@@ -1,9 +1,9 @@
 .marketing-header {
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 
 .full-termsandconditions {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .our-hc-winners {
@@ -24,6 +24,14 @@
 }
 
 @media (max-width: 767px) {
+  .marketing-header {
+    margin-bottom: 32px;
+  }  
+
+  .full-termsandconditions {
+    margin-bottom: 37px;
+  }
+
   .our-hc-winners {
     margin-bottom: 35px;
   }
@@ -34,9 +42,5 @@
 
   .marketing-monthly-winners-content {
     margin-bottom: 40px;
-  }
-
-  .full-termsandconditions {
-    margin-bottom: 37px;
   }
 }
