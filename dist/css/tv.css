@@ -11,7 +11,7 @@
 }
 
 .promo-tv-add-image {
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 
 .tv-add-prod-promo {
@@ -58,6 +58,16 @@
   }
 }
 
+@media (max-width: 991px) {
+.promo-tv-add-image {
+    margin-bottom: 25px;
+  }
+
+  .tv-add-prod-details-mobi {
+    margin-bottom: 50px;
+  }
+  }
+
 @media all and (max-width: 991px) and (min-width: 768px) {
   .simply-dial {
     padding-top: 16%;
@@ -69,9 +79,7 @@
   .tv-add-header {
     margin-bottom: 30px;
   }
-  .promo-tv-add-image {
-    margin-bottom: 30px;
-  }
+
   .value-promo {
     margin-bottom: 50px;
   }
@@ -81,4 +89,7 @@
   .tv-add-marketing-offer {
     margin-bottom: 50px;
   }
+  .adena-main {
+  margin-bottom: 25px;
+}
 }
