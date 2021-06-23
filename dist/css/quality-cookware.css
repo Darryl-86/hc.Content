@@ -3,7 +3,7 @@
 }
 
 .cookware-chefs-choice-banner {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 
 .innovative-cookware-header {
@@ -15,7 +15,7 @@
 }
 
 .find-what-you-need {
-  margin-bottom: 42px;
+  margin-bottom: 33px;
 }
 
 .cookware-cat-promo {
@@ -77,7 +77,7 @@
 }
 
 .popular-brands-web-item {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 /*brands content end*/
@@ -88,7 +88,7 @@
   }
 
   .cookware-chefs-choice-banner {
-    margin-bottom: 22px;
+    margin-bottom: 25px;
   }
 
   .hc-innovation-promo {
@@ -132,6 +132,10 @@
     margin-bottom: 26px;
   }
 
+  .innovative-cookware-header {
+  margin-bottom: 20px;
+}
+
   /*brands content begin*/
 
   .popular-brands-mobi-container-one {
@@ -159,7 +163,7 @@
   }
 
   .popular-brands-mobi-last-row {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   
   /*brands content end*/
