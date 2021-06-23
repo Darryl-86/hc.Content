@@ -1,5 +1,5 @@
 .u-eight-hundred-header {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .u-eight-hundred-promo {
@@ -8,7 +8,7 @@
 
 @media (max-width: 767px) {
 	.u-eight-hundred-header {
-	  margin-bottom: 40px;
+	  margin-bottom: 7px;
 	}
 
 .u-eight-hundred-promo {
