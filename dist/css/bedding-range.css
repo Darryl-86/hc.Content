@@ -51,6 +51,22 @@
   line-height: 10px;
 }
 
+a.cecilia-innovations {
+  color: #f51169;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  line-height: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+a.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
+
 /*bedding innovations promo link css end*/
 
 .cookware-dash-two {
@@ -154,6 +170,12 @@
   /*bedding innovations promo link css begin*/
 
   .bedding-innovations-promo-link-container a {
+    max-width: 360px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  a.cecilia-innovations {
     max-width: 360px;
     margin: 0 auto;
     padding-left: 20px;
