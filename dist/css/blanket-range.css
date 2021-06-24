@@ -44,6 +44,10 @@
   margin-bottom: 90px;
 }
 
+.main-blanket-banner {
+  margin-bottom: 40px;
+}
+
 @media (max-width: 767px) {
   .blanket-range-brands-mobi-promo-container {
     max-width: 175px;
@@ -106,6 +110,10 @@
   .kids-cosy-mink-promo-mobi-last-row {
     margin-bottom: 60px;
   }
+
+  .main-blanket-banner {
+  margin-bottom: 17px;
+}
 }
 
 @media (max-width: 360px) {
