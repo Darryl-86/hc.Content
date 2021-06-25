@@ -6,10 +6,6 @@
   margin-bottom: 30px;
 }
 
-.blog-container-last-item {
-  margin-bottom: 30px;
-}
-
 .blog{
   margin-bottom: 20px;
 }
@@ -41,7 +37,8 @@ a.read-more {
 a.read-more {
   max-width: 200px;
 }
+
 .blog-container-last-item {
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 }
