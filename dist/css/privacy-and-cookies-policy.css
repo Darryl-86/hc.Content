@@ -1,0 +1,26 @@
+.TermsWithLang{
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+
+    .TermsWithLang h4{
+        font-weight: bold;
+    }
+
+    .TermsWithLang li a {
+        background-color: #f5f2f2;
+        color: #000;
+        border: solid 1px #d8d8d8;
+    }
+    
+    .TermsWithLang li.active a {
+        background-color: #ed2282 !important;
+        color: #fff;
+    }
+    
+    a:visited {
+    color: #428bca;
+}
+a:link {
+    color: #428bca;
+}
