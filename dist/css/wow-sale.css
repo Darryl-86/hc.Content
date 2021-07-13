@@ -1,0 +1,75 @@
+.wow-sale-header {
+	margin-bottom: 64px;
+}
+
+.wow-sale-promo-bu {
+	margin-bottom: 92px;
+}
+
+.wow-sale-heading {
+	margin-bottom: 20px;
+}
+
+.wow-sale-bkg {
+	background-color: #000000;
+}
+
+.wow-sale-under-value-promo {
+	margin-bottom: 100px;
+}
+
+.wow-sale-best-seller {
+	margin-bottom: 100px;
+}
+
+.wow-sale-savings {
+	margin-bottom: 40px;
+}
+
+.side-padding {
+	width: 95%;
+	margin:0 auto;
+}
+
+@media (max-width: 767px) {
+	.wow-sale-bkg {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+
+	.wow-sale-header {
+		margin-bottom: 40px;
+	}
+
+	.wow-sale-promo-bu {
+		margin-bottom: 50px;
+	}
+
+	.wow-sale-promo-bu-last-row {
+		margin-bottom: 40px;
+	}
+
+	.wow-sale-under-value-promo {
+		margin-bottom: 10px;
+	}
+
+	.wow-sale-under-value-promo-last-item {
+		margin-bottom: 50px;
+	}
+
+	.wow-sale-best-seller {
+		margin-bottom: 10px;
+	}
+
+	.wow-sale-best-seller-last-items {
+		margin-bottom: 40px;
+	}
+
+	.wow-sale-savings {
+		margin-bottom: 10px;
+	}
+
+	.wow-sale-savings-last-items {
+		margin-bottom: 40px;
+	}
+}
