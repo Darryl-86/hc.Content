@@ -31,6 +31,16 @@
 	margin:0 auto;
 }
 
+.best-seller-web-container {
+	display: flex;
+	max-width: 95%;
+    margin: 0 auto;
+}
+
+.best-seller-margin {
+	margin-left: 15px;
+}
+
 @media (max-width: 767px) {
 	.wow-sale-bkg {
 		max-width: 360px;
