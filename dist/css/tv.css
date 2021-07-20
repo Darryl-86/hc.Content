@@ -6,12 +6,8 @@
   margin-bottom: 25px;
 }
 
-.tv-add-marketing-offer {
-  margin-bottom: 90px;
-}
-
 .promo-tv-add-image {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 .tv-add-prod-promo {
@@ -20,26 +16,121 @@
 }
 
 .tv-add-prod-info {
-  /*max-width: 593px;*/
   display: block;
   margin: 0 auto;
   padding-left: 20px;
 }
 
-.ayanda-copy-web {
+.paxton-copy-web {
+  margin-bottom: 20px;
+}
+
+.paxton-copy-tab {
   margin-bottom: 30px;
 }
 
-.ayanda-copy-mobi {
+.paxton-copy-mobi {
   margin-bottom: 17px;
 }
 
-.value-promo {
-  margin-bottom: 90px;
+.paxton-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.value-promo-last-item {
-  margin-bottom: 70px;
+.danni-copy-web {
+  margin-bottom: 20px;
+}
+
+.danni-copy-tab {
+  margin-bottom: 30px;
+}
+
+.danni-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.danni-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.claire-copy-web {
+  margin-bottom: 18px;
+}
+
+.claire-copy-tab {
+  margin-bottom: 30px;
+}
+
+.claire-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.claire-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.adena-copy-web {
+  margin-bottom: 20px;
+}
+
+.adena-copy-tab {
+  margin-bottom: 30px;
+}
+
+.adena-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.adena-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.miranda-copy-web {
+  margin-bottom: 16px;
+}
+
+.miranda-copy-tab {
+  margin-bottom: 30px;
+}
+
+.miranda-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.miranda-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.julia-copy-web {
+  margin-bottom: 52px;
+}
+
+.julia-copy-tab {
+  margin-bottom: 30px;
+}
+
+.julia-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.julia-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.button-margin-tab {
+  margin-right: 15px;
 }
 
 .dial-ussd-mobi {
@@ -48,18 +139,14 @@
 
 @media (min-width: 992px) {
  .lisbon-con {
-    min-width: 1000px;
-    margin: 0 auto;
-    display: block;
-  }
-  .simply-dial {
-    padding-top: 21%;
-    height: 84px;
-  }
+  min-width: 1000px;
+  margin: 0 auto;
+  display: block;
+}
 }
 
 @media (max-width: 991px) {
-.promo-tv-add-image {
+  .promo-tv-add-image {
     margin-bottom: 25px;
   }
 
@@ -68,13 +155,18 @@
   }
 
   .tv-add-prod-details-mobi {
-    margin-bottom: 50px;
+    margin-bottom: 43px;
   }
-  }
+}
 
 @media all and (max-width: 991px) and (min-width: 768px) {
   .simply-dial {
-    padding-top: 16%;
+    padding-top: 20%;
+    height: 76px;
+  }
+
+  .simply-dial-julia {
+    padding-top: 25%;
     height: 84px;
   }
 }
@@ -83,17 +175,4 @@
   .tv-add-header {
     margin-bottom: 30px;
   }
-
-  .value-promo {
-    margin-bottom: 50px;
-  }
-  .value-promo-last-item {
-    margin-bottom: 45px;
-  }
-  .tv-add-marketing-offer {
-    margin-bottom: 50px;
-  }
-  .adena-main {
-  margin-bottom: 25px;
-}
 }
