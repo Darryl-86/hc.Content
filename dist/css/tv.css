@@ -21,6 +21,24 @@
   padding-left: 20px;
 }
 
+.charlie-copy-web {
+  margin-bottom: 20px;
+}
+
+.charlie-copy-tab {
+  margin-bottom: 30px;
+}
+
+.charlie-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.charlie-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
 .paxton-copy-web {
   margin-bottom: 20px;
 }
