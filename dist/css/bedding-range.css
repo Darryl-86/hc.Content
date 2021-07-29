@@ -130,7 +130,7 @@ a.inactive-link {
 }
 
 .innovation-promo-margin {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -162,6 +162,10 @@ a.inactive-link {
     display: flex;
     max-width: 360px;
     margin: 0 auto;
+  }
+
+  .follow-dreams-margin {
+    margin-bottom: 10px;
   }
   /*generic promo link / button css end*/
 
@@ -221,6 +225,10 @@ a.inactive-link {
 
   .special-bedding-banner {
     margin-bottom: 64px;
+  }
+
+  .shop-collection-charlie {
+    margin-bottom: 34px;
   }
 }
 

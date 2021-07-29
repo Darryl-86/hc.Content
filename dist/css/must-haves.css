@@ -41,7 +41,11 @@
 }
 
 .must-have-promo-offers {
-	margin-bottom: 40px;
+	margin-bottom: 38px;
+}
+
+.must-have-promo-offers-last-row {
+	margin-bottom: 60px;
 }
 
 .home-textures-bkg {
@@ -52,6 +56,53 @@
 	background-size: 100%;
 	background-color: #f5f5f5;
 }
+
+/*bedroom basics css begin*/
+
+.bedroom-basics-bkg {
+	background-image: url("/file/general/20210729_must_haves_bedroombasics_bkg.png");
+	background-repeat: no-repeat;
+	padding: 117px 40px 0px;
+	margin-bottom: 60px;
+	background-size: 100%;
+	background-color: #f5f5f5;
+}
+
+.kitchen-bkg {
+	background-image: url("/file/general/20210729_must_haves_kitchen_bkg.png");
+	background-repeat: no-repeat;
+	padding: 130px 40px 0px;
+	background-size: 100%;
+	background-color: #f5f5f5;
+}
+
+.bedroom-basics-content-one {
+	margin-bottom: 26px;
+}
+
+.bedroom-basics-bkg .header {
+	margin-bottom: 16px;
+}
+
+.kitchen-bkg .header {
+	margin-bottom: 16px;
+}
+
+.six-combo-promo-container {
+	display: flex;
+	margin: 0 auto;
+	max-width: 98%;
+}
+
+.six-combo-promo img {
+	margin-bottom: 15px;
+}
+
+.six-combo-promo-divider {
+	padding: 0 10px;
+}
+
+/*bedroom basics css end*/
 
 .hometextures-skinny {
 	margin-bottom: 5px;
@@ -74,6 +125,16 @@
 	display: flex;
 }
 
+@media (max-width: 991px) {
+	.bedroom-basics-bkg {
+		padding: 90px 40px 0px;
+	}
+
+	.kitchen-bkg {
+		padding: 90px 40px 0px;
+	}
+}
+
 @media (max-width: 767px) {
 	.must-haves-header {
 		margin-bottom: 20px;
@@ -91,12 +152,12 @@
 		margin-bottom: 24px;
 	}
 
-	.must-have-promo-offers-mobi-row-one {
-		margin-bottom: 17px;
+	.must-have-promo-offers {
+		margin-bottom: 24px;
 	}
 
-	.must-have-promo-offers-mobi-last-row {
-		margin-bottom: 36px;
+	.must-have-promo-offers-last-row {
+		margin-bottom: 35px;
 	}
 
 	.home-textures-bkg {
@@ -105,6 +166,53 @@
 		max-width: 360px;
 		margin: 0 auto 40px;
 	}
+
+	/*bedroom basics css*/
+
+	.bedroom-basics-bkg {
+		background-image: url("/file/general/20210729_must_haves_bedroombasics_bkg_mobi.png");
+		padding: 132px 0 20px;
+		max-width: 360px;
+		margin: 0 auto 36px;
+		background-color: #f5f5f5;
+	}
+
+	.kitchen-bkg {
+		background-image: url("/file/general/20210729_must_haves_kitchen_bkg_mobi.png");
+		padding: 132px 0 20px;
+		max-width: 360px;
+		margin: 0 auto;
+		background-color: #f5f5f5;
+	}
+
+	.bedroom-basics-content-one {
+		margin-bottom: 20px;
+	}
+
+	.shop-cookware {
+		margin-bottom: 29px;
+	}
+
+	.bedroom-basics-bkg .header {
+		margin-bottom: 20px;
+	}
+
+	.kitchen-bkg .header {
+		margin-bottom: 20px;
+	}
+
+	.bedroom-basics-content-two-mobi-main {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+
+	.bedroom-basics-content-two-mobi {
+		margin-bottom: 8px;
+	}
+
+
+
+	/*bedroom basics css end*/
 
 	.hometextures-skinny {
 		margin-bottom: 16px;
@@ -115,6 +223,16 @@
 	}
 
 	.must-haves-generic-promo {
-	margin-bottom: 25px;
+		margin-bottom: 25px;
+	}
 }
+
+@media (max-width: 340px) {
+	.bedroom-basics-bkg {
+		padding: 115px 0 20px;
+	}
+
+	.kitchen-bkg {
+		padding: 115px 0 20px;
+	}
 }
