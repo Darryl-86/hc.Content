@@ -1,0 +1,146 @@
+.scammer-hero {
+  margin-bottom: 22px;
+}
+
+.scammer-hero-desc-copy {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  max-width: 87%;
+  margin: 0 auto 20px;
+}
+
+/*main begin*/
+
+.scammer-main-content {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  max-width: 93%;
+  margin: 0 auto;
+}
+
+.scammer-rect-one {
+  margin-bottom: 45px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+}
+
+.scammer-header {
+  font-size: 30px;
+  line-height: 29px;
+  color: #18426c;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.scammer-rect-one-list {
+  padding-left: 20px;
+}
+
+li.list-item:not(:last-child) { 
+   margin-bottom: 20px;  
+}
+
+/*.hc-promise {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.hc-promise img {
+  margin: 0 5px;
+}
+
+.hc-promise span {
+  font-size: 30px;
+  line-height: 29px;
+  color: #18426c;
+  font-weight: bold;
+}
+
+.hc-promise-xs-view {
+  display: none;
+}*/
+
+.hc-logo-header-container {
+padding-left: 30px;
+}
+
+.hc-logo-header {
+  margin-bottom: 25px;
+}
+
+/*main end*/
+
+@media (max-width: 767px) {
+  .scammer-hero {
+    margin-bottom: 11px;
+  }
+
+  .scammer-hero-desc-copy {
+    max-width: 320px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  /*main begin*/
+
+  .scammer-main-content {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 320px;
+  }
+
+  .scammer-rect-one {
+  margin-bottom: 25px;
+  padding: 17px;
+}
+
+  .scammer-header {
+  font-size: 20px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+li.list-item:not(:last-child) { 
+   margin-bottom: 15px;  
+}
+
+  /*.hc-promise span {
+    font-size: 20px;
+    line-height: 18px;
+  }*/
+
+  .hc-logo-header-container {
+    padding-left: 0;
+}
+
+  /*main end*/
+
+}
+
+@media (max-width: 360px) {
+  /*main begin*/
+
+  /*span.the-promise {
+    display: none;
+  }
+
+  .hc-promise {
+    margin-bottom: 3px;
+  }
+
+  .hc-promise-xs-view {
+    display: block;
+    font-size: 20px;
+    line-height: 18px;
+    color: #18426c;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }*/
+  /*main end*/
+}
