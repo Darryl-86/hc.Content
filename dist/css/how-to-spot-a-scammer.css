@@ -3,12 +3,14 @@
 }
 
 .scammer-hero-desc-copy {
-  margin-bottom: 30px;
+  max-width: 87%;
+  margin: 0 auto 30px;
+}
+
+.scammer-hero-desc-copy p {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
-  max-width: 87%;
-  margin: 0 auto 20px;
 }
 
 /*main begin*/
@@ -28,6 +30,18 @@
   background-color: #e1e1e1;
 }
 
+.scammer-rect-two {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+}
+
+.scammer-rect-three {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #e1e1e1;
+}
+
 .scammer-header {
   font-size: 30px;
   line-height: 29px;
@@ -41,36 +55,42 @@
 }
 
 li.list-item:not(:last-child) { 
-   margin-bottom: 20px;  
+ margin-bottom: 20px;  
 }
-
-/*.hc-promise {
-  margin-bottom: 25px;
-  display: flex;
-  align-items: center;
-}
-
-.hc-promise img {
-  margin: 0 5px;
-}
-
-.hc-promise span {
-  font-size: 30px;
-  line-height: 29px;
-  color: #18426c;
-  font-weight: bold;
-}
-
-.hc-promise-xs-view {
-  display: none;
-}*/
 
 .hc-logo-header-container {
-padding-left: 30px;
+  padding-left: 30px;
 }
 
 .hc-logo-header {
   margin-bottom: 25px;
+}
+
+.we-promise-main-content-container {
+  padding: 0 30px;
+}
+
+.before-you-purchase-checklist-container {
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+.privacy-policy-text {
+  padding-top: 10px;
+}
+
+a.perfect-match {
+  color: #3d67f4;
+  text-decoration: underline;
+}
+
+.divider {
+  border-top: 0.5px solid #18426c;
+  margin: 40px 0;
+}
+
+.online-stores-main {
+  margin-bottom: 40px;
 }
 
 /*main end*/
@@ -83,9 +103,12 @@ padding-left: 30px;
   .scammer-hero-desc-copy {
     max-width: 320px;
     margin: 0 auto 20px;
-    font-size: 16px;
-    line-height: 19px;
   }
+
+  .scammer-hero-desc-copy p {
+  font-size: 16px;
+  line-height: 19px;
+}
 
   /*main begin*/
 
@@ -96,51 +119,55 @@ padding-left: 30px;
   }
 
   .scammer-rect-one {
-  margin-bottom: 25px;
-  padding: 17px;
-}
+    margin-bottom: 25px;
+    padding: 17px;
+  }
+
+  .scammer-rect-two {
+    margin-bottom: 16px;
+    padding: 17px;
+  }
+
+  .scammer-rect-three {
+    padding: 17px;
+  }
 
   .scammer-header {
-  font-size: 20px;
-  line-height: 18px;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  li.list-item:not(:last-child) { 
+   margin-bottom: 15px;  
+ }
+
+ .hc-logo-header-container {
+  padding-left: 0;
+}
+
+.we-promise-main-content-container {
+  padding: 0 20px;
+}
+
+.before-you-purchase-checklist-container {
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.privacy-policy-text {
+  padding-top: 5px;
+}
+
+.divider {
+  border-top: 0.5px solid #18426c;
+  margin: 25px 0;
+}
+
+.online-stores-main {
   margin-bottom: 20px;
 }
 
-li.list-item:not(:last-child) { 
-   margin-bottom: 15px;  
-}
+/*main end*/
 
-  /*.hc-promise span {
-    font-size: 20px;
-    line-height: 18px;
-  }*/
-
-  .hc-logo-header-container {
-    padding-left: 0;
-}
-
-  /*main end*/
-
-}
-
-@media (max-width: 360px) {
-  /*main begin*/
-
-  /*span.the-promise {
-    display: none;
-  }
-
-  .hc-promise {
-    margin-bottom: 3px;
-  }
-
-  .hc-promise-xs-view {
-    display: block;
-    font-size: 20px;
-    line-height: 18px;
-    color: #18426c;
-    font-weight: bold;
-    margin-bottom: 25px;
-  }*/
-  /*main end*/
 }
