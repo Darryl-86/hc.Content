@@ -11,57 +11,37 @@
 }
 
 .hc-innovation-promo {
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .find-what-you-need {
   margin-bottom: 33px;
 }
 
-.cookware-cat-promo {
-  margin-bottom: 44px;
-}
-
-.shop-stainless-web-container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1104px;
-}
-
-.shop-cast-iron-web-container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1104px;
-}
-
 .shop-aluminium-web-container {
   display: flex;
   margin: 0 auto;
-  max-width: 1104px;
-}
-
-.shop-stainless-web-promo {
-  padding: 0 3px;
-}
-
-.shop-cast-iron-web-promo {
-  padding: 0 3px;
+  max-width: 1106px;
 }
 
 .shop-aluminium-web-promo {
   padding: 0 3px;
 }
 
-.shop-cast-iron-web-promo-item {
-  margin-bottom: 52px;
+.cookware-by-material-aluminium-promo {
+  margin-bottom: 45px;
 }
 
-.cookware-by-material-promo {
-  margin-bottom: 17px;
+.cookware-by-material-stainless-steel-promo {
+  margin-bottom: 45px;
+}
+
+.cookware-by-material-cast-iron-promo {
+  margin-bottom: 70px;
 }
 
 .main-promo {
-  margin-bottom: 49px;
+  margin-bottom: 30px;
 }
 
 /*brands content begin*/
@@ -96,45 +76,44 @@
   }
 
   .hc-innovation-last-row-promos {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
   }
 
   .find-what-you-need {
     margin-bottom: 17px;
   }
 
-  .cookware-cat-promo {
-    margin-bottom: 25px;
+  .cookware-by-material-aluminium-promo {
+    margin-bottom: 20px;
   }
 
-  .cookware-cat-promo-mobi-last-row {
-    margin-bottom: 34px;
+  .cookware-by-material-stainless-steel-promo {
+    margin-bottom: 45px;
   }
 
-  .cookware-by-material-promo {
-    margin-bottom: 25px;
+  .cookware-by-material-cast-iron-promo {
+    margin-bottom: 36px;
   }
 
-  .cookware-by-material-promo-last-row {
+  .cookware-by-material-aluminium-promo-last-row {
     margin-bottom: 30px;
   }
 
-  .cookware-cat-promo-mobi-container {
-    max-width: 360px;
-    margin: 0 auto;
+  .cookware-by-material-stainless-steel-promo-last-row {
+    margin-bottom: 40px;
+  }
+
+  .cookware-by-material-cast-iron-promo-last-row {
+    margin-bottom: 40px;
   }
 
   .main-promo {
     margin-bottom: 13px;
   }
 
-  .main-promo-mobi-last-item {
-    margin-bottom: 26px;
-  }
-
   .innovative-cookware-header {
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;
+  }
 
   /*brands content begin*/
 
