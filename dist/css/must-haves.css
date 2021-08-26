@@ -14,6 +14,14 @@
 	margin-bottom: 40px;
 }
 
+.must-haves-blankets-banner {
+	margin-bottom: 60px;
+}
+
+.couch-covers-banner {
+	margin-bottom: 50px;
+}
+
 .blankets-must-haves-banner-web {
 	margin-bottom: 30px;
 }
@@ -125,6 +133,10 @@
 	display: flex;
 }
 
+.main-header {
+	margin-bottom: 33px;
+}
+
 @media (max-width: 991px) {
 	.bedroom-basics-bkg {
 		padding: 90px 40px 0px;
@@ -210,8 +222,6 @@
 		margin-bottom: 8px;
 	}
 
-
-
 	/*bedroom basics css end*/
 
 	.hometextures-skinny {
@@ -224,6 +234,18 @@
 
 	.must-haves-generic-promo {
 		margin-bottom: 25px;
+	}
+
+	.must-haves-blankets-banner {
+		margin-bottom: 40px;
+	}
+
+	.couch-covers-banner {
+		margin-bottom: 26px;
+	}
+
+	.main-header {
+		margin-bottom: 20px;
 	}
 }
 
