@@ -1,0 +1,152 @@
+.value-prop-hero {
+	margin-bottom: 55px;
+}
+
+.value-prop-brands-header {
+	margin-bottom: 27px;
+}
+
+.vp-brand-logos-web-main {
+	display: flex;
+	max-width: 80%;
+	margin:0 auto;
+}
+
+.vp-brand-logos-ipad-main {
+	display: flex;
+	max-width: 80%;
+	margin:0 auto;
+}
+
+.vp-brand-logos-ipad-main-2 {
+	display: flex;
+	max-width: 60%;
+	margin:0 auto;
+}
+
+.vp-brand-logos-mobi-main {
+	display: flex;
+	max-width: 340px;
+	margin:0 auto;
+}
+
+.vp-brand-logos-mobi-main-2 {
+	display: flex;
+	max-width: 300px;
+	margin:0 auto;
+}
+
+.vp-brand-logos-web-promo {
+	padding: 0 10px;
+}
+
+.vp-brand-logos-ipad-promo {
+	padding: 0 5px;
+}
+
+.vp-brand-logos-mobi-promo {
+	padding: 0 5px;
+}
+
+.vp-brand-logos-web {
+	margin-bottom: 53px;
+}
+
+.vp-brand-logos-ipad-one {
+	margin-bottom: 15px;
+}
+
+.vp-brand-logos-ipad-two {
+	margin-bottom: 36px;
+}
+
+.vp-brand-logos-mobi-one {
+	margin-bottom: 15px;
+}
+
+.vp-brand-logos-mobi-two {
+	margin-bottom: 36px;
+}
+
+.value-prop-replace-mattress {
+	margin-bottom: 48px;
+}
+
+.value-prop-choosing-mattress {
+	margin-bottom: 18px;
+}
+
+.value-prop-kind-of-sleeper {
+	margin-bottom: 52px;
+}
+
+.bnpl-banner {
+	margin-bottom: 47px;
+}
+
+.value-prop-what-you-need-header {
+	margin-bottom: 31px;
+}
+
+.value-prop-bedding-categories-1 {
+	margin-bottom: 30px;
+}
+
+.value-prop-bedding-categories-2 {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+	.value-prop-hero {
+		margin-bottom: 20px;
+	}
+
+	.value-prop-brands-header {
+		margin-bottom: 15px;
+	}
+
+	.value-prop-replace-mattress-mobi {
+		margin-bottom: 28px;
+	}
+
+	.value-prop-mattress-size-mobi {
+		margin-bottom: 35px;
+	}
+
+	.value-prop-choosing-mattress {
+		margin-bottom: 38px;
+	}
+
+	.value-prop-back-sleeper {
+		margin-bottom: 22px;
+	}
+
+	.value-prop-side-sleeper {
+		margin-bottom: 22px;
+	}
+
+	.value-prop-front-sleeper {
+		margin-bottom: 27px;
+	}
+
+	.bnpl-banner {
+		margin-bottom: 32px;
+	}
+
+	.value-prop-what-you-need-header {
+		margin-bottom: 19px;
+	}
+
+	.value-prop-bedding-categories-mobi-container {
+		margin:0 auto;
+		max-width: 340px;
+	}
+
+	.value-prop-bedding-categories-mobi {
+		margin-bottom: 13px;
+	}
+
+	.value-prop-bedding-categories-mobi-last-item {
+		margin-bottom: 27px;
+	}
+}
