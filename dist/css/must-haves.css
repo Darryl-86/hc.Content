@@ -3,11 +3,11 @@
 }
 
 .header-banner-container {
-	margin-bottom: 39px;
+	margin-bottom: 33px;
 }
 
 .header-banner-copy-container {
-	margin-bottom: 39px;
+	margin-bottom: 22px;
 }
 
 .must-haves-generic-promo {
@@ -24,10 +24,6 @@
 
 .blankets-must-haves-banner-web {
 	margin-bottom: 30px;
-}
-
-.latest-fashion-banner {
-	margin-bottom: 50px;
 }
 
 .latest-fashion-trends-cat-mobi-container {
@@ -53,7 +49,7 @@
 }
 
 .must-have-promo-offers-last-row {
-	margin-bottom: 60px;
+	margin-bottom: 45px;
 }
 
 .home-textures-bkg {
@@ -99,7 +95,7 @@
 .six-combo-promo-container {
 	display: flex;
 	margin: 0 auto;
-	max-width: 98%;
+	max-width: 91%;
 }
 
 .six-combo-promo img {
@@ -107,7 +103,7 @@
 }
 
 .six-combo-promo-divider {
-	padding: 0 10px;
+	padding: 0 26px;
 }
 
 /*bedroom basics css end*/
@@ -137,6 +133,10 @@
 	margin-bottom: 33px;
 }
 
+.sheraton-bees-banner {
+	margin-bottom: 50px;
+}
+
 @media (max-width: 991px) {
 	.bedroom-basics-bkg {
 		padding: 90px 40px 0px;
@@ -153,11 +153,7 @@
 	}
 
 	.header-banner-container {
-		margin-bottom: 23px;
-	}
-
-	.latest-fashion-banner {
-		margin-bottom: 23px;
+		margin-bottom: 32px;
 	}
 
 	.header-banner-copy-container {
@@ -169,7 +165,7 @@
 	}
 
 	.must-have-promo-offers-last-row {
-		margin-bottom: 35px;
+		margin-bottom: 32px;
 	}
 
 	.home-textures-bkg {
@@ -246,6 +242,10 @@
 
 	.main-header {
 		margin-bottom: 20px;
+	}
+
+	.sheraton-bees-banner {
+		margin-bottom: 43px;
 	}
 }
 
