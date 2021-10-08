@@ -1,5 +1,5 @@
 .tv-add-header {
-  margin-bottom: 45px;
+  margin-bottom: 26px;
 }
 
 .main-tv-add-image {
@@ -52,6 +52,60 @@
 }
 
 .frankie-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.lara-copy-web {
+  margin-bottom: 32px;
+}
+
+.lara-copy-tab {
+  margin-bottom: 30px;
+}
+
+.lara-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.lara-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.kanya-copy-web {
+  margin-bottom: 32px;
+}
+
+.kanya-copy-tab {
+  margin-bottom: 30px;
+}
+
+.kanya-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.kanya-tab-copy-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.charlie-copy-web {
+  margin-bottom: 32px;
+}
+
+.charlie-copy-tab {
+  margin-bottom: 30px;
+}
+
+.charlie-copy-mobi {
+  margin-bottom: 17px;
+}
+
+.charlie-tab-copy-container {
   max-width: 500px;
   margin: 0 auto;
   display: flex;
@@ -177,10 +231,10 @@
 
 @media (max-width: 767px) {
   .tv-add-header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .last-section-promo {
-  margin-bottom: 43px;
-}
+    margin-bottom: 43px;
+  }
 }
