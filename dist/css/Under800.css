@@ -1,5 +1,5 @@
 .u-eight-hundred-header {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .section1-container {
@@ -21,10 +21,6 @@
 }
 
 @media (max-width: 767px) {
-	.u-eight-hundred-header {
-		margin-bottom: 30px;
-	}
-
 	.under-r800-mobi-main {
 		max-width: 360px;
 		margin: 0 auto;
