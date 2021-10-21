@@ -51,6 +51,15 @@
   line-height: 10px;
 }
 
+.shop-collections-promo-link-container a {
+  color: #f51169;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  line-height: 10px;
+}
+
 a.cecilia-innovations {
   color: #f51169;
   font-size: 16px;
@@ -70,7 +79,7 @@ a.inactive-link {
 /*bedding innovations promo link css end*/
 
 .cookware-dash-two {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #d6dadf;
   margin: 40px 0;
 }
 
@@ -95,7 +104,7 @@ a.inactive-link {
 }
 
 .bedding-range-hero-banner {
-  margin-bottom: 54px;
+  margin-bottom: 30px;
 }
 
 .bedding-range-brands-border-web {
@@ -131,6 +140,10 @@ a.inactive-link {
 
 .innovation-promo-margin {
   margin-bottom: 10px;
+}
+
+.special-bedding-promo {
+  margin-bottom: 75px;
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -179,6 +192,11 @@ a.inactive-link {
     padding-left: 20px;
   }
 
+  .shop-collections-promo-link-container a {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
   a.cecilia-innovations {
     max-width: 360px;
     margin: 0 auto;
@@ -203,10 +221,6 @@ a.inactive-link {
     margin-bottom: 60px;
   }
 
-  .bedding-range-hero-banner {
-    margin-bottom: 30px;
-  }
-  
   .bedding-range-brands-border-web {
     display: none; 
   }
@@ -229,6 +243,14 @@ a.inactive-link {
 
   .shop-collection-charlie {
     margin-bottom: 34px;
+  }
+
+  .special-bedding-promo {
+    margin-bottom: 14px;
+  }
+
+  .shop-collections-promo-margin {
+    margin-bottom: 10px;
   }
 }
 
