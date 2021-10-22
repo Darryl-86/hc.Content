@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .cookware-header {
   margin-bottom: 26px;
 }
@@ -6,12 +12,40 @@
   margin-bottom: 32px;
 }
 
+.cookware-hero-banner {
+  margin-bottom: 30px;
+}
+
+.cookware-hero-copy {
+  font-size: 16px;
+  color: #30455e;
+  margin: 0 auto 50px;
+  line-height: 24px;
+}
+
+.cookware-material-guide {
+  margin-bottom: 70px;
+}
+
+.cookware-heading {
+    text-align: center;
+    font-size: 34px;
+    color: #30455e;
+    font-weight: 500;
+    margin: 0 auto 30px;
+    line-height: 40px;
+}
+
 .innovative-cookware-header {
   margin-bottom: 30px;
 }
 
 .hc-innovation-promo {
-  margin-bottom: 50px;
+  margin-bottom: 64px;
+}
+
+.cookware-shop-all-btn {
+  margin-bottom: 49px;
 }
 
 .find-what-you-need {
@@ -41,7 +75,7 @@
 }
 
 .main-promo {
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 
 /*brands content begin*/
@@ -49,7 +83,7 @@
 .popular-brands-web-container {
   display: flex;
   margin: 0 auto;
-  max-width: 93%;
+  /*max-width: 93%;*/
 }
 
 .popular-brands-web-promo {
@@ -72,11 +106,11 @@
   }
 
   .hc-innovation-promo {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .hc-innovation-last-row-promos {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
   }
 
   .find-what-you-need {
@@ -107,12 +141,26 @@
     margin-bottom: 40px;
   }
 
-  .main-promo {
-    margin-bottom: 13px;
+  .main-promo-last-item {
+    margin-bottom: 30px;
   }
 
   .innovative-cookware-header {
     margin-bottom: 20px;
+  }
+
+  .cookware-heading {
+      font-size: 30px;
+      margin: 0 auto 20px;
+      max-width: 300px;
+  }
+
+  .cookware-hero-copy {
+    max-width: 330px;
+  }
+
+  .cookware-shop-all-btn {
+    margin-bottom: 38px;
   }
 
   /*brands content begin*/
@@ -120,11 +168,11 @@
   .popular-brands-mobi-container-one {
     display: flex;
     margin: 0 auto;
-    max-width: 330px;
+    max-width: 340px;
   }
 
   .popular-brands-mobi-promo {
-    padding: 0 3px;
+    padding: 0 7px;
   }
 
   .popular-brands-mobi-item {
@@ -142,7 +190,7 @@
   }
 
   .popular-brands-mobi-last-row {
-    margin-bottom: 25px;
+    margin-bottom: 70px;
   }
   
   /*brands content end*/
