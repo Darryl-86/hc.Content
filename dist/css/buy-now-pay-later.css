@@ -1,17 +1,103 @@
-a.official-rules-link {
-  color: #333;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
-a:hover.official-rules-link {
-  color: #333;
+.bnpl-hero {
+	margin-bottom: 50px;
 }
 
-.t-and-c-apply {
-  font-size: 18px;
+.bnpl-header-one {
+	color: #30455e;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
 }
 
-.what-else-on-offer {
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 25px;
+.bnpl-copy-one {
+	color: #30455e;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.bnpl-header-two {
+	color: #30455e;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.bnpl-copy-two {
+	color: #30455e;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.bnpl-header-three {
+	color: #30455e;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.bnpl-copy-last-para {
+	color: #30455e;
+	font-size: 16px;
+}
+
+.bnpl-promo {
+	margin-bottom: 40px;
+}
+
+a.bnpl-link {
+	color: #0086f7;
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+@media (max-width: 767px) {
+	.main {
+		max-width: 330px;
+		margin: 0 auto;
+	}
+
+	.bnpl-hero {
+		margin-bottom: 30px;
+	}
+
+	.bnpl-header-one {
+		margin-bottom: 20px;
+	}
+
+	.bnpl-copy-one {
+		margin-bottom: 30px;
+	}
+
+	.bnpl-header-two {
+		color: #30455e;
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	.bnpl-copy-two {
+		margin-bottom: 30px;
+	}
+
+	.bnpl-header-three {
+		margin-bottom: 30px;
+	}
+
+	.bnpl-promo {
+		margin-bottom: 50px;
+	}
+
+	.mobi-bnpl-container {
+		display: flex;
+	}
+
+	.mobi-bnpl {
+		margin: 0 7px;
+	}
 }
