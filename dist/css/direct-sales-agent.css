@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*css only carousel begin*/
 
 #slider {
@@ -55,80 +61,73 @@
 /*css only carousel end*/
 
 .direct-sales-agent-master {
-  color: #000000;
+  color: #30455e;
 }
 
 .direct-sales-agent-main-banner {
   margin-bottom: 20px;
 }
 
-.employee-skinny-banner {
-  margin-bottom: 50px;
+.main-copy {
+  margin: 0 auto 35px;
+  max-width: 95%;
+  font-size: 16px;
 }
 
-.d-flex {
+.sales-agent-promo-container {
+  margin: 0 auto 35px;
+  max-width: 465px;
+}
+
+.sales-agent-promo {
+  margin-bottom: 25px;
+}
+
+.sales-agent-promo-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.sales-agent-promo-copy {
+  font-size: 16px;
+}
+
+.sales-agent-promo-copy ul {
+  padding-left: 15px;
+}
+
+.sales-agent-application {
+  margin-bottom: 60px;
+}
+
+.need-help-container {
+  color: #0086f7;
+}
+
+.need-help-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.need-help-contact-links {
   display: flex;
-}
-
-.mv-auto {
-  margin: auto 0;
-}
-
-.employee-benefits {
-  margin-bottom: 35px;
-}
-
-.employee-benefits-last-row {
-  margin-bottom: 65px;
-}
-
-.sales-agent-registration {
-  text-align: center;
-  line-height: 35px;
-  max-width: 90%;
-  margin: 0 auto 40px;
-}
-
-.sales-agent-registration .heading {
-  font-weight: bold;
-  font-size: 30px;
-  color: #f51169;
-  margin-bottom: 10px;
-}
-
-.sales-agent-registration .copy {
   font-size: 16px;
 }
 
-.sales-agent-registration-last-item {
-  text-align: center;
-  line-height: 35px;
-  max-width: 90%;
-  margin: 0 auto 50px;
-}
-
-.sales-agent-registration-last-item .heading {
-  font-weight: bold;
-  font-size: 30px;
-  color: #f51169;
-  margin-bottom: 10px;
-}
-
-.sales-agent-registration-last-item .copy {
-  font-size: 16px;
-}
-
-.sales-agent-of-the-year {
-  margin-bottom: 80px;
-}
-
-a.register-email-link {
-  color: #000000;
-}
-
-a.register-email-link:hover {
-  color: #00f !important;
+.need-help-container a {
   text-decoration: underline;
+  color: #0086f7;
+}
+
+span.disable-links {
+  pointer-events: none;
+}
+
+span.divider {
+  margin: 0 30px;
 }
 
 @media (max-width: 767px) {
@@ -140,53 +139,66 @@ a.register-email-link:hover {
 
   /*css only carousel end*/
 
-  .direct-sales-agent-main-banner {
+  .main-copy {
+    margin: 0 auto 24px;
+    max-width: 320px;
+  }
+
+  .sales-agent-promo-container {
+    margin: 0 auto 24px;
+    max-width: 339px;
+  }
+
+  .sales-agent-promo {
+    margin-bottom: 20px;
+  }
+
+  .sales-agent-promo-heading {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+  }
+
+  .sales-agent-app-mobi-container {
+    margin: 0 auto 24px;
+    max-width: 339px;
+  }
+
+  .sales-agent-application {
+    margin-bottom: 20px;
+  }
+
+  .sales-agent-application-heading {
+    font-size: 16px;
+    font-weight: bold;
     margin-bottom: 10px;
   }
 
-  .employee-skinny-banner {
-    margin-bottom: 29px;
+  .ready-change-your-life-copy {
+    font-size: 16px;
+    margin-bottom: 10px;
   }
 
-  .employee-benefits {
-    margin-bottom: 50px;
+  .need-help-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 339px;
   }
 
-  .sales-agent-registration {
-    max-width: 320px;
-    margin: 0 auto 30px;
+  .need-help-heading {
+    margin-bottom: 20px;
   }
 
-  .sales-agent-registration-last-item {
-    max-width: 320px;
-    margin: 0 auto 60px;
+  .need-help-contact-links {
+    display: block;
   }
 
-  .sales-agent-registration .copy {
-    font-size: 18px;
-    line-height: 28px;
+  span.disable-links {
+    pointer-events: visible;
   }
 
-  .sales-agent-registration-last-item .copy {
-    font-size: 18px;
-    line-height: 28px;
+  .need-help-contact-links span:not(:last-child) {
+    display: block;
+    margin-bottom: 35px;
   }
-
-  .employee-benefits-last-row {
-    margin-bottom: 50px;
-  }
-
-  .sales-agent-of-the-year {
-    margin-bottom: 30px;
-  }
-
-  a.register-call-link {
-    color: #00f !important;
-    text-decoration: underline;
-  }
-
-  a.register-email-link {
-   color: #00f !important;
-   text-decoration: underline;
- }
 }
