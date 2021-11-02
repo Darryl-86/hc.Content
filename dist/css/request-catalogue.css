@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.digital-cat-copy-container {
+  color: #000;
+  text-align: center;
+}
+
+.digital-cat-copy-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+.digital-cat-copy-heading span {
+  color: #ed2282;
+  font-weight: bold;
+}
+
+.digital-cat-copy {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.digital-inline-cat-covers-web {
+  display: flex;
+}
+
+.digital-inline-cat-covers-mobi {
+  display: none;
+}
+
+.inline-promo-copy {
+  margin: 0 10px 0px 0px;
+}
+
+.inline-promo-gap {
+  margin:0 2px;
+}
+
+.img__wrap {
+  position: relative;
+  height: 307px;
+  width: 212px;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0000001a;
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__description_layer a {
+  padding: .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: .5em;
+  background-color: #ed2282;
+  color: #fff;
+  text-align: center;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__img {
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.img__wrap:hover .img__img {
+  opacity: .3;
+}
+
+.img__description {
+  transform: translateY(1em);
+  transition: .5s ease;
+  text-align: center;
+  font-size: 15px;
+}
+
+.img__description span {
+  margin-bottom: 10px;
+  display: block;
+  padding: 0 4px;
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+@media (max-width: 767px) {
+  .digital-inline-cat-covers-web {
+    display: none;
+  }
+
+  .digital-inline-cat-covers-mobi {
+    display: block;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .img__wrap {
+    margin: 0 auto;
+  }
+
+  .digital-cat-copy-container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .digital-cat-copy-heading {
+    font-size: 24px;
+  }
+
+  .digital-cat-copy {
+    font-size: 16px;
+  }
+
+  .img__description {
+    font-size: 14px;
+  }
+}
