@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
 	font-family: 'Roboto', sans-serif;
-}
+}*/
 
 .bnpl-hero {
 	margin-bottom: 50px;
@@ -13,6 +13,7 @@ body {
 	font-size: 30px;
 	font-weight: 600;
 	margin-bottom: 20px;
+	line-height: 35px;
 }
 
 .bnpl-copy-one {
