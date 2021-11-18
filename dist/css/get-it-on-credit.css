@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-}
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}*/
 
 .direct-sales-agent-master {
   color: #30455e;
@@ -22,34 +22,6 @@ body {
   max-width: 98%;
   font-size: 16px;
   line-height: 24px;
-}
-
-.sales-agent-promo-container {
-  margin: 0 auto 35px;
-  max-width: 465px;
-}
-
-.sales-agent-promo {
-  margin-bottom: 25px;
-}
-
-.sales-agent-promo-heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  line-height: 30px;
-}
-
-.sales-agent-promo-copy {
-  font-size: 16px;
-}
-
-.sales-agent-promo-copy ul {
-  padding-left: 15px;
-}
-
-.sales-agent-application {
-  margin-bottom: 40px;
 }
 
 .need-help-container {
@@ -81,8 +53,6 @@ span.divider {
   margin: 0 30px;
 }
 
-/*new*/
-
 .how-to-get-credit {
   margin-bottom: 40px;
 }
@@ -111,6 +81,7 @@ span.divider {
 .start-shopping-main ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .start-shopping-main li {
@@ -171,49 +142,46 @@ a.existing-customer-credit-btn {
 .testimonials-heading {
   font-size: 30px;
   line-height: 30px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   font-weight: bold;
   text-align: center;
 }
 
 .testimonials-main {
-display: flex;
+  display: flex;
 }
 
 .testimonials-copy-container-one {
-    border-radius: 7px;
-    /* background-color: #f8f8f8; */
-    background-color: #e5e0e0;
-    margin: 0 25px 42px 0;
-    min-height: 128px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    padding: 20px;
+  border-radius: 7px;
+  background-color: #f8f8f8; 
+  margin: 0 25px 42px 0;
+  min-height: 128px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
 }
 
 .testimonials-copy-container-two {
-    border-radius: 7px;
-    /* background-color: #f8f8f8; */
-    background-color: #e5e0e0;
-    margin: 0 25px 42px 0;
-    min-height: 128px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    padding: 20px;
+  border-radius: 7px;
+  background-color: #f8f8f8; 
+  margin: 0 25px 42px 0;
+  min-height: 128px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
 }
 
 .testimonials-copy-container-last-item {
-    border-radius: 7px;
-    /* background-color: #f8f8f8; */
-    background-color: #e5e0e0;
-    min-height: 128px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    padding: 20px;
-    margin-bottom: 42px;
+  border-radius: 7px;
+  background-color: #f8f8f8; 
+  min-height: 128px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin-bottom: 42px;
 }
 
 .testimonials-copy {
@@ -222,55 +190,44 @@ display: flex;
   text-align: center;
 }
 
-/*new*/
+@media all and (max-width: 991px) and (min-width: 768px) {
 
-@media (max-width: 767px) {
-  /*css only carousel begin*/
-
-  #slider {
-    margin-bottom: 10px;
+  .start-shopping-today-promo {
+    margin-bottom: 32px;
   }
 
-  /*css only carousel end*/
+  .start-shopping-tab-view {
+    max-width: 572px;
+    margin: 0 auto 65px;
+  }
+
+  .start-shopping-tab-view ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .start-shopping-tab-view li {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  
+  .start-shopping-tab-view li:last-child {
+    margin-bottom: 36px;
+  }
+
+  .need-help-contact-links span:not(:last-child) {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
 
   .main-copy {
     margin: 0 auto 40px;
     max-width: 330px;
-  }
-
-  .sales-agent-promo-container {
-    margin: 0 auto 24px;
-    max-width: 339px;
-  }
-
-  .sales-agent-promo {
-    margin-bottom: 20px;
-  }
-
-  .sales-agent-promo-heading {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 20px;
-  }
-
-  .sales-agent-app-mobi-container {
-    margin: 0 auto 24px;
-    max-width: 339px;
-  }
-
-  .sales-agent-application {
-    margin-bottom: 46px;
-  }
-
-  .sales-agent-application-heading {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .ready-change-your-life-copy {
-    font-size: 16px;
-    margin-bottom: 10px;
   }
 
   .need-help-container {
@@ -294,8 +251,6 @@ display: flex;
     display: block;
     margin-bottom: 29px;
   }
-
-  /*new*/
 
   .how-to-get-credit {
     margin-bottom: 16px;
@@ -348,20 +303,18 @@ display: flex;
   }
 
   .testimonials-main {
-  display: grid;
-  max-width:330px;
-  margin: 0 auto;
+    display: grid;
+    max-width:330px;
+    margin: 0 auto;
   }
 
   .testimonials-copy-container-one {
-      margin: 0 0px 16px 0;
-      min-height: 136px;
+    margin: 0 0px 16px 0;
+    min-height: 136px;
   }
 
   .testimonials-copy-container-two {
-      margin: 0 0px 42px 0;
-      min-height: 136px;
+    margin: 0 0px 42px 0;
+    min-height: 136px;
   }
-
-  /*new*/
 }
