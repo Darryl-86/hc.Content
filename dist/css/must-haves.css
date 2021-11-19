@@ -3,7 +3,7 @@
 }
 
 .header-banner-container {
-	margin-bottom: 33px;
+	margin-bottom: 50px;
 }
 
 .header-banner-copy-container {
@@ -45,11 +45,7 @@
 }
 
 .must-have-promo-offers {
-	margin-bottom: 48px;
-}
-
-.must-have-promo-offers-last-row {
-	margin-bottom: 53px;
+	margin-bottom: 50px;
 }
 
 .home-textures-bkg {
@@ -80,8 +76,20 @@
 	background-color: #f5f5f5;
 }
 
+.kitchen-content-main {
+	padding: 0 40px;
+}
+
+.kitchen-content-header {
+	margin-bottom: 25px;
+}
+
+.kitchen-content-sub-heading {
+	margin-bottom: 18px;
+}
+
 .bedroom-basics-content-one {
-	margin-bottom: 26px;
+	margin-bottom: 55px;
 }
 
 .bedroom-basics-bkg .header {
@@ -145,6 +153,10 @@
 	.kitchen-bkg {
 		padding: 90px 40px 0px;
 	}
+
+	.kitchen-content-main {
+		padding: 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -152,20 +164,12 @@
 		margin-bottom: 20px;
 	}
 
-	.header-banner-container {
-		margin-bottom: 32px;
-	}
-
 	.header-banner-copy-container {
 		margin-bottom: 24px;
 	}
 
 	.must-have-promo-offers {
-		margin-bottom: 30px;
-	}
-
-	.must-have-promo-offers-last-row {
-		margin-bottom: 36px;
+		margin-bottom: 31px;
 	}
 
 	.home-textures-bkg {
@@ -193,12 +197,26 @@
 		background-color: #f5f5f5;
 	}
 
+	.kitchen-bkg {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+
+	.kitchen-content-main {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+
+	.kitchen-content-sub-heading {
+		margin-bottom: 20px;
+	}
+
 	.bedroom-basics-content-one {
 		margin-bottom: 20px;
 	}
 
 	.shop-cookware {
-		margin-bottom: 29px;
+		margin-bottom: 50px;
 	}
 
 	.bedroom-basics-bkg .header {
@@ -209,7 +227,7 @@
 		margin-bottom: 20px;
 	}
 
-	.bedroom-basics-content-two-mobi-main {
+	.must-haves-promo-offers-container {
 		max-width: 360px;
 		margin: 0 auto;
 	}
@@ -246,15 +264,5 @@
 
 	.sheraton-bees-banner {
 		margin-bottom: 43px;
-	}
-}
-
-@media (max-width: 340px) {
-	.bedroom-basics-bkg {
-		padding: 115px 0 20px;
-	}
-
-	.kitchen-bkg {
-		padding: 115px 0 20px;
 	}
 }
