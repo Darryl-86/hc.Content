@@ -1,0 +1,124 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	}*/
+
+.bf-signup-header {
+  margin-bottom: 30px;
+}
+
+.bf-gen-copy-main {
+  color: #30455e;
+}
+
+.bf-gen-copy-container {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bf-gen-copy-last-container {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bf-gen-copy-container div.heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bf-gen-copy-last-container div.heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.black-friday-copy-gen-heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.easy-ways-to-shop {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.bf-gen-copy-container ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.bf-gen-copy-container li {
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+a.check-out-faqs {
+  width: 350px;
+  height: 60px;
+  color: #fff;
+  margin: 0px 0px 60px 0;
+  border-radius: 3px;
+  background-color: #ed2282;
+  font-size: 15px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.bf-open-account {
+  margin-bottom: 60px;
+}
+
+.bf-google-play-download {
+  margin-bottom: 60px;
+}
+
+.bf-categories-combo-container {
+  display: flex;
+}
+
+.bf-category-promo {
+  margin-bottom: 20px;
+}
+
+.bf-combo-promo-item {
+  height: 50%;
+}
+
+@media (max-width: 767px) {
+  .bf-gen-copy-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  a.check-out-faqs {
+    margin: 0 auto 50px;
+  }
+
+  .bf-open-account {
+    margin-bottom: 20px;
+  }
+
+  .bf-google-play-download {
+    margin-bottom: 40px;
+  }
+
+  .bf-categories-mobi-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .bf-category-promo {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  a.check-out-faqs {
+    width: 100%;
+  }
+}
