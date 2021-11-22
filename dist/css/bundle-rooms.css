@@ -3,7 +3,7 @@
 }
 
 .combo-rooms-hero-banner {
-  margin-bottom: 48px;
+  margin-bottom: 47px;
 }
 
 .create-your-complete-bedroom {
@@ -17,6 +17,10 @@
 
 .bundle-rooms-promo-container {
   margin-bottom: 60px;
+}
+
+.bundle-rooms-promo-container-two {
+  margin-bottom: 70px;
 }
 
 .big-promo-combo-rooms {
@@ -71,7 +75,7 @@ span.new-combo-prod {
 }
 
 .special-bedding-banner {
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 @media (max-width: 767px) {
@@ -100,12 +104,20 @@ a.combo-rooms-buy-now {
   margin-bottom: 50px;
 }
 
+.bundle-rooms-promo-container-two {
+  margin-bottom: 50px;
+}
+
 .bundle-rooms-promo-container-last-row {
   margin-bottom: 50px;
 }
 
 .combo-rooms-hero-banner {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.combo-rooms-hero-banner-copy {
+  margin-bottom: 23px;
 }
 
 .bundle-rooms-heading {
