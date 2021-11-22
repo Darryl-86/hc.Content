@@ -20,9 +20,17 @@
 	margin-bottom: 20px;
 }
 
+.under-r800-promo-last-item {
+	margin-bottom: 37px;
+}
+
 @media (max-width: 767px) {
 	.under-r800-mobi-main {
 		max-width: 360px;
 		margin: 0 auto;
+	}
+
+	.under-r800-promo-last-item {
+		margin-bottom: 30px;
 	}
 }
