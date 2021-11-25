@@ -18,6 +18,10 @@ body {
   line-height: 30px;
 }
 
+.bf-gen-copy-container a {
+    color: #00f;
+}
+
 .bf-gen-copy-last-container {
   margin-bottom: 20px;
   font-size: 16px;
