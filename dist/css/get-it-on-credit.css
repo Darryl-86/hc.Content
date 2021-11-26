@@ -98,7 +98,7 @@ span.divider {
   display: flex;
 }
 
-.get-credit-now-btn {
+a.get-credit-now-btn {
   width: 250px;
   height: 50px;
   margin: 0 16px 16px 0; 
@@ -110,13 +110,10 @@ span.divider {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-}
-
-a.get-credit-now-btn {
   color: #ffffff;
 }
 
-.existing-customer-credit-btn {
+a.existing-customer-credit-btn {
   width: 250px;
   height: 50px;
   margin-bottom: 16px;
@@ -128,10 +125,7 @@ a.get-credit-now-btn {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-}
-
-a.existing-customer-credit-btn {
-  color: #ed2282;;
+  color: #ed2282;
 }
 
 .norton {
@@ -288,7 +282,7 @@ a.existing-customer-credit-btn {
     display: grid;
   }
 
-  .get-credit-now-btn {
+  a.get-credit-now-btn {
     margin: 0 0 16px 0;
   }
 
