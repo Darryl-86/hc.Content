@@ -1,164 +1,150 @@
-.main-tv-add-image {
-  margin-bottom: 25px;
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.promo-tv-add-image {
-  margin-bottom: 50px;
-}
+* {
+  margin: 0;
+  padding: 0;
+  }*/
 
-.tv-add-prod-promo {
-  display: block;
-  max-width: 500px;
-}
+  .tv-add-header {
 
-.tv-add-prod-info {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-}
+  }
 
-.caitlin-copy-web {
-  margin-bottom: 34px;
-}
-
-.caitlin-copy-tab {
-  margin-bottom: 30px;
-}
-
-.caitlin-copy-mobi {
-  margin-bottom: 17px;
-}
-
-.caitlin-tab-copy-container {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.calista-copy-web {
-  margin-bottom: 40px;
-}
-
-.calista-copy-tab {
-  margin-bottom: 30px;
-}
-
-.calista-copy-mobi {
-  margin-bottom: 17px;
-}
-
-.calista-tab-copy-container {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.kaya-copy-web {
-  margin-bottom: 70px;
-}
-
-.kaya-copy-tab {
-  margin-bottom: 30px;
-}
-
-.kaya-copy-mobi {
-  margin-bottom: 17px;
-}
-
-.kaya-tab-copy-container {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.clarke-copy-web {
-  margin-bottom: 35px;
-}
-
-.clarke-copy-tab {
-  margin-bottom: 30px;
-}
-
-.clarke-copy-mobi {
-  margin-bottom: 17px;
-}
-
-.clarke-tab-copy-container {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.lara-copy-web {
-  margin-bottom: 30px;
-}
-
-.lara-copy-tab {
-  margin-bottom: 30px;
-}
-
-.lara-copy-mobi {
-  margin-bottom: 17px;
-}
-
-.lara-tab-copy-container {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-}
-
-.button-margin-tab {
-  margin-right: 15px;
-}
-
-.dial-ussd-mobi {
-  margin-bottom: 25px;
-}
-
-.last-section-promo {
-  margin-bottom: 50px;
-}
-
-.mb-25 {
-  margin-bottom: 25px;
-}
-
-.last-section-container {
-  margin: 0 auto;
-  max-width: 1018px;
-}
-
-@media (min-width: 992px) {
- .lisbon-con {
-  min-width: 1000px;
-  margin: 0 auto;
-  display: block;
-}
-}
-
-@media (max-width: 991px) {
-  .promo-tv-add-image {
+  .tvc-prod-hero {
     margin-bottom: 25px;
   }
 
-  .tv-add-prod-details-mobi {
-    margin-bottom: 43px;
-  }
-}
-
-@media all and (max-width: 991px) and (min-width: 768px) {
-  .simply-dial {
-    padding-top: 20%;
-    height: 76px;
-  }
-}
-
-@media (max-width: 767px) {
-  .tv-add-header {
-    margin-bottom: 32px;
+  .tvc-prod-details-main {
+    min-height: 407px;
+    display: grid;
+    align-content: space-between;
   }
 
-  .last-section-promo {
-    margin-bottom: 43px;
+  .tvc-prod-desc-copy {
+    max-width: 85%;
   }
-}
+
+  .tvc-prod-desc-copy-heading {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 66px;
+  }
+
+  .tvc-prod-desc-copy p {
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0;
+  }
+
+  .tvc-prod-item-code-main {
+
+  }
+
+  .tvc-prod-code {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .tvc-cta-container {
+    display: flex;
+  }
+
+  a.tvc-cta {
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #ed2282;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+  }
+
+  span.tvc-prod-ussd-item {
+    font-size: 15px;
+    line-height: 25px;
+    color: #0086f7;
+    margin: auto 0;
+    padding: 0 0 0 10px;
+  }
+
+  a.tvc-prod-ussd-item {
+    font-size: 15px;
+    line-height: 25px;
+    color: #0086f7;
+    margin: auto 0;
+    padding: 0 0 0 10px;
+  }
+
+  p.tvc-prod-divider {
+    margin: 0 0 40px;
+  }
+
+  @media (max-width: 991px) {
+    .tvc-tab-promo {
+      margin-bottom: 10px;
+    }
+
+    .tvc-prod-details-main {
+      min-height: auto;
+      display: block;
+      align-content: normal;
+      margin: 0 auto;
+      max-width: 499px;
+    }
+
+    .tvc-prod-desc-copy {
+      max-width: max-content;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .tv-add-header {
+      margin-bottom: 32px;
+    }
+    
+    .tvc-prod-hero {
+      margin-bottom: 10px;
+    }
+
+    .tvc-mobi-promo {
+      margin-bottom: 20px;
+    }
+
+    .tvc-prod-details-main {
+      max-width: 360px;
+      text-align: center;
+    }
+
+    .tvc-prod-desc-copy-heading {
+      font-size: 25px;
+      line-height: 41px;
+    }
+
+    .tvc-prod-desc-copy p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    .tvc-cta-container {
+      flex-direction: column;
+    }
+
+    a.tvc-cta {
+      margin: 0 auto 10px;
+    }
+
+    .tvc-mobi-bedding-icons {
+      margin-bottom: 10px;
+    }
+  }
