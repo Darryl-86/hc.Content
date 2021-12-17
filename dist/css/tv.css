@@ -10,7 +10,7 @@ body {
   }*/
 
   .tv-add-header {
-
+    margin-bottom: 54px;
   }
 
   .tvc-prod-hero {
@@ -86,7 +86,11 @@ body {
   }
 
   p.tvc-prod-divider {
-    margin: 0 0 40px;
+    margin: 0 0 70px;
+  }
+
+  .wow-sale-banner {
+    margin-bottom: 70px;
   }
 
   @media (max-width: 991px) {
@@ -110,9 +114,9 @@ body {
 
   @media (max-width: 767px) {
     .tv-add-header {
-      margin-bottom: 32px;
+      margin-bottom: 44px;
     }
-    
+
     .tvc-prod-hero {
       margin-bottom: 10px;
     }
@@ -146,5 +150,13 @@ body {
 
     .tvc-mobi-bedding-icons {
       margin-bottom: 10px;
+    }
+
+    p.tvc-prod-divider {
+      margin: 0 0 46px;
+    }
+
+    .wow-sale-banner {
+      margin-bottom: 60px;
     }
   }
