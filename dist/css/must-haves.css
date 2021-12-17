@@ -1,268 +1,49 @@
-.must-haves-header {
-	margin-bottom: 30px;
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.header-banner-container {
-	margin-bottom: 50px;
-}
+* {
+  margin: 0;
+  padding: 0;
+  }*/
 
-.header-banner-copy-container {
-	margin-bottom: 22px;
-}
+  .must-haves-header {
+  	margin-bottom: 30px;
+  }
 
-.must-haves-generic-promo {
-	margin-bottom: 40px;
-}
+  .header-banner-container {
+  	margin-bottom: 43px;
+  }
 
-.must-haves-blankets-banner {
-	margin-bottom: 60px;
-}
+  .must-haves-promo-offers-main {
+  	display: flex;
+  	justify-content: center;
+  }
 
-.couch-covers-banner {
-	margin-bottom: 50px;
-}
+  .must-haves-promo {
+  	padding: 0 10px;
+  }
 
-.blankets-must-haves-banner-web {
-	margin-bottom: 30px;
-}
+  .must-have-promo-offers {
+  	margin-bottom: 50px;
+  }
 
-.latest-fashion-trends-cat-mobi-container {
-	max-width: 336px;
-	display: block;
-	margin: 0 auto;
-}
+  @media (max-width: 767px) {
+  	.must-haves-header {
+  		margin-bottom: 20px;
+  	}
 
-.latest-fashion-trends-mobi-side-promo {
-	max-width: 117px;
-}
+  	.header-banner-container {
+  		margin-bottom: 31px;
+  	}
 
-.latest-fashion-trends-mobi-middle-promo {
-	max-width: 102px;
-}
+  	.must-haves-promo {
+  		padding: 0 5px;
+  	}
 
-.latest-fashion-trends-categories-mobi {
-	margin-bottom: 37px;
-}
-
-.must-have-promo-offers {
-	margin-bottom: 50px;
-}
-
-.home-textures-bkg {
-	background-image: url("/file/general/20210625_must_haves_hometextures_bkg.png");
-	background-repeat: no-repeat;
-	padding: 25px 10px 10px 10px;
-	margin-bottom: 35px;
-	background-size: 100%;
-	background-color: #f5f5f5;
-}
-
-/*bedroom basics css begin*/
-
-.bedroom-basics-bkg {
-	background-image: url("/file/general/20210729_must_haves_bedroombasics_bkg.png");
-	background-repeat: no-repeat;
-	padding: 117px 40px 0px;
-	margin-bottom: 60px;
-	background-size: 100%;
-	background-color: #f5f5f5;
-}
-
-.kitchen-bkg {
-	background-image: url("/file/general/20210729_must_haves_kitchen_bkg.png");
-	background-repeat: no-repeat;
-	padding: 130px 40px 0px;
-	background-size: 100%;
-	background-color: #f5f5f5;
-}
-
-.kitchen-content-main {
-	padding: 0 40px;
-}
-
-.kitchen-content-header {
-	margin-bottom: 25px;
-}
-
-.kitchen-content-sub-heading {
-	margin-bottom: 18px;
-}
-
-.bedroom-basics-content-one {
-	margin-bottom: 55px;
-}
-
-.bedroom-basics-bkg .header {
-	margin-bottom: 16px;
-}
-
-.kitchen-bkg .header {
-	margin-bottom: 16px;
-}
-
-.six-combo-promo-container {
-	display: flex;
-	margin: 0 auto;
-	max-width: 91%;
-}
-
-.six-combo-promo img {
-	margin-bottom: 15px;
-}
-
-.six-combo-promo-divider {
-	padding: 0 26px;
-}
-
-/*bedroom basics css end*/
-
-.hometextures-skinny {
-	margin-bottom: 5px;
-}
-
-.winter-promo-main {
-	display: flex;
-}
-
-.winter-promo-web-row-one {
-	margin-bottom: 7px;
-	display: flex;
-}
-
-.winter-promo-web {
-	padding-left: 8px;
-}
-
-.winter-promo-web-row-two {
-	display: flex;
-}
-
-.main-header {
-	margin-bottom: 33px;
-}
-
-.sheraton-bees-banner {
-	margin-bottom: 50px;
-}
-
-@media (max-width: 991px) {
-	.bedroom-basics-bkg {
-		padding: 90px 40px 0px;
-	}
-
-	.kitchen-bkg {
-		padding: 90px 40px 0px;
-	}
-
-	.kitchen-content-main {
-		padding: 0;
-	}
-}
-
-@media (max-width: 767px) {
-	.must-haves-header {
-		margin-bottom: 20px;
-	}
-
-	.header-banner-copy-container {
-		margin-bottom: 24px;
-	}
-
-	.must-have-promo-offers {
-		margin-bottom: 31px;
-	}
-
-	.home-textures-bkg {
-		background-image: url("/file/general/20210625_must_haves_hometextures_bkg_mobi.png");
-		padding: 20px 0;
-		max-width: 360px;
-		margin: 0 auto 40px;
-	}
-
-	/*bedroom basics css*/
-
-	.bedroom-basics-bkg {
-		background-image: url("/file/general/20210729_must_haves_bedroombasics_bkg_mobi.png");
-		padding: 132px 0 20px;
-		max-width: 360px;
-		margin: 0 auto 36px;
-		background-color: #f5f5f5;
-	}
-
-	.kitchen-bkg {
-		background-image: url("/file/general/20210729_must_haves_kitchen_bkg_mobi.png");
-		padding: 132px 0 20px;
-		max-width: 360px;
-		margin: 0 auto;
-		background-color: #f5f5f5;
-	}
-
-	.kitchen-bkg {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-
-	.kitchen-content-main {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-
-	.kitchen-content-sub-heading {
-		margin-bottom: 20px;
-	}
-
-	.bedroom-basics-content-one {
-		margin-bottom: 20px;
-	}
-
-	.shop-cookware {
-		margin-bottom: 50px;
-	}
-
-	.bedroom-basics-bkg .header {
-		margin-bottom: 20px;
-	}
-
-	.kitchen-bkg .header {
-		margin-bottom: 20px;
-	}
-
-	.must-haves-promo-offers-container {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-
-	.bedroom-basics-content-two-mobi {
-		margin-bottom: 8px;
-	}
-
-	/*bedroom basics css end*/
-
-	.hometextures-skinny {
-		margin-bottom: 16px;
-	}
-
-	.winter-promo-mobi {
-		margin-bottom: 15px;
-	}
-
-	.must-haves-generic-promo {
-		margin-bottom: 25px;
-	}
-
-	.must-haves-blankets-banner {
-		margin-bottom: 40px;
-	}
-
-	.couch-covers-banner {
-		margin-bottom: 26px;
-	}
-
-	.main-header {
-		margin-bottom: 20px;
-	}
-
-	.sheraton-bees-banner {
-		margin-bottom: 43px;
-	}
-}
+  	.must-have-promo-offers {
+  		margin-bottom: 30px;
+  	}
+  }
