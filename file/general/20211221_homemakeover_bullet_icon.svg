@@ -1,0 +1,20 @@
+<svg id="emoji_objects_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#f51169}
+        </style>
+    </defs>
+    <g id="Group_1" data-name="Group 1">
+        <path id="Rectangle_2" data-name="Rectangle 2" style="fill:none" d="M0 0h24v24H0z"/>
+    </g>
+    <g id="Group_4" data-name="Group 4">
+        <g id="Group_2" data-name="Group 2">
+            <path id="Path_1" data-name="Path 1" class="cls-2" d="M12 3a6.716 6.716 0 0 0-1.4.14 6.991 6.991 0 0 0-3.26 12.08A1.945 1.945 0 0 1 8 16.69V19a2.006 2.006 0 0 0 2 2h.28a1.979 1.979 0 0 0 3.44 0H14a2.006 2.006 0 0 0 2-2v-2.31a1.939 1.939 0 0 1 .64-1.46A6.992 6.992 0 0 0 12 3zm2 14h-4v-1h4zm-4 2v-1h4v1zm5.31-5.26c-.09.08-.16.18-.24.26H8.92a3.084 3.084 0 0 0-.24-.27A5 5 0 1 1 17 10a4.972 4.972 0 0 1-1.69 3.74z"/>
+        </g>
+        <g id="Group_3" data-name="Group 3">
+            <path id="Rectangle_3" data-name="Rectangle 3" class="cls-2" transform="translate(11.5 11)" d="M0 0h1v3H0z"/>
+            <path id="Rectangle_4" data-name="Rectangle 4" class="cls-2" transform="rotate(-45 16.401 -6.885)" d="M0 0h1v3H0z"/>
+            <path id="Rectangle_5" data-name="Rectangle 5" class="cls-2" transform="rotate(-135 8.53 3.328)" d="M0 0h1v3H0z"/>
+        </g>
+    </g>
+</svg>

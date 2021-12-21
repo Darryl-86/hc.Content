@@ -1,0 +1,108 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	}
+
+	* {
+	  margin: 0;
+	  padding: 0;
+	  }*/
+
+	  .millionaire-hero {
+	  	margin-bottom: 30px;
+	  }
+
+	  a.millionaire-link {
+	  	color: #0086f7;
+	  	text-decoration: underline;
+	  	font-size: 16px;
+	  	line-height: 24px;
+	  }
+
+	  .millionaire-promo-main {
+	  	display: flex;
+	  }
+
+	  .millionaire-promo {
+	  	margin: auto;
+	  }
+
+	  .homemakeover-header {
+	  	color: #30455e;
+	  	font-size: 24px;
+	  	line-height: 24px;
+	  	font-weight: bold;
+	  	margin-bottom: 5px;
+	  }
+
+	  p.homemakeover-copy {
+	  	color: #30455e;
+	  	font-size: 16px;
+	  	line-height: 24px;
+	  	margin-bottom: 20px;
+	  }
+
+	  ul.home-decor-ideas-copy {
+	  	list-style-type: none;
+	  	padding: 0;
+	  	color: #30455e;
+	  	font-size: 16px;
+	  	line-height: 24px;
+	  }
+
+	  li.homemakeover-lightbulb-bullet {
+	  	background: url('/file/general/20211221_homemakeover_bullet_icon.svg') no-repeat left top;
+	  	padding-left: 27px;
+	  	margin-bottom: 20px;
+	  }
+
+	  li.homemakeover-lightbulb-bullet:last-child {
+	  	margin-bottom: 30px;
+	  }
+
+	  li.homemakeover-lightbulb-bullet a {
+	  	color: #0086f7;
+	  	text-decoration: underline;
+	  }
+
+	  .homemakeover-open-acc-copy-container p:last-child {
+	  	margin-bottom: 30px;
+	  }
+
+	  .hc-google-play-banner {
+	  	margin-bottom: 63px;
+	  }
+
+	  .homemakeover-shop-dept-header {
+	  	margin-bottom: 32px;
+	  	font-size: 30px;
+	  	line-height: 39px;
+	  	text-align: center;
+	  	color: #30455e;
+	  }
+
+	  @media (max-width: 767px) {
+	  	.be-a-millionaire-main {
+	  		max-width: 330px;
+	  		margin: 0 auto;
+	  	}
+
+	  	.millionaire-hero {
+	  		margin-bottom: 20px;
+	  	}
+
+	  	.hc-google-play-banner {
+	  		margin-bottom: 32px;
+	  	}
+
+	  	.homemakeover-shop-dept-header {
+	  		margin-bottom: 26px;
+	  		font-size: 24px;
+	  		line-height: 32px;
+	  	}
+
+	  	.homemakeover-promo-img {
+	  		margin-bottom: 40px;
+	  	}
+	  }
