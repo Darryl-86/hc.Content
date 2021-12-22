@@ -78,6 +78,77 @@ span.new-combo-prod {
   margin-bottom: 90px;
 }
 
+.love-our-bedding-container {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.love-our-bedding-copy {
+  margin: auto 0 auto 40px;
+}
+
+.love-our-bedding-copy .heading {
+font-size: 30px;
+line-height: 50px;
+color:#f51169;
+font-weight: 800;
+}
+
+.love-our-bedding-copy .sub-heading {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.love-our-bedding-copy .sub-heading img {
+  margin: 0 5px 0 0;
+}
+
+.love-our-bedding-copy .sub-heading span {
+font-size: 20px;
+line-height: 33px;
+color:#30455e;
+font-weight: 800;
+}
+
+ul.love-hc-bedding-list-container {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #30455e;
+    margin: 0;
+}
+
+ul.love-hc-bedding-list-container li {
+  margin-bottom: 12px;
+}
+
+ul.love-hc-bedding-list-container-two {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #30455e;
+    margin: 0;
+}
+
+ul.love-hc-bedding-list-container-two li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 991px){
+  .love-our-bedding-container {
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.love-hc-bedding-promo {
+  margin-bottom: 20px;
+}
+
+.love-our-bedding-copy {
+  margin: 0 auto;
+}
+}
+
 @media (max-width: 767px) {
  .create-your-complete-bedroom {
    font-size: 20px;
@@ -126,5 +197,27 @@ a.combo-rooms-buy-now {
 
 .special-bedding-banner {
   margin-bottom: 50px;
+}
+
+.love-our-bedding-copy .heading {
+font-size: 25px;
+line-height: 30px;
+margin-bottom: 10px;
+}
+
+.love-our-bedding-copy {
+  max-width: 310px;
+}
+
+.love-our-bedding-copy .sub-heading span {
+line-height: 25px;
+}
+
+ul.love-hc-bedding-list-container {
+    line-height: 18px;
+}
+
+ul.love-hc-bedding-list-container-two {
+    line-height: 18px;
 }
 }
