@@ -1,18 +1,20 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  }*/
+
 .combo-rooms-header {
   margin-bottom: 30px;
 }
 
 .combo-rooms-hero-banner {
   margin-bottom: 32px;
-}
-
-.create-your-complete-bedroom {
-  font-size: 35px;
-  font-weight: bold !important;
-  color: #000;
-  margin-bottom: 47px;
-  text-align: center;
-  line-height: 40px;
 }
 
 .bundle-rooms-promo-container {
@@ -72,10 +74,6 @@ span.new-combo-prod {
 
 .bundle-rooms-heading {
   margin-bottom: 30px;
-}
-
-.special-bedding-banner {
-  margin-bottom: 90px;
 }
 
 .love-our-bedding-container {
@@ -138,10 +136,10 @@ ul.love-hc-bedding-list-container-two li:not(:last-child) {
 
 @media (max-width: 991px){
   .love-our-bedding-container {
-      flex-direction: column;
-      max-width: 340px;
-      margin: 0 auto 80px;
-      padding-bottom: 30px;
+    flex-direction: column;
+    max-width: 680px;
+    margin: 0 auto 58px;
+    padding-bottom: 30px;
   }
 
   .love-hc-bedding-promo {
@@ -150,7 +148,10 @@ ul.love-hc-bedding-list-container-two li:not(:last-child) {
 
   .love-our-bedding-copy {
     margin: 0 auto;
-    padding: 0 10px;
+  }
+
+  .love-our-bedding-copy .sub-heading img {
+    margin: 0 5px 0 0;
   }
 }
 
@@ -208,8 +209,8 @@ a.combo-rooms-buy-now {
   margin-bottom: 20px;
 }
 
-.special-bedding-banner {
-  margin-bottom: 50px;
+.love-our-bedding-container {
+  max-width: 340px;
 }
 
 .love-our-bedding-copy .heading {
@@ -238,4 +239,15 @@ p.bundle-rooms-hero-copy {
   margin-bottom: 26px;
   max-width: 330px;
 }
+
+.love-our-bedding-copy .sub-heading img {
+  align-self: flex-start;
+  padding-top: 5px;
+}
+}
+
+@media (max-width: 360px) {
+  .love-our-bedding-copy {
+    padding: 0 10px;
+  }
 }
