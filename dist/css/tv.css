@@ -10,7 +10,7 @@ body {
   }*/
 
   .tv-add-header {
-    margin-bottom: 54px;
+    margin-bottom: 30px;
   }
 
   .tvc-prod-hero {
@@ -113,10 +113,6 @@ body {
   }
 
   @media (max-width: 767px) {
-    .tv-add-header {
-      margin-bottom: 44px;
-    }
-
     .tvc-prod-hero {
       margin-bottom: 10px;
     }
