@@ -161,6 +161,7 @@ p.bundle-rooms-hero-copy {
   color: #30455e;
   margin-bottom: 19px;
   max-width: 91%;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
