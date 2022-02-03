@@ -23,6 +23,14 @@ body {
     align-content: space-between;
   }
 
+  .calista-copy-container {
+    min-height: 414px;
+  }
+
+  .julia-copy-container {
+    min-height: 340px;
+  }
+
   .tvc-prod-desc-copy {
     max-width: 85%;
   }
