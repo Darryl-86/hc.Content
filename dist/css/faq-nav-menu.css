@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -7,57 +7,73 @@ body {
 * {
   margin: 0;
   padding: 0;
-  }*/
+} */
+
+.common-questions-heading {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #30455e;
+  margin: 10px 0;
+}
 
 .faq-nav-menu-wrapper {
-  display: flex;
+  display: grid;
+  height: 56px;
+  grid-gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 56px;
 }
 
 .faq-nav-menu-promo {
-  width: 376px;
-  height: 56px;
-  background: #30455E;
+  background: #30455e;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   font-size: 14px;
   line-height: 18px;
-  text-align: center;
-}
-
-a.faq-nav-menu-promo {
-  color:#ffffff;
   display: grid;
-      align-items: center;
-      justify-content: center;
-      width: 376px;
-      height: 56px;
-      background: #30455E;
-      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-      border-radius: 4px;
-      font-size: 14px;
-      line-height: 18px;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
 }
 
 .faq-nav-menu-promo a {
-  color:#ffffff;
-  display: grid;
-      align-items: center;
-      justify-content: center;
+  color: #ffffff;
 }
 
-/*a.get-credit-now-btn {
-    width: 250px;
-    height: 50px;
-    margin: 0px 0px 48px 0;
-    border-radius: 4px;
-    background-color: #ed2282;
-    font-size: 15px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: #ffffff;
-}*/
+@media (max-width: 991px) {
+  .faq-nav-menu-wrapper {
+    grid-template-columns: 352px 352px;
+    grid-template-rows: 56px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    width: 720px;
+    height: 128px;
+  }
+}
 
 @media (max-width: 767px) {
+  .faq-nav-menu-wrapper {
+    margin: 0 auto;
+    grid-template-columns: 155px 155px;
+    width: 326px;
+  }
+
+  .common-questions-heading {
+    margin: 10px auto;
+    width: 326px;
+  }
+}
+
+@media (max-width: 359px) {
+  .faq-nav-menu-wrapper {
+    grid-template-columns: 138px 138px;
+    width: 292px;
+    height: 116px;
+    grid-template-rows: 50px;
+  }
 }
