@@ -7,26 +7,44 @@ body {
 * {
   margin: 0;
   padding: 0;
-} */
+  } */
+
+.faq-header-wrapper {
+  background-color: #f4f5f6;
+  margin: 15px 0;
+  padding: 28px;
+}
+
+.how-can-we-help-you-heading {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 18px;
+  color: #30455e;
+  margin-bottom: 23px;
+}
+
+.how-can-we-help-you-copy {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  margin-bottom: 26px;
+}
 
 .common-questions-heading {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 900;
+  font-size: 22px;
+  font-weight: 800;
   font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
+  line-height: 18px;
   color: #30455e;
-  margin: 10px 0;
+  margin: 0 0 23px 0;
 }
 
 .faq-nav-menu-wrapper {
   display: grid;
-  height: 56px;
-  grid-gap: 16px;
+  height: 50px;
+  grid-gap: 27px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 56px;
+  grid-template-rows: 50px;
 }
 
 .faq-nav-menu-promo {
@@ -45,35 +63,30 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 991px) {
+@media all and (max-width: 991px) and (min-width: 768px) {
   .faq-nav-menu-wrapper {
-    grid-template-columns: 352px 352px;
-    grid-template-rows: 56px;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    width: 720px;
-    height: 128px;
+    width: 646px;
+    grid-template-columns: 323px 323px;
+    grid-column-gap: 17px;
+    height: 122px;
+    grid-template-rows: 50px;
+    grid-row-gap: 22px;
   }
 }
 
 @media (max-width: 767px) {
   .faq-nav-menu-wrapper {
-    margin: 0 auto;
-    grid-template-columns: 155px 155px;
-    width: 326px;
-  }
-
-  .common-questions-heading {
-    margin: 10px auto;
-    width: 326px;
+    grid-column-gap: 17px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    grid-row-gap: 22px;
+    height: 122px;
   }
 }
 
-@media (max-width: 359px) {
-  .faq-nav-menu-wrapper {
-    grid-template-columns: 138px 138px;
-    width: 292px;
-    height: 116px;
-    grid-template-rows: 50px;
+@media (max-width: 630px) {
+  .faq-header-wrapper {
+    background-color: #f4f5f6;
+    padding: 28px 15px;
   }
 }
