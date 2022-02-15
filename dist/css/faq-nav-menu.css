@@ -63,18 +63,7 @@ body {
   color: #ffffff;
 }
 
-@media all and (max-width: 991px) and (min-width: 768px) {
-  .faq-nav-menu-wrapper {
-    width: 646px;
-    grid-template-columns: 323px 323px;
-    grid-column-gap: 17px;
-    height: 122px;
-    grid-template-rows: 50px;
-    grid-row-gap: 22px;
-  }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .faq-nav-menu-wrapper {
     grid-column-gap: 17px;
     grid-template-columns: repeat(2, 1fr);
