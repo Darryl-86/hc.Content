@@ -1,36 +1,147 @@
-.u-eight-hundred-header {
-	margin-bottom: 20px;
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  }*/
+
+.u-eight-hundred-header {
+  margin-bottom: 32px;
+}
+
+/* section 1 begin */
 
 .section1-container {
-	display: flex;
+  display: flex;
 }
 
-.section2-promo2 {
-	height: 50%;
+.section1-left {
+  margin: 0 15px 0 0;
 }
 
-.section3-promo3 {
-	height: 50%;
-	align-content: end;
-	display: grid;
+.section1-right-item-1,
+.section1-right-item-2 {
+  height: 50%;
+  display: flex;
 }
+
+.section1-right-item-1 {
+  align-items: start;
+}
+
+.section1-right-item-2 {
+  align-items: end;
+}
+
+/* section 1 end */
+
+/* section 2 begin */
+
+.section2-container {
+  display: flex;
+}
+
+.section2-left {
+  margin: 0 15px 0 0;
+}
+
+.section2-left-item-1,
+.section2-left-item-2 {
+  height: 50%;
+  display: flex;
+}
+
+.section2-left-item-1 {
+  align-items: start;
+}
+
+.section2-left-item-2 {
+  align-items: end;
+}
+
+/* section 2 end */
 
 .under-r800-promo {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .under-r800-promo-last-item {
-	margin-bottom: 37px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {
-	.under-r800-mobi-main {
-		max-width: 360px;
-		margin: 0 auto;
-	}
+  .u-eight-hundred-header {
+    margin-bottom: 20px;
+  }
 
-	.under-r800-promo-last-item {
-		margin-bottom: 30px;
-	}
+  /* section 1 begin */
+
+  .section1-container {
+    flex-direction: column;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .section1-left {
+    margin: 0;
+  }
+
+  .section1-right {
+    display: flex;
+  }
+
+  .section1-right-item-1,
+  .section1-right-item-2 {
+    height: auto;
+    width: 50%;
+    align-items: center;
+  }
+
+  .section1-right-item-1 img {
+    padding: 0 10px 0 0;
+  }
+
+  .section1-right-item-2 img {
+    padding: 0 0 0 10px;
+  }
+
+  /* section 1 end */
+
+  /* section 2 begin */
+
+  .section2-container {
+    flex-direction: column;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .section2-left {
+    margin: 0;
+    display: flex;
+  }
+
+  .section2-left-item-1,
+  .section2-left-item-2 {
+    height: auto;
+    width: 50%;
+    align-items: center;
+  }
+
+  .section2-left-item-1 img {
+    padding: 0 10px 0 0;
+  }
+
+  .section2-left-item-2 img {
+    padding: 0 0 0 10px;
+  }
+
+  /* section 2 end */
+
+  .under-r800-promo-last-item {
+    margin-bottom: 30px;
+  }
 }
