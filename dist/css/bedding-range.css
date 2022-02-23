@@ -130,7 +130,7 @@ a.inactive-link {
 }
 
 .bedding-range-brands-promo {
-  margin-bottom: 54px;
+  margin-bottom: 62px;
 }
 
 .bedding-range-shop-cat-web-one {
@@ -146,7 +146,7 @@ a.inactive-link {
 }
 
 .special-bedding-banner {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .shop-collections-promo-margin {
@@ -158,7 +158,7 @@ a.inactive-link {
 }
 
 .special-bedding-promo {
-  margin-bottom: 36px;
+  margin-bottom: 55px;
 }
 
 .shop-bedding-banner {
@@ -170,7 +170,7 @@ a.inactive-link {
 }
 
 .innovation-promos {
-  margin-bottom: 78px;
+  margin-bottom: 60px;
 }
 
 .bedding-collection-promo {
@@ -261,7 +261,7 @@ a.inactive-link {
   }
 
   .innovation-promos {
-    margin-bottom: 54px;
+    margin-bottom: 50px;
   }
 
   .shop-collection-charlie {
@@ -269,11 +269,15 @@ a.inactive-link {
   }
 
   .special-bedding-promo {
-    margin-bottom: 30px;
+    margin-bottom: 37px;
   }
 
   .shop-bedding-banner {
     margin-bottom: 42px;
+  }
+
+  .shop-bedding-banner-two {
+    margin-bottom: 58px;
   }
 
   .perfect-fabric-promo {
@@ -289,7 +293,7 @@ a.inactive-link {
   }
 
   .last-brand-items {
-    margin-bottom: 26px;
+    margin-bottom: 36px;
   }
 
   .bedding-collection-promo {
@@ -298,6 +302,14 @@ a.inactive-link {
 
   .choose-design-you-love-mobi-last-promo {
     margin-bottom: 36px;
+  }
+
+  .special-bedding-banner {
+    margin-bottom: 60px;
+  }
+
+  .innovative-cookware-header {
+    margin-bottom: 20px;
   }
 }
 
