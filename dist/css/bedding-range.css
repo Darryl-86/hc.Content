@@ -9,43 +9,215 @@ body {
   padding: 0;
   }*/
 
-  .innovative-cookware-header {
-    margin-bottom: 30px;
-  }
+.innovative-cookware-header {
+  margin-bottom: 30px;
+}
 
+/*generic promo content css begin*/
+
+/*generic promo css begin*/
+.generic-promo-container {
+  margin-bottom: 60px;
+}
+
+.generic-promo {
+  margin-bottom: 15px;
+}
+/*generic promo css end*/
+
+/*generic promo link / button css begin*/
+.generic-promo-link-container {
+  display: flex;
+}
+
+.generic-promo-link-container-margin {
+  margin-bottom: 15px;
+}
+
+.generic-promo-link-container a {
+  color: #30455e;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #30455e;
+  border-radius: 4px;
+}
+
+.generic-promo-margin {
+  margin-right: 10px;
+}
+/*generic promo link / button css end*/
+
+/*generic promo content css end*/
+
+/*bedding innovations promo link css begin*/
+
+.bedding-innovations-promo-link-container a {
+  color: #f51169;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+.shop-collections-promo-link-container a {
+  color: #f51169;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  line-height: 10px;
+  font-weight: bold;
+}
+
+a.cecilia-innovations {
+  color: #f51169;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  line-height: 10px;
+  pointer-events: none;
+  cursor: default;
+}
+
+a.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
+
+/*bedding innovations promo link css end*/
+
+.cookware-dash-two {
+  border-top: 1px solid #d6dadf;
+  margin: 40px 0;
+}
+
+.all-bedding-cat-mobi-main-container {
+  margin: 0 auto;
+  display: block;
+  max-width: 336px;
+}
+
+.hc-bedding-brands-promo {
+  margin-bottom: 15px;
+}
+
+.hc-bedding-brands-mobi-main-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.hc-bedding-brands-mobi-main-container div {
+  margin: auto 0;
+}
+
+.bedding-range-hero-banner {
+  margin-bottom: 50px;
+}
+
+.bedding-range-brands-main {
+  display: flex;
+  justify-content: center;
+}
+
+.bedding-range-brand-container {
+  padding: 0 5px;
+}
+
+.bedding-range-brands-promo {
+  margin-bottom: 54px;
+}
+
+.bedding-range-shop-cat-web-one {
+  margin-bottom: 46px;
+}
+
+.bedding-range-shop-cat-web-two {
+  margin-bottom: 40px;
+}
+
+.premuim-banner {
+  margin-bottom: 50px;
+}
+
+.special-bedding-banner {
+  margin-bottom: 60px;
+}
+
+.shop-collections-promo-margin {
+  margin-bottom: 20px;
+}
+
+.innovation-promo-margin {
+  margin-bottom: 20px;
+}
+
+.special-bedding-promo {
+  margin-bottom: 36px;
+}
+
+.shop-bedding-banner {
+  margin-bottom: 60px;
+}
+
+.perfect-fabric-promo {
+  margin-bottom: 60px;
+}
+
+.innovation-promos {
+  margin-bottom: 78px;
+}
+
+.bedding-collection-promo {
+  margin-bottom: 40px;
+}
+
+.choose-design-you-love-promo {
+  margin-bottom: 45px;
+}
+
+.choose-design-you-love-promo-last-row {
+  margin-bottom: 62px;
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .generic-promo-link-container a {
+    padding: 10px 0;
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 767px) {
   /*generic promo content css begin*/
+
+  .luxury-percale-promo-link-container {
+    display: none;
+  }
 
   /*generic promo css begin*/
   .generic-promo-container {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .generic-promo {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   /*generic promo css end*/
 
   /*generic promo link / button css begin*/
   .generic-promo-link-container {
     display: flex;
+    max-width: 360px;
+    margin: 0 auto;
   }
 
-  .generic-promo-link-container-margin {
-    margin-bottom: 15px;
-  }
-
-  .generic-promo-link-container a {
-    color: #30455e;
-    font-size: 14px;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #30455e;
-    border-radius: 4px;
-  }
-
-  .generic-promo-margin {
-    margin-right: 10px;
+  .follow-dreams-margin {
+    margin-bottom: 10px;
   }
   /*generic promo link / button css end*/
 
@@ -54,265 +226,108 @@ body {
   /*bedding innovations promo link css begin*/
 
   .bedding-innovations-promo-link-container a {
-    color: #f51169;
-    font-size: 16px;
-    text-decoration: underline;
-    display: block;
-    text-align: left;
-    line-height: 10px;
-    font-weight: bold;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-left: 20px;
   }
 
   .shop-collections-promo-link-container a {
-    color: #f51169;
-    font-size: 16px;
-    text-decoration: underline;
-    display: block;
-    text-align: left;
-    line-height: 10px;
-    font-weight: bold;
+    max-width: 360px;
+    margin: 0 auto;
   }
 
   a.cecilia-innovations {
-    color: #f51169;
-    font-size: 16px;
-    text-decoration: underline;
-    display: block;
-    text-align: left;
-    line-height: 10px;
-    pointer-events: none;
-    cursor: default;
-  }
-
-  a.inactive-link {
-    pointer-events: none;
-    cursor: default;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-left: 20px;
   }
 
   /*bedding innovations promo link css end*/
 
-  .cookware-dash-two {
-    border-top: 1px solid #d6dadf;
-    margin: 40px 0;
-  }
-
-  .all-bedding-cat-mobi-main-container {
-    margin: 0 auto;
-    display: block;
-    max-width: 336px;
-  }
-
   .hc-bedding-brands-promo {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 
-  .hc-bedding-brands-mobi-main-container {
-    display: flex;
-    margin: 0 auto;
-    max-width:340px;
-  }
-
-  .hc-bedding-brands-mobi-main-container div {
-    margin: auto 0;
-  }
-
-  .bedding-range-hero-banner {
-    margin-bottom: 44px;
-  }
-
-  .bedding-range-brands-main {
-    display: flex;
-    justify-content: center;
-  }
-
-  .bedding-range-brand-container {
-    padding: 0 5px;
-  }
-
-  .bedding-range-brands-promo {
-    margin-bottom: 54px;
-  }
-
-  .bedding-range-shop-cat-web-one {
-    margin-bottom: 46px;
-  }
-
-  .bedding-range-shop-cat-web-two {
-    margin-bottom: 40px;
-  }
-
-  .premuim-banner {
+  .bedding-range-geometric {
     margin-bottom: 50px;
   }
 
-  .special-bedding-banner {
-    margin-bottom: 60px;
+  .all-bedding-cat-promo-mobi {
+    margin-bottom: 10px;
   }
 
-  .shop-collections-promo-margin {
-    margin-bottom: 20px;
-  }
-
-  .innovation-promo-margin {
-    margin-bottom: 20px;
-  }
-
-  .special-bedding-promo {
-    margin-bottom: 36px;
-  }
-
-  .shop-bedding-banner {
-    margin-bottom: 45px;
-  }
-
-  .perfect-fabric-promo {
+  .all-bedding-cat-promo-mobi-last-row {
     margin-bottom: 60px;
   }
 
   .innovation-promos {
-    margin-bottom: 78px;
+    margin-bottom: 54px;
   }
 
-  @media all and (max-width: 991px) and (min-width: 768px) {
-    .generic-promo-link-container a {
-      padding: 10px 0;
-      width: -webkit-fill-available;
-    }
+  .shop-collection-charlie {
+    margin-bottom: 34px;
   }
 
-  @media (max-width: 767px) {
-    /*generic promo content css begin*/
-
-    .luxury-percale-promo-link-container {
-      display: none;
-    }
-
-    /*generic promo css begin*/
-    .generic-promo-container {
-      margin-bottom: 50px;
-    }
-
-    .generic-promo {
-      margin-bottom: 10px;
-    }
-    /*generic promo css end*/
-
-    /*generic promo link / button css begin*/
-    .generic-promo-link-container {
-      display: flex;
-      max-width: 360px;
-      margin: 0 auto;
-    }
-
-    .follow-dreams-margin {
-      margin-bottom: 10px;
-    }
-    /*generic promo link / button css end*/
-
-    /*generic promo content css end*/
-
-    /*bedding innovations promo link css begin*/
-
-    .bedding-innovations-promo-link-container a {
-      max-width: 360px;
-      margin: 0 auto;
-      padding-left: 20px;
-    }
-
-    .shop-collections-promo-link-container a {
-      max-width: 360px;
-      margin: 0 auto;
-    }
-
-    a.cecilia-innovations {
-      max-width: 360px;
-      margin: 0 auto;
-      padding-left: 20px;
-    }
-
-    /*bedding innovations promo link css end*/
-
-    .hc-bedding-brands-promo {
-      margin-bottom: 12px;
-    }
-
-    .bedding-range-geometric {
-      margin-bottom: 50px;
-    }
-
-    .all-bedding-cat-promo-mobi {
-      margin-bottom: 10px;
-    }
-
-    .all-bedding-cat-promo-mobi-last-row {
-      margin-bottom: 60px;
-    }
-
-    .innovation-promos {
-      margin-bottom: 54px;
-    }
-
-    .shop-collection-charlie {
-      margin-bottom: 34px;
-    }
-
-    .special-bedding-promo {
-      margin-bottom: 30px;
-    }
-
-    .shop-bedding-banner {
-      margin-bottom: 32px;
-    }
-
-    .perfect-fabric-promo {
-      margin-bottom: 50px;
-    }
-
-    .bedding-range-hero-banner {
-      margin-bottom: 21px;
-    }
-
-    .bedding-range-brands-promo {
-      margin-bottom: 9px;
-    }
-
-    .last-brand-items {
-      margin-bottom: 26px;
-    }
-
-    .bedding-collection-promo {
-      margin-bottom: 50px;
-    }
+  .special-bedding-promo {
+    margin-bottom: 30px;
   }
 
-  @media (max-width: 380px) {
-
-    .generic-promo-link-overide {
-      display: none;
-    }
-    
-    /*luxury percale promo link / button css begin*/
-
-    .luxury-percale-promo-link-container {
-      display: flex;
-      max-width: 360px;
-      margin: 0 auto;
-    }
-
-    .luxury-percale-promo-link-container a {
-      color: #30455e;
-      font-size: 14px;
-      display: block;
-      text-align: center;
-      padding: 10px 0;
-      border: 1px solid #30455e;
-      border-radius: 4px;
-      width: -webkit-fill-available;
-    }
-
-    .luxury-percale-promo-link-container-margin {
-      margin-bottom: 10px;
-    }
-
-    /*luxury percale promo link / button css end*/
+  .shop-bedding-banner {
+    margin-bottom: 42px;
   }
+
+  .perfect-fabric-promo {
+    margin-bottom: 50px;
+  }
+
+  .bedding-range-hero-banner {
+    margin-bottom: 35px;
+  }
+
+  .bedding-range-brands-promo {
+    margin-bottom: 9px;
+  }
+
+  .last-brand-items {
+    margin-bottom: 26px;
+  }
+
+  .bedding-collection-promo {
+    margin-bottom: 50px;
+  }
+
+  .choose-design-you-love-mobi-last-promo {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 380px) {
+  .generic-promo-link-overide {
+    display: none;
+  }
+
+  /*luxury percale promo link / button css begin*/
+
+  .luxury-percale-promo-link-container {
+    display: flex;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .luxury-percale-promo-link-container a {
+    color: #30455e;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #30455e;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+  }
+
+  .luxury-percale-promo-link-container-margin {
+    margin-bottom: 10px;
+  }
+
+  /*luxury percale promo link / button css end*/
+}
