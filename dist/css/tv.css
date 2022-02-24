@@ -9,158 +9,161 @@ body {
   padding: 0;
   }*/
 
-  .tv-add-header {
-    margin-bottom: 30px;
-  }
+.tv-add-header {
+  margin-bottom: 40px;
+}
 
-  .tvc-prod-hero {
-    margin-bottom: 25px;
-  }
+.tvc-prod-hero {
+  margin-bottom: 25px;
+}
 
-  .tvc-prod-details-main {
-    min-height: 407px;
-    display: grid;
-    align-content: space-between;
-  }
+.tvc-prod-details-main {
+  min-height: 407px;
+  display: grid;
+  align-content: space-between;
+}
 
-  .calista-copy-container {
-    min-height: 414px;
-  }
+.calista-copy-container {
+  min-height: 414px;
+}
 
-  .julia-copy-container {
-    min-height: 340px;
-  }
+.julia-copy-container {
+  min-height: 340px;
+}
 
-  .tvc-prod-desc-copy {
-    max-width: 85%;
-  }
+.tvc-prod-desc-copy {
+  max-width: 85%;
+}
 
-  .tvc-prod-desc-copy-heading {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 66px;
-  }
+.tvc-prod-desc-copy-heading {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 66px;
+}
 
-  .tvc-prod-desc-copy p {
-    font-size: 20px;
-    line-height: 36px;
-    margin: 0;
-  }
+.tvc-prod-desc-copy p {
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}
 
-  .tvc-prod-item-code-main {
+.tvc-prod-item-code-main {
+}
 
-  }
+.tvc-prod-code {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
-  .tvc-prod-code {
-    font-size: 14px;
-    line-height: 23px;
-    font-weight: bold;
+.tvc-cta-container {
+  display: flex;
+}
+
+a.tvc-cta {
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  display: grid;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+span.tvc-prod-ussd-item {
+  font-size: 15px;
+  line-height: 25px;
+  color: #0086f7;
+  margin: auto 0;
+  padding: 0 0 0 10px;
+}
+
+a.tvc-prod-ussd-item {
+  font-size: 15px;
+  line-height: 25px;
+  color: #0086f7;
+  margin: auto 0;
+  padding: 0 0 0 10px;
+}
+
+p.tvc-prod-divider {
+  margin: 0 0 70px;
+}
+
+.wow-sale-banner {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+  .tvc-tab-promo {
     margin-bottom: 10px;
   }
 
+  .tvc-prod-details-main {
+    min-height: auto;
+    display: block;
+    align-content: normal;
+    margin: 0 auto;
+    max-width: 499px;
+  }
+
+  .tvc-prod-desc-copy {
+    max-width: max-content;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tvc-prod-hero {
+    margin-bottom: 10px;
+  }
+
+  .tvc-mobi-promo {
+    margin-bottom: 20px;
+  }
+
+  .tvc-prod-details-main {
+    max-width: 360px;
+    text-align: center;
+  }
+
+  .tvc-prod-desc-copy-heading {
+    font-size: 25px;
+    line-height: 41px;
+  }
+
+  .tvc-prod-desc-copy p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
   .tvc-cta-container {
-    display: flex;
+    flex-direction: column;
   }
 
   a.tvc-cta {
-    width: 250px;
-    height: 50px;
-    border-radius: 4px;
-    background-color: #ed2282;
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: bold;
-    color: #ffffff;
-    display: grid;
-    text-align: center;
-    text-transform: uppercase;
-    align-items: center;
+    margin: 0 auto 10px;
   }
 
-  span.tvc-prod-ussd-item {
-    font-size: 15px;
-    line-height: 25px;
-    color: #0086f7;
-    margin: auto 0;
-    padding: 0 0 0 10px;
-  }
-
-  a.tvc-prod-ussd-item {
-    font-size: 15px;
-    line-height: 25px;
-    color: #0086f7;
-    margin: auto 0;
-    padding: 0 0 0 10px;
+  .tvc-mobi-bedding-icons {
+    margin-bottom: 10px;
   }
 
   p.tvc-prod-divider {
-    margin: 0 0 70px;
+    margin: 0 0 46px;
   }
 
   .wow-sale-banner {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 
-  @media (max-width: 991px) {
-    .tvc-tab-promo {
-      margin-bottom: 10px;
-    }
-
-    .tvc-prod-details-main {
-      min-height: auto;
-      display: block;
-      align-content: normal;
-      margin: 0 auto;
-      max-width: 499px;
-    }
-
-    .tvc-prod-desc-copy {
-      max-width: max-content;
-      margin-bottom: 20px;
-    }
+  .tv-add-header {
+    margin-bottom: 22px;
   }
-
-  @media (max-width: 767px) {
-    .tvc-prod-hero {
-      margin-bottom: 10px;
-    }
-
-    .tvc-mobi-promo {
-      margin-bottom: 20px;
-    }
-
-    .tvc-prod-details-main {
-      max-width: 360px;
-      text-align: center;
-    }
-
-    .tvc-prod-desc-copy-heading {
-      font-size: 25px;
-      line-height: 41px;
-    }
-
-    .tvc-prod-desc-copy p {
-      font-size: 18px;
-      line-height: 30px;
-    }
-
-    .tvc-cta-container {
-      flex-direction: column;
-    }
-
-    a.tvc-cta {
-      margin: 0 auto 10px;
-    }
-
-    .tvc-mobi-bedding-icons {
-      margin-bottom: 10px;
-    }
-
-    p.tvc-prod-divider {
-      margin: 0 0 46px;
-    }
-
-    .wow-sale-banner {
-      margin-bottom: 60px;
-    }
-  }
+}
