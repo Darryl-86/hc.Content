@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="202" viewBox="0 0 96 202">
+    <g data-name="Group 76469">
+        <g data-name="Rectangle 28" style="fill:#f51169;stroke:#f51169">
+            <path d="M10 0h86v202H10a10 10 0 0 1-10-10V10A10 10 0 0 1 10 0z" style="stroke:none"/>
+            <path d="M10 .5h85.5v201H10A9.5 9.5 0 0 1 .5 192V10A9.5 9.5 0 0 1 10 .5z" style="fill:none"/>
+        </g>
+        <g data-name="Group 76457">
+            <text data-name="1" transform="translate(17 131)" style="font-size:66px;fill:#fff;font-family:Axiforma-Medium,Axiforma;font-weight:500"><tspan x="0" y="0">1</tspan></text>
+            <text transform="translate(43 105)" style="font-size:40px;fill:#fff;font-family:Axiforma-Medium,Axiforma;font-weight:500"><tspan x="0" y="0">st</tspan></text>
+        </g>
+    </g>
+</svg>

@@ -5,7 +5,7 @@ body {
 }*/
 
 .millionaire-hero {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .be-a-millionaire-main {
@@ -84,6 +84,63 @@ a.get-credit-now-btn {
   width: 50%;
 }
 
+/* new css begin */
+
+.design-blankets-section-one {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-copy-section-one-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-one p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-one p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.design-blankets-copy-section-one-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cash-prize-container {
+  max-width: 72%;
+  height: 80px;
+  margin: 0 0 25px 0;
+  border-radius: 10px;
+  border: solid 1px #f51169;
+  display: flex;
+  color: #f51169;
+}
+
+.cash-prize-num {
+}
+
+.cash-prize-copy-container {
+  padding: 0 17px;
+  display: flex;
+}
+
+span.cash-prize-copy {
+  font-size: 16px;
+  align-self: center;
+}
+
+span.cash-prize-copy strong {
+  font-weight: 800;
+}
+
+/* new css end */
+
 @media (max-width: 1199px) {
   .millionaire-promo-main {
     max-width: 80%;
@@ -133,6 +190,23 @@ a.get-credit-now-btn {
   .millionaire-copy-two {
     margin-bottom: 40px;
   }
+
+  /* new css begin */
+
+  .design-blankets-copy-section-one-heading {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .design-blankets-section-one p:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .design-blankets-copy-section-one-sub-heading {
+    font-size: 18px;
+  }
+
+  /* new css end */
 }
 
 @media (max-width: 359px) {

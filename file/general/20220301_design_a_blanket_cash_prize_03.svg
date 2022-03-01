@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="120" height="70" version="1.1" viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-968.79 -854.19)">
+  <g transform="translate(968.79 854.19)" data-name="Group 76467">
+   <g fill="#30455e" stroke="#30455e" data-name="Rectangle 30">
+    <path d="m10 0h110v70h-110a10 10 0 0 1-10-10v-50a10 10 0 0 1 10-10z" stroke="none"/>
+    <path d="m10 0.5h109.5v69h-109.5a9.5 9.5 0 0 1-9.5-9.5v-50a9.5 9.5 0 0 1 9.5-9.5z" fill="none"/>
+   </g>
+   <g fill="#ffffff" font-family="Axiforma-Medium, Axiforma" font-weight="500" data-name="Group 76458">
+    <text transform="translate(34,53)" font-size="40px" data-name="2"><tspan x="0" y="0" font-family="Axiforma" font-size="40px" font-weight="500" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">3</tspan></text>
+    <text transform="translate(58,37)" font-size="23px"><tspan x="0" y="0" font-family="Axiforma" font-size="23px" font-weight="500" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">rd</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
