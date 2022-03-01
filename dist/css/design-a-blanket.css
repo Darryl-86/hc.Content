@@ -1,0 +1,142 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.millionaire-hero {
+  margin-bottom: 30px;
+}
+
+.be-a-millionaire-main {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.millionaire-header {
+  color: #30455e;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.millionaire-copy-one {
+  color: #30455e;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.millionaire-copy-two {
+  color: #30455e;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+
+a.millionaire-link {
+  color: #0086f7;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+a.get-credit-now-btn {
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 16px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.millionaire-promo-main {
+  display: flex;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.millionaire-promo {
+  margin: 0 auto 50px;
+}
+
+.millionaire-promo a {
+  color: #30455e;
+  text-decoration: underline;
+}
+
+.win-a-car-promo {
+  margin-bottom: 12px;
+}
+
+.win-a-car-promo-bu-name {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.win-car-promo-row-container {
+  display: flex;
+  width: 50%;
+}
+
+@media (max-width: 1199px) {
+  .millionaire-promo-main {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .millionaire-promo-main {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .be-a-millionaire-main {
+    max-width: 330px;
+  }
+
+  .millionaire-hero {
+    margin-bottom: 20px;
+  }
+
+  .millionaire-promo {
+    margin: 0 auto 40px;
+  }
+
+  .millionaire-promo-mobi-last-items {
+    margin: 0 auto 50px;
+  }
+
+  .millionaire-promo-main {
+    flex-direction: column;
+  }
+
+  .win-car-promo-row-container {
+    width: auto;
+  }
+
+  .win-a-car-promo-bu-name {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .millionaire-header {
+    margin-bottom: 15px;
+  }
+
+  .millionaire-copy-two {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 359px) {
+  .millionaire-promo {
+    padding: 0px 10px;
+  }
+}
