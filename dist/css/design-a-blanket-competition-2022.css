@@ -13,37 +13,15 @@ body {
   max-width: 95%;
 }
 
-.millionaire-header {
-  color: #30455e;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.millionaire-copy-one {
-  color: #30455e;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 15px;
-}
-
-.millionaire-copy-two {
-  color: #30455e;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 60px;
-}
-
 a.millionaire-link {
   color: #0086f7;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a.get-credit-now-btn {
-  width: 250px;
-  height: 50px;
+  width: 300px;
+  height: 60px;
   border-radius: 4px;
   background-color: #ed2282;
   font-size: 16px;
@@ -53,38 +31,6 @@ a.get-credit-now-btn {
   font-weight: bold;
   color: #ffffff;
 }
-
-.millionaire-promo-main {
-  display: flex;
-  margin: 0 auto;
-  max-width: 80%;
-}
-
-.millionaire-promo {
-  margin: 0 auto 50px;
-}
-
-.millionaire-promo a {
-  color: #30455e;
-  text-decoration: underline;
-}
-
-.win-a-car-promo {
-  margin-bottom: 12px;
-}
-
-.win-a-car-promo-bu-name {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.win-car-promo-row-container {
-  display: flex;
-  width: 50%;
-}
-
-/* new css begin */
 
 .design-blankets-section-one {
   line-height: 24px;
@@ -112,17 +58,40 @@ a.get-credit-now-btn {
   margin-bottom: 20px;
 }
 
+.design-blankets-section-two {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-copy-section-two-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-two p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-two p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.design-blankets-copy-section-two-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .cash-prize-container {
   max-width: 72%;
-  height: 80px;
+  height: auto;
   margin: 0 0 25px 0;
   border-radius: 10px;
   border: solid 1px #f51169;
   display: flex;
   color: #f51169;
-}
-
-.cash-prize-num {
 }
 
 .cash-prize-copy-container {
@@ -139,17 +108,63 @@ span.cash-prize-copy strong {
   font-weight: 800;
 }
 
-/* new css end */
+.runners-up-cash-prizes {
+  border: solid 1px #30455e;
+  color: #30455e;
+}
+
+.last-runner-up-margin {
+  margin: 0 0 80px 0;
+}
+
+.blanket-design-examples-promo-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 92%;
+}
+
+.blanket-design-examples-promo {
+  margin: 0 auto 58px;
+}
+
+.design-blankets-how-to-enter-section {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-how-to-enter-section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-how-to-enter-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.design-blankets-how-to-enter-section p:last-child {
+  margin-bottom: 40px;
+}
+
+.design-blankets-how-to-enter-section ul {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
 @media (max-width: 1199px) {
-  .millionaire-promo-main {
-    max-width: 80%;
+  .blanket-design-examples-promo {
+    margin: 0 20px 58px;
   }
 }
 
 @media (max-width: 991px) {
-  .millionaire-promo-main {
+  .cash-prize-container {
     max-width: 100%;
+  }
+
+  .blanket-design-examples-promo {
+    margin: 0 10px 58px;
   }
 }
 
@@ -161,37 +176,6 @@ span.cash-prize-copy strong {
   .millionaire-hero {
     margin-bottom: 20px;
   }
-
-  .millionaire-promo {
-    margin: 0 auto 40px;
-  }
-
-  .millionaire-promo-mobi-last-items {
-    margin: 0 auto 50px;
-  }
-
-  .millionaire-promo-main {
-    flex-direction: column;
-  }
-
-  .win-car-promo-row-container {
-    width: auto;
-  }
-
-  .win-a-car-promo-bu-name {
-    font-size: 15px;
-    line-height: 23px;
-  }
-
-  .millionaire-header {
-    margin-bottom: 15px;
-  }
-
-  .millionaire-copy-two {
-    margin-bottom: 40px;
-  }
-
-  /* new css begin */
 
   .design-blankets-copy-section-one-heading {
     font-size: 20px;
@@ -206,11 +190,45 @@ span.cash-prize-copy strong {
     font-size: 18px;
   }
 
-  /* new css end */
-}
+  .cash-prize-container {
+    max-width: max-content;
+    margin: 0 0 20px 0;
+  }
 
-@media (max-width: 359px) {
-  .millionaire-promo {
-    padding: 0px 10px;
+  .last-runner-up-margin {
+    margin: 0 0 40px 0;
+  }
+
+  .design-blankets-copy-section-two-heading {
+    font-size: 20px;
+  }
+
+  .design-blankets-section-two p:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .design-blankets-copy-section-two-sub-heading {
+    font-size: 18px;
+  }
+
+  .blanket-design-examples-promo-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .blanket-design-examples-promo {
+    margin: 0 auto 38px;
+  }
+
+  .blanket-design-examples-promo-container div:last-child {
+    margin-bottom: 68px;
+  }
+
+  .design-blankets-how-to-enter-section-heading {
+    font-size: 18px;
+  }
+
+  .design-blankets-how-to-enter-section p:last-child {
+    margin-bottom: 30px;
   }
 }
