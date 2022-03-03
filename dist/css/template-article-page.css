@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  }*/
+
+.new-occ-article-page h1 {
+  color: #30455e;
+  margin-bottom: 30px;
+}
+
+.hero-banner {
+  margin-bottom: 30px;
+}
+
+.new-occ-article-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+a.cta-btn {
+  max-width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 16px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .new-occ-article-page h3 {
+    color: #30455e;
+    margin-bottom: 20px;
+  }
+
+  .hero-banner {
+    margin-bottom: 20px;
+  }
+
+  .new-occ-article-page p {
+    font-size: 16px;
+    max-width: 330px;
+    margin: 0 auto 20px;
+  }
+}
