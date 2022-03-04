@@ -20,7 +20,7 @@ a.millionaire-link {
 }
 
 a.get-credit-now-btn {
-  width: 300px;
+  max-width: 300px;
   height: 60px;
   border-radius: 4px;
   background-color: #ed2282;
@@ -45,7 +45,7 @@ a.get-credit-now-btn {
 
 .design-blankets-section-one p {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .design-blankets-section-one p:last-of-type {
@@ -55,7 +55,7 @@ a.get-credit-now-btn {
 .design-blankets-copy-section-one-sub-heading {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .design-blankets-section-two {
@@ -71,7 +71,7 @@ a.get-credit-now-btn {
 
 .design-blankets-section-two p {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .design-blankets-section-two p:last-of-type {
@@ -140,16 +140,22 @@ span.cash-prize-copy strong {
 
 .design-blankets-how-to-enter-section p {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .design-blankets-how-to-enter-section p:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 58px;
 }
 
 .design-blankets-how-to-enter-section ul {
   font-size: 16px;
   margin-bottom: 20px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.design-blankets-how-to-enter-section li {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 1199px) {
@@ -179,7 +185,6 @@ span.cash-prize-copy strong {
 
   .design-blankets-copy-section-one-heading {
     font-size: 20px;
-    margin-bottom: 30px;
   }
 
   .design-blankets-section-one p:last-of-type {
@@ -188,6 +193,7 @@ span.cash-prize-copy strong {
 
   .design-blankets-copy-section-one-sub-heading {
     font-size: 18px;
+    margin-bottom: 20px;
   }
 
   .cash-prize-container {
@@ -201,10 +207,6 @@ span.cash-prize-copy strong {
 
   .design-blankets-copy-section-two-heading {
     font-size: 20px;
-  }
-
-  .design-blankets-section-two p:last-of-type {
-    margin-bottom: 30px;
   }
 
   .design-blankets-copy-section-two-sub-heading {
@@ -229,6 +231,12 @@ span.cash-prize-copy strong {
   }
 
   .design-blankets-how-to-enter-section p:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 330px) {
+  .cash-prize-copy-container {
+    padding: 0 10px;
   }
 }
