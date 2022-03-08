@@ -1,123 +1,241 @@
-.blanket-range-header {
-  margin-bottom: 20px;
+.blanket-range-header-section {
+  margin-bottom: 25px;
 }
 
-.blanket-range-brands-mobi-container {
-  max-width: 350px;
-  display: block;
-  margin: 0 auto;
+.blanket-range-header-section p {
+  color: #67747b;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 90%;
 }
 
-.buy-two-get-one-free {
-  margin-bottom: 70px;
-}
-
-.blankets-must-haves-banner {
+.blankets-brands-container {
+  border: 1px solid #707070;
+  padding: 0 26px;
   margin-bottom: 60px;
 }
 
-.blanket-range-brands-web-promo {
-  margin-bottom: 17px;
+.blankets-brands-content {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.blankets-under {
-  margin-bottom: 60px;
+.blankets-brands-row {
+  display: contents;
 }
 
-.blanket-weights-heading {
-  margin-bottom: 39px;
-}
-
-.blanket-weights {
-  margin-bottom: 70px;
-}
-
-.blanket-cash-deals-banner {
-  margin-bottom: 70px;
-}
-
-.get-most-from-hc-blanket-heading {
-  margin-bottom: 30px;
-}
-
-.kids-cosy-mink-promo {
-  margin-bottom: 90px;
-}
-
-.main-blanket-banner {
+.three-for-two-banner {
   margin-bottom: 40px;
 }
 
+.three-for-two-promo-container {
+  margin-bottom: 100px;
+}
+
+.three-for-two-promo {
+  margin-bottom: 40px;
+}
+
+.three-for-two-promo-product-title {
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 5px;
+}
+
+.three-for-two-promo-copy-container {
+  height: 42px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.three-for-two-promo-copy-container img {
+  margin: 0 10px 0 0;
+}
+
+.three-for-two-promo-copy-container div {
+  font-size: 26px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #f51169;
+}
+
+.three-for-two-promo-product-desc {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #30455e;
+  margin: 0 0 10px 0;
+}
+
+.three-for-two-promo-product-desc span {
+  color: #f51169;
+  font-weight: bold;
+}
+
+.three-for-two-promo-product-price {
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  color: #30455e;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+a.three-for-two-promo-btn {
+  max-width: 260px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 28px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f51169;
+  border: 1px solid #f51169;
+}
+
+.free-blanket-bag-promo-container {
+  display: flex;
+  gap: 20px;
+}
+
+.free-blanket-bag-promo-prod {
+  margin-bottom: 10px;
+}
+
+.free-blanket-bag-promo-prod-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 5px;
+}
+
+.free-blanket-bag-promo-prod-desc {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 7px;
+}
+
+.free-blanket-bag-promo-prod-desc span {
+  color: #f51169;
+  font-weight: bold;
+}
+
+.free-blanket-bag-promo-prod-price {
+  color: #30455e;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .blankets-brand {
+    padding: 0 10px;
+  }
+}
+
 @media (max-width: 767px) {
-  .blanket-range-brands-mobi-promo-container {
-    max-width: 175px;
-  }
-
-  .blanket-range-brands-mobi-promo {
-    margin-bottom: 10px;
-  }
-
-  .blanket-range-brands-mobi-promo-last-row {
-    margin-bottom: 23px;
-  }
-
-  .buy-two-get-one-free {
-    margin-bottom: 40px;
-  }
-
-  .blankets-must-haves-banner {
-    margin-bottom: 41px;
-  }
-  
-  .buy-two-get-one-free-mobi-container {
-    max-width: 360px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .blankets-under {
-    margin-bottom: 7px;
-  }
-
-  .blankets-under-mobi-last-item {
-    margin-bottom: 50px;
-  }
-
-  .blanket-weights-heading {
-    margin-bottom: 22px;
-  }
-
-  .blanket-weights {
+  .blanket-range-header-section {
     margin-bottom: 30px;
   }
 
-  .blanket-weights-last-row {
-    margin-bottom: 60px;
+  .blanket-range-header-section p {
+    font-size: 14px;
+    margin-bottom: 35px;
+    max-width: 360px;
   }
 
-  .blanket-cash-deals-banner {
-    margin-bottom: 50px;
+  .blankets-brands-container {
+    padding: 20px 35px;
+    max-width: 360px;
+    margin: 0 auto 40px;
   }
 
-  .get-most-from-hc-blanket-heading {
-    margin-bottom: 17px;
+  .blankets-brands-content {
+    flex-direction: column;
+    height: 181px;
+    align-items: normal;
   }
 
-  .kids-cosy-mink-promo {
-    margin-bottom: 40px;
+  .blankets-brands-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .kids-cosy-mink-promo-mobi-last-row {
-    margin-bottom: 60px;
+  .blankets-brand {
+    padding: initial;
   }
 
-  .main-blanket-banner {
-  margin-bottom: 17px;
-}
+  .three-for-two-banner {
+    margin-bottom: 25px;
+  }
+
+  .three-for-two-promo-container {
+    margin: 0 auto 60px;
+    max-width: 360px;
+  }
+
+  .three-for-two-promo {
+    margin-bottom: 20px;
+  }
+
+  .three-for-two-promo-product-title {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 14px;
+  }
+
+  .three-for-two-promo-copy-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .three-for-two-promo-copy-container img {
+    margin: 0 0 5px 0;
+  }
+
+  .three-for-two-promo-copy-container div {
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  .three-for-two-promo-product-desc {
+    margin: 0 auto 15px;
+    max-width: 95%;
+  }
+
+  .three-for-two-promo-product-price {
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0 0 10px 0;
+  }
 }
 
 @media (max-width: 360px) {
-  .buy-two-get-one-free-mobi-container img {
-    width: 95%;
+  .blanket-range-header-section p {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 350px) {
+  .blankets-brands-container {
+    padding: 20px;
   }
 }
