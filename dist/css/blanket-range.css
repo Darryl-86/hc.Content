@@ -36,6 +36,10 @@
   margin-bottom: 100px;
 }
 
+.sabine-promo {
+  margin-bottom: 80px;
+}
+
 .three-for-two-promo {
   margin-bottom: 40px;
 }
@@ -103,9 +107,32 @@ a.three-for-two-promo-btn {
   border: 1px solid #f51169;
 }
 
+a.mink-blanket-range-promo-btn {
+  max-width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 28px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f51169;
+  border: 1px solid #f51169;
+}
+
+.free-blanket-bag-skinny-banner {
+  margin-bottom: -16px;
+  z-index: 1;
+  position: relative;
+}
+
 .free-blanket-bag-promo-container {
   display: flex;
   gap: 20px;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 47px;
 }
 
 .free-blanket-bag-promo-prod {
@@ -121,7 +148,7 @@ a.three-for-two-promo-btn {
   margin-bottom: 5px;
 }
 
-.free-blanket-bag-promo-prod-desc {
+p.free-blanket-bag-promo-prod-desc {
   font-size: 15px;
   line-height: 20px;
   text-align: center;
@@ -129,12 +156,12 @@ a.three-for-two-promo-btn {
   margin-bottom: 7px;
 }
 
-.free-blanket-bag-promo-prod-desc span {
+p.free-blanket-bag-promo-prod-desc span {
   color: #f51169;
   font-weight: bold;
 }
 
-.free-blanket-bag-promo-prod-price {
+p.free-blanket-bag-promo-prod-price {
   color: #30455e;
   font-size: 18px;
   line-height: 33px;
@@ -142,9 +169,188 @@ a.three-for-two-promo-btn {
   margin-bottom: 10px;
 }
 
+.free-plush-throw-skinny-banner {
+  margin-bottom: -60px;
+  z-index: 1;
+  position: relative;
+}
+
+.free-plush-throw-promo-container {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 100px;
+}
+
+.free-plush-throw-promo-prod {
+  margin-bottom: 10px;
+}
+
+.free-plush-throw-promo-prod-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 5px;
+}
+
+p.free-plush-throw-promo-prod-desc {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 7px;
+}
+
+p.free-plush-throw-promo-prod-desc span {
+  color: #f51169;
+  font-weight: bold;
+}
+
+p.free-plush-throw-promo-prod-price {
+  color: #30455e;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.shop-blanket-range-price-category-container {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+
+a.shop-blanket-range-under-r500-promo {
+  width: 370px;
+  height: 100px;
+  opacity: 0.7;
+  border-radius: 58px;
+  background-color: #9bb7b4;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.shop-blanket-range-price-category-copy {
+  margin: -5px 0 0 0;
+}
+
+.shop-blanket-range-price-category-copy p {
+  margin: 0;
+  font-size: 23px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+}
+
+.shop-blanket-range-price-category-copy p:last-child {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+a.shop-blanket-range-under-r800-promo {
+  width: 370px;
+  height: 100px;
+  opacity: 1;
+  border-radius: 58px;
+  background-color: #98b1ae;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+a.shop-blanket-range-under-r1000-promo {
+  width: 370px;
+  height: 100px;
+  border-radius: 58px;
+  background-color: #7c9592;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.mink-blanket-range-heading {
+  color: #977843;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 28px;
+}
+
+.baby-and-kids-mink-blanket-promo-container {
+  display: flex;
+  gap: 27px;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 60px;
+}
+
+.mink-promo-row-container {
+  display: contents;
+}
+
+.baby-and-kids-mink-blanket-promo-prod {
+  margin-bottom: 10px;
+}
+
+.baby-and-kids-mink-blanket-promo-prod-copy-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.baby-and-kids-mink-blanket-promo-prod-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #30455e;
+  margin-bottom: 10px;
+}
+
+p.baby-and-kids-mink-blanket-promo-prod-price {
+  color: #30455e;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a.shop-blankets-range-full-range {
+  color: #30455e;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 60px;
+  display: block;
+}
+
 @media (max-width: 991px) {
   .blankets-brand {
     padding: 0 10px;
+  }
+
+  a.shop-blanket-range-under-r500-promo,
+  a.shop-blanket-range-under-r800-promo,
+  a.shop-blanket-range-under-r1000-promo {
+    width: auto;
+    height: 100px;
+    flex: auto;
+  }
+
+  .shop-blanket-range-price-category-copy p {
+    line-height: 30px;
+  }
+
+  .shop-blanket-range-price-category-copy p:last-child {
+    font-size: 30px;
   }
 }
 
@@ -190,6 +396,10 @@ a.three-for-two-promo-btn {
     max-width: 360px;
   }
 
+  .sabine-promo {
+    margin: 0 auto 31px;
+  }
+
   .three-for-two-promo {
     margin-bottom: 20px;
   }
@@ -226,11 +436,103 @@ a.three-for-two-promo-btn {
     line-height: 34px;
     margin: 0 0 10px 0;
   }
+
+  .free-blanket-bag-promo-container {
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+
+  .free-plush-throw-skinny-banner {
+    margin-bottom: -10px;
+  }
+
+  .free-plush-throw-promo-container {
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 60px;
+  }
+
+  .shop-blanket-range-price-category-container {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto 60px;
+    max-width: 360px;
+    align-items: center;
+  }
+
+  a.shop-blanket-range-under-r500-promo,
+  a.shop-blanket-range-under-r800-promo,
+  a.shop-blanket-range-under-r1000-promo {
+    width: 100%;
+    height: 98px;
+  }
+
+  .shop-blanket-range-price-category-copy p {
+    font-size: 22px;
+  }
+
+  .shop-blanket-range-price-category-copy p:last-child {
+    font-size: 35px;
+  }
+
+  .mink-blanket-range-heading {
+    font-size: 25px;
+    margin: 0 auto 33px;
+    line-height: 30px;
+    max-width: 295px;
+  }
+
+  .baby-and-kids-mink-blanket-promo-container {
+    flex-direction: column;
+    margin-bottom: 57px;
+    gap: 40px;
+  }
+
+  .baby-and-kids-mink-blanket-promo-prod-copy-container {
+    max-width: 173px;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+
+  .mink-promo-row-container {
+    display: flex;
+    gap: 14px;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .baby-and-kids-mink-blanket-promo-prod-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  p.baby-and-kids-mink-blanket-promo-prod-price {
+    color: #30455e;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  a.mink-blanket-range-promo-btn {
+    max-width: 157px;
+    height: 35px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  a.shop-blankets-range-full-range {
+    max-width: 285px;
+    margin: 0 auto 60px;
+  }
 }
 
 @media (max-width: 360px) {
   .blanket-range-header-section p {
     max-width: 85%;
+  }
+
+  .baby-and-kids-mink-blanket-promo-prod-copy-container {
+    padding: initial;
   }
 }
 
