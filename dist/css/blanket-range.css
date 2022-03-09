@@ -1,4 +1,10 @@
-.blanket-range-header-section {
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.blanket-range-header {
   margin-bottom: 25px;
 }
 
@@ -46,7 +52,7 @@
 
 .three-for-two-promo-product-title {
   font-size: 40px;
-  line-height: 70px;
+  line-height: 50px;
   text-align: center;
   color: #30455e;
   margin-bottom: 5px;
@@ -66,7 +72,7 @@
 
 .three-for-two-promo-copy-container div {
   font-size: 26px;
-  line-height: 48px;
+  line-height: 35px;
   font-weight: bold;
   color: #f51169;
 }
@@ -86,7 +92,7 @@
 
 .three-for-two-promo-product-price {
   font-size: 22px;
-  line-height: 40px;
+  line-height: 30px;
   text-align: center;
   color: #30455e;
   font-weight: bold;
@@ -136,13 +142,13 @@ a.mink-blanket-range-promo-btn {
 }
 
 .free-blanket-bag-promo-prod {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .free-blanket-bag-promo-prod-title {
   font-weight: bold;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 30px;
   text-align: center;
   color: #30455e;
   margin-bottom: 5px;
@@ -164,13 +170,13 @@ p.free-blanket-bag-promo-prod-desc span {
 p.free-blanket-bag-promo-prod-price {
   color: #30455e;
   font-size: 18px;
-  line-height: 33px;
+  line-height: 24px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .free-plush-throw-skinny-banner {
-  margin-bottom: -60px;
+  margin-bottom: -45px;
   z-index: 1;
   position: relative;
 }
@@ -184,13 +190,13 @@ p.free-blanket-bag-promo-prod-price {
 }
 
 .free-plush-throw-promo-prod {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .free-plush-throw-promo-prod-title {
   font-weight: bold;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 30px;
   text-align: center;
   color: #30455e;
   margin-bottom: 5px;
@@ -212,9 +218,9 @@ p.free-plush-throw-promo-prod-desc span {
 p.free-plush-throw-promo-prod-price {
   color: #30455e;
   font-size: 18px;
-  line-height: 33px;
+  line-height: 24px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .shop-blanket-range-price-category-container {
@@ -287,8 +293,6 @@ a.shop-blanket-range-under-r1000-promo {
 .baby-and-kids-mink-blanket-promo-container {
   display: flex;
   gap: 27px;
-  position: relative;
-  z-index: 0;
   margin-bottom: 60px;
 }
 
@@ -297,11 +301,11 @@ a.shop-blanket-range-under-r1000-promo {
 }
 
 .baby-and-kids-mink-blanket-promo-prod {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .baby-and-kids-mink-blanket-promo-prod-copy-container {
-  max-width: 90%;
+  max-width: 270px;
   margin: 0 auto;
 }
 
@@ -317,9 +321,9 @@ a.shop-blanket-range-under-r1000-promo {
 p.baby-and-kids-mink-blanket-promo-prod-price {
   color: #30455e;
   font-size: 18px;
-  line-height: 33px;
+  line-height: 24px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 a.shop-blankets-range-full-range {
@@ -352,13 +356,17 @@ a.shop-blankets-range-full-range {
   .shop-blanket-range-price-category-copy p:last-child {
     font-size: 30px;
   }
+
+  .free-blanket-bag-skinny-banner {
+    margin-bottom: -10px;
+  }
+
+  .free-plush-throw-skinny-banner {
+    margin-bottom: -30px;
+  }
 }
 
 @media (max-width: 767px) {
-  .blanket-range-header-section {
-    margin-bottom: 30px;
-  }
-
   .blanket-range-header-section p {
     font-size: 14px;
     margin-bottom: 35px;
@@ -406,7 +414,7 @@ a.shop-blankets-range-full-range {
 
   .three-for-two-promo-product-title {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 28px;
     margin-bottom: 14px;
   }
 
@@ -422,7 +430,7 @@ a.shop-blankets-range-full-range {
 
   .three-for-two-promo-copy-container div {
     font-size: 16px;
-    line-height: 29px;
+    line-height: 24px;
     text-align: center;
   }
 
@@ -433,8 +441,8 @@ a.shop-blankets-range-full-range {
 
   .three-for-two-promo-product-price {
     font-size: 18px;
-    line-height: 34px;
-    margin: 0 0 10px 0;
+    line-height: 22px;
+    margin: 0 0 15px 0;
   }
 
   .free-blanket-bag-promo-container {
@@ -489,6 +497,10 @@ a.shop-blankets-range-full-range {
     gap: 40px;
   }
 
+  .baby-and-kids-mink-blanket-promo-prod {
+    margin-bottom: 12px;
+  }
+
   .baby-and-kids-mink-blanket-promo-prod-copy-container {
     max-width: 173px;
     margin: 0 auto;
@@ -503,14 +515,15 @@ a.shop-blankets-range-full-range {
   }
 
   .baby-and-kids-mink-blanket-promo-prod-title {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px;
   }
 
   p.baby-and-kids-mink-blanket-promo-prod-price {
     color: #30455e;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 22px;
+    margin-bottom: 14px;
   }
 
   a.mink-blanket-range-promo-btn {
@@ -523,6 +536,10 @@ a.shop-blankets-range-full-range {
   a.shop-blankets-range-full-range {
     max-width: 285px;
     margin: 0 auto 60px;
+  }
+
+  .free-blanket-bag-skinny-banner {
+    margin-bottom: -16px;
   }
 }
 
@@ -539,5 +556,15 @@ a.shop-blankets-range-full-range {
 @media (max-width: 350px) {
   .blankets-brands-container {
     padding: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+  .baby-and-kids-mink-blanket-promo-prod-title {
+    font-size: 14px;
+  }
+
+  p.baby-and-kids-mink-blanket-promo-prod-price {
+    font-size: 14px;
   }
 }
