@@ -27,14 +27,16 @@
 
 .hc-blanket-promo-container {
   display: flex;
-  gap: 40px;
   color: #30455e;
-  margin-bottom: 4px;
-  height: 574px;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 4px;
+  margin-bottom: 41px;
 }
 
 .hc-blanket-promo {
   border: 1px solid red;
+  width: 360px;
 }
 
 .hc-blanket-promo-prod {
@@ -55,6 +57,52 @@
   font-size: 16px;
 }
 
+a.blankets-info-shop-more-range {
+  color: #f51169;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 65px;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 0.24px;
+}
+
+.blanket-info-3for2-mink-blk-banner {
+  margin-bottom: 94px;
+}
+
+.hc-same-quality-promo-container {
+  display: flex;
+  color: #30455e;
+  gap: 21px;
+  margin-bottom: 74px;
+  height: 290px;
+}
+
+.hc-same-quality-promo {
+  border: 1px solid red;
+  width: 570px;
+  height: 290px;
+}
+
+.hc-same-quality-promo-prod {
+  margin-bottom: 15px;
+}
+
+.hc-same-quality-promo-prod-copy-title {
+  letter-spacing: 0.24px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hc-same-quality-promo-prod-copy-title a {
+  color: #30455e;
+}
+
 @media (max-width: 767px) {
   .blanket-info-main {
     max-width: 360px;
@@ -73,8 +121,34 @@
   }
 
   .hc-blanket-promo-container {
+    row-gap: 40px;
+    margin-bottom: 33px;
+  }
+
+  a.blankets-info-shop-more-range {
+    font-size: 20px;
+    margin-bottom: 47px;
+    letter-spacing: 0.2px;
+  }
+
+  .blanket-info-3for2-mink-blk-banner {
+    margin-bottom: 50px;
+  }
+
+  .hc-same-quality-promo-container {
+    gap: 40px;
+    margin-bottom: 30px;
     flex-direction: column;
-    color: #30455e;
-    margin-bottom: 40px;
+    height: 850px;
+  }
+
+  .hc-same-quality-promo {
+    border: 1px solid red;
+    width: 360px;
+    height: 405px;
+  }
+
+  .hc-same-quality-promo-prod-copy-title {
+    text-align: left;
   }
 }
