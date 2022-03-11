@@ -1,6 +1,13 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
 .blanket-info-main {
   max-width: 1160px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .blanket-info-hero {
@@ -25,17 +32,25 @@
   margin-bottom: 34px;
 }
 
+.blanket-info-heading p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #30455e;
+  margin-top: 5px;
+  font-weight: initial;
+}
+
 .hc-blanket-promo-container {
   display: flex;
   color: #30455e;
   flex-wrap: wrap;
-  column-gap: 40px;
+  column-gap: 30px;
   row-gap: 4px;
   margin-bottom: 41px;
+  justify-content: center;
 }
 
 .hc-blanket-promo {
-  border: 1px solid red;
   width: 360px;
 }
 
@@ -78,13 +93,12 @@ a.blankets-info-shop-more-range {
   color: #30455e;
   gap: 21px;
   margin-bottom: 74px;
-  height: 290px;
+  height: auto;
+  align-items: center;
 }
 
 .hc-same-quality-promo {
-  border: 1px solid red;
-  width: 570px;
-  height: 290px;
+  width: auto;
 }
 
 .hc-same-quality-promo-prod {
@@ -101,6 +115,108 @@ a.blankets-info-shop-more-range {
 
 .hc-same-quality-promo-prod-copy-title a {
   color: #30455e;
+}
+
+.hc-authentic-designs-promo-container {
+  display: flex;
+  color: #30455e;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-bottom: 80px;
+  justify-content: center;
+}
+
+.hc-authentic-designs-promo {
+  width: 270px;
+}
+
+.hc-authentic-designs-promo-prod {
+  margin-bottom: 15px;
+}
+
+.hc-authentic-designs-promo-prod-copy-title {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blanket-info-comp-banner {
+  margin-bottom: 80px;
+}
+
+.hc-blanket-weights-promo-container {
+  display: flex;
+  color: #30455e;
+  flex-wrap: wrap;
+  gap: 46px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.hc-blanket-weights-promo {
+  width: 150px;
+}
+
+.hc-blanket-sizes-promo-container {
+  display: flex;
+  color: #30455e;
+  flex-wrap: wrap;
+  gap: 62px;
+  margin-bottom: 86px;
+  justify-content: center;
+}
+
+.hc-blanket-sizes-promo {
+  width: 250px;
+}
+
+.more-looks-promo-copy {
+  text-align: left;
+}
+
+.blanket-info-free-blk-bag-banner {
+  margin-bottom: 40px;
+}
+
+a.shop-full-range {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  .hc-authentic-designs-promo-container {
+    row-gap: 20px;
+    justify-content: space-between;
+  }
+
+  .hc-blanket-weights-promo-container {
+    justify-content: space-between;
+  }
+
+  .hc-blanket-sizes-promo-container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .hc-same-quality-promo {
+    height: auto;
+  }
+  .hc-blanket-promo {
+    width: 345px;
+  }
+
+  .hc-authentic-designs-promo-container {
+    justify-content: center;
+  }
+
+  .hc-blanket-weights-promo-container {
+    justify-content: center;
+  }
+
+  .hc-blanket-sizes-promo-container {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -125,6 +241,10 @@ a.blankets-info-shop-more-range {
     margin-bottom: 33px;
   }
 
+  .hc-blanket-promo {
+    width: initial;
+  }
+
   a.blankets-info-shop-more-range {
     font-size: 20px;
     margin-bottom: 47px;
@@ -139,16 +259,62 @@ a.blankets-info-shop-more-range {
     gap: 40px;
     margin-bottom: 30px;
     flex-direction: column;
-    height: 850px;
   }
 
   .hc-same-quality-promo {
-    border: 1px solid red;
-    width: 360px;
-    height: 405px;
+    width: auto;
+    height: auto;
   }
 
   .hc-same-quality-promo-prod-copy-title {
     text-align: left;
+  }
+
+  .hc-authentic-designs-promo-container {
+    row-gap: 52px;
+    margin-bottom: 60px;
+    column-gap: 18px;
+  }
+
+  .hc-authentic-designs-promo {
+    width: 171px;
+  }
+
+  .blanket-info-comp-banner {
+    margin-bottom: 60px;
+  }
+
+  .hc-blanket-weights-promo-container {
+    gap: 13px;
+    margin-bottom: 60px;
+  }
+
+  .hc-blanket-weights-promo {
+    width: 101px;
+  }
+
+  .blanket-info-free-blk-bag-banner {
+    margin-bottom: 48px;
+  }
+
+  .hc-blanket-sizes-promo-container {
+    gap: 7px;
+    margin-bottom: 60px;
+  }
+
+  .hc-blanket-sizes-promo {
+    width: 116px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hc-authentic-designs-promo {
+    width: 155px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hc-authentic-designs-promo {
+    width: 135px;
   }
 }
