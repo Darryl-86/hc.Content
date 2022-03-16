@@ -169,4 +169,16 @@ body {
     margin: 0;
   }
 
+  .pl-0 {
+    padding-left: 0;
+}
+
+.list-no-bullet {
+  list-style-type: none;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
   /* accordion content css end */
