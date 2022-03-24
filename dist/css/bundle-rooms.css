@@ -14,7 +14,7 @@ body {
 }
 
 .combo-rooms-hero-banner {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 
 .bundle-rooms-promo-container {
@@ -80,7 +80,7 @@ span.new-combo-prod {
   display: flex;
   margin-bottom: 90px;
   border-radius: 10px;
-  background-color: #f2e9da;
+  background-color: rgba(178, 109, 182, .2);
 }
 
 .love-our-bedding-copy {
@@ -90,7 +90,7 @@ span.new-combo-prod {
 .love-our-bedding-copy .heading {
   font-size: 30px;
   line-height: 50px;
-  color: #f51169;
+  color: #831436;
   font-weight: 800;
 }
 
@@ -106,7 +106,7 @@ span.new-combo-prod {
 .love-our-bedding-copy .sub-heading span {
   font-size: 20px;
   line-height: 33px;
-  color: #30455e;
+  color: #831436;
   font-weight: 800;
 }
 
@@ -199,7 +199,7 @@ p.bundle-rooms-hero-copy {
   }
 
   .combo-rooms-hero-banner {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .combo-rooms-hero-banner-copy {
