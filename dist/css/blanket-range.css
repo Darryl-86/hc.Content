@@ -294,6 +294,7 @@ a.shop-blanket-range-under-r1000-promo {
   display: flex;
   gap: 27px;
   margin-bottom: 60px;
+  justify-content: center;
 }
 
 .mink-promo-row-container {
@@ -334,6 +335,19 @@ a.shop-blankets-range-full-range {
   text-decoration: underline;
   margin-bottom: 60px;
   display: block;
+}
+
+a.shop-baby-blankets-range-full-range {
+  color: #30455e;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  display: block;
+}
+
+.baby-mink-blanket-item-remove {
+display: none;
 }
 
 @media (max-width: 991px) {
@@ -540,6 +554,11 @@ a.shop-blankets-range-full-range {
 
   .free-blanket-bag-skinny-banner {
     margin-bottom: -16px;
+  }
+
+  .baby-mink-blanket-item-remove {
+    visibility: hidden;
+    display: block;
   }
 }
 
