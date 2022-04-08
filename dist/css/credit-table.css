@@ -1,116 +1,104 @@
 .main-hero-banner-mobi {
-	display: none;
-	margin-bottom: 20px;
+  display: none;
+  margin-bottom: 20px;
 }
 
 .main-hero-banner-desktop {
-	display: block;
-	margin-bottom: 30px;
+  display: block;
+  margin-bottom: 30px;
 }
 
 .credit-table-heading-web {
-	display: block;
-	color: #f01882;
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	margin-bottom: 30px;
+  display: block;
+  color: #f01882;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .credit-table-heading-mobi {
-	display: none;
-	color: #f01882;
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 20px;
+  display: none;
+  color: #f01882;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .credit-table-terms-and-cond-heading {
-	display: block;
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 20px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .mb-10 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .col-md-12.credit-table-terms-and-cond-content p {
-	margin: 0 0 20px;
-	font-size: 14px!important;
+  margin: 0 0 20px;
+  font-size: 14px !important;
 }
 
 .col-md-12.credit-table-terms-and-cond-content p.para-no-margin {
-	margin: 0 0 0!important;
-	font-size: 14px!important;
+  margin: 0 0 0 !important;
+  font-size: 14px !important;
 }
 
-
-
-.table>thead>tr>th.no-border {
-	border: 1px solid #e6e6e6;
+.table > thead > tr > th.no-border {
+  border: 1px solid #e6e6e6;
 }
 
-.table>tbody>tr>td.credit-table-border {
-	border-right: 1px solid #717171;
-	border-top: 0;
+.table > tbody > tr > td.credit-table-border {
+  border-right: 1px solid #717171;
+  border-top: 0;
 }
 
-.table>tbody>tr>td.credit-table-border-last-cell {
-	border-right: 0;
-	border-top: 0;
+.table > tbody > tr > td.credit-table-border-last-cell {
+  border-right: 0;
+  border-top: 0;
 }
 
-.table>thead>tr.credit-table-bkg>th {
-	background-color: #e6e6e6;
+.table > thead > tr.credit-table-bkg > th {
+  background-color: #e6e6e6;
 }
 
 .table-pink-text {
-	color: #f01882;
+  color: #f01882;
 }
 
-.table>tbody>tr.credit-table-bkg>td {
-	background-color: #e6e6e6;
+tr:nth-child(even) {
+  background-color: #e6e6e6;
 }
 
 .credit-table-font {
-	font-size: 14px;
+  font-size: 14px;
 }
 
-
-
-
 @media (max-width: 600px) {
-	.credit-table-heading-web {
-		display: none;
-	}
+  .credit-table-heading-web {
+    display: none;
+  }
 
-	.credit-table-heading-mobi {
-		display: block;
-		margin-bottom: 30px;
-	}
-
-
+  .credit-table-heading-mobi {
+    display: block;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 450px) {
-	.main-hero-banner-mobi {
-		display: block;
-	}
+  .main-hero-banner-mobi {
+    display: block;
+  }
 
-	.main-hero-banner-desktop {
-		display: none;
-	}
+  .main-hero-banner-desktop {
+    display: none;
+  }
 
-	.credit-table-heading-mobi {
-		display: block;
-		margin-bottom: 20px;
-	}
-
-
-
-
-
+  .credit-table-heading-mobi {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
