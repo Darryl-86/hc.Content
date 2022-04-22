@@ -1,0 +1,39 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.special-moments-hero {
+    margin-bottom: 20px;
+}
+
+.special-moments-category-promo {
+    margin-bottom: 20px;
+}
+
+.special-moments-category-last-row-promos {
+    margin-bottom: 60px;
+}
+
+.oh-wow-banner {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .special-moments-category-promo {
+        margin-bottom: 25px;
+    }
+
+    .special-moments-category-last-row-promos {
+        margin-bottom: 25px;
+    }
+    
+    .gorgeousGrooming-category-promo {
+        margin-bottom: 50px;
+    }
+
+    .oh-wow-banner {
+        margin-bottom: 30px;
+    }
+}
