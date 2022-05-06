@@ -7,12 +7,12 @@ body {
 * {
   margin: 0;
   padding: 0;
-  }*/
+}*/
 
-  .tv-main {
-    padding-top: 20px;
-    color: #30455e;
-  }
+.tv-main {
+  padding-top: 20px;
+  color: #30455e;
+}
 
 .tv-add-header {
   margin-bottom: 40px;
@@ -94,6 +94,10 @@ body {
   display: flex;
 }
 
+.tvc-cta-adri-container {
+  justify-content: center;
+}
+
 a.tvc-cta {
   width: 250px;
   height: 50px;
@@ -107,6 +111,10 @@ a.tvc-cta {
   text-align: center;
   text-transform: uppercase;
   align-items: center;
+}
+
+a.tvc-cta-adri {
+  width: 170px;
 }
 
 span.tvc-prod-ussd-item {
@@ -138,11 +146,42 @@ p.tvc-prod-divider {
   margin: 0 auto;
 }
 
+.tvc-small-promo-container {
+  margin-bottom: 100px;
+}
+
+.tvc-small-promo-lastItems {
+  margin-bottom: 80px;
+}
+
+.tvc-small-promo-container img {
+  margin-bottom: 49px;
+}
+
+.tvc-small-promo-title {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #30455e;
+  text-align: center;
+}
+
+.tvc-small-promo-copy {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #30455e;
+  text-align: center;
+}
+
+br.adena-mobi-spacing-adjust {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .tvc-tab-promo {
     margin-bottom: 10px;
   }
-
+  
   .tvc-prod-details-main {
     min-height: auto;
     display: block;
@@ -150,7 +189,7 @@ p.tvc-prod-divider {
     margin: 0 auto;
     max-width: 499px;
   }
-
+  
   .tvc-prod-desc-copy {
     max-width: max-content;
     margin-bottom: 20px;
@@ -161,47 +200,80 @@ p.tvc-prod-divider {
   .tvc-prod-hero {
     margin-bottom: 10px;
   }
-
+  
   .tvc-mobi-promo {
     margin-bottom: 20px;
   }
-
+  
   .tvc-prod-details-main {
     max-width: 360px;
     text-align: center;
   }
-
+  
   .tvc-prod-desc-copy-heading {
     font-size: 25px;
     line-height: 41px;
   }
-
+  
   .tvc-prod-desc-copy p {
     font-size: 18px;
     line-height: 30px;
   }
-
+  
   .tvc-cta-container {
     flex-direction: column;
   }
-
+  
   a.tvc-cta {
     margin: 0 auto 10px;
   }
-
+  
+  a.tvc-cta-adri {
+    width: 100%;
+  }
+  
   .tvc-mobi-bedding-icons {
     margin-bottom: 10px;
   }
-
+  
   p.tvc-prod-divider {
     margin: 0 0 46px;
   }
-
+  
   .wow-sale-banner {
     margin-bottom: 60px;
   }
-
+  
   .tv-add-header {
     margin-bottom: 22px;
+  }
+  
+  .tvc-small-promo-container {
+    margin-bottom: 70px;
+    max-width: 170px;
+  }
+  
+  .tvc-small-promo-lastItems {
+    margin-bottom: 60px;
+  }
+  
+  .tvc-small-promo-container img {
+    margin-bottom: 20px;
+  }
+  
+  .tvc-small-promo-title {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  
+  .tvc-small-promo-copy {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 323px) {
+  br.adena-mobi-spacing-adjust {
+    display: block;
   }
 }
