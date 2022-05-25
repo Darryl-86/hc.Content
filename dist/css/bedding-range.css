@@ -9,6 +9,10 @@ body {
   padding: 0;
   }*/
 
+.bedding-range-header {
+  margin-bottom: 39px;
+}
+
 .innovative-cookware-header {
   margin-bottom: 30px;
 }
@@ -309,6 +313,10 @@ a.inactive-link {
   }
 
   .innovative-cookware-header {
+    margin-bottom: 20px;
+  }
+
+  .bedding-range-header {
     margin-bottom: 20px;
   }
 }
