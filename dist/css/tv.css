@@ -90,8 +90,17 @@ body {
   margin-bottom: 10px;
 }
 
+.tvc-small-promo-prod-code {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .tvc-cta-container {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .tvc-cta-adri-container {
@@ -113,10 +122,6 @@ a.tvc-cta {
   align-items: center;
 }
 
-a.tvc-cta-adri {
-  width: 170px;
-}
-
 span.tvc-prod-ussd-item {
   font-size: 15px;
   line-height: 25px;
@@ -125,12 +130,36 @@ span.tvc-prod-ussd-item {
   padding: 0 0 0 10px;
 }
 
+span.tvc-small-promo-ussd-item {
+  font-size: 15px;
+  line-height: 25px;
+  color: #0086f7;
+  margin: auto 0;
+  text-align: center;
+}
+
 a.tvc-prod-ussd-item {
   font-size: 15px;
   line-height: 25px;
   color: #0086f7;
   margin: auto 0;
   padding: 0 0 0 10px;
+}
+
+a.tvc-small-promo-ussd-item {
+  font-size: 15px;
+  line-height: 25px;
+  color: #0086f7;
+  margin: auto 0 50px;
+  text-align: center;
+}
+
+a.tvc-small-promo-ussd-lastItem {
+  font-size: 15px;
+  line-height: 25px;
+  color: #0086f7;
+  margin: auto 0 36px;
+  text-align: center;
 }
 
 p.tvc-prod-divider {
@@ -147,11 +176,15 @@ p.tvc-prod-divider {
 }
 
 .tvc-small-promo-container {
+  margin-bottom: 70px;
+}
+
+.tvc-AdenaFloral-small-promo-container {
   margin-bottom: 100px;
 }
 
 .tvc-small-promo-lastItems {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .tvc-small-promo-container img {
@@ -177,11 +210,17 @@ br.adena-mobi-spacing-adjust {
   display: none;
 }
 
+.best-winter-bedding-container {
+  background-color: rgba(176, 71, 62, 0.1);
+  padding: 50px;
+  margin: 0 auto 80px;
+}
+
 @media (max-width: 991px) {
   .tvc-tab-promo {
     margin-bottom: 10px;
   }
-  
+
   .tvc-prod-details-main {
     min-height: auto;
     display: block;
@@ -189,10 +228,26 @@ br.adena-mobi-spacing-adjust {
     margin: 0 auto;
     max-width: 499px;
   }
-  
+
   .tvc-prod-desc-copy {
     max-width: max-content;
     margin-bottom: 20px;
+  }
+
+  .tvc-cta-container {
+    margin-bottom: initial;
+  }
+
+  .tvc-small-promo-container {
+    margin-bottom: inherit;
+  }
+
+  .tvc-small-promo-divider {
+    margin-bottom: 10px;
+  }
+
+  a.tvc-cta {
+    margin: 0 auto 10px;
   }
 }
 
@@ -200,75 +255,85 @@ br.adena-mobi-spacing-adjust {
   .tvc-prod-hero {
     margin-bottom: 10px;
   }
-  
+
   .tvc-mobi-promo {
     margin-bottom: 20px;
   }
-  
+
   .tvc-prod-details-main {
     max-width: 360px;
     text-align: center;
   }
-  
+
   .tvc-prod-desc-copy-heading {
     font-size: 25px;
     line-height: 41px;
   }
-  
+
   .tvc-prod-desc-copy p {
     font-size: 18px;
     line-height: 30px;
   }
-  
+
   .tvc-cta-container {
     flex-direction: column;
+    margin-bottom: initial;
   }
-  
-  a.tvc-cta {
-    margin: 0 auto 10px;
-  }
-  
+
   a.tvc-cta-adri {
     width: 100%;
   }
-  
+
   .tvc-mobi-bedding-icons {
     margin-bottom: 10px;
   }
-  
+
   p.tvc-prod-divider {
     margin: 0 0 46px;
   }
-  
+
   .wow-sale-banner {
     margin-bottom: 60px;
   }
-  
+
   .tv-add-header {
     margin-bottom: 22px;
   }
-  
+
   .tvc-small-promo-container {
-    margin-bottom: 70px;
     max-width: 170px;
   }
-  
-  .tvc-small-promo-lastItems {
-    margin-bottom: 60px;
+
+  .tvc-aspen {
+    max-width: 330px;
+    margin: 0 auto;
   }
-  
+
   .tvc-small-promo-container img {
     margin-bottom: 20px;
   }
-  
+
   .tvc-small-promo-title {
     margin-bottom: 15px;
     font-size: 15px;
   }
-  
+
   .tvc-small-promo-copy {
-    margin-bottom: 15px;
     font-size: 15px;
+  }
+
+  a.tvc-prod-ussd-item {
+    padding: initial;
+  }
+
+  .tvc-small-promo-prod-code {
+    margin-bottom: 10px;
+  }
+
+  .best-winter-bedding-container {
+    padding: 40px;
+    max-width: 360px;
+    margin: 0 auto 25px;
   }
 }
 
