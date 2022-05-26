@@ -187,6 +187,10 @@ p.tvc-prod-divider {
   margin-bottom: 100px;
 }
 
+.tvc-small-promo-lastItems-winterBest {
+  margin-bottom: initial;
+}
+
 .tvc-small-promo-container img {
   margin-bottom: 49px;
 }
@@ -206,14 +210,40 @@ p.tvc-prod-divider {
   text-align: center;
 }
 
+br.mizuki-mobi-spacing-adjust {
+  display: none;
+}
+
 br.adena-mobi-spacing-adjust {
   display: none;
 }
 
 .best-winter-bedding-container {
   background-color: rgba(176, 71, 62, 0.1);
-  padding: 50px;
+  padding: 50px 0;
   margin: 0 auto 80px;
+}
+
+.best-winter-bedding-header {
+  margin-bottom: 40px;
+}
+
+.threeFortwoBanner {
+  margin-bottom: 50px;
+}
+
+.sutton-extra-mb {
+  display: none;
+}
+
+.sutton-title-breakpoint {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  .best-winter-bedding-container {
+    padding: 50px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -247,7 +277,23 @@ br.adena-mobi-spacing-adjust {
   }
 
   a.tvc-cta {
-    margin: 0 auto 10px;
+    margin-bottom: 10px;
+  }
+
+  a.tvc-small-promo-ussd-winterBest-lastItem {
+    font-size: 15px;
+    line-height: 25px;
+    color: #0086f7;
+    margin: auto 0;
+    text-align: center;
+  }
+
+  .tvc-small-promo-title {
+    line-height: 32px;
+  }
+
+  .tvc-small-promo-copy {
+    line-height: 32px;
   }
 }
 
@@ -278,10 +324,6 @@ br.adena-mobi-spacing-adjust {
   .tvc-cta-container {
     flex-direction: column;
     margin-bottom: initial;
-  }
-
-  a.tvc-cta-adri {
-    width: 100%;
   }
 
   .tvc-mobi-bedding-icons {
@@ -316,10 +358,12 @@ br.adena-mobi-spacing-adjust {
   .tvc-small-promo-title {
     margin-bottom: 15px;
     font-size: 15px;
+    line-height: initial;
   }
 
   .tvc-small-promo-copy {
     font-size: 15px;
+    line-height: initial;
   }
 
   a.tvc-prod-ussd-item {
@@ -331,9 +375,75 @@ br.adena-mobi-spacing-adjust {
   }
 
   .best-winter-bedding-container {
-    padding: 40px;
+    padding: 40px 0;
     max-width: 360px;
     margin: 0 auto 25px;
+  }
+
+  .winterBest-small-promo-container {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  a.tvc-cta-adri {
+    width: 100%;
+  }
+
+  .best-winter-bedding-header {
+    margin-bottom: 30px;
+  }
+
+  .threeFortwoBanner {
+    margin-bottom: 60px;
+  }
+
+  a.tvc-cta {
+    margin: 0 auto 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .winterBest-small-promo-container {
+    max-width: 330px;
+  }
+  br.mizuki-mobi-spacing-adjust {
+    display: block;
+  }
+
+  .tvc-aspen {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+
+  .sutton-title-breakpoint {
+    display: block;
+  }
+}
+
+@media (max-width: 359px) {
+  a.tvc-cta {
+    font-size: 14px;
+  }
+
+  .winterBest-small-promo-container {
+    max-width: 300px;
+  }
+
+  .tvc-aspen {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+  .best-winter-bedding-header {
+    max-width: 90%;
+  }
+
+  .sutton-extra-mb {
+    display: block;
+  }
+
+  .sutton-title-breakpoint {
+    display: none;
   }
 }
 
