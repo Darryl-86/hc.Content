@@ -1,13 +1,13 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}*/
+} */
 
 .direct-sales-agent-master {
   color: #30455e;
@@ -222,6 +222,74 @@ td.initiationFee {
 
 /* table css end */
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* modal content begin */
+
+.modal .modal-dialog {
+  margin: 0 auto;
+}
+
+.modal-dialog.modal-dialog-centered.model-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.modal-content {
+  position: relative;
+  background: rgb(200, 222, 230, 1);
+  width: 355px;
+  max-width: 90%;
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  border: 1px solid rgb(1, 180, 247);
+}
+
+.modal-body {
+  position: relative;
+  padding: 20px;
+  display: contents;
+}
+
+.modal-body p {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #30455e;
+}
+
+button.close {
+  align-self: flex-start;
+}
+
+.close {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* modal content end */
+
+/* font awesome icon css begin */
+
+i.fa.fa-question-circle-o {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+i.fa.fa-info-circle {
+  font-size: 40px;
+  color: rgb(1, 180, 247);
+  margin: 0 10px 0 0;
+}
+
+/* font awesome icon css end */
+
 @media all and (max-width: 991px) and (min-width: 768px) {
   .start-shopping-today-promo {
     margin-bottom: 32px;
@@ -379,4 +447,12 @@ td.initiationFee {
   }
 
   /* table css end */
+
+  /* font awesome icon css begin */
+
+  i.fa.fa-question-circle-o {
+    color: #fff;
+  }
+
+  /* font awesome icon css end */
 }
