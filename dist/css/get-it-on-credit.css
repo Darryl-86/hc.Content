@@ -230,47 +230,74 @@ td.initiationFee {
 
 /* modal content begin */
 
-.modal .modal-dialog {
-  margin: 0 auto;
+.modal-trigger {
+  text-decoration: none;
+  padding: 1rem;
+  background: #f93434;
+  display: inline-block;
+  border-radius: 3px;
+  color: #fff;
+}
+.modal {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.modal:target {
+  display: table;
+}
+.modal__dialog {
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.modal-dialog.modal-dialog-centered.model-wrapper {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  height: 100vh;
-}
-
-.modal-content {
-  position: relative;
+.modal__content {
   background: rgb(200, 222, 230, 1);
-  width: 355px;
-  max-width: 90%;
-  padding: 15px;
-  border-radius: 4px;
+  width: 35%;
+  min-width: 300px;
+  margin: auto;
+  position: relative;
+  animation: slideUp 0.3s ease-in-out;
   display: flex;
+  padding: 15px;
   border: 1px solid rgb(1, 180, 247);
+  border-radius: 4px;
 }
 
-.modal-body {
-  position: relative;
-  padding: 20px;
+.modal__close {
+  color: #585858;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 36px;
+}
+
+.modal__body {
   display: contents;
 }
 
-.modal-body p {
+.modal__text {
+  padding: 0 0.7rem;
+  line-height: 1.5;
   font-size: 20px;
-  margin-bottom: 0;
   color: #30455e;
+  margin: 0;
 }
 
-button.close {
-  align-self: flex-start;
-}
-
-.close {
-  font-size: 40px;
-  font-weight: 400;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    bottom: -200px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
 }
 
 /* modal content end */
@@ -285,7 +312,6 @@ i.fa.fa-question-circle-o {
 i.fa.fa-info-circle {
   font-size: 40px;
   color: rgb(1, 180, 247);
-  margin: 0 10px 0 0;
 }
 
 /* font awesome icon css end */
