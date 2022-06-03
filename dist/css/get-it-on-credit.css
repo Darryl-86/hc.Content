@@ -189,7 +189,6 @@ a.existing-customer-credit-btn {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 10px auto 0;
   font-size: 16px;
   color: #30455e;
   border-radius: 10px;
@@ -220,6 +219,14 @@ td.initiationFee {
   text-align: center;
 }
 
+table.account-type-table {
+  margin: 0 auto 20px;
+}
+
+table.internationalDelivery {
+  margin: 0 auto 60px;
+}
+
 /* table css end */
 
 .icon-container {
@@ -232,11 +239,8 @@ td.initiationFee {
 
 .modal-trigger {
   text-decoration: none;
-  padding: 1rem;
-  background: #f93434;
   display: inline-block;
-  border-radius: 3px;
-  color: #fff;
+  color: #30455e;
 }
 .modal {
   display: none;
@@ -306,7 +310,6 @@ td.initiationFee {
 
 i.fa.fa-question-circle-o {
   font-size: 24px;
-  cursor: pointer;
 }
 
 i.fa.fa-info-circle {
@@ -442,6 +445,18 @@ i.fa.fa-info-circle {
     min-height: 136px;
   }
 
+  /* new css begin */
+
+  .dtHeader {
+    color: #30455e;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 330px;
+    margin: 0 auto 20px;
+  }
+
+  /* new css begin */
+
   /* table css begin */
 
   .account-type-table {
@@ -472,13 +487,44 @@ i.fa.fa-info-circle {
     border-bottom: 1px solid #fff;
   }
 
-  /* table css end */
-
-  /* font awesome icon css begin */
-
-  i.fa.fa-question-circle-o {
-    color: #fff;
+  table.home-delivery {
+    margin: 0 auto;
+    max-width: 330px;
   }
 
-  /* font awesome icon css end */
+  table.home-delivery,
+  table.home-delivery th {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  table.home-delivery th {
+    background-color: #f0f0f0;
+    border: 1px solid #d8d8d8;
+    color: #30455e;
+  }
+
+  table.home-delivery td {
+    border: 1px solid #d8d8d8;
+    color: #30455e;
+  }
+
+  table.furnitureDelivery {
+    margin-bottom: 20px;
+  }
+
+  table.namibiaDelivery {
+    margin-bottom: 50px;
+  }
+
+  /* table css end */
+
+  /* modal css begin */
+
+  .modal-trigger {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* modal css end */
 }
