@@ -3,11 +3,11 @@
   padding: 0;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 .direct-sales-agent-master {
   color: #30455e;
@@ -17,77 +17,10 @@ body {
   margin-bottom: 32px;
 }
 
-.main-copy {
-  margin-bottom: 48px;
-  max-width: 98%;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.need-help-container {
-  color: #0086f7;
-}
-
-.need-help-heading {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 17px;
-  line-height: 30px;
-}
-
-.need-help-contact-links {
-  display: flex;
-  font-size: 16px;
-}
-
-.need-help-container a {
-  text-decoration: underline;
-  color: #0086f7;
-}
-
-span.disable-links {
-  pointer-events: none;
-}
-
-span.divider {
-  margin: 0 30px;
-}
-
-.how-to-get-credit {
-  margin-bottom: 40px;
-}
-
-.fd-banner {
-  margin-bottom: 40px;
-}
-
 .start-shopping-main {
   align-content: center;
   min-height: 441px;
   display: grid;
-}
-
-.start-shopping-heading {
-  font-size: 24px;
-  line-height: 32px;
-  margin-bottom: 19px;
-  font-weight: bold;
-}
-
-.start-shopping-main ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.start-shopping-main li {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 32px;
-}
-
-.start-shopping-main li:last-child {
-  margin-bottom: 36px;
 }
 
 .start-shopping-buttons-container {
@@ -109,81 +42,42 @@ a.get-credit-now-btn {
   color: #ffffff;
 }
 
-a.existing-customer-credit-btn {
-  width: 250px;
-  height: 50px;
-  margin-bottom: 16px;
-  border-radius: 4px;
-  border: solid 1px #ed2282;
-  font-size: 14px;
-  line-height: 32px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #ed2282;
-}
-
-.norton {
-  font-size: 14px;
-  line-height: 32px;
-}
-
 .testimonials-heading {
   font-size: 48px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-weight: bold;
+  line-height: 55px;
 }
 
 .testimonials-main {
   display: flex;
+  column-gap: 25px;
+  justify-content: center;
 }
 
-.testimonials-copy-container-one {
-  border-radius: 7px;
-  background-color: #f8f8f8;
-  margin: 0 25px 42px 0;
-  min-height: 128px;
-  display: grid;
+.testimonials-copy-container {
+  width: 370px;
+  height: 134px;
+  background-color: #2abd89;
+  border-radius: 10px;
   justify-content: center;
-  align-content: center;
-  padding: 20px;
-}
-
-.testimonials-copy-container-two {
-  border-radius: 7px;
-  background-color: #f8f8f8;
-  margin: 0 25px 42px 0;
-  min-height: 128px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  padding: 20px;
-}
-
-.testimonials-copy-container-last-item {
-  border-radius: 7px;
-  background-color: #f8f8f8;
-  min-height: 128px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  padding: 20px;
-  margin-bottom: 42px;
+  align-items: center;
+  display: inherit;
+  padding: 10px;
 }
 
 .testimonials-copy {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  color: #fff;
 }
-
-/* new css begin */
 
 .getting-credit {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  line-height: 40px;
 }
 
 .getting-credit-copy {
@@ -204,9 +98,6 @@ a.existing-customer-credit-btn {
 
 .get-credit-benefit-checkmark {
   margin: 0 10px 0 0;
-}
-
-.get-credit-benefit-item-copy {
 }
 
 .get-credit-benefit-item:last-of-type {
@@ -251,6 +142,12 @@ a.existing-customer-credit-btn {
   margin-bottom: 40px;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 i.fa.fa-question-circle-o.stpThree {
   color: #5482dc;
   margin: 0 5px 0 0;
@@ -266,7 +163,29 @@ a.start-shopping-content-promo-btn {
   margin-bottom: 0;
 }
 
-/* new css end */
+.billingInfo-heading {
+  margin-bottom: 15px;
+}
+
+p.billingCopy {
+  font-size: 16px;
+  margin: 0 0 40px 0;
+}
+
+.norton-container {
+  border-radius: 5px;
+  border: solid 1px rgba(48, 69, 93, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 50px 0;
+  padding: 18px 0;
+}
+
+.norton-container p {
+  font-size: 22px;
+  margin: 0 15px;
+}
 
 /* table css begin */
 
@@ -313,12 +232,6 @@ table.internationalDelivery {
 
 /* table css end */
 
-.icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 /* modal content begin */
 
 .modal-trigger {
@@ -326,6 +239,7 @@ table.internationalDelivery {
   display: inline-block;
   color: #30455e;
 }
+
 .modal {
   display: none;
   background: rgba(0, 0, 0, 0.8);
@@ -335,9 +249,11 @@ table.internationalDelivery {
   height: 100%;
   width: 100%;
 }
+
 .modal:target {
   display: table;
 }
+
 .modal__dialog {
   display: table-cell;
   vertical-align: middle;
@@ -403,110 +319,39 @@ i.fa.fa-info-circle {
 
 /* font awesome icon css end */
 
-@media all and (max-width: 1199px) and (min-width: 768px) {
-  /* new css begin */
-
-  .testimonials-heading {
-    max-width: 550px;
-  }
-
-  /* new css end */
-}
-
 @media all and (max-width: 991px) and (min-width: 768px) {
-  .start-shopping-today-promo {
-    margin-bottom: 15px;
-  }
-
   .start-shopping-tab-view {
     max-width: 572px;
     margin: 0 auto 65px;
   }
-
-  .start-shopping-tab-view ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .start-shopping-tab-view li {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 32px;
-  }
-
-  .start-shopping-tab-view li:last-child {
-    margin-bottom: 36px;
-  }
-
-  .need-help-contact-links span:not(:last-child) {
-    display: block;
-    margin-bottom: 5px;
-  }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .start-shopping-today-promo {
     margin-bottom: 15px;
   }
 
-  .main-copy {
-    margin: 0 auto 40px;
-    max-width: 330px;
+  .testimonials-main {
+    flex-wrap: wrap;
+    row-gap: 25px;
   }
 
-  .need-help-container {
-    margin: 0 auto;
-    max-width: 330px;
+  .testimonials-copy-container {
+    width: 100%;
+    height: 100px;
   }
 
-  .need-help-heading {
-    margin-bottom: 25px;
+  .getting-credit {
+    margin-bottom: 15px;
   }
+}
 
-  .need-help-contact-links {
-    display: block;
-  }
-
-  span.disable-links {
-    pointer-events: visible;
-  }
-
-  .need-help-contact-links span:not(:last-child) {
-    display: block;
-    margin-bottom: 29px;
-  }
-
-  .how-to-get-credit {
-    margin-bottom: 16px;
-  }
-
-  .fd-banner {
-    margin-bottom: 46px;
-  }
-
-  .how-to-get-credit-last-item-mobi {
-    margin-bottom: 40px;
-  }
-
+@media (max-width: 767px) {
   .start-shopping-main {
     display: block;
     max-width: 330px;
     margin: 0 auto 50px;
     min-height: auto;
-  }
-
-  .start-shopping-heading {
-    margin-bottom: 11px;
-  }
-
-  .start-shopping-main li {
-    margin-bottom: 20px;
-    line-height: 24px;
-  }
-
-  .start-shopping-main li:last-child {
-    margin-bottom: 20px;
   }
 
   .start-shopping-buttons-container {
@@ -517,25 +362,19 @@ i.fa.fa-info-circle {
     max-width: 330px;
     margin: 0 auto 15px;
     font-size: 36px;
+    line-height: 40px;
   }
 
   .testimonials-main {
-    display: grid;
     max-width: 330px;
     margin: 0 auto;
+    row-gap: 16px;
   }
 
-  .testimonials-copy-container-one {
-    margin: 0 0px 16px 0;
-    min-height: 136px;
+  .testimonials-copy-container {
+    width: 100%;
+    height: 134px;
   }
-
-  .testimonials-copy-container-two {
-    margin: 0 0px 42px 0;
-    min-height: 136px;
-  }
-
-  /* new css begin */
 
   .dtHeader {
     color: #30455e;
@@ -547,7 +386,6 @@ i.fa.fa-info-circle {
 
   .getting-credit {
     font-size: 36px;
-    margin-bottom: 10px;
   }
 
   .getting-credit-copy {
@@ -567,7 +405,37 @@ i.fa.fa-info-circle {
     margin-bottom: 30px;
   }
 
-  /* new css end */
+  p.billingCopy {
+    font-size: 15px;
+    max-width: 330px;
+    margin: 0 auto 30px;
+  }
+
+  .norton-container {
+    border-radius: unset;
+    border: none;
+    padding: unset;
+    flex-wrap: wrap;
+    margin: 0 auto 55px;
+    max-width: 240px;
+  }
+
+  .norton-container p {
+    font-size: 18px;
+    margin: unset;
+  }
+
+  img.lock-icon {
+    margin-bottom: 7px;
+  }
+
+  .start-shopping-content-promo-stpThree-income-docs {
+    margin-bottom: unset;
+  }
+
+  a.start-shopping-content-promo-btn {
+    margin-bottom: 70px;
+  }
 
   /* table css begin */
 
@@ -619,6 +487,7 @@ i.fa.fa-info-circle {
   table.home-delivery td {
     border: 1px solid #d8d8d8;
     color: #30455e;
+    width: 100%;
   }
 
   table.furnitureDelivery {
