@@ -23,10 +23,28 @@
   margin-bottom: 35px;
 }
 
+.marketingWinners-Header {
+  padding: 10px 15px;
+  margin: 0 auto 40px;
+  border-radius: 4px;
+  background-color: #f51169;
+  font-size: 20px;
+  line-height: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
 @media (max-width: 767px) {
   .marketing-header {
     margin-bottom: 32px;
-  }  
+  }
+
+  .marketingContent-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
 
   .full-termsandconditions {
     margin-bottom: 37px;
@@ -42,5 +60,19 @@
 
   .marketing-monthly-winners-content {
     margin-bottom: 40px;
+  }
+
+  img.winners-mobi-max-width {
+    width: 360px;
+  }
+
+  .marketingWinners-Header {
+    height: 70px;
+    margin: 0 auto 35px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: unset;
+    width: 100%;
   }
 }
