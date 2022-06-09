@@ -280,6 +280,10 @@ br.adena-mobi-spacing-adjust {
     margin-bottom: 10px;
   }
 
+  a.tvc-cta-no-mb {
+    margin-bottom: unset;
+  }
+
   a.tvc-small-promo-ussd-winterBest-lastItem {
     font-size: 15px;
     line-height: 25px;
