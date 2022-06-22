@@ -28,6 +28,10 @@ body {
   align-content: space-between;
 }
 
+.infinityCookware-copy-container {
+  min-height: 308px;
+}
+
 .maxeen-copy-container {
   min-height: 390px;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 .calista-copy-container {
-  min-height: 401px;
+  min-height: 407px;
 }
 
 .julia-copy-container {
@@ -71,13 +75,20 @@ body {
 .tvc-prod-desc-copy-heading {
   font-size: 36px;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .tvc-prod-desc-copy p {
   font-size: 20px;
-  line-height: 36px;
   margin: 0;
+}
+
+p.calista-descCopy {
+  line-height: 36px;
+}
+
+.infinity-prod-desc-copy p {
+  line-height: unset;
 }
 
 .tvc-prod-item-code-main {
@@ -210,16 +221,12 @@ p.tvc-prod-divider {
   text-align: center;
 }
 
-br.mizuki-mobi-spacing-adjust {
-  display: none;
-}
-
 br.adena-mobi-spacing-adjust {
   display: none;
 }
 
 .best-winter-bedding-container {
-  background-color: rgba(176, 71, 62, 0.1);
+  background-color: rgba(217, 204, 184, 0.15);
   padding: 50px 0;
   margin: 0 auto 80px;
 }
@@ -317,12 +324,14 @@ br.adena-mobi-spacing-adjust {
 
   .tvc-prod-desc-copy-heading {
     font-size: 25px;
-    line-height: 41px;
   }
 
   .tvc-prod-desc-copy p {
     font-size: 18px;
-    line-height: 30px;
+  }
+
+  p.calista-descCopy {
+    line-height: unset;
   }
 
   .tvc-cta-container {
@@ -409,9 +418,6 @@ br.adena-mobi-spacing-adjust {
 @media (max-width: 380px) {
   .winterBest-small-promo-container {
     max-width: 330px;
-  }
-  br.mizuki-mobi-spacing-adjust {
-    display: block;
   }
 
   .tvc-aspen {
