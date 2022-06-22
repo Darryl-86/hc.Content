@@ -13,7 +13,7 @@ body {
 }
 
 .cookware-hero-banner {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .cookware-hero-copy {
@@ -25,16 +25,20 @@ body {
 }
 
 .cookware-material-guide {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
-.cookware-heading {
-  text-align: center;
-  font-size: 34px;
+.cookware-top-tip {
+  margin-bottom: 80px;
+}
+
+.cookware-heading,
+.cookwareBrands-heading {
+  font-size: 40px;
   color: #30455e;
-  font-weight: 500;
+  font-weight: 300;
   margin: 0 auto 30px;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .innovative-cookware-header {
@@ -75,10 +79,6 @@ body {
   margin-bottom: 70px;
 }
 
-.main-promo {
-  margin-bottom: 36px;
-}
-
 .cookware-main-cta-btn a {
   max-width: 53%;
   height: 60px;
@@ -94,6 +94,22 @@ body {
   border: solid 1px #ed2282;
 }
 
+.cookware-wide-range-divider {
+  margin: 0 0 35px;
+}
+
+.free-kettle-banner {
+  margin: 0 auto 35px;
+}
+
+.innovative-cookware-info-last-promo {
+  margin-bottom: 100px;
+}
+
+.kitchenEssentials-divider {
+  margin-bottom: 80px;
+}
+
 /*brands content begin*/
 
 .popular-brands-web-container {
@@ -107,12 +123,16 @@ body {
 }
 
 .popular-brands-web-item {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 /*brands content end*/
 
 @media (max-width: 767px) {
+  .cookware-hero-banner {
+    margin-bottom: 30px;
+  }
+
   .cookware-header {
     margin-bottom: 17px;
   }
@@ -157,18 +177,18 @@ body {
     margin-bottom: 40px;
   }
 
-  .main-promo-last-item {
-    margin-bottom: 40px;
-  }
-
   .innovative-cookware-header {
     margin-bottom: 20px;
   }
 
   .cookware-heading {
-    font-size: 30px;
     margin: 0 auto 20px;
     max-width: 346px;
+  }
+
+  .cookwareBrands-heading {
+    margin: 0 auto 20px;
+    max-width: 333px;
   }
 
   .cookware-hero-copy {
@@ -186,7 +206,27 @@ body {
   }
 
   .cookware-material-guide {
+    margin-bottom: 80px;
+  }
+
+  .cookware-top-tip {
+    margin-bottom: 100px;
+  }
+
+  .cookware-wide-range-promo {
+    margin: 0 auto 35px;
+  }
+
+  .innovative-cookware-info-last-promo {
     margin-bottom: 70px;
+  }
+
+  .kitchenEssentials-divider {
+    margin-bottom: 40px;
+  }
+
+  .kitchenEssentials-divider-last-items {
+    margin-bottom: 90px;
   }
 
   /*brands content begin*/
@@ -216,7 +256,7 @@ body {
   }
 
   .popular-brands-mobi-last-row {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   /*brands content end*/
