@@ -5,35 +5,28 @@ body {
 }*/
 
 .special-moments-hero {
-    margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-.special-moments-category-promo {
-    margin-bottom: 20px;
+.fDay-promo-main {
+  margin-bottom: 80px;
 }
 
-.special-moments-category-last-row-promos {
-    margin-bottom: 60px;
-}
-
-.oh-wow-banner {
-    margin-bottom: 20px;
+p.fDayPromo-divider {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {
-    .special-moments-category-promo {
-        margin-bottom: 25px;
-    }
+  .special-moments-hero {
+    margin-bottom: 20px;
+  }
 
-    .special-moments-category-last-row-promos {
-        margin-bottom: 25px;
-    }
-    
-    .gorgeousGrooming-category-promo {
-        margin-bottom: 50px;
-    }
+  .fDay-promo-main {
+    margin: 0 auto 60px;
+    max-width: 360px;
+  }
 
-    .oh-wow-banner {
-        margin-bottom: 30px;
-    }
+  p.fDayPromo-divider {
+    margin-bottom: 40px;
+  }
 }

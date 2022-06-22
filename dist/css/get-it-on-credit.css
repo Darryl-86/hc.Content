@@ -1,13 +1,13 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}*/
+} */
 
 .direct-sales-agent-master {
   color: #30455e;
@@ -17,81 +17,10 @@ body {
   margin-bottom: 32px;
 }
 
-.main-copy {
-  margin-bottom: 48px;
-  max-width: 98%;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.need-help-container {
-  color: #0086f7;
-}
-
-.need-help-heading {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 17px;
-  line-height: 30px;
-}
-
-.need-help-contact-links {
-  display: flex;
-  font-size: 16px;
-}
-
-.need-help-container a {
-  text-decoration: underline;
-  color: #0086f7;
-}
-
-span.disable-links {
-  pointer-events: none;
-}
-
-span.divider {
-  margin: 0 30px;
-}
-
-.how-to-get-credit {
-  margin-bottom: 40px;
-}
-
-.fd-banner {
-  margin-bottom: 40px; 
-}
-
-.start-shopping-today-promo {
-  margin-bottom: 65px;
-}
-
 .start-shopping-main {
   align-content: center;
-  min-height: 481px;
+  min-height: 441px;
   display: grid;
-}
-
-.start-shopping-heading {
-  font-size: 24px;
-  line-height: 32px;
-  margin-bottom: 19px;
-  font-weight: bold;
-}
-
-.start-shopping-main ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.start-shopping-main li {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 32px;
-}
-
-.start-shopping-main li:last-child {
-  margin-bottom: 36px;
 }
 
 .start-shopping-buttons-container {
@@ -101,7 +30,7 @@ span.divider {
 a.get-credit-now-btn {
   width: 250px;
   height: 50px;
-  margin: 0 16px 16px 0; 
+  margin: 0 0 40px 0;
   border-radius: 4px;
   background-color: #ed2282;
   font-size: 14px;
@@ -113,202 +42,479 @@ a.get-credit-now-btn {
   color: #ffffff;
 }
 
-a.existing-customer-credit-btn {
-  width: 250px;
-  height: 50px;
-  margin-bottom: 16px;
-  border-radius: 4px;
-  border: solid 1px #ed2282;
-  font-size: 14px;
-  line-height: 32px;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #ed2282;
-}
-
-.norton {
-  font-size: 14px;
-  line-height: 32px;
-}
-
 .testimonials-heading {
-  font-size: 30px;
-  line-height: 30px;
-  margin-bottom: 25px;
+  font-size: 48px;
+  margin-bottom: 20px;
   font-weight: bold;
-  text-align: center;
+  line-height: 55px;
 }
 
 .testimonials-main {
   display: flex;
+  column-gap: 25px;
+  justify-content: center;
 }
 
-.testimonials-copy-container-one {
-  border-radius: 7px;
-  background-color: #f8f8f8; 
-  margin: 0 25px 42px 0;
-  min-height: 128px;
-  display: grid;
+.testimonials-copy-container {
+  width: 370px;
+  height: 134px;
+  background-color: #2abd89;
+  border-radius: 10px;
   justify-content: center;
-  align-content: center;
-  padding: 20px;
-}
-
-.testimonials-copy-container-two {
-  border-radius: 7px;
-  background-color: #f8f8f8; 
-  margin: 0 25px 42px 0;
-  min-height: 128px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  padding: 20px;
-}
-
-.testimonials-copy-container-last-item {
-  border-radius: 7px;
-  background-color: #f8f8f8; 
-  min-height: 128px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  padding: 20px;
-  margin-bottom: 42px;
+  align-items: center;
+  display: inherit;
+  padding: 10px;
 }
 
 .testimonials-copy {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  color: #fff;
 }
 
-@media all and (max-width: 991px) and (min-width: 768px) {
+.getting-credit {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
 
-  .start-shopping-today-promo {
-    margin-bottom: 32px;
+.getting-credit-copy {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.get-credit-benefit-container {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.get-credit-benefit-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.get-credit-benefit-checkmark {
+  margin: 0 10px 0 0;
+}
+
+.get-credit-benefit-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.start-shopping-content-promo {
+  background: rgba(234, 236, 238, 0.7);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.start-shopping-content-promo-stpFive {
+  margin-bottom: 0;
+}
+
+.start-shopping-content-promo-heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.start-shopping-content-promo-copy {
+  font-size: 15px;
+}
+
+.start-shopping-content-promo-stpThree {
+  margin-bottom: 0;
+}
+
+.start-shopping-content-promo-stpThree-income-docs {
+  margin-bottom: 70px;
+}
+
+.start-shopping-content-promo-stpThree-income-links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.start-shopping-content-promo-stpThree-income-links:last-of-type {
+  margin-bottom: 40px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i.fa.fa-question-circle-o.stpThree {
+  color: #5482dc;
+  margin: 0 5px 0 0;
+}
+
+.start-shopping-content-promo-stpThree-income-links a {
+  color: #5482dc;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+a.start-shopping-content-promo-btn {
+  margin-bottom: 0;
+}
+
+.billingInfo-heading {
+  margin-bottom: 15px;
+}
+
+p.billingCopy {
+  font-size: 16px;
+  margin: 0 0 40px 0;
+}
+
+.norton-container {
+  border-radius: 5px;
+  border: solid 1px rgba(48, 69, 93, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 50px 0;
+  padding: 18px 0;
+}
+
+.norton-container p {
+  font-size: 22px;
+  margin: 0 15px;
+}
+
+/* table css begin */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  color: #30455e;
+  border-radius: 10px;
+}
+
+table thead {
+  background-color: #30455e;
+}
+
+table th,
+table td {
+  border: 1px solid #30455e;
+  padding: 5px;
+  text-align: center;
+}
+
+table td:first-child {
+  text-align: left;
+}
+
+table th {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+td.initiationFee {
+  text-align: center;
+}
+
+table.account-type-table {
+  margin: 0 auto 20px;
+}
+
+table.internationalDelivery {
+  margin: 0 auto 60px;
+}
+
+/* table css end */
+
+/* modal content begin */
+
+.modal-trigger {
+  text-decoration: none;
+  display: inline-block;
+  color: #30455e;
+}
+
+.modal {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal:target {
+  display: table;
+}
+
+.modal__dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal__content {
+  background: rgb(200, 222, 230, 1);
+  max-width: 330px;
+  margin: auto;
+  position: relative;
+  animation: slideUp 0.3s ease-in-out;
+  display: flex;
+  padding: 15px;
+  border: 1px solid rgb(1, 180, 247);
+  border-radius: 4px;
+}
+
+.modal__close {
+  color: #585858;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+}
+
+.modal__body {
+  display: contents;
+}
+
+.modal__text {
+  padding: 0 0.7rem;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #30455e;
+  margin: 0;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    bottom: -200px;
   }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
 
+/* modal content end */
+
+/* font awesome icon css begin */
+
+i.fa.fa-question-circle-o {
+  font-size: 24px;
+}
+
+i.fa.fa-info-circle {
+  font-size: 40px;
+  color: rgb(1, 180, 247);
+}
+
+/* font awesome icon css end */
+
+@media all and (max-width: 991px) and (min-width: 768px) {
   .start-shopping-tab-view {
     max-width: 572px;
     margin: 0 auto 65px;
   }
+}
 
-  .start-shopping-tab-view ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 991px) {
+  .start-shopping-today-promo {
+    margin-bottom: 15px;
   }
 
-  .start-shopping-tab-view li {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 32px;
-  }
-  
-  .start-shopping-tab-view li:last-child {
-    margin-bottom: 36px;
+  .testimonials-main {
+    flex-wrap: wrap;
+    row-gap: 25px;
   }
 
-  .need-help-contact-links span:not(:last-child) {
-    display: block;
-    margin-bottom: 5px;
+  .testimonials-copy-container {
+    width: 100%;
+    height: 100px;
+  }
+
+  .getting-credit {
+    margin-bottom: 15px;
   }
 }
 
 @media (max-width: 767px) {
-
-  .main-copy {
-    margin: 0 auto 40px;
-    max-width: 330px;
-  }
-
-  .need-help-container {
-    margin: 0 auto;
-    max-width: 330px;
-  }
-
-  .need-help-heading {
-    margin-bottom: 25px;
-  }
-
-  .need-help-contact-links {
-    display: block;
-  }
-
-  span.disable-links {
-    pointer-events: visible;
-  }
-
-  .need-help-contact-links span:not(:last-child) {
-    display: block;
-    margin-bottom: 29px;
-  }
-
-  .how-to-get-credit {
-    margin-bottom: 16px;
-  }
-
-  .fd-banner {
-    margin-bottom: 46px; 
-  }
-
-  .how-to-get-credit-last-item-mobi {
-    margin-bottom: 40px;
-  }
-
   .start-shopping-main {
     display: block;
     max-width: 330px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     min-height: auto;
-  }
-
-  .start-shopping-heading {
-    margin-bottom: 11px;
-  }
-
-  .start-shopping-main li {
-    margin-bottom: 20px;
-    line-height: 24px;
-  }
-
-  .start-shopping-main li:last-child {
-    margin-bottom: 20px;
   }
 
   .start-shopping-buttons-container {
     display: grid;
   }
 
-  a.get-credit-now-btn {
-    margin: 0 0 16px 0;
-  }
-
-  .norton-logo {
-    margin-bottom: 47px;
-  }
-
   .testimonials-heading {
-    text-align: left;
     max-width: 330px;
-    margin: 0 auto 24px;
+    margin: 0 auto 15px;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .testimonials-main {
-    display: grid;
-    max-width:330px;
+    max-width: 330px;
     margin: 0 auto;
+    row-gap: 16px;
   }
 
-  .testimonials-copy-container-one {
-    margin: 0 0px 16px 0;
-    min-height: 136px;
+  .testimonials-copy-container {
+    width: 100%;
+    height: 134px;
   }
 
-  .testimonials-copy-container-two {
-    margin: 0 0px 42px 0;
-    min-height: 136px;
+  .dtHeader {
+    color: #30455e;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 330px;
+    margin: 0 auto 20px;
   }
+
+  .getting-credit {
+    font-size: 36px;
+  }
+
+  .getting-credit-copy {
+    font-size: 16px;
+  }
+
+  .get-credit-benefit-container {
+    font-size: 16px;
+  }
+
+  .start-shopping-content-container {
+    margin: 0 auto;
+    max-width: 330px;
+  }
+
+  .start-shopping-content-promo-stpFive {
+    margin-bottom: 30px;
+  }
+
+  p.billingCopy {
+    font-size: 15px;
+    max-width: 330px;
+    margin: 0 auto 30px;
+  }
+
+  .norton-container {
+    border-radius: unset;
+    border: none;
+    padding: unset;
+    flex-wrap: wrap;
+    margin: 0 auto 55px;
+    max-width: 240px;
+  }
+
+  .norton-container p {
+    font-size: 18px;
+    margin: unset;
+  }
+
+  img.lock-icon {
+    margin-bottom: 7px;
+  }
+
+  .start-shopping-content-promo-stpThree-income-docs {
+    margin-bottom: unset;
+  }
+
+  a.start-shopping-content-promo-btn {
+    margin-bottom: 70px;
+  }
+
+  /* table css begin */
+
+  .account-type-table {
+    max-width: 330px;
+  }
+
+  .account-type-table thead {
+    display: none;
+  }
+
+  .account-type-table tr,
+  .account-type-table td {
+    display: block;
+    text-align: left;
+  }
+
+  .account-type-table td:first-child {
+    background-color: #30455e;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .account-type-table td p:last-child {
+    margin: unset;
+  }
+
+  .border-thinners {
+    border-bottom: 1px solid #fff;
+  }
+
+  table.home-delivery {
+    margin: 0 auto;
+    max-width: 330px;
+  }
+
+  table.home-delivery,
+  table.home-delivery th {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  table.home-delivery th {
+    background-color: #f0f0f0;
+    border: 1px solid #d8d8d8;
+    color: #30455e;
+  }
+
+  table.home-delivery td {
+    border: 1px solid #d8d8d8;
+    color: #30455e;
+    width: 100%;
+  }
+
+  table.furnitureDelivery {
+    margin-bottom: 20px;
+  }
+
+  table.namibiaDelivery {
+    margin-bottom: 50px;
+  }
+
+  /* table css end */
+
+  /* modal css begin */
+
+  .modal-trigger {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* modal css end */
+}
+
+@media (max-width: 330px) {
+  /* modal css begin */
+
+  .modal__content {
+    max-width: 300px;
+  }
+
+  /* modal css end */
 }
