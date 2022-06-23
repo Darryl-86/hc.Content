@@ -82,7 +82,7 @@ span.new-combo-prod {
   display: flex;
   margin-bottom: 90px;
   border-radius: 10px;
-  background-color: rgba(144, 93, 45, 0.1);
+  background-color: rgba(217, 204, 184, 0.15);
 }
 
 .love-our-bedding-copy {
@@ -92,7 +92,7 @@ span.new-combo-prod {
 .love-our-bedding-copy .heading {
   font-size: 30px;
   line-height: 50px;
-  color: #915d2c;
+  color: #d6ab9d;
   font-weight: 800;
 }
 
@@ -108,7 +108,7 @@ span.new-combo-prod {
 .love-our-bedding-copy .sub-heading span {
   font-size: 20px;
   line-height: 33px;
-  color: #915d2c;
+  color: #d6ab9d;
   font-weight: 800;
 }
 
@@ -135,6 +135,43 @@ ul.love-hc-bedding-list-container-two {
 ul.love-hc-bedding-list-container-two li:not(:last-child) {
   margin-bottom: 12px;
 }
+
+/* hero promo content begin */
+
+.heroPromo-product-container {
+  margin: 0 auto 60px;
+  max-width: 1031px;
+}
+
+.heroPromo-product-container img {
+  margin-bottom: 10px;
+}
+
+.heroPromo-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroPromo-product p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+}
+
+a.heroPromo-product-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #f01882;
+  color: #ffffff;
+  font-size: 15px;
+  width: 220px;
+  height: 45px;
+}
+
+/* hero promo content end */
 
 @media (max-width: 991px) {
   .love-our-bedding-container {
@@ -251,6 +288,31 @@ p.bundle-rooms-hero-copy {
   .big-promo-combo-rooms {
     max-width: 310px;
   }
+
+  /* hero promo content begin */
+
+  .heroPromo-product-container {
+    margin: 0 auto 50px;
+    max-width: 311px;
+  }
+
+  .heroPromo-product {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .heroPromo-product p {
+    margin-bottom: 10px;
+    font-size: inherit;
+    text-align: center;
+  }
+
+  a.heroPromo-product-btn {
+    font-size: inherit;
+    height: 36px;
+  }
+
+  /* hero promo content end */
 }
 
 @media (max-width: 360px) {
