@@ -103,11 +103,15 @@ body {
 }
 
 .innovative-cookware-info-last-promo {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .kitchenEssentials-divider {
   margin-bottom: 80px;
+}
+
+.shopCookware-btn {
+  margin-bottom: 100px;
 }
 
 /*brands content begin*/
@@ -217,16 +221,16 @@ body {
     margin: 0 auto 35px;
   }
 
-  .innovative-cookware-info-last-promo {
-    margin-bottom: 70px;
-  }
-
   .kitchenEssentials-divider {
     margin-bottom: 40px;
   }
 
   .kitchenEssentials-divider-last-items {
     margin-bottom: 90px;
+  }
+
+  .shopCookware-btn {
+    margin-bottom: 70px;
   }
 
   /*brands content begin*/
