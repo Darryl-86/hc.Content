@@ -28,6 +28,11 @@ body {
   align-content: space-between;
 }
 
+.lumka-copy-container {
+  min-height: 390px;
+  align-content: initial;
+}
+
 .infinityCookware-copy-container {
   min-height: 308px;
 }

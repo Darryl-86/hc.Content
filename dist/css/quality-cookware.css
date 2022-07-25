@@ -98,10 +98,6 @@ body {
   margin: 0 0 35px;
 }
 
-.free-kettle-banner {
-  margin: 0 auto 35px;
-}
-
 .innovative-cookware-info-last-promo {
   margin-bottom: 50px;
 }
@@ -111,6 +107,10 @@ body {
 }
 
 .shopCookware-btn {
+  margin-bottom: 60px;
+}
+
+.shopMore-btn {
   margin-bottom: 100px;
 }
 
@@ -229,7 +229,7 @@ body {
     margin-bottom: 90px;
   }
 
-  .shopCookware-btn {
+  .shopMore-btn {
     margin-bottom: 70px;
   }
 

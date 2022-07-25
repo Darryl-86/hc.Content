@@ -136,6 +136,14 @@ ul.love-hc-bedding-list-container-two li:not(:last-child) {
   margin-bottom: 12px;
 }
 
+.augCat-beddingOffer {
+  margin-bottom: 54px;
+}
+
+.lovehcBedding {
+  margin-bottom: 64px;
+}
+
 /* hero promo content begin */
 
 .heroPromo-product-container {
@@ -287,6 +295,14 @@ p.bundle-rooms-hero-copy {
 
   .big-promo-combo-rooms {
     max-width: 310px;
+  }
+
+  .augCat-beddingOffer {
+    margin-bottom: 44px;
+  }
+
+  .lovehcBedding {
+    margin-bottom: 33px;
   }
 
   /* hero promo content begin */
