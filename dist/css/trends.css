@@ -1,0 +1,77 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}*/
+
+.trends-main {
+  background-color: rgba(246, 200, 126, 0.6);
+  padding: 20px;
+  height: auto;
+}
+
+.trends-hero {
+  margin-bottom: 20px;
+}
+
+.trends-main-grid {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.trends-main-grid:last-of-type {
+  margin-bottom: unset;
+}
+
+.main-grid-itemContainer {
+  display: grid;
+  align-content: space-between;
+  row-gap: 20px;
+}
+
+.grid2-item1 {
+  row-gap: unset;
+}
+
+.trends-mini-container {
+  justify-content: space-between;
+  display: flex;
+  column-gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .trends-main {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .trends-hero {
+    margin-bottom: 10px;
+  }
+
+  .trends-main-grid {
+    flex-wrap: wrap;
+    gap: unset;
+    margin-bottom: 10px;
+  }
+
+  .main-grid-itemContainer {
+    row-gap: 10px;
+  }
+
+  .trends-mini-container {
+    column-gap: 10px;
+  }
+
+  .ginaFloral-mobi {
+    margin-bottom: 10px;
+  }
+}

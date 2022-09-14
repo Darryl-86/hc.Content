@@ -28,25 +28,14 @@ body {
   align-content: space-between;
 }
 
-.lumka-copy-container {
-  min-height: 390px;
+.xavier-copy-container {
+  min-height: 400px;
   align-content: initial;
 }
 
-.infinityCookware-copy-container {
-  min-height: 308px;
-}
-
-.maxeen-copy-container {
+.lumka-copy-container {
   min-height: 390px;
-}
-
-.azabi-copy-container {
-  min-height: 392px;
-}
-
-.archer-copy-container {
-  min-height: 391px;
+  align-content: initial;
 }
 
 .calista-copy-container {
@@ -54,23 +43,7 @@ body {
 }
 
 .julia-copy-container {
-  min-height: 320px;
-}
-
-.houston-copy-container {
-  min-height: 384px;
-}
-
-.brooklyn-copy-container {
-  min-height: 384px;
-}
-
-.marley-copy-container {
-  min-height: 384px;
-}
-
-.caitlin-copy-container {
-  min-height: 384px;
+  min-height: 340px;
 }
 
 .tvc-prod-desc-copy {
@@ -81,6 +54,11 @@ body {
   font-size: 36px;
   font-weight: bold;
   line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.julia-heading {
+  margin-bottom: initial;
 }
 
 .tvc-prod-desc-copy p {
@@ -90,13 +68,6 @@ body {
 
 p.calista-descCopy {
   line-height: 36px;
-}
-
-.infinity-prod-desc-copy p {
-  line-height: unset;
-}
-
-.tvc-prod-item-code-main {
 }
 
 .tvc-prod-code {
@@ -166,24 +137,11 @@ a.tvc-small-promo-ussd-item {
   font-size: 15px;
   line-height: 25px;
   color: #0086f7;
-  margin: auto 0 50px;
-  text-align: center;
-}
-
-a.tvc-small-promo-ussd-lastItem {
-  font-size: 15px;
-  line-height: 25px;
-  color: #0086f7;
-  margin: auto 0 36px;
   text-align: center;
 }
 
 p.tvc-prod-divider {
   margin: 0 0 70px;
-}
-
-.wow-sale-banner {
-  margin-bottom: 70px;
 }
 
 .tv-prod-details-content-container {
@@ -195,20 +153,8 @@ p.tvc-prod-divider {
   margin-bottom: 70px;
 }
 
-.tvc-AdenaFloral-small-promo-container {
-  margin-bottom: 100px;
-}
-
-.tvc-small-promo-lastItems {
-  margin-bottom: 100px;
-}
-
-.tvc-small-promo-lastItems-winterBest {
-  margin-bottom: initial;
-}
-
 .tvc-small-promo-container img {
-  margin-bottom: 49px;
+  margin-bottom: 15px;
 }
 
 .tvc-small-promo-title {
@@ -219,43 +165,16 @@ p.tvc-prod-divider {
   text-align: center;
 }
 
-.tvc-small-promo-copy {
-  margin-bottom: 10px;
-  font-size: 22px;
-  color: #30455e;
-  text-align: center;
-}
-
-br.adena-mobi-spacing-adjust {
-  display: none;
-}
-
-.best-winter-bedding-container {
-  background-color: rgba(217, 204, 184, 0.15);
-  padding: 50px 0;
-  margin: 0 auto 80px;
-}
-
-.best-winter-bedding-header {
-  margin-bottom: 40px;
-}
-
 .threeFortwoBanner {
-  margin-bottom: 50px;
-}
-
-.sutton-extra-mb {
-  display: none;
+  margin-bottom: 70px;
 }
 
 .sutton-title-breakpoint {
   display: none;
 }
 
-@media (max-width: 1199px) {
-  .best-winter-bedding-container {
-    padding: 50px;
-  }
+.tvc-section-heading {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 991px) {
@@ -280,14 +199,6 @@ br.adena-mobi-spacing-adjust {
     margin-bottom: initial;
   }
 
-  .tvc-small-promo-container {
-    margin-bottom: inherit;
-  }
-
-  .tvc-small-promo-divider {
-    margin-bottom: 10px;
-  }
-
   a.tvc-cta {
     margin-bottom: 10px;
   }
@@ -296,19 +207,7 @@ br.adena-mobi-spacing-adjust {
     margin-bottom: unset;
   }
 
-  a.tvc-small-promo-ussd-winterBest-lastItem {
-    font-size: 15px;
-    line-height: 25px;
-    color: #0086f7;
-    margin: auto 0;
-    text-align: center;
-  }
-
   .tvc-small-promo-title {
-    line-height: 32px;
-  }
-
-  .tvc-small-promo-copy {
     line-height: 32px;
   }
 }
@@ -352,36 +251,16 @@ br.adena-mobi-spacing-adjust {
     margin: 0 0 46px;
   }
 
-  .wow-sale-banner {
-    margin-bottom: 60px;
-  }
-
   .tv-add-header {
     margin-bottom: 22px;
   }
 
   .tvc-small-promo-container {
-    max-width: 170px;
-  }
-
-  .tvc-aspen {
-    max-width: 330px;
-    margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .tvc-small-promo-container img {
-    margin-bottom: 20px;
-  }
-
-  .tvc-small-promo-title {
-    margin-bottom: 15px;
-    font-size: 15px;
-    line-height: initial;
-  }
-
-  .tvc-small-promo-copy {
-    font-size: 15px;
-    line-height: initial;
+    margin-bottom: 10px;
   }
 
   a.tvc-prod-ussd-item {
@@ -392,78 +271,16 @@ br.adena-mobi-spacing-adjust {
     margin-bottom: 10px;
   }
 
-  .best-winter-bedding-container {
-    padding: 40px 0;
-    max-width: 360px;
-    margin: 0 auto 25px;
-  }
-
   .winterBest-small-promo-container {
     max-width: 360px;
     margin: 0 auto;
-  }
-
-  a.tvc-cta-adri {
-    width: 100%;
-  }
-
-  .best-winter-bedding-header {
-    margin-bottom: 30px;
-  }
-
-  .threeFortwoBanner {
-    margin-bottom: 60px;
   }
 
   a.tvc-cta {
     margin: 0 auto 10px;
   }
-}
 
-@media (max-width: 380px) {
-  .winterBest-small-promo-container {
-    max-width: 330px;
-  }
-
-  .tvc-aspen {
-    max-width: 310px;
-    margin: 0 auto;
-  }
-
-  .sutton-title-breakpoint {
-    display: block;
-  }
-}
-
-@media (max-width: 359px) {
-  a.tvc-cta {
-    font-size: 14px;
-  }
-
-  .winterBest-small-promo-container {
-    max-width: 300px;
-  }
-
-  .tvc-aspen {
-    max-width: 270px;
-    margin: 0 auto;
-  }
-
-  .best-winter-bedding-header {
-    max-width: 90%;
-  }
-
-  .sutton-extra-mb {
-    display: block;
-  }
-
-  .sutton-title-breakpoint {
-    display: none;
-  }
-}
-
-@media (max-width: 323px) {
-  br.adena-mobi-spacing-adjust {
-    display: block;
+  .tvc-section-heading {
+    margin-bottom: 25px;
   }
 }
