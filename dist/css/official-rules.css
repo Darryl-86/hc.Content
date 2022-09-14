@@ -206,6 +206,10 @@ ol.no-bullet-list {
     transform: rotate(90deg);
   }
 
+  .pl-0 {
+    padding-left: 0;
+  }
+
   @media (max-width: 767px) {
     .accordion__label {
       font-size: 14px;
