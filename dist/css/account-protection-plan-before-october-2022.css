@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  } */
+
+.account-protection-plan-main {
+  background-color: #f4f5f6;
+  margin: 15px 0 0 0;
+  padding: 28px;
+}
+
+.account-protection-before-container {
+  width: fit-content;
+  display: grid;
+}
+
+.account-protection-before-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+span.account-protection-heading-icon {
+  background: transparent;
+  height: 18px;
+  width: 18px;
+  border: solid #7e8b9b 3px;
+  transform: rotate(135deg);
+  margin: 0;
+  padding: 0;
+  border-left: transparent;
+  border-top: transparent;
+  display: block;
+}
+
+.account-protection-before-heading h3 {
+  color: #30455e;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.before-sep {
+  color: #ed2282;
+  font-size: 24px;
+  font-weight: 500;
+  width: 256px;
+  justify-self: end;
+  margin-bottom: 10px;
+}
+
+.account-protection-opt-bfSept-copy-container {
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #30465e;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.last-updated {
+  display: flex;
+  justify-content: start;
+  font-style: italic;
+  color: #ed2282;
+  margin-bottom: 5px;
+}
+
+.view-pdf a {
+  display: flex;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  color: #30465e;
+  border: 1px solid #30465e;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  max-width: 316px;
+}
+
+.view-pdf-copy {
+  margin-left: 10px;
+}
+
+.account-protection-opt-bfSept-copy-header {
+  font-weight: bold;
+}
+
+.account-protection-opt-bfSept-copy-container p,
+ul,
+ol {
+  margin-bottom: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.no-mb {
+  margin-bottom: 0;
+}
+
+li.list-roman {
+  list-style-type: lower-roman;
+}
+
+a.faq-link {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+a.faq-link:hover {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 600px) {
+  .account-protection-plan-main {
+    max-width: 360px;
+    padding: 16px;
+    margin: 16px auto 0 auto;
+  }
+
+  .last-updated {
+    justify-content: end;
+    margin-bottom: 15px;
+  }
+
+  .view-pdf a {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .account-protection-before-heading h3 {
+    font-size: 20px;
+  }
+
+  .before-sep {
+    font-size: 20px;
+    width: 217px;
+  }
+}

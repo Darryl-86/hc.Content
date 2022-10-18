@@ -1,324 +1,80 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
 } */
 
-/*css only carousel begin*/
-
-#slider {
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-#slider figure {
-  position: relative;
-  width: 400%;
-  margin: 0;
-  left: 0;
-  animation: 15s slider infinite;
-}
-#slider figure img {
-  width: 25%;
-  float: left;
-}
-
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: 0;
-  }
-  35% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  55% {
-    left: -100%;
-  }
-  65% {
-    left: -200%;
-  }
-  75% {
-    left: -200%;
-  }
-  85% {
-    left: -200%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -300%;
-  }
-}
-
-/*css only carousel end*/
-
 .direct-sales-agent-master {
   color: #30455e;
 }
 
-.direct-sales-agent-main-banner {
-  margin-bottom: 60px;
+.become-agent-section-container {
+  margin-bottom: 50px;
 }
 
-.main-copy {
-  margin: 0 auto 35px;
-  max-width: 95%;
-  font-size: 16px;
-}
-
-.sales-agent-promo-container {
-  margin-bottom: 55px;
-}
-
-.sales-agent-promo {
-  margin-bottom: 25px;
-}
-
-.sales-agent-heading {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  line-height: 30px;
-}
-
-.sales-agent-promo-copy {
-  font-size: 16px;
-}
-
-.sales-agent-promo-copy ul {
-  padding-left: 15px;
-}
-
-.sales-agent-application {
-  margin-bottom: 60px;
-}
-
-.need-help-container {
-  color: #0086f7;
-}
-
-.need-help-heading {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.need-help-contact-links {
-  display: flex;
-  font-size: 16px;
-}
-
-.need-help-container a {
-  text-decoration: underline;
-  color: #0086f7;
-}
-
-span.disable-links {
-  pointer-events: none;
-}
-
-span.divider {
-  margin: 0 30px;
-}
-
-.salesAgent-QR {
-  display: flex;
-  margin-bottom: 80px;
-}
-
-.salesAgent-QR-blue-bkg {
-  background-color: #30455e;
-  width: 55%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  display: grid;
-  align-content: center;
-}
-
-.salesAgent-QR-copy-container {
-  color: #fff;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.salesAgent-QR-copy-heading {
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-.salesAgent-QR-copy {
-  font-size: 18px;
-}
-
-.salesAgent-QR-copy a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.salesAgent-QR-copy a:hover {
-  text-decoration: underline;
-  color: #f51169;
-}
-
-.sales-agent-quotes-container {
-  border-radius: 10px;
-  background-color: #f8f8f8;
-  display: flex;
-  flex-direction: column;
-  color: #30455e;
-  height: 196px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 80px;
-}
-
-.sales-agent-quotes-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.sales-agent-quotes-copy {
-  font-size: 16px;
-  padding: 0 30px;
-}
-
-.sales-agent-quotes-heading {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  line-height: 30px;
+.qr-container {
+  background-color: #f4f5f7;
   text-align: center;
+  padding: 60px;
+}
+
+.qr-container .header {
+  color: #f51169;
+  font-size: 34px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.qr-container .scan-qr-code {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.qr-code {
+  margin-bottom: 30px;
+}
+
+.qr-container a {
+  color: #0086f7;
+  text-decoration: underline;
+}
+
+.email-us {
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
-  /*css only carousel begin*/
-
-  #slider {
-    margin-bottom: 10px;
+  .become-agent-section-container {
+    margin-bottom: 25px;
   }
 
-  /*css only carousel end*/
-
-  .main-copy {
-    margin: 0 auto 24px;
-    max-width: 320px;
-  }
-
-  .sales-agent-promo-container {
-    margin: 0 auto 35px;
-    max-width: 325px;
-  }
-
-  .sales-agent-promo {
-    margin-bottom: 20px;
-  }
-
-  .sales-agent-app-mobi-container {
-    margin-bottom: 24px;
-    max-width: 325px;
-  }
-
-  .sales-agent-application {
-    margin-bottom: 20px;
-  }
-
-  .sales-agent-application-heading {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .ready-change-your-life-copy {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .ready-change-your-life-copy:last-of-type {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  .need-help-container {
-    text-align: center;
+  .qr-container {
+    padding: 40px 10px;
+    max-width: 360px;
     margin: 0 auto;
-    max-width: 339px;
   }
 
-  .need-help-heading {
-    margin-bottom: 20px;
+  .qr-container .header {
+    font-size: 28px;
+    margin-bottom: 10px;
   }
 
-  .need-help-contact-links {
-    display: block;
-  }
-
-  span.disable-links {
-    pointer-events: visible;
-  }
-
-  .need-help-contact-links span:not(:last-child) {
-    display: block;
-    margin-bottom: 35px;
-  }
-
-  .direct-sales-agent-main-banner {
+  .qr-container .scan-qr-code {
+    font-size: 22px;
     margin-bottom: 40px;
   }
 
-  .salesAgent-QR {
-    display: flex;
-    flex-direction: column-reverse;
-    max-width: 325px;
-    margin: 0 auto 60px;
+  .qr-code {
+    margin-bottom: 40px;
   }
 
-  .salesAgent-QR-blue-bkg {
-    background-color: #30455e;
-    width: auto;
-    border-top-left-radius: unset;
-    height: auto;
-    padding: 15px 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-
-  .salesAgent-QR-copy-container {
-    width: 92%;
-  }
-
-  .salesAgent-QR-copy-heading {
-    margin-bottom: 5px;
-  }
-
-  .salesAgent-QR-copy {
-    font-size: 15px;
-  }
-
-  .sales-agent-quotes-heading {
-    margin-bottom: 15px;
-  }
-
-  .sales-agent-quotes-container {
-    margin: 0 auto 45px;
-    height: auto;
-    padding: 40px 0;
-    max-width: 325px;
-  }
-
-  .sales-agent-quotes-title {
-    margin-bottom: 15px;
-  }
-
-  .sales-agent-quotes-copy {
-    padding: 0 15px;
+  .email-us {
+    font-size: 18px;
   }
 }
