@@ -7,11 +7,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  }*/
-
-.combo-rooms-header {
-  margin-bottom: 30px;
-}
+}*/
 
 .combo-rooms-hero-banner {
   margin-bottom: 40px;
@@ -19,10 +15,6 @@ body {
 
 .bundle-rooms-promo-container {
   margin-bottom: 60px;
-}
-
-.bundle-rooms-promo-container-two {
-  margin-bottom: 70px;
 }
 
 .big-promo-combo-rooms {
@@ -69,156 +61,11 @@ a.combo-rooms-buy-now-two {
   border-radius: 4px;
 }
 
-span.new-combo-prod {
-  color: #ed2282;
-  font-weight: bold;
-}
-
-.bundle-rooms-heading {
-  margin-bottom: 30px;
-}
-
-.love-our-bedding-container {
-  display: flex;
-  margin-bottom: 90px;
-  border-radius: 10px;
-  background-color: rgba(217, 204, 184, 0.15);
-}
-
-.love-our-bedding-copy {
-  margin: auto 0 auto 40px;
-}
-
-.love-our-bedding-copy .heading {
-  font-size: 30px;
-  line-height: 50px;
-  color: #d6ab9d;
-  font-weight: 800;
-}
-
-.love-our-bedding-copy .sub-heading {
-  display: flex;
-  margin-bottom: 12px;
-}
-
-.love-our-bedding-copy .sub-heading img {
-  margin: 0 5px 0 0;
-}
-
-.love-our-bedding-copy .sub-heading span {
-  font-size: 20px;
-  line-height: 33px;
-  color: #d6ab9d;
-  font-weight: 800;
-}
-
-ul.love-hc-bedding-list-container {
-  padding-left: 15px;
-  font-size: 14px;
-  line-height: 22px;
-  color: #30455e;
-  margin: 0;
-}
-
-ul.love-hc-bedding-list-container li {
-  margin-bottom: 12px;
-}
-
-ul.love-hc-bedding-list-container-two {
-  padding-left: 15px;
-  font-size: 14px;
-  line-height: 22px;
-  color: #30455e;
-  margin: 0;
-}
-
-ul.love-hc-bedding-list-container-two li:not(:last-child) {
-  margin-bottom: 12px;
-}
-
-.augCat-beddingOffer {
-  margin-bottom: 54px;
-}
-
 .lovehcBedding {
   margin-bottom: 64px;
 }
 
-/* hero promo content begin */
-
-.heroPromo-product-container {
-  margin: 0 auto 60px;
-  max-width: 1031px;
-}
-
-.heroPromo-product-container img {
-  margin-bottom: 10px;
-}
-
-.heroPromo-product {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.heroPromo-product p {
-  font-size: 18px;
-  line-height: 24px;
-  color: #333;
-}
-
-a.heroPromo-product-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  background-color: #f01882;
-  color: #ffffff;
-  font-size: 15px;
-  width: 220px;
-  height: 45px;
-}
-
-/* hero promo content end */
-
-@media (max-width: 991px) {
-  .love-our-bedding-container {
-    flex-direction: column;
-    max-width: 680px;
-    margin: 0 auto 45px;
-    padding-bottom: 30px;
-  }
-
-  .love-hc-bedding-promo {
-    margin-bottom: 20px;
-  }
-
-  .love-our-bedding-copy {
-    margin: 0 auto;
-  }
-
-  .love-our-bedding-copy .sub-heading img {
-    margin: 0 5px 0 0;
-  }
-}
-
-p.bundle-rooms-hero-copy {
-  font-size: 18px;
-  line-height: 28px;
-  color: #30455e;
-  margin-bottom: 30px;
-  max-width: 91%;
-  text-align: center;
-}
-
 @media (max-width: 767px) {
-  .create-your-complete-bedroom {
-    font-size: 20px;
-    max-width: 360px;
-    line-height: 30px;
-    margin-bottom: 30px;
-  }
-
   .combo-prod-detail {
     text-align: center;
     margin-bottom: 10px;
@@ -237,102 +84,15 @@ p.bundle-rooms-hero-copy {
     margin-bottom: 50px;
   }
 
-  .bundle-rooms-promo-container-two {
-    margin-bottom: 50px;
-  }
-
-  .bundle-rooms-promo-container-last-row {
-    margin-bottom: 50px;
-  }
-
   .combo-rooms-hero-banner {
     margin-bottom: 30px;
-  }
-
-  .combo-rooms-hero-banner-copy {
-    margin-bottom: 23px;
-  }
-
-  .bundle-rooms-heading {
-    margin-bottom: 20px;
-  }
-
-  .love-our-bedding-container {
-    max-width: 340px;
-  }
-
-  .love-our-bedding-copy .heading {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 10px;
-  }
-
-  .love-our-bedding-copy {
-    max-width: 310px;
-  }
-
-  .love-our-bedding-copy .sub-heading span {
-    line-height: 25px;
-  }
-
-  ul.love-hc-bedding-list-container {
-    line-height: 18px;
-  }
-
-  ul.love-hc-bedding-list-container-two {
-    line-height: 18px;
-  }
-
-  p.bundle-rooms-hero-copy {
-    margin-bottom: 28px;
-    max-width: 330px;
-  }
-
-  .love-our-bedding-copy .sub-heading img {
-    align-self: flex-start;
-    padding-top: 5px;
   }
 
   .big-promo-combo-rooms {
     max-width: 310px;
   }
 
-  .augCat-beddingOffer {
-    margin-bottom: 44px;
-  }
-
   .lovehcBedding {
     margin-bottom: 33px;
-  }
-
-  /* hero promo content begin */
-
-  .heroPromo-product-container {
-    margin: 0 auto 50px;
-    max-width: 311px;
-  }
-
-  .heroPromo-product {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .heroPromo-product p {
-    margin-bottom: 10px;
-    font-size: inherit;
-    text-align: center;
-  }
-
-  a.heroPromo-product-btn {
-    font-size: inherit;
-    height: 36px;
-  }
-
-  /* hero promo content end */
-}
-
-@media (max-width: 360px) {
-  .love-our-bedding-copy {
-    padding: 0 10px;
   }
 }

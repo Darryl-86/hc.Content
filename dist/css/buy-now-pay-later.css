@@ -1,55 +1,61 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 } */
 
 .bnpl-hero {
-	margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .bnpl-main {
-	color: #000000;
-	padding: 0 10px;
+  color: #30455e;
+  padding: 0 10px;
+}
+
+.bnpl-copy-first-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .bnpl-copy-header {
-	font-size: 20px;
-	font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bnpl-copy {
-	font-size: 16px;
-	margin-bottom: 20px;
-}
-
-.nearest-showroom-copy {
-	margin-bottom: 30px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 a.bnpl-link {
-	color: #337ab7;
-	text-decoration: underline;
-	font-size: 16px;
-	font-weight: bold;
-	display: block;
+  color: #337ab7;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.bnpl-last-link {
-	margin-bottom: 25px;
+a.bnpl-block-link {
+  color: #337ab7;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
 }
 
 @media (max-width: 767px) {
-	.bnpl-hero {
-		margin-bottom: 20px;
-	}
+  .bnpl-hero {
+    margin-bottom: 20px;
+  }
 
-	.bnpl-main {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-
-	.bnpl-promo {
-		margin-bottom: 20px;
-	}
+  .bnpl-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
 }

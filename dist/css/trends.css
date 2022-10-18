@@ -15,6 +15,20 @@ body {
   height: auto;
 }
 
+.trends-floral-content-main {
+  background-color: rgba(213, 221, 198, 0.8);
+}
+
+.trends-keep-it-classic-content-main {
+  background-color: #d9e9dc;
+  padding: 0;
+}
+
+.trends-let-the-sunshine-in-content-main {
+  background-color: #a8c7cc;
+  padding: 0;
+}
+
 .trends-hero {
   margin-bottom: 20px;
 }
@@ -46,11 +60,23 @@ body {
   column-gap: 20px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 767px) {
   .trends-main {
     max-width: 360px;
     margin: 0 auto;
     padding: 10px;
+  }
+
+  .trends-keep-it-classic-content-main {
+    padding: 0;
+  }
+
+  .trends-let-the-sunshine-in-content-main {
+    padding: 0;
   }
 
   .trends-hero {
