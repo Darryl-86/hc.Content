@@ -28,9 +28,14 @@ body {
   align-content: space-between;
 }
 
+.laney-copy-container {
+  min-height: 413px;
+  align-content: center;
+}
+
 .cruiseMax-copy-container {
   min-height: 431px;
-  align-content: space-between;
+  align-content: center;
 }
 
 .steffany-copy-container {
@@ -48,6 +53,10 @@ body {
 
 .tvc-prod-desc-copy {
   max-width: 85%;
+}
+
+.laney-prod-desc-copy {
+  margin-bottom: 20px;
 }
 
 .tvc-prod-desc-copy-heading {
