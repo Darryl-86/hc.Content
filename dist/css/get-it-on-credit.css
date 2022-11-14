@@ -96,8 +96,23 @@ a.get-credit-now-btn {
   align-items: center;
 }
 
+.account-benefits-fine-print {
+  line-height: 22px;
+}
+
 .get-credit-benefit-checkmark {
   margin: 0 10px 0 0;
+}
+
+.get-credit-benefit-item-copy span {
+  display: block;
+  font-size: 14px;
+}
+
+.get-credit-benefit-item-copy span a {
+  color: #5482dc;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .get-credit-benefit-item:last-of-type {
@@ -223,7 +238,7 @@ td.initiationFee {
 }
 
 table.account-type-table {
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 
 table.internationalDelivery {
@@ -393,6 +408,10 @@ i.fa.fa-info-circle {
 
   .get-credit-benefit-container {
     font-size: 16px;
+  }
+
+  .get-credit-benefit-item-copy span {
+    font-size: 12px;
   }
 
   .start-shopping-content-container {
