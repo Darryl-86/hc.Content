@@ -44,7 +44,7 @@ body {
 }
 
 .calista-copy-container {
-  min-height: 407px;
+  min-height: 413px;
 }
 
 .julia-copy-container {
@@ -182,6 +182,18 @@ p.tvc-prod-divider {
   margin-bottom: 30px;
 }
 
+.tv-stars-promo {
+  margin-bottom: 30px;
+}
+
+.timesStarHeader {
+  margin-bottom: 30px;
+}
+
+.royalGardenPromo {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 991px) {
   .tvc-tab-promo {
     margin-bottom: 10px;
@@ -287,5 +299,17 @@ p.tvc-prod-divider {
 
   .tvc-section-heading {
     margin-bottom: 25px;
+  }
+
+  .tv-stars-promo {
+    margin-bottom: 20px;
+  }
+
+  .timesStarHeader {
+    margin-bottom: 40px;
+  }
+
+  .royalGardenPromo {
+    margin-bottom: 40px;
   }
 }

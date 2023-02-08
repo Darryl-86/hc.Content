@@ -1,0 +1,280 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} */
+
+/*accordion main css begin*/
+
+.accordion {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: #eaecee;
+}
+
+.official-rules-accordion {
+  border-bottom: 3px solid #ffffff;
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 14px 20px;
+}
+
+.accordion__label {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  margin-bottom: 0;
+  color: #30455e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion__label:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__label::after {
+  content: '\276F';
+  position: absolute;
+  right: 15px;
+  transition: transform 0.4s;
+  font-size: 20px;
+  top: 14px;
+  /* for OCC change above to top: 18px; */
+  color: rgba(48, 69, 94, 0.5);
+}
+
+.accordion__label:hover::after {
+  color: #000;
+}
+
+.accordion__content {
+  background: #ffffff;
+  display: none;
+}
+
+.accordion__input {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+.accordion__input:checked ~ .accordion__label {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+  transform: rotate(90deg);
+  color: #000;
+}
+
+/*accordion main css end*/
+
+/*mydocs accordion item content begin*/
+
+.official-rules-main {
+  display: flex;
+  max-width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.faq-link {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+a.faq-link:hover {
+  color: #00f !important;
+  text-decoration: underline !important;
+}
+
+.mydocs-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.mydocs-icon-container img {
+  margin: 0 10px 0 0;
+}
+
+ul.docuploader-list-copy {
+  color: #30455e;
+  padding: 0 0 0 15px;
+  margin: 0;
+  font-size: 16px;
+}
+
+ul.docuploader-list-copy li {
+  margin-bottom: 20px;
+}
+
+ul.docuploader-list-copy li:last-of-type {
+  margin-bottom: unset;
+}
+
+ul.docuploader-list-copy li::marker {
+  color: #2abd89;
+}
+
+a.mydocs-accordion-btn {
+  width: 280px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #ed2282;
+  font-size: 15px;
+  line-height: 32px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ed2282;
+  text-transform: uppercase;
+}
+
+.how-to-photograph-document-like-a-pro {
+  padding: 20px;
+  background-color: rgba(0, 134, 247, 0.08);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: solid 0.5px #0086f7;
+}
+
+.how-to-photograph-document-like-a-pro .heading {
+  margin-bottom: 20px;
+  color: #30455e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.how-to-photograph-document-like-a-pro ol {
+  list-style-position: inside;
+  margin: 0;
+  font-size: 16px;
+  color: #30455e;
+  padding: 0;
+}
+
+.how-to-photograph-document-like-a-pro li {
+  margin-bottom: 20px;
+}
+
+.how-to-photograph-document-like-a-pro li::marker {
+  font-weight: bold;
+}
+
+.how-to-photograph-document-like-a-pro li:last-of-type {
+  margin-bottom: unset;
+}
+
+.mydocs-whatsapp {
+  flex-wrap: wrap;
+  max-width: 60%;
+}
+
+.mydocs-text-underline {
+  text-decoration: underline;
+}
+
+.mydocs-email-copy-container {
+  max-width: 60%;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+/*mydocs accordion item content end*/
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .official-rules-main {
+    max-width: 100%;
+  }
+
+  ul.docuploader-list-copy {
+    padding: 0 15px;
+  }
+
+  .mydocs-whatsapp {
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /*accordion main css begin*/
+  .accordion {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .accordion__label {
+    font-size: 18px;
+  }
+  /*accordion main css end*/
+
+  .official-rules-main {
+    max-width: 100%;
+    justify-content: center;
+    align-items: unset;
+    flex-wrap: wrap;
+  }
+
+  ul.docuploader-list-copy li:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .mydocs-email-copy-container {
+    max-width: 100%;
+  }
+
+  .mydocs-whatsapp {
+    max-width: 100%;
+  }
+
+  .how-to-photograph-document-like-a-pro .heading {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 440px) {
+  /*accordion main css begin*/
+  .accordion__label::after {
+    right: 10px;
+  }
+
+  .accordion__label {
+    padding: 14px 25px;
+  }
+  /*accordion main css end*/
+}
+
+@media (max-width: 359px) {
+  /*accordion main css begin*/
+  .accordion__label {
+    font-size: 16px;
+  }
+  /*accordion main css end*/
+
+  ul.docuploader-list-copy {
+    font-size: 14px;
+  }
+
+  a.mydocs-accordion-btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .how-to-photograph-document-like-a-pro ol {
+    font-size: 14px;
+  }
+}

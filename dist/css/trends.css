@@ -19,6 +19,16 @@ body {
   background-color: rgba(213, 221, 198, 0.8);
 }
 
+.trends-startSomethingNew-content-main {
+  background-color: #f4d5d2;
+  padding: 0;
+}
+
+.trends-moodBoost-content-main {
+  background-color: #d5ddc6;
+  padding: 0;
+}
+
 .trends-summerBalance-content-main {
   background-color: rgba(206, 129, 124, 0.8);
   padding: 0;
@@ -79,6 +89,14 @@ body {
     max-width: 360px;
     margin: 0 auto;
     padding: 10px;
+  }
+
+  .trends-startSomethingNew-content-main {
+    padding: 0;
+  }
+
+  .trends-moodBoost-content-main {
+    padding: 0;
   }
 
   .trends-summerBalance-content-main {

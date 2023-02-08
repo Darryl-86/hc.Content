@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} */
+
+.couchCovers-main {
+}
+
+.couchCovers-main .hero {
+  margin-bottom: 35px;
+}
+
+.couchCovers-main p {
+  color: #30455e;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 1160px;
+}
+
+.couchCovers-main a {
+  color: #5482dc;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.couchCovers-section {
+  margin-bottom: 35px;
+}
+
+.couchCovers-section-Giovanni {
+  margin-bottom: 15px;
+}
+
+a.shop-couchCovers-btn {
+  max-width: 310px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 16px;
+  line-height: 32px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: unset;
+}
+
+a.shop-couchCovers-btn:hover {
+  text-decoration: underline;
+}
+
+p.couchcover-last-paragraph {
+  max-width: 70%;
+}
+
+@media (max-width: 767px) {
+  .couchCovers-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .couchCovers-main p {
+    font-size: 16px;
+    max-width: 320px;
+  }
+
+  .couchCovers-main p:last-of-type {
+    max-width: 320px;
+  }
+
+  .couchCovers-section-Giovanni {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} */
+
+.starter-bundles-banner {
+  margin-bottom: 50px;
+}
+
+.starter-bundles-shop-more {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+  .starter-bundles-main {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .starter-bundles-banner {
+    margin-bottom: 30px;
+  }
+}
