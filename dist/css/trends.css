@@ -19,6 +19,11 @@ body {
   background-color: rgba(213, 221, 198, 0.8);
 }
 
+.trends-sacredSanctuary-content-main {
+  background-color: #d2c0b9;
+  padding: 0;
+}
+
 .trends-startSomethingNew-content-main {
   background-color: #f4d5d2;
   padding: 0;
@@ -89,6 +94,10 @@ body {
     max-width: 360px;
     margin: 0 auto;
     padding: 10px;
+  }
+
+  .trends-sacredSanctuary-content-main {
+    padding: 0;
   }
 
   .trends-startSomethingNew-content-main {
