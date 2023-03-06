@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="96"
+   height="100"
+   viewBox="0 0 96 100"
+   version="1.1"
+   id="svg411"
+   sodipodi:docname="20230301_design_a_blanket_cash_prize_05_mobi.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs415" />
+  <sodipodi:namedview
+     id="namedview413"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="8.24"
+     inkscape:cx="48.058252"
+     inkscape:cy="50"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="632"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g407" />
+  <g
+     data-name="Group 76470"
+     id="g409">
+    <g
+       data-name="Rectangle 30"
+       style="fill:#30455e;stroke:#30455e"
+       id="g397">
+      <path
+         d="M10 0h86v100H10A10 10 0 0 1 0 90V10A10 10 0 0 1 10 0z"
+         style="stroke:none"
+         id="path393" />
+      <path
+         d="M10 .5h85.5v99H10A9.5 9.5 0 0 1 .5 90V10A9.5 9.5 0 0 1 10 .5z"
+         style="fill:none"
+         id="path395" />
+    </g>
+    <g
+       data-name="Group 76458"
+       id="g407">
+      <text
+         data-name="2"
+         transform="translate(24,68)"
+         style="font-weight:500;font-size:40px;font-family:Axiforma-Medium, Axiforma;fill:#ffffff"
+         id="text401"><tspan
+           x="0"
+           y="0"
+           id="tspan399">5</tspan></text>
+      <text
+         transform="translate(48,52)"
+         style="font-weight:500;font-size:23px;font-family:Axiforma-Medium, Axiforma;fill:#ffffff"
+         id="text405"><tspan
+           x="0"
+           y="0"
+           id="tspan403">th</tspan></text>
+    </g>
+  </g>
+</svg>

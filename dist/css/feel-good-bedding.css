@@ -9,9 +9,65 @@ body {
   padding: 0;
 } */
 
+.FGB-copy-container {
+  color: #30455e;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.FGB-copy-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 34px;
+  padding-top: 20px;
+}
+
+.FGB-copy-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+a.FGB-cta {
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  display: grid;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 0 auto;
+}
+
+p.FGB-divider {
+  margin: 0 0 70px;
+}
+
 @media (max-width: 767px) {
   .feel-good-bedding-main {
     max-width: 360px;
     margin: 0 auto;
+  }
+
+  .FGB-copy-container {
+    max-width: 100%;
+  }
+
+  .FGB-copy-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .FGB-copy-container p {
+    font-size: 16px;
+  }
+
+  p.FGB-divider {
+    margin: 0 0 46px;
   }
 }

@@ -1,0 +1,251 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}*/
+
+.millionaire-hero {
+  margin-bottom: 40px;
+}
+
+.be-a-millionaire-main {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+a.millionaire-link {
+  color: #0086f7;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+a.get-credit-now-btn {
+  max-width: 300px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #ed2282;
+  font-size: 16px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.design-blankets-section-one {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-copy-section-one-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-one p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.design-blankets-section-one p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.design-blankets-copy-section-one-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.design-blankets-section-two {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-copy-section-two-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-section-two p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.design-blankets-section-two p:last-of-type {
+  margin-bottom: 40px;
+}
+
+.design-blankets-copy-section-two-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cash-prize-container {
+  height: auto;
+  margin: 0 0 25px 0;
+  border-radius: 10px;
+  border: solid 1px #f51169;
+  display: flex;
+  color: #f51169;
+}
+
+.cash-prize-copy-container {
+  padding: 0 17px;
+  display: flex;
+}
+
+span.cash-prize-copy {
+  font-size: 16px;
+  align-self: center;
+}
+
+span.cash-prize-copy strong {
+  font-weight: 800;
+}
+
+.runners-up-cash-prizes {
+  border: solid 1px #30455e;
+  color: #30455e;
+}
+
+.last-runner-up-margin {
+  margin: 0 0 80px 0;
+}
+
+.blanket-design-examples-promo-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 92%;
+}
+
+.blanket-design-examples-promo {
+  margin: 0 auto 40px;
+}
+
+.design-blankets-how-to-enter-section {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.design-blankets-how-to-enter-section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.design-blankets-how-to-enter-section p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.design-blankets-how-to-enter-section p:last-child {
+  margin-bottom: 58px;
+}
+
+.design-blankets-how-to-enter-section ul {
+  font-size: 16px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.design-blankets-how-to-enter-section li {
+  margin-bottom: 15px;
+}
+
+.entriesDate {
+  line-height: 24px;
+  color: #30455e;
+}
+
+.entriesDate p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+hr.dash-divider {
+  border-top: 2px solid #eee;
+  margin: 40px 0;
+}
+
+@media (max-width: 1199px) {
+  .blanket-design-examples-promo {
+    margin: 0 20px 58px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blanket-design-examples-promo {
+    margin: 0 10px 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .be-a-millionaire-main {
+    max-width: 330px;
+  }
+
+  .millionaire-hero {
+    margin-bottom: 20px;
+  }
+
+  .design-blankets-copy-section-one-heading {
+    font-size: 20px;
+  }
+
+  .design-blankets-section-one p:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .design-blankets-copy-section-one-sub-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .cash-prize-container {
+    margin: 0 0 20px 0;
+  }
+
+  .last-runner-up-margin {
+    margin: 0 0 40px 0;
+  }
+
+  .design-blankets-copy-section-two-heading {
+    font-size: 20px;
+  }
+
+  .design-blankets-copy-section-two-sub-heading {
+    font-size: 18px;
+  }
+
+  .blanket-design-examples-promo-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .blanket-design-examples-promo {
+    margin: 0 auto 38px;
+  }
+
+  .blanket-design-examples-promo-container div:last-child {
+    margin-bottom: 68px;
+  }
+
+  .design-blankets-how-to-enter-section-heading {
+    font-size: 18px;
+  }
+
+  .design-blankets-how-to-enter-section p:last-child {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 330px) {
+  .cash-prize-copy-container {
+    padding: 0 10px;
+  }
+}
