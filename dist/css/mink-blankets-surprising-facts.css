@@ -1,0 +1,189 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+} */
+
+.blogHero {
+  margin-bottom: 40px;
+}
+
+.blogMain h1 {
+  margin: 0 0 30px 0;
+  color: #f51169;
+}
+
+h1.section1Heading {
+  color: #30455e;
+}
+
+p.sectionCopy {
+  margin-bottom: 60px;
+  color: #30455e;
+  font-size: 18px;
+}
+
+a.perfect-match {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.amazingBlankets-Btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+a.amazingBlankets-Btn {
+  width: 800px;
+  height: 65px;
+  border-radius: 5px;
+  background-color: #f51169;
+  font-size: 18px;
+  line-height: 32px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+hr.dash-divider {
+  border-top: 2px solid #eee;
+  margin: 60px 0;
+}
+
+.proTip-container {
+  border: 1px solid #f51169;
+  padding: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proTip-copy {
+  color: #30455e;
+  font-size: 18px;
+  width: 980px;
+  align-self: center;
+}
+
+.various-mink-blankets-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.various-mink-blankets-copy {
+  width: 45%;
+  align-self: center;
+}
+
+.various-mink-blankets-copy p {
+  margin-bottom: 30px;
+  color: #30455e;
+  font-size: 18px;
+}
+
+.various-mink-blankets-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.customerTestimonials {
+  margin-bottom: 60px;
+}
+
+.hc-expert-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.hcExpert-copy-container {
+  color: #30455e;
+  width: 70%;
+  align-self: center;
+}
+
+span.hcExpert-name {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+span.hcExpert-category {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f51169;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.hcExpert-desc-copy {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .blogMain {
+    margin: 0 auto;
+    max-width: 340px;
+  }
+
+  .blogMain h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h1.section1Heading {
+    color: #f51169;
+  }
+
+  a.amazingBlankets-Btn {
+    font-size: 14px;
+  }
+
+  .proTip-container {
+    flex-wrap: wrap;
+  }
+
+  .proTip-container img {
+    margin-bottom: 40px;
+  }
+
+  .various-mink-blankets-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .various-mink-blankets-copy {
+    width: unset;
+    text-align: center;
+  }
+
+  .various-mink-blankets-image img {
+    margin-bottom: 20px;
+  }
+
+  .customerTestimonials-mobi img {
+    margin-bottom: 40px;
+  }
+
+  .customerTestimonials-mobi img:last-child {
+    margin-bottom: 60px;
+  }
+
+  .hc-expert-container {
+    flex-wrap: wrap;
+  }
+
+  img.expert-duduNdlamini {
+    margin-bottom: 40px;
+  }
+
+  .hcExpert-copy-container {
+    text-align: center;
+    width: 100%;
+  }
+}
