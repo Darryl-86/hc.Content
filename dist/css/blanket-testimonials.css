@@ -1,136 +1,54 @@
-.sleep-experts-main-banner-mobi {
-  display: none;
+/* * {
+  margin: 0;
+  padding: 0;
 }
 
-.sub-heading {
-  text-align: center !important;
-  font-size: 15px;
-  padding: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.bedroom-basics-copy {
-  font-size: 15px;
-  margin-bottom: 20px;
-}
+body {
+  font-family: 'Roboto', sans-serif;
+} */
 
-.sub-heading-text-left-two {
-  font-size: 15px;
-  margin-bottom: 35px;
-}
-
-.header-sub-heading-text {
-  font-size: 15px;
-  margin-bottom: 35px;
-  text-align: center;
-}
-
-.sub-heading-text-left-no-mb {
-  font-size: 15px;
-}
-
-.TextHead-heading {
-  margin-top: 30px;
-  font-size: 25px;
-  font-weight: bold;
-  color: #f01882;
-  margin-left: -15px;
-}
-
-.child-one-heading {
-  font-size: 15px;
-  padding: 20px;
-  margin: -34px 0px 0px 0px;
-  line-height: 25px;
-}
-
-.recommend {
-  font-size: 15px;
-  line-height: 30px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-}
-
-.premium-quality-product.Prod-Desc-Container {
-  padding-top: 20px;
-  line-height: 25px;
-}
-
-.premium-quality-product a {
-  background: #f01882;
-  color: #fff;
-  line-height: 38px;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.name-heading {
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 25px;
-}
-
-.TextMain-heading {
-  font-size: 19px;
-  color: #f01882;
-  font-weight: bold;
-  line-height: 30px;
-}
-
-.last-heading {
-  font-size: 15px;
-  line-height: 24px;
-  margin-top: 20px;
-}
-
-.last-heading a {
-  color: #f01882;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.Text-subheading {
-  padding-top: 20px;
-}
-
-.bedroom-basics-heading {
-  font-size: 25px;
-  margin-bottom: 20px;
-  color: #f01882;
-  font-weight: bold;
-}
-
-.change-the-way-sub-heading {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.change-the-way-sub-heading-two {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #f01882;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mb-20 {
-  margin-bottom: 20px;
-}
-
-.mb-35 {
-  margin-bottom: 35px;
-}
-
-.mb-40 {
+.blogHero {
   margin-bottom: 40px;
 }
 
-.main-content {
+.Testimonials-section1-copy-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.blogMain h1 {
+  margin: 0 0 30px 0;
+  color: #f51169;
+}
+
+h1.section1Heading {
+  color: #30455e;
+}
+
+p.sectionCopy {
+  margin-bottom: 30px;
+  color: #30455e;
+  font-size: 18px;
+}
+
+p.sectionCopy:last-child {
+  margin-bottom: 60px;
+  color: #30455e;
+  font-size: 18px;
+}
+
+.custTestimonials-promo {
+  margin-bottom: 30px;
+}
+
+p.custTestimonials {
+  margin: 0 auto 60px;
+  color: #30455e;
+  font-size: 18px;
+  max-width: 90%;
+  text-align: center;
 }
 
 a.perfect-match {
@@ -138,414 +56,157 @@ a.perfect-match {
   text-decoration: underline;
 }
 
-.back-sleeper-web {
-  display: block;
-}
-
-.back-sleeper-mobi {
-  display: none;
-}
-
-span.back-sleeper-price {
-  margin-bottom: 20px;
-  color: #f01882;
-  font-weight: bold;
-}
-
-.back-sleeper-prod-detail {
-}
-
-.back-sleeper-prod-detail-title {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.back-sleeper-prod-detail a {
-  background: #f01882;
-  color: #ffffff;
-  padding: 10px 30px;
-  line-height: 50px;
-  max-width: 126px;
-}
-
-.col-md-12.prod-border {
-  padding: 20px;
-  border: 1px solid #c5c5c5;
-}
-
-.back-sleeper-mobi-details {
-  text-align: center;
-  max-width: 373px;
-  margin: 0 auto;
-}
-
-hr.col-md-12.dash-divider {
-  border-top: 2px dotted #eee;
-  margin: 40px 0;
-}
-
-hr.col-md-12.dash-divider-two {
-  border-top: 2px dotted #eee;
-  margin: 40px 0;
-}
-
-.col-md-12.pro-tip {
-  border: 1px solid #f01882;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.pro-tip-web-view {
-  display: block;
-}
-
-.pro-tip-mobi-view {
-  display: none;
-}
-
-.pro-tip-mobi-container {
-  border: 1px solid #f01882;
-  border: 1px solid #f01882;
-  margin-bottom: 20px;
-}
-
-.cool-idea {
-  margin: 0 auto;
-  display: block;
-  padding-bottom: 20px;
-}
-
-.explore-heavy-blankets a {
-  background: #f01882;
-  color: #fff;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-.explore-all-hc-blankets a {
-  border: 1px solid #f01882;
-  color: #f01882;
-  display: block;
-  max-width: 70%;
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-.safe-and-sound-list {
-  overflow: hidden;
-  margin-bottom: 0px;
-  text-align: left;
-}
-
-.heavy-blankets-container {
-  margin-bottom: 40px;
-}
-
-.heavy-blankets-heading {
-  font-size: 20px;
-  margin: 0 auto 35px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.heavy-blankets-prod-img {
-  margin-bottom: 15px;
-}
-
-a.heavy-blank-info-link {
-  color: #333 !important;
-}
-
-a.heavy-blank-info-link:hover {
-  color: #00f !important;
-  text-decoration: underline !important;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-.allergies-text-mobi {
-  display: none;
-}
-
-.allergies-promo-mobi {
-  display: none;
-}
-
-.allergies-text-web {
-  display: block;
-}
-
-.allergies-promo-web {
-  display: block;
-}
-
-.dudu-dlamini-tips-text {
-  font-size: 15px;
-  text-align: left;
-}
-
-.dudu-ndlamini-heading {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.dudu-ndlamini-sub-heading {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #f01882;
-}
-
-.customer-story-container-web {
-    margin-bottom: 20px;
-    display: block;
-}
-
-.customer-story-container-web-content {
+.amazingBlankets-Btn-container {
   display: flex;
-  }
-
-  .customer-story-container-mobi {
-    display: none;
+  justify-content: center;
 }
 
-.customer-story-promo {
-  background-color: #fccfe0;
-  text-align: center;
-  max-width: 694px;
-}
-
-.customer-story-desc {
-  background-color: #fccfe0;
-  padding: 20px 10px;
+a.amazingBlankets-Btn {
+  width: 800px;
+  height: 65px;
+  border-radius: 5px;
+  background-color: #f51169;
+  font-size: 18px;
+  line-height: 32px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
+  color: #ffffff;
+}
+
+hr.dash-divider {
+  border-top: 2px solid #eee;
+  margin: 60px 0;
+}
+
+.proTip-container {
+  border: 1px solid #f51169;
+  padding: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proTip-copy {
+  color: #30455e;
+  font-size: 18px;
+  width: 980px;
+  align-self: center;
+}
+
+.various-mink-blankets-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.various-mink-blankets-copy {
+  width: 45%;
+  align-self: center;
+}
+
+.various-mink-blankets-copy p {
+  margin-bottom: 30px;
+  color: #30455e;
   font-size: 18px;
 }
 
-.customer-story-desc span {
-  font-weight: normal!important;
+.various-mink-blankets-copy p:last-child {
+  margin-bottom: 0;
 }
 
-.customer-story-promo-gutter {
-  width: 5%;
+.customerTestimonials {
+  margin-bottom: 60px;
 }
 
-@media (min-width: 1200px) {
-  .allergies-text-web {
-    padding: 15% 0;
-  }
+.hc-expert-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
-@media all and (max-width: 1199px) and (min-width: 992px) {
-  .allergies-text-web {
-    padding: 10% 0;
-  }
+.hcExpert-copy-container {
+  color: #30455e;
+  width: 70%;
+  align-self: center;
 }
 
-@media (max-width: 991px) {
-  .SleepOneImge {
-    margin-bottom: 20px;
-  }
-
-  .customer-story-promo {
-    margin: 0 auto 35px;
-  }
-
-  .customer-story-container-web {
-    display: none;
+span.hcExpert-name {
+  font-size: 23px;
+  font-weight: bold;
 }
 
-.customer-story-container-mobi {
-    display: block;
+span.hcExpert-category {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f51169;
+  display: block;
+  margin-bottom: 20px;
 }
 
-  .TextHead-heading {
-    text-align: center;
-    margin-left: auto;
-  }
-
-  .child-one-heading {
-    text-align: center;
-  }
-
-  .recommend {
-    padding: 20px;
-  }
-
-  .SleepTwoImge {
-    margin-top: 20px;
-  }
-
-  .col-md-6.SleepThreeImge {
-    margin-bottom: 20px;
-  }
-
-  .last-heading {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .name-heading {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .TextMain-heading {
-    text-align: center;
-  }
-
-  .Text-subheading {
-    text-align: center;
-    padding: 20px;
-  }
-
-  .premium-quality-product.Prod-Desc-Container {
-    text-align: center;
-  }
-
-  .premium-quality-product a {
-    max-width: none;
-    margin-bottom: 20px;
-  }
-
-  .back-sleeper-prod-detail {
-    max-width: 329px;
-    margin: 0 auto;
-    padding: 10px 0px;
-  }
-
-  .col-md-12.prod-border {
-    padding: 0px;
-    border: none;
-  }
-
-  img.img-responsive.center-block.light-bulb {
-    margin-bottom: 10px;
-  }
-
-  .customer-review-table {
-    display: block;
-  }
-
-  .customer-review-mobi {
-    display: none;
-  }
+.hcExpert-desc-copy {
+  font-size: 18px;
 }
 
 @media (max-width: 767px) {
-  .bedroom-basics-heading {
+  .blogMain {
+    margin: 0 auto;
+    max-width: 340px;
+  }
+
+  .blogMain h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h1.section1Heading {
+    color: #f51169;
+  }
+
+  a.amazingBlankets-Btn {
+    font-size: 14px;
+  }
+
+  .proTip-container {
+    flex-wrap: wrap;
+  }
+
+  .proTip-container img {
+    margin-bottom: 40px;
+  }
+
+  .various-mink-blankets-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .various-mink-blankets-copy {
+    width: unset;
     text-align: center;
   }
-  .bedroom-basics-copy {
-    text-align: center;
-  }
-  .dudu-ndlamini-heading {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-  }
 
-  .dudu-ndlamini-sub-heading {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #f01882;
-    text-align: center;
-  }
-  .dudu-dlamini-tips-text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 450px) {
-  .sleep-experts-main-banner-web {
-    display: none;
-  }
-
-  .sleep-experts-main-banner-mobi {
-    display: block;
-  }
-
-  .back-sleeper-web {
-    display: none;
-  }
-
-  .back-sleeper-mobi {
-    display: block;
-  }
-
-  .back-sleeper-mobi-details {
+  .various-mink-blankets-image img {
     margin-bottom: 20px;
   }
 
-  .pro-tip-web-view {
-    display: none;
+  .customerTestimonials-mobi img {
+    margin-bottom: 40px;
   }
 
-  .pro-tip-mobi-view {
-    display: block;
+  .customerTestimonials-mobi img:last-child {
+    margin-bottom: 60px;
   }
 
-  img.img-responsive.center-block.light-bulb {
-    margin-bottom: 10px;
-    margin-top: -10%;
+  .hc-expert-container {
+    flex-wrap: wrap;
   }
 
-  hr.col-md-12.dash-divider-two {
-    border-top: 2px dotted #eee;
-    margin: 40px 0 75px 0;
+  img.expert-duduNdlamini {
+    margin-bottom: 40px;
   }
 
-  .dudu-ndlamin-mobi {
+  .hcExpert-copy-container {
     text-align: center;
-  }
-
-  .explore-heavy-blankets a {
-    max-width: 100%;
-  }
-
-  .explore-all-hc-blankets a {
-    max-width: 100%;
-  }
-
-  .sub-heading-text-left-two {
-    text-align: center;
-  }
-
-  .allergies-text-mobi {
-    display: block;
-  }
-
-  .allergies-promo-mobi {
-    display: block;
-  }
-
-  .allergies-text-web {
-    display: none;
-  }
-
-  .allergies-promo-web {
-    display: none;
-  }
-
-  .customer-review-table {
-    display: none;
-  }
-
-  .customer-review-mobi {
-    display: block;
-  }
-  .customer-story-desc {
-    font-size: 16px;
+    width: 100%;
   }
 }
