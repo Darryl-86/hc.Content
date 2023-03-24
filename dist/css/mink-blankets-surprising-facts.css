@@ -125,6 +125,16 @@ span.hcExpert-category {
   font-size: 18px;
 }
 
+@media (max-width: 1199px) {
+  .various-mink-blankets-copy {
+    padding: 0 10px 0 0;
+  }
+
+  img.expert-duduNdlamini {
+    padding: 0 10px 0 0;
+  }
+}
+
 @media (max-width: 767px) {
   .blogMain {
     margin: 0 auto;
@@ -160,6 +170,7 @@ span.hcExpert-category {
   .various-mink-blankets-copy {
     width: unset;
     text-align: center;
+    padding: unset;
   }
 
   .various-mink-blankets-image img {
@@ -180,6 +191,7 @@ span.hcExpert-category {
 
   img.expert-duduNdlamini {
     margin-bottom: 40px;
+    padding: unset;
   }
 
   .hcExpert-copy-container {

@@ -148,6 +148,12 @@ span.hcExpert-category {
   font-size: 18px;
 }
 
+@media (max-width: 1199px) {
+  img.expert-duduNdlamini {
+    padding: 0 10px 0 0;
+  }
+}
+
 @media (max-width: 767px) {
   .blogMain {
     margin: 0 auto;
@@ -203,6 +209,7 @@ span.hcExpert-category {
 
   img.expert-duduNdlamini {
     margin-bottom: 40px;
+    padding: unset;
   }
 
   .hcExpert-copy-container {
