@@ -451,7 +451,7 @@ a.shop-kids-blankets-full-range-btn {
 .hc-blanket-weights-promo-container {
   display: flex;
   color: #30455e;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
