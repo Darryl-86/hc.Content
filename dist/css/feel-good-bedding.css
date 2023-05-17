@@ -9,6 +9,21 @@ body {
   padding: 0;
 } */
 
+.feelGoodHero img {
+  margin-bottom: 40px;
+}
+
+.feelGoodHero p {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #30455e;
+  font-size: 18px;
+}
+
+.feelGoodProd {
+  margin-bottom: 30px;
+}
+
 .FGB-copy-container {
   color: #30455e;
   max-width: 70%;
@@ -49,6 +64,19 @@ p.FGB-divider {
 }
 
 @media (max-width: 767px) {
+  .feelGoodHero img {
+    margin-bottom: 30px;
+  }
+
+  .feelGoodHero p {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .feelGoodProd {
+    margin-bottom: 30px;
+  }
+
   .feel-good-bedding-main {
     max-width: 360px;
     margin: 0 auto;
