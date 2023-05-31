@@ -1,0 +1,30 @@
+.newoffer-container {
+  margin-bottom: 38px;
+}
+
+.newoffer-desc {
+  padding: 15px;
+  text-align: center;
+  border: solid 1px #ccc;
+}
+
+.newoffer-desc a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .newoffer {
+    max-width: 365px;
+    margin: 0 auto;
+  }
+
+  .newoffer-container {
+    margin-bottom: 25px;
+  }
+
+  .newoffer-desc {
+    max-width: 365px;
+  }
+}

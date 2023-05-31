@@ -1,76 +1,55 @@
-.main-hero-banner-container {
-  padding-top: 20px;
-}
-.main-hero-banner-desktop {
-  display: block;
-  margin-bottom: 50px;
-}
-.main-hero-banner-mobi {
-  display: none;
-  margin-bottom: 65px;
+.maintenance-main {
+  text-align: center;
+  background-color: #eae5e7;
+  color: #707070;
+  max-width: 1150px;
+  padding: 70px 0;
 }
 
-.maintenance-heading {
-  font-weight: bold;
-  text-align: center;
-  color: #1f2d3d;
-  font-size: 46px;
+.maintenance-content {
+  max-width: 65%;
+}
+
+.maintenance-content h1 {
+  font-size: 52px;
+  color: #707070;
+  margin: 0 0 30px;
+  line-height: normal;
+}
+
+.maintenance-content p {
+  font-size: 24px;
+}
+
+.maintenance-progress-container {
+  max-width: 330px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 20px;
   margin-bottom: 30px;
 }
 
-.maintenance-sub-heading {
-  font-size: 30px;
-  font-weight: normal;
-  color: #58697d;
-  margin-bottom: 50px;
-  text-align: center;
+.maintenance-progress {
+  border-radius: 20px;
+  width: 50%;
+  background-color: #d40f5b;
+  height: 100%;
 }
 
-.need-help {
-  color: #000000;
-  font-size: 20px;
-  text-align: center;
-}
-
-.need-help div {
-  margin-bottom: 10px;
-}
-
-span.contact-us {
-  color: #3366bb;
-  text-decoration: underline;
-}
-
-a.contact-us {
-  color: #3366bb;
-  text-decoration: underline;
-}
-
-@media (min-width: 451px) {
-.maintenance-heading {
-  line-height: 45px;
-}
-}
-
-@media (max-width: 450px) {
-  .main-hero-banner-mobi {
-    display: block;
+@media (max-width: 767px) {
+  .maintenance-main {
+    padding: 50px 0;
   }
 
-  .main-hero-banner-desktop {
-    display: none;
+  .maintenance-content {
+    max-width: 80%;
   }
 
-  .maintenance-heading {
-    font-size: 30px;
+  .maintenance-content h1 {
+    font-size: 31px;
   }
 
-  .maintenance-sub-heading {
-    font-size: 25px;
+  .maintenance-content p {
+    font-size: 20px;
   }
 }
-
-
-
-
-

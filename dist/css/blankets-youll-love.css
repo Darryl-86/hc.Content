@@ -23,7 +23,7 @@ body {
 }
 
 .fall-in-love-container h2 {
-  font-size: 40px;
+  font-size: 50px;
   margin: 0 auto 10px;
   letter-spacing: -1px;
   font-weight: 400 !important;
@@ -32,10 +32,11 @@ body {
 }
 
 .fall-in-love-container h1 {
-  font-size: 60px;
+  font-size: 70px;
   margin: 0 auto 25px;
   text-align: center;
   color: #004f4f;
+  line-height: 60px;
 }
 
 .fall-in-love-container p {
@@ -62,14 +63,16 @@ h1.more-blanket-heading {
   text-align: center;
 }
 
-.texturesVariety-container h1 {
-  font-size: 40px;
+.texturesVariety-container h1,
+.loving-hc-blanket h1 {
+  font-size: 50px;
   margin: 0 auto 30px;
   letter-spacing: -1px;
   font-weight: 400 !important;
   max-width: 70%;
   color: #977843;
   text-align: center;
+  line-height: 60px;
 }
 
 .texturesVariety-container p {
@@ -128,17 +131,9 @@ h1.variety-blanket-weight-header {
   color: #30455e;
   text-align: center;
   margin: 0 auto 30px;
-  font-size: 30px;
-}
-
-.loving-hc-blanket h1 {
   font-size: 40px;
-  margin: 0 auto 30px;
-  letter-spacing: -1px;
-  font-weight: 400 !important;
-  max-width: 70%;
-  color: #f51169;
-  text-align: center;
+  letter-spacing: unset;
+  line-height: 50px;
 }
 
 .baby-blankets-heading-container {
@@ -163,14 +158,13 @@ h1.variety-blanket-weight-header {
   justify-content: end;
 }
 
-.threeforTwo-heading h1 {
-  font-size: 45px;
+.threeforTwo-heading {
+  font-size: 57px;
   margin: 0 auto 30px;
-  letter-spacing: -1px;
-  font-weight: 400 !important;
-  max-width: 70%;
-  color: #3f506e;
   text-align: center;
+  color: #3f506e;
+  line-height: 60px;
+  letter-spacing: -1px;
 }
 
 .threeforTwo-kidsMinkBlks-heading h1 {
@@ -330,13 +324,12 @@ p.free-blanket-bag-promo-prod-price {
 .hc-blanket-promo-container {
   display: flex;
   color: #30455e;
-  column-gap: 30px;
   margin-bottom: 50px;
   justify-content: space-evenly;
 }
 
 .hc-blanket-promo-container:last-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
 .hc-blanket-promo-prod {
@@ -344,7 +337,7 @@ p.free-blanket-bag-promo-prod-price {
 }
 
 .hc-blanket-promo-prod-copy {
-  max-width: 316px;
+  max-width: 436px;
 }
 
 .hc-blanket-promo-prod-copy-title {
@@ -363,8 +356,8 @@ p.free-blanket-bag-promo-prod-price {
 }
 
 a.shop-winter-blankets-range-btn {
-  color: #f51169;
-  font-size: 20px;
+  color: #977843;
+  font-size: 32px;
   line-height: 30px;
   text-align: center;
   text-decoration: underline;
@@ -376,14 +369,12 @@ a.shop-winter-blankets-range-btn {
 
 a.shop-blankets-full-range-btn {
   color: #30455e;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 30px;
   text-align: center;
   text-decoration: underline;
-  margin-bottom: 50px;
   display: block;
   font-weight: bold;
-  letter-spacing: 0.24px;
 }
 
 a.shop-kids-blankets-full-range-btn {
@@ -476,6 +467,24 @@ a.shop-kids-blankets-full-range-btn {
   margin-bottom: 40px;
 }
 
+.blankets-whole-family-heading {
+  font-size: 55px;
+  margin: 0 auto 10px;
+  text-align: center;
+  color: #977843;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
+.blankets-loved-by-all-ages {
+  font-size: 33px;
+  margin: 0 auto 70px;
+  text-align: center;
+  color: #977843;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+
 @media (max-width: 1199px) {
   .designer-blankets-heading-container {
     max-width: 100%;
@@ -492,6 +501,12 @@ a.shop-kids-blankets-full-range-btn {
   }
 }
 
+@media all and (max-width: 991px) and (min-width: 768px) {
+  .hc-blanket-promo-container {
+    column-gap: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .blanket-info-main {
     max-width: 360px;
@@ -505,13 +520,17 @@ a.shop-kids-blankets-full-range-btn {
     margin-bottom: 80px;
   }
 
+  .fall-in-love-container h2 {
+    font-size: 35px;
+  }
+
   .fall-in-love-container h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 50px;
   }
 
   .fall-in-love-container p {
-    margin: 0 auto 60px;
+    margin: 0 auto 40px;
     max-width: unset;
   }
 
@@ -523,8 +542,9 @@ a.shop-kids-blankets-full-range-btn {
     margin-bottom: 80px;
   }
 
-  .texturesVariety-container h1 {
-    font-size: 30px;
+  .texturesVariety-container h1,
+  .loving-hc-blanket h1 {
+    font-size: 35px;
     margin: 0 auto 30px;
     max-width: unset;
     line-height: 40px;
@@ -567,14 +587,7 @@ a.shop-kids-blankets-full-range-btn {
   }
 
   h1.variety-blanket-weight-header {
-    line-height: 40px;
-  }
-
-  .loving-hc-blanket h1 {
-    font-size: 30px;
-    margin: 0 auto 30px;
-    max-width: unset;
-    line-height: 40px;
+    font-size: 35px;
   }
 
   .baby-blankets-heading-container {
@@ -603,11 +616,10 @@ a.shop-kids-blankets-full-range-btn {
     max-width: 70%;
   }
 
-  .threeforTwo-heading h1 {
-    font-size: 30px;
-    margin: 0 auto 30px;
-    max-width: unset;
-    line-height: 40px;
+  .threeforTwo-heading {
+    font-size: 35px;
+    line-height: 38px;
+    margin: 0 auto 50px;
   }
 
   .threeforTwo-kidsMinkBlks-heading h1 {
@@ -678,15 +690,17 @@ a.shop-kids-blankets-full-range-btn {
     justify-content: center;
     row-gap: 35px;
     column-gap: unset;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   a.shop-winter-blankets-range-btn {
     letter-spacing: 0.2px;
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 
   a.shop-blankets-full-range-btn {
-    letter-spacing: 0.2px;
+    font-size: 20px;
   }
 
   a.shop-kids-blankets-full-range-btn {
@@ -738,5 +752,20 @@ a.shop-kids-blankets-full-range-btn {
 
   .hc-blanket-sizes-promo {
     width: 116px;
+  }
+
+  .blankets-whole-family-heading {
+    font-size: 35px;
+    line-height: 38px;
+  }
+
+  .blankets-loved-by-all-ages {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto 40px;
+  }
+
+  .hc-blanket-promo-container:last-of-type {
+    margin-bottom: 60px;
   }
 }
